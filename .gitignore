@@ -2,10 +2,16 @@
 .sass-cache
 cache/*
 assets/*
+!assets/.empty
 logs/*
+!logs/.empty
 images/*
+!images/.empty
 user/data/*
+!user/data/.empty
 backup/*
+!template.latex
+
 
 # OS Generated
 .DS_Store*
