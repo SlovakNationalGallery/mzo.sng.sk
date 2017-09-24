@@ -1,6 +1,5 @@
 # Grav Specific
 .sass-cache
-composer.lock
 cache/*
 assets/*
 logs/*
@@ -21,5 +20,3 @@ Thumbs.db
 # IDE
 .idea/*
 .idea
-node_modules/
-panorama/
