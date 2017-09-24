@@ -1,7 +1,7 @@
 # Master of Okoličné and Gothic Art of Spiš around 1500
-## Events of the slovak state in 4 chapters
+## An exhibition in 2017 at Esterházyho palác under Dušan Buran
 
- - 7. September 2017 — 26. November 2017<br>
+ - From 7. September 2017 — 26. November 2017<br>
  - Esterházyho palác, 2nd floor, Bratislava<br>
  - Curator: Dušan Buran
 
@@ -47,9 +47,9 @@
  by Master of Okoličné.
 
 
-[Read more in Slovak.](https://www.sng.sk/sk/vystavy/1064_majster-z-okolicneho-a-goticke-umenie-spisa-okolo-roku-1500)
-
-[Read more in English](https://www.sng.sk/en/exhibitions/1064_master-of-okolicne-and-gothic-art-of-spis-around-1500)
+Read more
+[in Slovak](https://www.sng.sk/sk/vystavy/1064_majster-z-okolicneho-a-goticke-umenie-spisa-okolo-roku-1500) or
+[in English](https://www.sng.sk/en/exhibitions/1064_master-of-okolicne-and-gothic-art-of-spis-around-1500)
 
 ## Development
 
