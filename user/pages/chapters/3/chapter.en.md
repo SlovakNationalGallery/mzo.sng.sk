@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/3
 chapterNumber: 3
-titleStyled: '70,000 Victims'
 description: 'Chapter 3: 70,000 Victims'
 image: Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg
 ---

@@ -1,5 +1,5 @@
 ---
-title: '70 000 obetí'
+title: 'Kostol'
 published: true
 date: '18-11-2016 00:00'
 slug: chapter-3
@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/3
 chapterNumber: 3
-titleStyled: '70 000 obetí'
 description: '3. kapitola: 70 000 obetí'
 image: Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg
 ---

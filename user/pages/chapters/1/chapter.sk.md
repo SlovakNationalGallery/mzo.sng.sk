@@ -1,5 +1,5 @@
 ---
-title: 'Na polceste k slovenskému štátu'
+title: 'Majster'
 published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: 'Na polceste <br>k slovenskému štátu'
 description: '1. kapitola: Na polceste k slovenskému štátu'
 image: tiso.jpg
 ---

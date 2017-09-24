@@ -1,5 +1,5 @@
 ---
-title: 'sen × skutočnosť - Events of the slovak state in four chapters'
+title: 'M'
 published: true
 date: '19-10-2016 00:00'
 slug: landing

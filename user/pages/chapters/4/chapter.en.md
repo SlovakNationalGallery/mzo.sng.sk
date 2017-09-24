@@ -12,7 +12,6 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: 'Waking Up From a Dream'
 description: 'Chapter 4: Waking Up From A Dream'
 image: Telgart_vypalenie-cover.jpg
 ---

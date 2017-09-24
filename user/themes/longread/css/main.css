@@ -3,20 +3,18 @@
   content: "";
   display: table; }
 
-html body {
-  font-family: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif" !important;
-  font-feature-settings: unset; }
-
 body {
+  font-family: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+  font-feature-settings: unset;
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig"; }
+  -moz-font-feature-settings: unset;
+  -ms-font-feature-settings: unset;
+  -webkit-font-feature-settings: unset;
+  -o-font-feature-settings: unset;
+  font-feature-settings: unset; }
 
 .logo-readium {
   position: fixed;

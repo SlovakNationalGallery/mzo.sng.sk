@@ -1,5 +1,5 @@
 /**
- * Tooltip Styles 
+ * Tooltip Styles
  * based on https://chrisbracco.com/a-simple-css-tooltip/
  */
 /* Base styles for the element that has a tooltip */
@@ -53,12 +53,11 @@
   padding: 8px;
   white-space: nowrap;
   background-color: #000;
-  background-color: #3F3C25;
+  background-color: #827455;
   color: #fff;
   content: attr(data-tooltip);
   font-size: 14px;
-  line-height: 1.2;
-  font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  line-height: 1.2; }
 
 /* Directions */
 /* Top (default) */
@@ -157,7 +156,7 @@
   margin-left: -12px;
   border-top-color: transparent;
   border-right-color: #000;
-  border-right-color: #3F3C25; }
+  border-right-color: #827455; }
 
 .tooltip-right:hover:before,
 .tooltip-right:hover:after,
@@ -177,5 +176,3 @@
 .tooltip-right:after {
   margin-left: 0;
   margin-bottom: -16px; }
-
-/*# sourceMappingURL=tooltip.css.map */

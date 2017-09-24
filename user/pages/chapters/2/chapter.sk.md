@@ -1,5 +1,5 @@
 ---
-title: 'Jeden národ, jedna strana, jeden vodca'
+title: 'Oltár'
 published: true
 date: '05-12-2016 13:00'
 slug: chapter-2
@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: 'Jeden národ, jedna strana, jeden vodca'
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: teslik-oslavy.jpg
 ---

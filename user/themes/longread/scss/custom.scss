@@ -3,17 +3,22 @@
 @import "mixins";
 
 $rs: 16px;
+$font: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
 $navbar-height: 68px;
 $navbar-height-905: 80px;
 $navbar-height-750: 60px;
 
-html,body
-{
+html, body {
+  font-family: $font;
   overflow-x: hidden;
   background-color: $bg-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font;
 }
 
 body.landing {
@@ -515,55 +520,46 @@ div#side-nav-bar {
   * {
     z-index: 9;
   }
-  .landing-image {
-    position: absolute;
-    background-color: black;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    .landing-image-image {
-      background-size: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      text-indent: -9999px;
-      padding-top: 33%;
-      z-index: 1;
-    }
-    .landing-image-fade {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-      height: 250px;
-      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
-    }
-  }
+  //.landing-image {
+  //  position: absolute;
+  //  background-color: black;
+  //  top: 0;
+  //  left: 0;
+  //  right: 0;
+  //  bottom: 0;
+  //  overflow: hidden;
+  //  .landing-image-image {
+  //    background-size: cover;
+  //    position: absolute;
+  //    top: 0;
+  //    left: 0;
+  //    right: 0;
+  //    bottom: 0;
+  //    text-indent: -9999px;
+  //    padding-top: 33%;
+  //    z-index: 1;
+  //  }
+  //  .landing-image-fade {
+  //    position: absolute;
+  //    width: 100%;
+  //    bottom: 0;
+  //    height: 250px;
+  //    @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
+  //  }
+  //}
   .landing-content {
       position: relative;
       margin: 60px auto 35px;
       @include box-sizing(border-box);
 
       h1 {
-        font-size: 105px;
+        font-size: 510px;
+        line-height: 1;
         @include respond-to(825) {
           font-size: 60px;
         }
         @include respond-to(460) {
           font-size: 45px;
-        }
-        img.headline-logo {
-          height: 65px;
-          vertical-align: baseline;
-          @include respond-to(825) {
-            height: 35px;
-          }
-          @include respond-to(460) {
-            height: 25px;
-          }
         }
       }
       h2 {

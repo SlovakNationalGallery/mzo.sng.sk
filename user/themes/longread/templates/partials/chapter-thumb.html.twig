@@ -21,7 +21,7 @@
           {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}
         </span>
         <br>
-        {{chapterPage.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+        {{chapterPage.header.title|regex_replace(['/<br>/'], [' '])}}
       </h2>
       {% if not chapterPage.header.disabled %}
         <a href="{{chapterPage.url}}">View more</a>

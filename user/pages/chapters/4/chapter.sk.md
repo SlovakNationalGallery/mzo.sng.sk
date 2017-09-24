@@ -1,5 +1,5 @@
 ---
-title: 'Vytriezvenie zo sna'
+title: 'Ikonografia'
 published: true
 date: '18-11-2016 00:00'
 slug: chapter-4
@@ -12,7 +12,6 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: 'Vytriezvenie zo sna'
 description: '4. kapitola: Vytriezvenie zo sna'
 image: Telgart_vypalenie-cover.jpg
 ---

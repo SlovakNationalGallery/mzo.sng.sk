@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: 'One Nation, One Party, One Leader'
 image: teslik-oslavy.jpg
 ---
 

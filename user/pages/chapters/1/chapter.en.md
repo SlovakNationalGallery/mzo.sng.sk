@@ -1,5 +1,5 @@
 ---
-title: 'Halfway to the Slovak State'
+title: 'Majster'
 published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
@@ -11,7 +11,6 @@ routes:
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: 'Halfway<br>to the Slovak State'
 description: 'Chapter 1: Halfway to the Slovak State'
 image: tiso.jpg
 ---

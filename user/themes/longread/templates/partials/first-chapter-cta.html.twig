@@ -4,7 +4,7 @@
     {{ macros.translateOrdinalLanguageString(1, "VOCABULARY.CHAPTER") }}
   </h4>
   <h2 class="chapter-title margin-top-xs">
-    {{page.find('/chapters/1').header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+    {{page.find('/chapters/1').header.title|regex_replace(['/<br>/'], [' '])}}
   </h2>
   <a href="{{page.find('/chapters/1').url}}" class="uk-button uk-button-large button-xlarge button-red button-shadow">
     {{ "LANDING.FIRST_CHAPTER_CTA.BUTTON_TEXT"|t }}
