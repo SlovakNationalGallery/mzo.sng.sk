@@ -1,13 +1,13 @@
 @import "colors";
-$font-sans:      "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 
-.audioplayer { 
+$font-bold: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+
+.audioplayer {
   height: 2.5em; /* 40 */
   color: $dark-green;
   position: relative;
   z-index: 1;
   background: $light-grey;
-  font-family: $font-sans;
   font-size: 16px;
 }
 

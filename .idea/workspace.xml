@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="848c66dd-8f90-417d-b84c-43215d6e0186" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_0_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_0_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_0_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_0_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_1_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_1_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_1_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/347A79_1_0.woff2" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/324E79_0_0.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/324E79_0_0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/324E79_0_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/longread/fonts/webfonts/324E79_0_0.woff2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/longread/fonts/MyFontsWebfontsKit.css" afterPath="$PROJECT_DIR$/user/themes/longread/fonts/MyFontsWebfontsKit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/longread/scss/audioplayer.scss" afterPath="$PROJECT_DIR$/user/themes/longread/scss/audioplayer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/longread/scss/custom.scss" afterPath="$PROJECT_DIR$/user/themes/longread/scss/custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/longread/scss/main.scss" afterPath="$PROJECT_DIR$/user/themes/longread/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/longread/scss/tooltip.scss" afterPath="$PROJECT_DIR$/user/themes/longread/scss/tooltip.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +34,8 @@
       <file leaf-file-name="MyFontsWebfontsKit.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/longread/fonts/MyFontsWebfontsKit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -53,8 +44,28 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/longread/scss/custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audioplayer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/longread/scss/audioplayer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -65,9 +76,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Moyenage14</find>
+      <find>Uni Grotesk</find>
+      <find>$font-</find>
+      <find>font</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/user/themes/longread</dir>
+      <dir>$PROJECT_DIR$/user/themes</dir>
+      <dir>$PROJECT_DIR$/user/themes/longread/scss</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -77,6 +97,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/user/themes/longread/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/user/themes/longread/scss/audioplayer.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -136,6 +158,14 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="longread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="majster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="majster" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="longread" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506246579221</updated>
-      <workItem from="1506246581311" duration="1191000" />
+      <workItem from="1506246581311" duration="1807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1191000" />
+    <option name="totallyTimeSpent" value="1807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="697" y="-1440" width="1425" height="1440" extended-state="0" />
@@ -225,16 +255,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/longread/fonts/MyFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/longread/scss/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/longread/scss/audioplayer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

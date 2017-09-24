@@ -3,11 +3,6 @@
 @import "mixins";
 
 $rs: 16px;
-$font-serif:    Linux Libertine;
-$font-sans:     "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$font-moyenage: "Moyenage14", "Linux Libertine";
 
 $navbar-height: 68px;
 $navbar-height-905: 80px;
@@ -15,7 +10,7 @@ $navbar-height-750: 60px;
 
 html,body
 {
-  overflow-x: hidden; 
+  overflow-x: hidden;
   background-color: $bg-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -60,16 +55,9 @@ button, .uk-button {
   text-shadow: none;
 }
 
-.f-moyenage { 
-  font-family: $font-moyenage;
+.f-moyenage {
   font-weight: normal;
   font-style: normal;
-}
-.f-uni-grotesk-regular {
-  font-family: "Uni Grotesk Regular";
-}
-.f-uni-grotesk-bold {
-  font-family: "Uni Grotesk Bold";
 }
 .f-uppercase {
   text-transform : uppercase;
@@ -189,20 +177,20 @@ hr.white{
 }
 
 /* add offset to on page link to account for fixed pos nav bar */
-.offset-link:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -1.2 * $navbar-height; 
+.offset-link:before {
+  display: block;
+  content: " ";
+  margin-top: -1.2 * $navbar-height;
   height: 1.2 * $navbar-height;
   @include respond-to(905) {
-    margin-top: -1.2 * $navbar-height-905; 
+    margin-top: -1.2 * $navbar-height-905;
     height: 1.2 * $navbar-height-905;
   }
   @include respond-to(750) {
-    margin-top: -1.2 * $navbar-height-750; 
+    margin-top: -1.2 * $navbar-height-750;
     height: 1.2 * $navbar-height-750;
   }
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .first-chapter-cta{
@@ -296,7 +284,6 @@ nav.uk-navbar {
       width: 130px;
       color: $text-color;
       text-align: center;
-      font-family: $font-regular;
       margin: auto 10px;
       border-top: solid 2px black;
       -webkit-transition: border-top-color 0.35s;
@@ -327,7 +314,6 @@ nav.uk-navbar {
       }
     }
     .chapter-nav.active {
-      font-family: $font-bold;
       border-top-color: $red;
       a {
         pointer-events: none;
@@ -382,7 +368,7 @@ nav.uk-navbar {
     background-size: 40%;
     background-position-x: 50%;
     background-position-y: 50%;
-    
+
     &:hover {
       background-image: url(../images/hamburger-dark-grey.svg);
     }
@@ -441,9 +427,6 @@ div#side-nav-bar {
           margin-bottom: 20px;
           background-color: $dark-grey;
         }
-        span.chapter-title {
-          font-family: $font-bold;
-        }
         a:hover {
           color: $red !important;
         }
@@ -472,7 +455,6 @@ div#side-nav-bar {
     }
     .button-about {
       margin-top: 20px;
-      font-family: $font-bold;
     }
   }
 }
@@ -567,7 +549,6 @@ div#side-nav-bar {
   .landing-content {
       position: relative;
       margin: 60px auto 35px;
-      font-family: $font-sans;
       @include box-sizing(border-box);
 
       h1 {
@@ -717,14 +698,14 @@ form#email-capture {
   text-shadow: none;
 }
 .button-ghost:hover {
-  background: white;  
+  background: white;
   color: #444 !important;
 }
 .button-ghost.button-ghost-black {
   border-color: black;
   color: black !important;
 }
-.button-ghost.button-ghost-black:hover, 
+.button-ghost.button-ghost-black:hover,
   .button-ghost.button-ghost-black:focus {
     background-color: black !important;
     color: white !important;
@@ -790,7 +771,7 @@ form#email-capture {
   }
   .chapter-thumb.disabled {
     * {
-      color: $dark-grey; 
+      color: $dark-grey;
       figcaption {
         h2, h2 * {
           color: white;
@@ -832,7 +813,7 @@ form#email-capture {
     }
     .article-image-gradient {
       height: 100%;
-      background: 
+      background:
         linear-gradient(
           rgba(0, 0, 0, 0),
           rgba(0, 0, 0, 0.8)
@@ -847,7 +828,6 @@ form#email-capture {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    font-family: "Uni Grotesk Regular";
     background-color: white;
     color: $text-color;
     z-index: 3;
@@ -908,7 +888,7 @@ form#email-capture {
       }
     }
 
-    .drop-cap { 
+    .drop-cap {
       float: left;
       color: black;
       font-size: 125px;
@@ -916,7 +896,6 @@ form#email-capture {
       padding-top: 43px;
       padding-right: 15px;
       padding-left: 3px;
-      font-family: Moyenage14;
     }
 
     figure.audio, figure.video, p > a > figure.image {
@@ -967,10 +946,8 @@ form#email-capture {
     }
     h1, h2, h3, h4, h5, h6 {
       color: $text-color;
-      font-family: $font-bold;
     }
     .title-date {
-      font-family: "Uni Grotesk Regular";
       font-size: 18px;
       font-weight: 100;
     }
@@ -989,7 +966,6 @@ form#email-capture {
       margin-left: 0 !important;
     }
     div.highlight p {
-      font-family: $font-bold;
       font-size: 22px;
       line-height: 32px;
     }
@@ -1046,7 +1022,6 @@ form#email-capture {
       }
     }
     .title-date {
-      font-family: "Uni Grotesk Regular";
       font-size: 18px;
       font-weight: 100;
       margin: 0;
@@ -1066,7 +1041,7 @@ $button-height: 60px;
   height: $return-height;
   .return-gradient {
     height: 100%;
-    background: 
+    background:
       linear-gradient(
         rgba(249, 249, 247, 1),
         rgba(249, 249, 247, 0.5)
@@ -1077,25 +1052,25 @@ $button-height: 60px;
   }
 }
 .return.chapter-1 {
-  background: 
+  background:
     url(../../../pages/chapters/1/tiso.jpg);
   background-size: cover;
   background-position-y: 52%;
 }
 .return.chapter-2 {
-  background: 
+  background:
     url(../../../pages/chapters/2/teslik-oslavy.jpg);
   background-size: cover;
   background-position-y: 28%;
 }
 .return.chapter-3 {
-  background: 
+  background:
     url(../../../pages/chapters/3/Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg);
   background-size: cover;
   background-position-y: 10%;
 }
 .return.chapter-4 {
-  background: 
+  background:
     url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
   background-size: cover;
   background-position-y: 40%;
@@ -1114,7 +1089,7 @@ $button-height: 60px;
         font-size: 70px;
       }
       @include respond-to(460) {
-        font-size: 45px;  
+        font-size: 45px;
       }
     }
     img.headline-logo {
@@ -1123,7 +1098,7 @@ $button-height: 60px;
         height: 45px;
       }
       @include respond-to(460) {
-        height: 30px;  
+        height: 30px;
       }
     }
   }
@@ -1235,15 +1210,15 @@ $button-height: 60px;
     margin: auto 12px;
   }
   a svg #footericonsng,
-  a svg #footericonfb { 
+  a svg #footericonfb {
     fill: white;
   }
   a svg:hover #footericonsng,
-  a svg:hover #footericonfb { 
+  a svg:hover #footericonfb {
     fill: $light-grey !important;
   }
   a svg.c-black #footericonsng,
-  a svg.c-black #footericonfb { 
+  a svg.c-black #footericonfb {
     fill: black;
   }
 }

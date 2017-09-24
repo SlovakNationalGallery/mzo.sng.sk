@@ -1,10 +1,9 @@
 /**
- * Tooltip Styles 
+ * Tooltip Styles
  * based on https://chrisbracco.com/a-simple-css-tooltip/
  */
 
 @import "colors";
-$font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 /* Base styles for the element that has a tooltip */
 [data-tooltip],
@@ -66,7 +65,6 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
   content: attr(data-tooltip);
   font-size: 14px;
   line-height: 1.2;
-  font-family: $font-regular;
 }
 
 /* Directions */
@@ -112,7 +110,7 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 .tooltip-top:focus:after {
   -webkit-transform: translateY(-12px);
   -moz-transform:    translateY(-12px);
-  transform:         translateY(-12px); 
+  transform:         translateY(-12px);
 }
 
 /* Left */
@@ -138,7 +136,7 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 .tooltip-left:focus:after {
   -webkit-transform: translateX(-12px);
   -moz-transform:    translateX(-12px);
-  transform:         translateX(-12px); 
+  transform:         translateX(-12px);
 }
 
 /* Bottom */
@@ -163,7 +161,7 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 .tooltip-bottom:focus:after {
   -webkit-transform: translateY(12px);
   -moz-transform:    translateY(12px);
-  transform:         translateY(12px); 
+  transform:         translateY(12px);
 }
 
 /* Right */
@@ -187,7 +185,7 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 .tooltip-right:focus:after {
   -webkit-transform: translateX(12px);
   -moz-transform:    translateX(12px);
-  transform:         translateX(12px); 
+  transform:         translateX(12px);
 }
 
 /* Move directional arrows down a bit for left/right tooltips */

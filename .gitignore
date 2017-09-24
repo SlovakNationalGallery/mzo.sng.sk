@@ -8,14 +8,16 @@ images/*
 user/data/*
 backup/*
 
-
 # OS Generated
 .DS_Store*
 ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
-.idea/*
 
 # CSS compilation
 *.map
+
+# IDE
+.idea/*
+.idea
