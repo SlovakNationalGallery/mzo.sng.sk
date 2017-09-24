@@ -1,11 +1,12 @@
-# sen x skutočnosť
+# Master of Okoličné and Gothic Art of Spiš around 1500
 ## Events of the slovak state in 4 chapters
 
-![Sen x Skutocnost](./user/themes/longread/images/fb_link_post_image.jpg "Sen x Skutocnost")
+7. September 2017 — 26. November 2017<br>
+Esterházyho palác, 2nd floor, Bratislava<br>
+Curator: Dušan Buran<br>
 
-This microsite accompanies the exhibition "Dream × Reality: Art and Propaganda 1939 - 1945" by adding historical context illustrated with multimedia content. 
-
-[Read more about the exhibition.](http://www.sng.sk/sk/vystavy/728_sen-utf215-skutocnost-umenie-propaganda-1939-1945)
+[Read more in Slovak.](https://www.sng.sk/sk/vystavy/1064_majster-z-okolicneho-a-goticke-umenie-spisa-okolo-roku-1500)
+[Read more in English](https://www.sng.sk/en/exhibitions/1064_master-of-okolicne-and-gothic-art-of-spis-around-1500)
 
 ## Development
 
