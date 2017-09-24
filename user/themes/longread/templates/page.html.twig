@@ -7,13 +7,13 @@
 {% block content %}
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post page">
-        <div class="chapter-title page-title f-uni-grotesk-bold c-black centered">
+        <div class="chapter-title page-title c-black centered">
           {% if page.header.superTitle %}
-            <h3 class="f-uppercase f-uni-grotesk-bold">{{page.header.superTitle}}</h3>
+            <h3 class="f-uppercase">{{page.header.superTitle}}</h3>
           {% endif %}
-          <h1><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo-black.svg" alt="×" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+          <h1>sen <img src="{{ theme_url }}/images/headline-logo-black.svg" alt="×" class="headline-logo"> skutočnosť</h1>
           {% if page.header.subTitle %}
-            <h3 class="f-uppercase f-uni-grotesk-bold">{{page.header.subTitle}}</h3>
+            <h3 class="f-uppercase">{{page.header.subTitle}}</h3>
           {% endif %}
         </div>
         <section class="post-content">
@@ -25,10 +25,10 @@
 
 {% block footer %}
   {% include 'partials/emailcapture.html.twig' with {
-    'emailCTA': page.header.emailCTA, 
-    'emailPlaceholder': page.header.emailPlaceholder, 
-    'emailButton': page.header.emailButton, 
-    'emailNotice': page.header.emailNotice} 
+    'emailCTA': page.header.emailCTA,
+    'emailPlaceholder': page.header.emailPlaceholder,
+    'emailButton': page.header.emailButton,
+    'emailNotice': page.header.emailNotice}
   %}
   {% include 'partials/footer.html.twig' with {
     'sharingButtons': true,

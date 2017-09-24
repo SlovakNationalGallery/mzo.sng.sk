@@ -13,9 +13,9 @@
     <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
   {% endfor %}
   <meta name="description" content="{{"META.DESCRIPTION"|t}}" />
-  
+
   <meta name="url" content="{{page.url}}" />
-  
+
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -56,13 +56,13 @@
   <meta name="msapplication-square150x150logo" content="{{ theme_url }}/images/favicons/mstile-150x150.png" />
   <meta name="msapplication-wide310x150logo" content="{{ theme_url }}/images/favicons/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="{{ theme_url }}/images/favicons/mstile-310x310.png" />
-  
+
   <link rel="canonical" href="{{ page.url() }}">
   <link rel="stylesheet" href="https://fonts.typotheque.com/WF-028643-009596.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="{{ theme_url }}/fonts/MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  
+
 
   {% do assets.addCss('theme://css/main.css') %}
   {% do assets.addCss('theme://css/custom.css') %}
@@ -92,7 +92,7 @@
         {% include 'partials/langswitcher.html.twig' %}
       {% endif %}
       {% if page.slug != 'about' %}
-        <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
+        <a href="{{base_url_relative}}/about" class="nav-about c-black">{{"NAVIGATION.ABOUT"|t}}</a>
       {% endif %}
     </div>
   {% endblock %}

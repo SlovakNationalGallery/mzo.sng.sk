@@ -11,7 +11,7 @@ routes:
     aliases:
         - /chapters/3
 chapterNumber: 3
-titleStyled: '<span class=''f-uni-grotesk-bold''>70,000</span> <span class=''f-moyenage''>Victims</span>'
+titleStyled: '70,000 Victims'
 description: 'Chapter 3: 70,000 Victims'
 image: Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg
 ---
@@ -79,7 +79,7 @@ The major breakthrough in the so-called "Final Solution to the Jewish Question" 
 Within one year, the Central Economic Office liquidated more than 10,000 companies owned by Jewish citizens and a further 2,200 were aryanised by the Slovaks, Germans and Ruthenians.
 </p>
 </div>
- 
+
 Bank accounts, objects made from precious metals and other valuables owned by Jews were blocked and their houses and apartments managed by the state-appointed temporary administrators. Since they could not find employment because of government regulations, the majority of Jewish population in Slovakia lost the ability to support themselves.
 
 [![Probably Andrej Kováčik - Sowing Discord, 1941, Slovak National Museum, Museum in Bratislava](Rozsievac_kukola-%28autor_pravdepodobne_Andrej_Kovacik%29--1941-Plagat-SNM%E2%80%93HM,%20Bratislava.jpg "Probably Andrej Kováčik - Sowing Discord")](http://www.webumenia.sk/dielo/SVK:TMP.218?collection=86)
@@ -124,7 +124,7 @@ The Codex allowed the president to grant exemptions from the anti-Semitic measur
 ## Deportations of the Slovak Jews
 ### 25. 3. 1942 {.title-date}
 
-As a consequence of the anti-Semitic legislation, the vast majority of the Jews were unable to survive without social welfare system by the end of 1941. The solution was supposed to be the creation of [labour camps](http://www.minv.sk/?ZPT) where they could produce scarce goods. These camps were at first built in Nováky and [Sereď](http://www.muzeum.sk/?obj=muzeum&ix=mhol_mzk_snm), later in Vyhne. It soon became clear that the construction of these camps was costly and time-consuming.   
+As a consequence of the anti-Semitic legislation, the vast majority of the Jews were unable to survive without social welfare system by the end of 1941. The solution was supposed to be the creation of [labour camps](http://www.minv.sk/?ZPT) where they could produce scarce goods. These camps were at first built in Nováky and [Sereď](http://www.muzeum.sk/?obj=muzeum&ix=mhol_mzk_snm), later in Vyhne. It soon became clear that the construction of these camps was costly and time-consuming.
 
 [![Unknown Author - Labour camp in Nováky for the racially persecuted citizens of the Jewish minority, 1941, Military History Institute - Military History Archive, Bratislava](pracovny_tabor_v_novakoch-VHA-VHU-BA.jpg "Unknown Author - Labour camp in Nováky for the racially persecuted citizens of the Jewish minority")](http://www.webumenia.sk/dielo/SVK:TMP.243?collection=86)
 
@@ -166,7 +166,7 @@ Already in the summer of 1941, word of the mass murder of Jews by the Germans wa
     ]
 }%}
 
-Later, in the summer of 1942, news of the murder of the deported Jews in ghettos, concentration and extermination camps reached Slovakia. The deportations however did not stop until October of that year. Although the Minister of Interior Alexander Mach declared in February 1943 that the deportations would continue, they did not because of the changed social atmosphere. There was a tangibly negative response from clerics and ordinary citizens, even the ones who had previously witnessed the aryanisation and drastic deportations of their neighbours. The changing situation on the front also played a role. After the Stalingrad defeat, some people started to fear for their future.  
+Later, in the summer of 1942, news of the murder of the deported Jews in ghettos, concentration and extermination camps reached Slovakia. The deportations however did not stop until October of that year. Although the Minister of Interior Alexander Mach declared in February 1943 that the deportations would continue, they did not because of the changed social atmosphere. There was a tangibly negative response from clerics and ordinary citizens, even the ones who had previously witnessed the aryanisation and drastic deportations of their neighbours. The changing situation on the front also played a role. After the Stalingrad defeat, some people started to fear for their future.
 
 {% include 'partials/subobjects.html.twig' with {
     'title': 'Learn More',

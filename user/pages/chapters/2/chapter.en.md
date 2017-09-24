@@ -11,7 +11,7 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: '<span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Nation, </span><span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Party, </span><span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Leader</span>'
+titleStyled: 'One Nation, One Party, One Leader'
 image: teslik-oslavy.jpg
 ---
 
@@ -75,7 +75,7 @@ Back in April 1939, Hitler issued an order to develop a plan of military action 
 
 [![Unknown Author - New Slovakia Magazine Cover, 1940 – 1941, Private Property](SVK_TMP.146.jpeg "Unknown Author - New Slovakia Magazine Cover")](http://www.webumenia.sk/dielo/SVK:TMP.146?collection=83)
 
-#### On 1 September 1939, the German forces entered the territory of Poland and the Second World War officially began. Slovakia, which was internationally perceived as a German satellite state, officially confirmed this position by their participation in the September Campaign. This meant an immediate severance of diplomatic relations with the Western powers.   
+#### On 1 September 1939, the German forces entered the territory of Poland and the Second World War officially began. Slovakia, which was internationally perceived as a German satellite state, officially confirmed this position by their participation in the September Campaign. This meant an immediate severance of diplomatic relations with the Western powers.
 
 The Slovak public was told that the reason for participating in the campaign, was the return of the territory of 770 km2 with 32 towns and villages, which was occupied by Poland after the Munich Agreement. France and Great Britain, as well as the Polish allies, declared war on Germany. Because of the changing political situation, the Allies returned to their official pre-Munich obligations towards Czechoslovakia. Slovakia was counted among the Nazi-occupied territories.
 
@@ -83,7 +83,7 @@ The Slovak public was told that the reason for participating in the campaign, wa
 
 ---
 
-## Jozef Tiso Elected for President  
+## Jozef Tiso Elected for President
 ### 26. 10. 1939 {.title-date}
 
 The Constitution from July 1939 granted extensive powers to the president, who was not yet appointed when the constitution was adopted. The president would be elected for seven years, would not be responsible to the government or parliament and could be prosecuted only by the State Council and only on charges of treason. He would be the commander in chief, the commander of the Hlinka Guard and he would appoint ministers, professors and judges. He would have the right to attend legislative and State Council sessions, declare a state of emergency and, with an agreement of the Diet, declare war or peace.
@@ -493,7 +493,7 @@ Key positions in Slovak corporations were occupied by German banks and associati
 ## The Beginning of the German-Soviet War
 ### 22. 6. 1941 {.title-date}
 
-Germany depended on the forces of their allies when they attacked the Union of Soviet Socialist Republics (USSR). In late April 1941, they signed an agreement about transit and residence of German troops on Slovak territory and in the early June, the Slovak army introduced special exercises.   
+Germany depended on the forces of their allies when they attacked the Union of Soviet Socialist Republics (USSR). In late April 1941, they signed an agreement about transit and residence of German troops on Slovak territory and in the early June, the Slovak army introduced special exercises.
 
 On 22 June 1941, German, Romanian and Finnish forces attacked the Soviet territories. The inclusion of Slovakia as a Slavic state was supposed to strengthen the impression that it was a "fight against Bolshevism", not a war on the civilian population. The real reason for the invasion was German plans to acquire "living space" ("lebensraum") and germanise the Eastern Europe.
 
@@ -536,7 +536,7 @@ With their willingness to fight by the side of the Third Reich, Slovakia was com
 	]
 }%}
 
-Transportation by the German and Slovak armies overloaded the road and rail networks to the extent that civil traffic, especially trains, were often greatly impacted. The Slovak army formed 'Rapid Deployment Forces' (later 'Rapid Brigade') and crossed the Dukla Pass on 24 June to join the German army.  
+Transportation by the German and Slovak armies overloaded the road and rail networks to the extent that civil traffic, especially trains, were often greatly impacted. The Slovak army formed 'Rapid Deployment Forces' (later 'Rapid Brigade') and crossed the Dukla Pass on 24 June to join the German army.
 
 From this moment, the Second World War would increasingly bring losses to Slovakia...
 

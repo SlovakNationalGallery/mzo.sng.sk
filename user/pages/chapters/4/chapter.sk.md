@@ -12,14 +12,14 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: '<span class=''f-uni-grotesk-bold''>Vytriezvenie</span> <span class=''f-moyenage''>zo sna</span>'
+titleStyled: 'Vytriezvenie zo sna'
 description: '4. kapitola: Vytriezvenie zo sna'
 image: Telgart_vypalenie-cover.jpg
 ---
 
 ## Obrat vo vojne a kríza ľudáckeho režimu
 
-<span class="drop-cap">Z</span> <br> ačiatkom roku 1943 vyvrcholila niekoľkomesačná bitka o Stalingrad porážkou nacistických vojsk. Situácia na východnom fronte sa začína vyvíjať v neprospech Tretej ríše a jej spojencov. 
+<span class="drop-cap">Z</span> <br> ačiatkom roku 1943 vyvrcholila niekoľkomesačná bitka o Stalingrad porážkou nacistických vojsk. Situácia na východnom fronte sa začína vyvíjať v neprospech Tretej ríše a jej spojencov.
 
 [![Georgii Zelma - Bitka pri Stalingrade - na centrálnom námesti v Stalingrade víťazne veje sovietska vlajka, Červená armáda triumfovala, január 1943, Bundesarchiv, BArch](Bundesarchiv_Bild_183-W0506-316,_Russland,_Kampf_um_Stalingrad,_Siegesflagge.jpg "Georgii Zelma - Bitka pri Stalingrade - na cestrálnom námesti v Stalingrade víťazne veje sovietska vlajka, Červená armáda triumfovala, január 1943, Bundesarchiv, BArch")](https://upload.wikimedia.org/wikipedia/commons/2/29/Bundesarchiv_Bild_183-W0506-316%2C_Russland%2C_Kampf_um_Stalingrad%2C_Siegesflagge.jpg)
 
@@ -29,27 +29,27 @@ Pred útočiacou Červenou armádou ustupuje aj slovenská Rýchla divízia. Ke�
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
-            'title':'Slovenskí vojaci v čase voľna na východnom fronte - Veselý rozhovor s veliteľom', 
+            'title':'Slovenskí vojaci v čase voľna na východnom fronte - Veselý rozhovor s veliteľom',
             'src': 'http://www.webumenia.sk/images/diela/TMP/67/SVK_TMP.275/SVK_TMP.275.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.275?collection=88'
         },
-		{ 
-            'title':'Slovenskí a nemeckí vojaci pri zábave', 
+		{
+            'title':'Slovenskí a nemeckí vojaci pri zábave',
 			'src': 'http://www.webumenia.sk/images/diela/TMP/66/SVK_TMP.274/SVK_TMP.274.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.274?collection=88'
         },
         {
-             'title':'Šumenie klasov spieva pohrebnú pieseň padlému hrdinovi', 
+             'title':'Šumenie klasov spieva pohrebnú pieseň padlému hrdinovi',
             'src': 'http://www.webumenia.sk/images/diela/TMP/68/SVK_TMP.276/SVK_TMP.276.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.276?collection=88'
         },
         {
-            'title':'Z vojny v ZSSR - Naklonený betónový mlyn v meste Pologi', 
+            'title':'Z vojny v ZSSR - Naklonený betónový mlyn v meste Pologi',
             'src': 'http://www.webumenia.sk/images/diela/TMP/64/SVK_TMP.272/SVK_TMP.272.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.272?collection=88'
             },
         {
-            'title':'Postup rýchlej brigády na Ukrajine', 
+            'title':'Postup rýchlej brigády na Ukrajine',
             'src': 'http://www.webumenia.sk/images/diela/TMP/65/SVK_TMP.273/SVK_TMP.273.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.273?collection=88'
             },
@@ -60,15 +60,15 @@ Minister národnej obrany gen. Čatloš už na jar 1943 usiluje o stiahnutie slo
 
 [![Friedrich Zschäckel - Bitka pri Kursku - nemeckí vojaci na ústupe, jún 1943, Bundesarchiv, BArch](Bundesarchiv_Bild_101III-Zschaeckel-206-35,_Schlacht_um_Kursk,_Panzer_VI_(Tiger_I).jpg "Friedrich Zschäckel - Bitka pri Kursku - nemeckí vojaci na ústupe, jún 1943, Bundesarchiv, BArch")](https://upload.wikimedia.org/wikipedia/commons/a/a0/Bundesarchiv_Bild_101III-Zschaeckel-206-35%2C_Schlacht_um_Kursk%2C_Panzer_VI_%28Tiger_I%29.jpg)
 
-V júli 1943 sa uskutočňuje invázia západných spojencov na Sicílii. Po reorganizácii je od 1. augusta 1943 Rýchla divízia premenovaná na 1. pešiu divíziu a Zaisťovacia divízia zasa na 2. pešiu divíziu. Slovenská vláda sa márne dožaduje, aby o nasadení slovenských jednotiek na východnom fronte spolurozhodovalo slovenské ministerstvo národnej obrany. Aj pokusy presadiť, aby divízie plnili len zaisťovacie úlohy a boli pod jednotným velením, Nemci vnímajú ako príznak pochybností ohľadom "nemeckého konečného víťazstva". 
+V júli 1943 sa uskutočňuje invázia západných spojencov na Sicílii. Po reorganizácii je od 1. augusta 1943 Rýchla divízia premenovaná na 1. pešiu divíziu a Zaisťovacia divízia zasa na 2. pešiu divíziu. Slovenská vláda sa márne dožaduje, aby o nasadení slovenských jednotiek na východnom fronte spolurozhodovalo slovenské ministerstvo národnej obrany. Aj pokusy presadiť, aby divízie plnili len zaisťovacie úlohy a boli pod jednotným velením, Nemci vnímajú ako príznak pochybností ohľadom "nemeckého konečného víťazstva".
 
-V októbri 1943 sú jednotky 2. pešej divízie reorganizované a presunuté do Talianska. Na konci mesiaca padlo pri ukrajinskom Melitopole do zajatia aj vyše 2 tisíc príslušníkov 1. pešej divízie, pričom časť z nich sama prešla na sovietsku stranu. Rozklad jednotky pokračuje aj v ďalších mesiacoch a 1. júna 1944 je napokon premenovaná na technickú divíziu a reorganizovaná do podoby pracovného útvaru. 
+V októbri 1943 sú jednotky 2. pešej divízie reorganizované a presunuté do Talianska. Na konci mesiaca padlo pri ukrajinskom Melitopole do zajatia aj vyše 2 tisíc príslušníkov 1. pešej divízie, pričom časť z nich sama prešla na sovietsku stranu. Rozklad jednotky pokračuje aj v ďalších mesiacoch a 1. júna 1944 je napokon premenovaná na technickú divíziu a reorganizovaná do podoby pracovného útvaru.
 
-O skutočnej situácii na frontoch sa slovenská verejnosť dozvedá z viacerých zdrojov. Očité svedectvá o „úspešnom ťažení“ aj o „strategickom ústupe nemeckej armády“ prinášajú vojnoví navrátilci. 
+O skutočnej situácii na frontoch sa slovenská verejnosť dozvedá z viacerých zdrojov. Očité svedectvá o „úspešnom ťažení“ aj o „strategickom ústupe nemeckej armády“ prinášajú vojnoví navrátilci.
 
 [![Koloman Cích - Oslavy štvrtého výročia štátnej samostatnosti - pohľad na vojenských veteránov z východného frontu, 1943, Slovenský národný archív, Bratislava – fond STK](20333_male.jpg "Koloman Cích - Oslavy štvrtého výročia štátnej samostatnosti - pohľad na vojenských veteránov z východného frontu")](http://www.webumenia.sk/dielo/SVK:TMP.319)
 
-Slovenskí robotníci v Nemecku už zažívajú bombardovanie priemyselných cieľov na vlastnej koži. Zdrojom ďalších informácií je tajné počúvanie moskovského a londýnskeho rozhlasu. Spojeneckí predstavitelia ním opakovane potvrdzujú svoje uznanie [exilovej československej vlády](https://sk.wikipedia.org/wiki/Do%C4%8Dasn%C3%A9_%C5%A1t%C3%A1tne_zriadenie). Vie sa, že Slováci bojujú v československých jednotkách v Sovietskom zväze aj vo Veľkej Británii. V septembri 1943 vo verejnej mienke rezonuje už aj kapitulácia Talianska. 
+Slovenskí robotníci v Nemecku už zažívajú bombardovanie priemyselných cieľov na vlastnej koži. Zdrojom ďalších informácií je tajné počúvanie moskovského a londýnskeho rozhlasu. Spojeneckí predstavitelia ním opakovane potvrdzujú svoje uznanie [exilovej československej vlády](https://sk.wikipedia.org/wiki/Do%C4%8Dasn%C3%A9_%C5%A1t%C3%A1tne_zriadenie). Vie sa, že Slováci bojujú v československých jednotkách v Sovietskom zväze aj vo Veľkej Británii. V septembri 1943 vo verejnej mienke rezonuje už aj kapitulácia Talianska.
 
 Do konca roka 1943 sa ľudácky režim ocitá vo vnútornej kríze. Je zrejmé, že blížiaca sa porážka Tretej ríše bude znamenať aj jeho koniec. To si uvedomujú aj mnohí pracovníci bezpečnostného aparátu a príslušníci slovenskej armády. Najaktívnejšia a najvplyvnejšia je skupina dôstojníkov, zoskupená okolo štyroch podplukovníkov: Jána Goliana, Mikuláša Ferjenčíka, Mirka Vesela a Dezidera Kišša-Kalinu. Ako dôstojníci z povolania chcú svoju ilegálnu činnosť viesť podľa direktív riadneho exilového vedenia – prezidenta E. Beneša a Ministerstva národnej obrany v Londýne. Vo februári 1944 posielajú do Londýna optimisticky nadsadenú správu o zjednotení vojenského odboja. Prezident Beneš poveruje dočasným vedením vojenských akcií pplk. Jána Goliana.
 
@@ -82,7 +82,7 @@ Podporuje ju aj zmena línie komunistického hnutia. Kým pred vojnou podľa pr�
 
 Ján Golian vedie ilegálne Vojenské ústredie, ktoré pracuje na pláne povstania. Ideálny variant počíta s nasadením „Poľnej armády“ (zloženej z 2 divízií) na východnom Slovensku. Tieto jednotky majú uvoľniť Červenej armáde prechod cez karpatské priesmyky v priestore Bardejova a Medzilaboriec. Ostatné posádky na Slovensku (Zápoľná armáda) majú zaistiť priestor stredného Slovenska, plánovite vykonať prevrat a mobilizáciu, po doplnení stavu sa spojiť s Poľnou armádou a spoločne so sovietskymi vojskami poraziť Nemcov. V prípade, ak by nacisti začali s okupáciou Slovenska skôr, sa má podľa núdzového variantu plánu začať s ozbrojeným odporom ihneď, bez ohľadu na stav príprav povstania.
 
-Dňa 16. júna 1944 sa bratislavská ropná rafinéria Apollo, ako jeden zo strategických podnikov pre Nemecko, stáva terčom amerického bombardovania. „Nemecká ochranná ruka“ je už len prázdnym heslom. Vojna vstupuje priamo na slovenské územie. 
+Dňa 16. júna 1944 sa bratislavská ropná rafinéria Apollo, ako jeden zo strategických podnikov pre Nemecko, stáva terčom amerického bombardovania. „Nemecká ochranná ruka“ je už len prázdnym heslom. Vojna vstupuje priamo na slovenské územie.
 
 [![Viliam Malík - Apolka horí (16.6.1944),	1944, Slovenská národná galéria, SNG](SVK_SNG.UP-DK_4488.jpeg "Viliam Malík - Apolka horí (16.6.1944)")](http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_4488)
 
@@ -90,37 +90,37 @@ Dňa 16. júna 1944 sa bratislavská ropná rafinéria Apollo, ako jeden zo stra
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
-            'title':'I.', 
+            'title':'I.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/15/SVK_SNG.UP-DK_2542/SVK_SNG.UP-DK_2542.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2542'
         },
-		{ 
-            'title':'II.', 
+		{
+            'title':'II.',
 			'src': 'http://www.webumenia.sk/images/diela/SNG/16/SVK_SNG.UP-DK_2543/SVK_SNG.UP-DK_2543.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2543'
         },
         {
-             'title':'III.', 
+             'title':'III.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/17/SVK_SNG.UP-DK_2544/SVK_SNG.UP-DK_2544.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2544'
         },
         {
-            'title':'IV.', 
+            'title':'IV.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/18/SVK_SNG.UP-DK_2545/SVK_SNG.UP-DK_2545.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2545'
             },
         {
-            'title':'V.', 
+            'title':'V.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/19/SVK_SNG.UP-DK_2546/SVK_SNG.UP-DK_2546.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2546'
             },
             {
-              'title':'VI.', 
+              'title':'VI.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.UP-DK_2547/SVK_SNG.UP-DK_2547.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2547'
             },
         {
-             'title':'VII.', 
+             'title':'VII.',
             'src': 'http://www.webumenia.sk/images/diela/SNG/21/SVK_SNG.UP-DK_2548/SVK_SNG.UP-DK_2548.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.UP-DK_2548'
         }
@@ -131,7 +131,7 @@ Dňa 16. júna 1944 sa bratislavská ropná rafinéria Apollo, ako jeden zo stra
      'title': 'Zistite viac',
     'subobjects': [
         {
-            'name': 'Slovenská národná rada', 
+            'name': 'Slovenská národná rada',
             'thumbnail': page.media['vlajky.jpg'],
             'href': '/chapters/4-Vytriezvenie-zo-sna/slovenska-narodna-rada'
         }
@@ -147,52 +147,52 @@ Dňa 16. júna 1944 sa bratislavská ropná rafinéria Apollo, ako jeden zo stra
 
 Jedným z prejavov silnejúcich opozičných nálad v slovenskej spoločnosti je rozšírenie partizánskeho hnutia. Partizánske skupiny tvoria odporcovia režimu, perzekvované osoby či bývalí vojaci slovenskej armády. Sú v nich aj vojaci sovietskej armády, ktorým sa podarilo utiecť z nemeckého zajatia. Silný impulz pre vzrast partizánskych aktivít prinášajú výsadky sovietskych organizátorských skupín v lete 1944.
 
-V novinách Gardista ešte 6. augusta podpredseda vlády Alexander Mach priznáva existenciu „niekoľkých malých skupiniek zo zahraničia“, ktoré sa podarilo „vyhnať alebo zajať“, a upokojuje verejnosť, že „vážneho partizánskeho nebezpečenstva u nás niet“. Pritom však vláda znepokojená vývojom a hláseniami o akciách partizánov nasadzuje proti nim 10. augusta 1944 armádu v priestore Nízkych Tatier a Veľkej Fatry. 
+V novinách Gardista ešte 6. augusta podpredseda vlády Alexander Mach priznáva existenciu „niekoľkých malých skupiniek zo zahraničia“, ktoré sa podarilo „vyhnať alebo zajať“, a upokojuje verejnosť, že „vážneho partizánskeho nebezpečenstva u nás niet“. Pritom však vláda znepokojená vývojom a hláseniami o akciách partizánov nasadzuje proti nim 10. augusta 1944 armádu v priestore Nízkych Tatier a Veľkej Fatry.
 
-Vláda vyhlasuje 11. augusta 1944 na celom území Slovenska stanné právo (štatárium). To umožňuje v skrátenom konaní pred „stannými súdmi“ udeľovať sprísnené tresty, vrátane trestov smrti. Rozkladajúci sa režim však už ani takto nedokáže zastaviť silnejúce hnutie odporu. V auguste je v slovenských horách niekoľko tisíc partizánov a ťažisko ich aktivít sa sústreďuje na strednom Slovensku. 
+Vláda vyhlasuje 11. augusta 1944 na celom území Slovenska stanné právo (štatárium). To umožňuje v skrátenom konaní pred „stannými súdmi“ udeľovať sprísnené tresty, vrátane trestov smrti. Rozkladajúci sa režim však už ani takto nedokáže zastaviť silnejúce hnutie odporu. V auguste je v slovenských horách niekoľko tisíc partizánov a ťažisko ich aktivít sa sústreďuje na strednom Slovensku.
 
 [![Ján Novák - Povstanie, 1944, Slovenská národná galéria, SNG](Novak_povstanie--SNG--K_4707--1_1--_2015_08_18_--LP_A4.jpg "Ján Novák - Povstanie")](http://www.webumenia.sk/dielo/SVK:SNG.K_4707?collection=88)
 
-Činnosť jednotlivých partizánskych skupín však nie je dostatočne koordinovaná s aktivitou Vojenského ústredia. Partizáni vedení sovietskymi dôstojníkmi zatarasujú tunely, prepadávajú zásobovacie sklady a koncom mesiaca už dokonca neváhajú obsadiť aj niektoré obce. V obci Sklabiňa verejne vyhlasujú 21. 8. 1944 Československú republiku. O niekoľko dní neskôr, 26. augusta, oslobodia politických väzňov v Ružomberku a na druhý deň obsadzujú s vojakmi mesto. 
+Činnosť jednotlivých partizánskych skupín však nie je dostatočne koordinovaná s aktivitou Vojenského ústredia. Partizáni vedení sovietskymi dôstojníkmi zatarasujú tunely, prepadávajú zásobovacie sklady a koncom mesiaca už dokonca neváhajú obsadiť aj niektoré obce. V obci Sklabiňa verejne vyhlasujú 21. 8. 1944 Československú republiku. O niekoľko dní neskôr, 26. augusta, oslobodia politických väzňov v Ružomberku a na druhý deň obsadzujú s vojakmi mesto.
 
-Odbojová nálada narastá a atmosféra na strednom Slovensku vrie. Partizáni sa púšťajú aj do násilných akcií proti civilnému obyvateľstvu nemeckej národnosti, regionálnym ľudáckym funkcionárom a nemeckým dôstojníkom, ktorí prechádzajú Slovenskom. Niekde sa pod vplyvom sovietskych partizánskych veliteľov pridávajú k ich akciám aj vojaci. Dňa 28. augusta dôjde v martinskej vojenskej posádke k zastreleniu zajatej skupiny nemeckých vojakov a diplomatov. Svojím konaním tak sovietski partizánski velitelia urýchľujú rozhodnutie Tretej ríše o okupácii Slovenskej republiky. 
+Odbojová nálada narastá a atmosféra na strednom Slovensku vrie. Partizáni sa púšťajú aj do násilných akcií proti civilnému obyvateľstvu nemeckej národnosti, regionálnym ľudáckym funkcionárom a nemeckým dôstojníkom, ktorí prechádzajú Slovenskom. Niekde sa pod vplyvom sovietskych partizánskych veliteľov pridávajú k ich akciám aj vojaci. Dňa 28. augusta dôjde v martinskej vojenskej posádke k zastreleniu zajatej skupiny nemeckých vojakov a diplomatov. Svojím konaním tak sovietski partizánski velitelia urýchľujú rozhodnutie Tretej ríše o okupácii Slovenskej republiky.
 
-Nemci, ktorí dlhodobo sledujú aktivitu partizánov na Slovensku, sa rozhodnú konať a 29. augusta 1944 prichádzajú na naše územie okupačné jednotky. Vojenské ústredie je nútené postupovať podľa núdzového variantu a v ten istý večer rozosiela pplk. Ján Golian vojenským posádkam šifrovaný pokyn „Začnite s vysťahovaním“, vyzývajúci začať ozbrojený odpor. Ďalší deň sa už do mobilizácie armády aj verejnosti zapája Slobodný vysielač z Banskej Bystrice. Začína sa Slovenské národné povstanie. 
+Nemci, ktorí dlhodobo sledujú aktivitu partizánov na Slovensku, sa rozhodnú konať a 29. augusta 1944 prichádzajú na naše územie okupačné jednotky. Vojenské ústredie je nútené postupovať podľa núdzového variantu a v ten istý večer rozosiela pplk. Ján Golian vojenským posádkam šifrovaný pokyn „Začnite s vysťahovaním“, vyzývajúci začať ozbrojený odpor. Ďalší deň sa už do mobilizácie armády aj verejnosti zapája Slobodný vysielač z Banskej Bystrice. Začína sa Slovenské národné povstanie.
 
 [![Neznámy autor - Banská Bystrica 29. 8. 1944. Za demokraciu. Za Československo, 1944 - 1945, 	Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](Banska_Bystrica-za_demokraciu.jpg "Neznámy autor - Banská Bystrica 29. 8. 1944. Za demokraciu. Za Československo")](http://www.webumenia.sk/dielo/SVK:TMP.284?collection=88)
 
-Prejavuje sa nedostatočná koordinácia odboja a Nemci odzbrojujú dve východoslovenské divízie, ako aj bratislavskú vojenskú posádku. Povstalci ovládajú len územie stredného Slovenska a centrom povstania je Banská Bystrica. Tu padá režim HSĽS, povstalecká Slovenská národná rada zakazuje nielen činnosť tejto strany, ale spolu s činnosťou Hlinkovej gardy a Hlinkovej mládeže pochopiteľne rozpúšťa aj nemeckú či maďarskú stranu. Povstanie sa hlási k existencii demokratickej Československej republiky a jeho bojovníci sú súčasťou jej ozbrojených síl. 
+Prejavuje sa nedostatočná koordinácia odboja a Nemci odzbrojujú dve východoslovenské divízie, ako aj bratislavskú vojenskú posádku. Povstalci ovládajú len územie stredného Slovenska a centrom povstania je Banská Bystrica. Tu padá režim HSĽS, povstalecká Slovenská národná rada zakazuje nielen činnosť tejto strany, ale spolu s činnosťou Hlinkovej gardy a Hlinkovej mládeže pochopiteľne rozpúšťa aj nemeckú či maďarskú stranu. Povstanie sa hlási k existencii demokratickej Československej republiky a jeho bojovníci sú súčasťou jej ozbrojených síl.
 
-Zásobovanie povstaleckej armády a obyvateľstva zabezpečujú zásoby a peniaze nahromadené na strednom Slovensku od júna 1944, ktoré sem sústredili pod rôznymi zámienkami pracovníci ústredných štátnych orgánov, spolupracujúci s odbojom, ako napríklad guvernér Slovenskej národnej banky Imrich Karvaš (ktorý bol súčasne prednostom Najvyššieho úradu pre zásobovanie) a jeho kolegovia. Finančnú pomoc odboju poskytujú Baťove závody, Micherova továreň v Starej Turej a ďalšie podniky. Podstatným dielom prispievajú tiež veľkostatky a podniky na oslobodenom území, vrátane Podbrezovských železiarní či Železničných opravovní vo Zvolene, kde sa pre povstalcov urýchlene vyrábajú tri pancierové vlaky. 
+Zásobovanie povstaleckej armády a obyvateľstva zabezpečujú zásoby a peniaze nahromadené na strednom Slovensku od júna 1944, ktoré sem sústredili pod rôznymi zámienkami pracovníci ústredných štátnych orgánov, spolupracujúci s odbojom, ako napríklad guvernér Slovenskej národnej banky Imrich Karvaš (ktorý bol súčasne prednostom Najvyššieho úradu pre zásobovanie) a jeho kolegovia. Finančnú pomoc odboju poskytujú Baťove závody, Micherova továreň v Starej Turej a ďalšie podniky. Podstatným dielom prispievajú tiež veľkostatky a podniky na oslobodenom území, vrátane Podbrezovských železiarní či Železničných opravovní vo Zvolene, kde sa pre povstalcov urýchlene vyrábajú tri pancierové vlaky.
 
 [![Neznámy autor - Matka naša zem slovenská volá Do zbrane, 1944 - 1945, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](DO_ZBRANE--SK_1520_01840_00001_0008_2.jpg "Neznámy autor - Matka naša zem slovenská volá Do zbrane")](http://www.webumenia.sk/dielo/SVK:TMP.282?collection=88)
 
-Povstalecká 1. československá armáda na Slovensku disponuje spočiatku asi 18 000 vojakmi. Po mobilizácii z 5. septembra 1944 stúpa ich počet na takmer 50 000. Majú však nedostatok výzbroje, často zastaranej, a aj nedostatočné bojové skúsenosti. Prvým veliteľom povstalcov sa v neľahkej situácii stáva generál Ján Golian, jeden zo spolutvorcov vojenského plánu povstania. 
+Povstalecká 1. československá armáda na Slovensku disponuje spočiatku asi 18 000 vojakmi. Po mobilizácii z 5. septembra 1944 stúpa ich počet na takmer 50 000. Majú však nedostatok výzbroje, často zastaranej, a aj nedostatočné bojové skúsenosti. Prvým veliteľom povstalcov sa v neľahkej situácii stáva generál Ján Golian, jeden zo spolutvorcov vojenského plánu povstania.
 
-Nemecké jednotky útočia na územie pod kontrolou povstalcov z viacerých smerov. Na západnom Slovensku nasadili 9 000 vojakov a na východe operovalo asi 15 000 vojakov. Na niektorých miestach ich podporuje miestne nemecké obyvateľstvo. Povstalecká armáda a partizáni za značných strát odrážajú nacistické útoky a na niektorých úsekoch sa Nemcom nedarí presadiť napriek vlastným očakávaniam bleskového úspechu. 
+Nemecké jednotky útočia na územie pod kontrolou povstalcov z viacerých smerov. Na západnom Slovensku nasadili 9 000 vojakov a na východe operovalo asi 15 000 vojakov. Na niektorých miestach ich podporuje miestne nemecké obyvateľstvo. Povstalecká armáda a partizáni za značných strát odrážajú nacistické útoky a na niektorých úsekoch sa Nemcom nedarí presadiť napriek vlastným očakávaniam bleskového úspechu.
 
 <div class="highlight">
 <p>
 V Slovenskom národnom povstaní bojujú po boku Slovákov a Čechov aj príslušníci ďalších 30 národov a národností. Sú medzi nimi výsadkári zo spojeneckých armád aj utečenci zo zajateckých a koncentračných táborov.
 </p>
 </div>
- 
-Dňa 6. októbra je za veliteľa povstaleckej armády menovaný divízny generál Rudolf Viest. V druhej polovici septembra 1944 sa povstalecká obrana upevňuje, no postup Nemcov sa napokon nepodarí zastaviť. Na pomoc povstaniu je zo ZSSR presunutá 2. československá paradesantná brigáda a 1. čs. stíhací pluk. Materiálnu pomoc posielajú aj Spojené štáty. 
+
+Dňa 6. októbra je za veliteľa povstaleckej armády menovaný divízny generál Rudolf Viest. V druhej polovici septembra 1944 sa povstalecká obrana upevňuje, no postup Nemcov sa napokon nepodarí zastaviť. Na pomoc povstaniu je zo ZSSR presunutá 2. československá paradesantná brigáda a 1. čs. stíhací pluk. Materiálnu pomoc posielajú aj Spojené štáty.
 
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
-            'title':'Štefan Bednár - Smrť nacizmu!', 
+            'title':'Štefan Bednár - Smrť nacizmu!',
             'src': 'http://www.webumenia.sk/images/diela/TMP/98/SVK_TMP.285/SVK_TMP.285.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.285?collection=88'
         },
-		{ 
-            'title':'Štefan Bednár - Banská Bystrica', 
+		{
+            'title':'Štefan Bednár - Banská Bystrica',
 			'src': 'http://www.webumenia.sk/images/diela/SNG/49/SVK_SNG.G_1851/SVK_SNG.G_1851.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.G_1851?collection=88'
         },
         {
-             'title':'Štefan Bednár - „Priepustka“', 
+             'title':'Štefan Bednár - „Priepustka“',
             'src': 'http://www.webumenia.sk/images/diela/TMP/43/SVK_TMP.316/SVK_TMP.316.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.316?collection=88'
         },
@@ -215,12 +215,12 @@ Po vyšetrovaní gestapom sú postavení pred Mimoriadny súd SS a odsúdení na
     'title': 'Zistite viac o pojmoch',
     'subobjects': [
         {
-            'name':'Partizáni', 
+            'name':'Partizáni',
             'thumbnail': page.media['nahlad-partizan.jpg'],
             'href': '4-Vytriezvenie-zo-sna/partizani'
         },
         {
-            'name':'Slobodný vysielač', 
+            'name':'Slobodný vysielač',
             'thumbnail': page.media['vysielac-nahlad.jpg'],
             'href': '4-Vytriezvenie-zo-sna/slobodny-vysielac'
           }
@@ -230,7 +230,7 @@ Po vyšetrovaní gestapom sú postavení pred Mimoriadny súd SS a odsúdení na
 ---
 ## Obete nemeckej okupácie
 
-S nemeckými vojenskými jednotkami prichádzajú na Slovensko jednotky nemeckého bezpečnostného a represívneho aparátu. Západné a postupne aj stredné Slovensko sa stáva operačným priestorom Pohotovostnej skupiny H nemeckej bezpečnostnej polície (Sipo) a bezpečnostnej služby (SD) – Einsatzgruppe H der Sipo und des SD. Štáb skupiny sídli v Bratislave a jemu podriadené komandá sa rozmiestňujú po obsadzovanom území, kde zriaďujú svoje oporné body. 
+S nemeckými vojenskými jednotkami prichádzajú na Slovensko jednotky nemeckého bezpečnostného a represívneho aparátu. Západné a postupne aj stredné Slovensko sa stáva operačným priestorom Pohotovostnej skupiny H nemeckej bezpečnostnej polície (Sipo) a bezpečnostnej služby (SD) – Einsatzgruppe H der Sipo und des SD. Štáb skupiny sídli v Bratislave a jemu podriadené komandá sa rozmiestňujú po obsadzovanom území, kde zriaďujú svoje oporné body.
 
 Na východné Slovensko prichádzajú príslušníci Komanda Zbv 27, podriadeného veliteľovi nemeckej bezpečnostnej polície a bezpečnostnej služby v Krakove. Všetky tieto zložky majú v prvom rade vypátrať a pacifikovať osoby akokoľvek podporujúce povstanie a tiež zaistiť a  deportovať alebo zlikvidovať na mieste Židov, ktorí ešte prežili na Slovensku. Prezident Tiso ani rekonštruovaná slovenská vláda sa neprotivia, naopak, s nacistickým bezpečnostným aparátom spolupracujú.
 
@@ -241,7 +241,7 @@ Po faktickom rozklade vlastnej armády ľudácky režim vytvára Pohotovostné o
 [![Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže), November 1944, ročník VII., číslo 3, Univerzitná knižnica v Bratislave](slovenski-vojaci.jpg "Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže)")](http://digitalna.kniznica.info/zoom/31090/view?page=35&p=separate&view=0,0,1731,2635)
 
 Nacisti aj ich slovenskí kolaboranti zatýkajú stovky osôb. Väznia ich na rôznych miestach, kde ich vypočúvajú, týrajú a často aj popravujú.
-Po vojenskej porážke Slovenského národného povstania je civilné obyvateľstvo Slovenska vystavené dovtedy nevídanému teroru. Napriek tomu poskytujú mnohí Slováci pomoc povstalcom ukrývajúcim sa v horách, niekedy doslova celým partizánskym oddielom. 
+Po vojenskej porážke Slovenského národného povstania je civilné obyvateľstvo Slovenska vystavené dovtedy nevídanému teroru. Napriek tomu poskytujú mnohí Slováci pomoc povstalcom ukrývajúcim sa v horách, niekedy doslova celým partizánskym oddielom.
 
 **František Nový - Prechod partizánskej brigády Pomstiteľ cez front. Odpočinok na ceste z Magurky na Chabenec**
 {% include 'partials/carousel.html.twig' with {
@@ -250,7 +250,7 @@ Po vojenskej porážke Slovenského národného povstania je civilné obyvateľs
             'src': 'http://www.webumenia.sk/images/diela/TMP/31/SVK_TMP.297/SVK_TMP.297.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.297'
         },
-		{ 
+		{
 			'src': 'http://www.webumenia.sk/images/diela/TMP/30/SVK_TMP.296/SVK_TMP.296.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.296'
         },
@@ -266,7 +266,7 @@ Po vojenskej porážke Slovenského národného povstania je civilné obyvateľs
 }%}
 
 
-Na pomoc slovenského obyvateľstva sú odkázaní aj <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/3/definicia-zida">"Židia"</a>, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území. 
+Na pomoc slovenského obyvateľstva sú odkázaní aj <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/3/definicia-zida">"Židia"</a>, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území.
 
 <div class="highlight">
 <p>
@@ -276,17 +276,17 @@ Nemci akýkoľvek náznak podpory partizánov alebo Židov kruto trestajú. Vypa
 
 [![Neznámy autor - Partizánska obec Telgárt vypálená fašistami , 30. 9. 1944, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](Telgart_vypalenie.jpg "Neznámy autor - Partizánska obec Telgárt vypálená fašistami ")](http://www.webumenia.sk/dielo/SVK:TMP.323)
 
-Najmä na strednom Slovensku, kde pôsobí Einsatzkommando 14 a s ním spolupracujúce oddiely slovenských gardistov, sú spáchané najväčšie zverstvá. Pri obci Kremnička sa obeťami nacistov stáva 747 partizánov, povstaleckých vojakov, Židov a Rómov, vrátane desiatok detí, nájdených po vojne vo viacerých masových hroboch. Vo vápenke pri obci Nemecká zavraždia nacisti a ich kolaboranti 400 až 900 osôb. 
+Najmä na strednom Slovensku, kde pôsobí Einsatzkommando 14 a s ním spolupracujúce oddiely slovenských gardistov, sú spáchané najväčšie zverstvá. Pri obci Kremnička sa obeťami nacistov stáva 747 partizánov, povstaleckých vojakov, Židov a Rómov, vrátane desiatok detí, nájdených po vojne vo viacerých masových hroboch. Vo vápenke pri obci Nemecká zavraždia nacisti a ich kolaboranti 400 až 900 osôb.
 
 [![Neznámy autor - Vápenka v Nemeckej, 1945, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](vapenka.jpg "Neznámy autor - Vápenka v Nemeckej")](http://www.webumenia.sk/dielo/SVK:TMP.321?collection=88)
 
-Ešte na konci októbra 1944 je nacistami prepadnutá obec Miezgovce, kde sú desiatky miestnych mužov  podrobené vypočúvaniu a mučeniu. Dňa 27. decembra, hneď po vianočných sviatkoch, nacisti v obci Medzibrod mučia a pred zrakmi miestnych obesia na šibenici trojicu slovenských a jedného sovietskeho partizána. 
+Ešte na konci októbra 1944 je nacistami prepadnutá obec Miezgovce, kde sú desiatky miestnych mužov  podrobené vypočúvaniu a mučeniu. Dňa 27. decembra, hneď po vianočných sviatkoch, nacisti v obci Medzibrod mučia a pred zrakmi miestnych obesia na šibenici trojicu slovenských a jedného sovietskeho partizána.
 
 [![Neznámy autor - Verejne popravení partizáni nemeckými vojakmi v obci Medzibrod, v okrese Banská Bystrica, 1944, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](poprava_sibenica.jpg "Neznámy autor - Verejne popravení partizáni nemeckými vojakmi v obci Medzibrod, v okrese Banská Bystrica")](http://www.webumenia.sk/dielo/SVK:TMP.298?collection=88)
 
-V januári 1945 vypália spolu so slovenskými kolaborantmi obce Ostrý Grúň a Kľak, obeťami sa okrem niekoľkých partizánov stáva aj 148 civilistov. Obyvateľov obce Skýcov v polovici marca vyženú z domovov, obec vydrancujú a podpália. V marci potom ešte stihnú vypáliť aj obec Kalište. 
+V januári 1945 vypália spolu so slovenskými kolaborantmi obce Ostrý Grúň a Kľak, obeťami sa okrem niekoľkých partizánov stáva aj 148 civilistov. Obyvateľov obce Skýcov v polovici marca vyženú z domovov, obec vydrancujú a podpália. V marci potom ešte stihnú vypáliť aj obec Kalište.
 
-Útoky voči civilistom podnikajú aj niektorí partizáni, a to voči menšinovému nemeckému obyvateľstvu aj voči osobám slovenskej národnosti, ktoré považovali za kolaborantov. K najväčším zločinom zo strany povstalcov patrí masová poprava viac ako 180 obyvateľov (nemeckej národnosti) v obci Sklené v septembri 1944. 
+Útoky voči civilistom podnikajú aj niektorí partizáni, a to voči menšinovému nemeckému obyvateľstvu aj voči osobám slovenskej národnosti, ktoré považovali za kolaborantov. K najväčším zločinom zo strany povstalcov patrí masová poprava viac ako 180 obyvateľov (nemeckej národnosti) v obci Sklené v septembri 1944.
 
 **Nacistická evidencia zajatých slovenských vojakov pred ich popravou alebo odvlečením do koncentračných táborov**
 {% include 'partials/carousel.html.twig' with {
@@ -295,7 +295,7 @@ V januári 1945 vypália spolu so slovenskými kolaborantmi obce Ostrý Grúň a
             'src': 'http://www.webumenia.sk/images/diela/TMP/6/SVK_TMP.300/SVK_TMP.300.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.300'
         },
-		{ 
+		{
 			'src': 'http://www.webumenia.sk/images/diela/TMP/41/SVK_TMP.314/SVK_TMP.314.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:TMP.314'
         },
@@ -360,19 +360,19 @@ V januári 1945 vypália spolu so slovenskými kolaborantmi obce Ostrý Grúň a
 
 ---
 
-## Koniec vojny, koniec štátu. 
+## Koniec vojny, koniec štátu.
 
 [![Neznámy autor - Nacistické Nemecko bude dobité v najkratšom čase, 1945, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](hitler-male.jpg "Neznámy autor - Neznámy autor - Nacistické Nemecko bude dobité v najkratšom čase")](http://www.webumenia.sk/dielo/SVK:TMP.324?collection=88)
 
-Slovenský štát sa pred koncom vojny ocitá v čoraz hlbšej medzinárodnej izolácii – krajiny antihitlerovskej koalície (Veľká Británia, USA, ZSSR) uznávajú [československú exilovú vládu](https://sk.wikipedia.org/wiki/Do%C4%8Dasn%C3%A9_%C5%A1t%C3%A1tne_zriadenie) v Londýne. Nemeckú armádu a jej spojencov sovietske vojská neodvratne vytláčajú z územia ZSSR a v Taliansku v júli 1943 padá Mussoliniho fašistický režim. 
+Slovenský štát sa pred koncom vojny ocitá v čoraz hlbšej medzinárodnej izolácii – krajiny antihitlerovskej koalície (Veľká Británia, USA, ZSSR) uznávajú [československú exilovú vládu](https://sk.wikipedia.org/wiki/Do%C4%8Dasn%C3%A9_%C5%A1t%C3%A1tne_zriadenie) v Londýne. Nemeckú armádu a jej spojencov sovietske vojská neodvratne vytláčajú z územia ZSSR a v Taliansku v júli 1943 padá Mussoliniho fašistický režim.
 
 Predstavitelia ľudáckeho režimu, ktorý v zahraničí reprezentovali takí „diplomati“ ako napríklad veľvyslanec vo Vatikáne Karol Sidor, sa síce pokúšajú hovoriť o slovenskej štátnosti, no ich snahy sú odsúdené na neúspech. Osud ľudákov a ich štátu je zviazaný s osudom Hitlera a jeho Tretej ríše.
 
 [![F. Bizub - Hitler vlákal spojencov tak, že teraz stoja pred katastrofou..., 1945, Slovenský národný archív](sachovnica-mala.jpg "F. Bizub - Hitler vlákal spojencov tak, že teraz stoja pred katastrofou...")](http://www.webumenia.sk/dielo/SVK:TMP.325?collection=88)
 
-Nemci po okupácii formálne uznávajú slovenské štátne a aj civilné orgány, no ich autorita nepostačuje na to, aby zabránili hospodárskemu drancovaniu krajiny, práve naopak. Oficiálnu dohodu o zásobovaní nemeckej brannej moci aj pojem „vojnová korisť“ vysvetľujú nacisti po svojom. Zo Slovenska tak jeho „ochrancovia“ koncom vojny odvážajú materiál v hodnote niekoľkých miliárd slovenských korún. 
+Nemci po okupácii formálne uznávajú slovenské štátne a aj civilné orgány, no ich autorita nepostačuje na to, aby zabránili hospodárskemu drancovaniu krajiny, práve naopak. Oficiálnu dohodu o zásobovaní nemeckej brannej moci aj pojem „vojnová korisť“ vysvetľujú nacisti po svojom. Zo Slovenska tak jeho „ochrancovia“ koncom vojny odvážajú materiál v hodnote niekoľkých miliárd slovenských korún.
 
-Sovietska Červená armáda vstupuje na Slovensko z viacerých smerov. Jednotky 1. ukrajinského frontu spolu s príslušníkmi Československého armádneho zboru sa prebíjajú v oblasti Duklianskeho priesmyku až 6. októbra 1944. Z juhovýchodu postupujú jednotky 2. ukrajinského frontu a rumunskej armády. 
+Sovietska Červená armáda vstupuje na Slovensko z viacerých smerov. Jednotky 1. ukrajinského frontu spolu s príslušníkmi Československého armádneho zboru sa prebíjajú v oblasti Duklianskeho priesmyku až 6. októbra 1944. Z juhovýchodu postupujú jednotky 2. ukrajinského frontu a rumunskej armády.
 
 <figure class="audio" markdown="1">
 ![Josef Činčala (1921) - Dukliansky priesmyk,  Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/288/clip/4234](o_dukle.mp3)
@@ -381,7 +381,7 @@ Sovietska Červená armáda vstupuje na Slovensko z viacerých smerov. Jednotky 
 
 [![Július Nemčík - Oheň, 1944, Slovenská národná galéria, SNG](SVK_SNG.O_1786.jpeg "Július Nemčík - Oheň")](http://www.webumenia.sk/dielo/SVK:SNG.O_1786?collection=88)
 
-Hornatý terén Slovenska, popretínaný riekami, sťažuje oslobodzovanie a nahráva ustupujúcim Nemcom. Boje na slovenskom území trvajú až do jari 1945. Väčšina územia je definitívne oslobodená vytlačením nacistických vojsk z Bratislavy 4. apríla 1945, no v niektorých oblastiach na severozápade sa Nemci držia až do začiatku mája. 
+Hornatý terén Slovenska, popretínaný riekami, sťažuje oslobodzovanie a nahráva ustupujúcim Nemcom. Boje na slovenskom území trvajú až do jari 1945. Väčšina územia je definitívne oslobodená vytlačením nacistických vojsk z Bratislavy 4. apríla 1945, no v niektorých oblastiach na severozápade sa Nemci držia až do začiatku mája.
 
 <figure class="audio" markdown="1">
 ![Michal Hlavička (1923) - Oslobodenie Bratislavy, Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/2864/clip/9394](oslobodenie.mp3)
@@ -392,7 +392,7 @@ Hornatý terén Slovenska, popretínaný riekami, sťažuje oslobodzovanie a nah
 
 Prezidenta a vodcu Jozefa Tisa spolu s ďalšími ľudáckymi činiteľmi 1. apríla 1945 evakuujú z Bratislavy do Holíča a následne opúšťajú územie republiky. Pod dočasnou ochranou nacistov sa ukrývajú na viacerých miestach dnešného Rakúska a Nemecka. Deň pred ich odchodom, 31. marca, je ešte z Bratislavy vypravený posledný transport slovenských účastníkov odboja do koncentračného tábora Mauthausen.
 
-V tom istom čase prichádza do Košíc prezident Edvard Beneš, vedúca osobnosť československého exilu. Dňa 5. apríla 1945 vyhlasuje ním menovaná nová vláda tzv. Košický vládny program, ktorým definuje aj postavenie Slovenska v Československej republike. 
+V tom istom čase prichádza do Košíc prezident Edvard Beneš, vedúca osobnosť československého exilu. Dňa 5. apríla 1945 vyhlasuje ním menovaná nová vláda tzv. Košický vládny program, ktorým definuje aj postavenie Slovenska v Československej republike.
 
 <div class="highlight">
 <p>
@@ -404,29 +404,29 @@ Posledným krokom ľudáckej reprezentácie zanikajúcej Slovenskej republiky je
 
 ---
 
-## Osudy predstaviteľov slovenského štátu 
+## Osudy predstaviteľov slovenského štátu
 
-Po skončení druhej svetovej vojny sa v Európe začína obdobie vyrovnávania s kolaboráciou s nacistickým Nemeckom, ako aj súdneho stíhania jednotlivých vojnových zločincov. Na lavicu obžalovaných sa dostávajú páchatelia tých najohavnejších zločinov, ktorých stíhanie je v kompetencii práve na tento účel vytvoreného retribučného súdnictva. 
+Po skončení druhej svetovej vojny sa v Európe začína obdobie vyrovnávania s kolaboráciou s nacistickým Nemeckom, ako aj súdneho stíhania jednotlivých vojnových zločincov. Na lavicu obžalovaných sa dostávajú páchatelia tých najohavnejších zločinov, ktorých stíhanie je v kompetencii práve na tento účel vytvoreného retribučného súdnictva.
 
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
-            'title':'Ladislav Guderna - Satirická kresba 2.', 
+            'title':'Ladislav Guderna - Satirická kresba 2.',
             'src': 'http://www.webumenia.sk/images/diela/GMB/18/SVK_GMB.C_8963/SVK_GMB.C_8963.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:GMB.C_8963'
         },
-		{ 
-            'title':'Ladislav Guderna - Bez slov I.', 
+		{
+            'title':'Ladislav Guderna - Bez slov I.',
 			'src': 'http://www.webumenia.sk/images/diela/GMB/17/SVK_GMB.C_8962/SVK_GMB.C_8962.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:GMB.C_8962'
         },
         {
-             'title':'Ladislav Guderna - Satirická kresba 2.', 
+             'title':'Ladislav Guderna - Satirická kresba 2.',
             'src': 'http://www.webumenia.sk/images/diela/GMB/78/SVK_GMB.C_15578/SVK_GMB.C_15578.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:GMB.C_15578'
         },
         {
-            'title':'Ladislav Guderna - Satirická kresba 8.', 
+            'title':'Ladislav Guderna - Satirická kresba 8.',
             'src': 'http://www.webumenia.sk/images/diela/GMB/51/SVK_GMB.C_15584/SVK_GMB.C_15584.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:GMB.C_15584'
             }
@@ -434,21 +434,21 @@ Po skončení druhej svetovej vojny sa v Európe začína obdobie vyrovnávania 
 }%}
 
 
-Výnimkou nie je ani Československo, kde sa potrestaním okupantov, zradcov a kolaborantov zaoberajú špeciálne zriadené ľudové súdy. Väčšina procesov s hlavnými politickými predstaviteľmi slovenského štátu je vedená pred Národným súdom – najvyššou inštanciou ľudového súdnictva na Slovensku.  
+Výnimkou nie je ani Československo, kde sa potrestaním okupantov, zradcov a kolaborantov zaoberajú špeciálne zriadené ľudové súdy. Väčšina procesov s hlavnými politickými predstaviteľmi slovenského štátu je vedená pred Národným súdom – najvyššou inštanciou ľudového súdnictva na Slovensku.
 
 [![Neznámy autor - Umučení volajú po odplate..., 1946, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](volaju-po-odplate.jpg "Neznámy autor - Umučení volajú po odplate...")](http://www.webumenia.sk/dielo/SVK:TMP.317?collection=88)
 
 [![Neznámy autor - Humoristicko-satirický časopis Sršeň - My nič, my muzikanti, 1945, Slovenské múzeum dizajnu - SMD, Bratislava](srsen.jpg "Neznámy autor - Humoristicko-satirický časopis Sršeň - My nič, my muzikanti")](http://www.webumenia.sk/dielo/SVK:TMP.318)
 
-**Vojtech Tuka** - vedúca osobnosť radikálneho krídla HSĽS, bývalý predseda slovenskej vlády a minister zahraničných vecí, ktorý však neskôr vypadol z užšieho predsedníctva HSĽS a zo zdravotných dôvodov rezignoval v roku 1944 zo všetkých vládnych postov. V roku 1946 bol odsúdený na trest smrti a popravený. 
+**Vojtech Tuka** - vedúca osobnosť radikálneho krídla HSĽS, bývalý predseda slovenskej vlády a minister zahraničných vecí, ktorý však neskôr vypadol z užšieho predsedníctva HSĽS a zo zdravotných dôvodov rezignoval v roku 1944 zo všetkých vládnych postov. V roku 1946 bol odsúdený na trest smrti a popravený.
 
-**Alexander Mach** - minister vnútra a dlhoročný Hlavný veliteľ Hlinkovej gardy. Popredná osobnosť radikálneho krídla HSĽS a jeden z hlavných organizátorov protižidovskej politiky na Slovensku. Súdený je spoločne s prezidentom Jozefom Tisom a neprítomným Ferdinandom Ďurčanským. Národný súd ho napokon odsúdi na 30 rokov väzenia, trest mu však neskôr zmierňujú na 25 rokov. Napokon je na základe amnestie na slobodu prepustený v roku 1968. 
+**Alexander Mach** - minister vnútra a dlhoročný Hlavný veliteľ Hlinkovej gardy. Popredná osobnosť radikálneho krídla HSĽS a jeden z hlavných organizátorov protižidovskej politiky na Slovensku. Súdený je spoločne s prezidentom Jozefom Tisom a neprítomným Ferdinandom Ďurčanským. Národný súd ho napokon odsúdi na 30 rokov väzenia, trest mu však neskôr zmierňujú na 25 rokov. Napokon je na základe amnestie na slobodu prepustený v roku 1968.
 
-**Karol Sidor** - pôvodne radikálny ľudák a prvý Hlavný veliteľ Hlinkovej gardy, bývalý štátny minister a krátko aj predseda autonómnej vlády. V marci 1939 pre neochotu vyhlásiť Slovenský štát upadol do nemilosti Nemcov a bol presunutý na post vyslanca vo Vatikáne. V neprítomnosti odsúdený na 20 rokov väzenia. Na trest nenastúpi, zostáva až do smrti v emigrácii. 
+**Karol Sidor** - pôvodne radikálny ľudák a prvý Hlavný veliteľ Hlinkovej gardy, bývalý štátny minister a krátko aj predseda autonómnej vlády. V marci 1939 pre neochotu vyhlásiť Slovenský štát upadol do nemilosti Nemcov a bol presunutý na post vyslanca vo Vatikáne. V neprítomnosti odsúdený na 20 rokov väzenia. Na trest nenastúpi, zostáva až do smrti v emigrácii.
 
-**Ferdinand Ďurčanský** - pôvodne predstaviteľ radikálneho ľudáckeho krídla, ktorý sa v roku 1938 zasadzoval o likvidáciu demokracie, rozbitie Československa a vyhlásenie slovenskej samostatnosti. Minister autonómnej slovenskej vlády, jeden z iniciátorov návrhov protižidovských noriem a po vzniku Slovenského štátu jeho prvý minister zahraničných vecí a do leta roku 1940 aj minister vnútra. Neuvedomil si včas reálne hranice svojich právomocí, a tak upadol do nemilosti Nemcov a v lete 1940 bol odstránený z vrcholovej politiky. V neprítomnosti bol odsúdený na trest smrti. Trestu sa vyhne vďaka emigrácii do Argentíny, neskôr sa presťahuje do Mníchova. 
+**Ferdinand Ďurčanský** - pôvodne predstaviteľ radikálneho ľudáckeho krídla, ktorý sa v roku 1938 zasadzoval o likvidáciu demokracie, rozbitie Československa a vyhlásenie slovenskej samostatnosti. Minister autonómnej slovenskej vlády, jeden z iniciátorov návrhov protižidovských noriem a po vzniku Slovenského štátu jeho prvý minister zahraničných vecí a do leta roku 1940 aj minister vnútra. Neuvedomil si včas reálne hranice svojich právomocí, a tak upadol do nemilosti Nemcov a v lete 1940 bol odstránený z vrcholovej politiky. V neprítomnosti bol odsúdený na trest smrti. Trestu sa vyhne vďaka emigrácii do Argentíny, neskôr sa presťahuje do Mníchova.
 
-**Jozef Tiso** - od jesene 1938 do jari 1939 predseda autonómnej vlády, prvý predseda vlády po vzniku Slovenského štátu, od jesene 1939 prezident Slovenskej republiky a vrchný veliteľ jej ozbrojených síl, predseda Hlinkovej slovenskej ľudovej strany, neskôr s titulom „Vodca“, teda i Najvyšší veliteľ Hlinkovej gardy. Rovnako ako Ferdinand Ďurčanský je v apríli 1947 odsúdený na trest smrti. O pár dní neskôr je popravený obesením. 
+**Jozef Tiso** - od jesene 1938 do jari 1939 predseda autonómnej vlády, prvý predseda vlády po vzniku Slovenského štátu, od jesene 1939 prezident Slovenskej republiky a vrchný veliteľ jej ozbrojených síl, predseda Hlinkovej slovenskej ľudovej strany, neskôr s titulom „Vodca“, teda i Najvyšší veliteľ Hlinkovej gardy. Rovnako ako Ferdinand Ďurčanský je v apríli 1947 odsúdený na trest smrti. O pár dní neskôr je popravený obesením.
 
 <div class="highlight">
 <p>
@@ -463,7 +463,7 @@ V rámci retribučného súdnictva je do konca roku 1948 na Slovensku súdených
 
 [![Karol Kállay - Nový život po vojne, 1945, Súkromný majetok](novy_zivot_515_male.jpg "Karol Kállay - Nový život po vojne")](http://www.webumenia.sk/dielo/SVK:TMP.326)
 
-Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vnímané ako plnohodnotná súčasť víťaznej protihitlerovskej koalície. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. 
+Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vnímané ako plnohodnotná súčasť víťaznej protihitlerovskej koalície. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané.
 
 Nedovoľme, aby sa história násilia a fašistickej totality opakovala.
 

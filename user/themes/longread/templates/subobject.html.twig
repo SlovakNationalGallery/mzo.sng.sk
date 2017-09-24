@@ -8,7 +8,7 @@
 {% block content %}
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post subobject">
-        <div class="breadcrumbs f-uni-grotesk-regular">
+        <div class="breadcrumbs">
           <a href="{{page.parent.parent.url}}">sen × skutočnosť</a>
           <span class="breadcrumb-symbol">></span>
           <a href="{{page.parent.url}}">
@@ -17,8 +17,8 @@
           <span class="breadcrumb-symbol">></span>
           <span>{{page.title}}</span>
         </div>
-        <div class="chapter-title subobject-title f-uni-grotesk-bold">
-          <h1 class="f-uni-grotesk-bold">
+        <div class="chapter-title subobject-title">
+          <h1>
             {% if page.header.titleStyled %}
               {{ page.header.titleStyled }}
             {% else %}
@@ -46,16 +46,16 @@
       {% include 'partials/back-button.html.twig' with {
         'buttonText': page.header.returnButtonText,
         'defaultLocation': page.parent().url,
-        'buttonStylingClasses': 'uk-button-large button-xlarge button-white button-shadow c-black f-uni-grotesk-regular'
+        'buttonStylingClasses': 'uk-button-large button-xlarge button-white button-shadow c-black'
         }
       %}
     </div>
   </div>
   {% include 'partials/emailcapture.html.twig' with {
-    'emailCTA': page.header.emailCTA, 
-    'emailPlaceholder': page.header.emailPlaceholder, 
-    'emailButton': page.header.emailButton, 
-    'emailNotice': page.header.emailNotice} 
+    'emailCTA': page.header.emailCTA,
+    'emailPlaceholder': page.header.emailPlaceholder,
+    'emailButton': page.header.emailButton,
+    'emailNotice': page.header.emailNotice}
   %}
   {% include 'partials/footer.html.twig' with {
     'sharingButtons': true,

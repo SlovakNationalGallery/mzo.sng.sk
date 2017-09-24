@@ -11,7 +11,7 @@ routes:
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: '<span class=''f-uni-grotesk-bold''>Halfway<br>to</span> <span class=''f-moyenage''>the Slovak State</span>'
+titleStyled: 'Halfway<br>to the Slovak State'
 description: 'Chapter 1: Halfway to the Slovak State'
 image: tiso.jpg
 ---
@@ -38,9 +38,9 @@ Hitler is trying to break up Czechoslovakia, which as a democratic country offer
 <figcaption>Speech by Adolf Hitler to the Nazi Party Congress in Nuremberg on 12 September 1938, in which he sharply attacked Czechoslovakia and President Eduard Benes.</figcaption>
 </figure>
 
-Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes. 
+Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes.
 
-<figure class="video">    
+<figure class="video">
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <figcaption><a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: War Is Coming. 1938. GMB, Bratislava</a></figcaption>
 </figure>
@@ -51,11 +51,11 @@ Germany, Italy, Great Britain and France convened in Munich on 29 September 1938
 
 [![Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property.](SVK_TMP.115.jpg "Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
 
-At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.   
+At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.
 
 <div class="highlight">
 <p>
-The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."  
+The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."
 </p>
 </div>
 During October 1938, the HSPP strived to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views on autonomy and disagreed on antisemitic legislation. What was the answer of "one nation, one party and one leader" - soon to be Jozef Tiso - to these burning questions?
@@ -209,7 +209,7 @@ Tuka declared during a visit with Hitler: "My leader, I put the fate of my natio
 </p>
 </div>
 
-At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.  
+At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.
 
 After Sidor rejected the pressure from the Nazis to declare independence, Hitler invited Jozef Tiso to Berlin, where he threatened him that if Slovakia did not declare independence (in the next few hours), he would "abandon Slovakia to its fate". This fate might have been a division of the territory between its three neighbours - Germany, Poland and Hungary, whose troops were allegedly already moving to the borders. Despite the fact that Jozef Tiso was not an official representative of Slovakia at the moment, with Hitler's support he able to ask the president Emil Hácha to call the Diet on 14 March 1939. At the meeting, the Slovak Diet declared the creation of the Slovak State and Hitler's troops entered the Czech territories the next day, declaring the Protectorate of Bohemia and Moravia, within the German Reich. The newly created Slovak State was facing the five years of its existence, marked by the Second World War.
 

@@ -19,7 +19,7 @@
         </div>
         <section class="post-content">
           <div class="chapter-title-wrapper">
-            <div class="chapter-title f-uni-grotesk-bold">
+            <div class="chapter-title">
               <div class="chapter-number">
                 {% if langswitcher.current == 'sk' %}
                   {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER") }}
@@ -80,10 +80,10 @@
 
 {% block footer %}
   {% include 'partials/emailcapture.html.twig' with {
-    'emailCTA': page.header.emailCTA, 
-    'emailPlaceholder': page.header.emailPlaceholder, 
-    'emailButton': page.header.emailButton, 
-    'emailNotice': page.header.emailNotice} 
+    'emailCTA': page.header.emailCTA,
+    'emailPlaceholder': page.header.emailPlaceholder,
+    'emailButton': page.header.emailButton,
+    'emailNotice': page.header.emailNotice}
   %}
   {% include 'partials/footer.html.twig' with {
     'sharingButtons': true,

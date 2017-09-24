@@ -12,7 +12,7 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: '<span class=''f-uni-grotesk-bold''>Waking Up </span> <span class=''f-moyenage''>From a Dream</span>'
+titleStyled: 'Waking Up From a Dream'
 description: 'Chapter 4: Waking Up From A Dream'
 image: Telgart_vypalenie-cover.jpg
 ---
@@ -176,7 +176,7 @@ The German units attacked the liberated territory from several directions. There
 Fighting alongside the Slovaks and Czechs in the Slovak National Uprising were members of 30 other nations, as well as paratroopers from the Allied forces and fugitives from prisons and concentration camps.
 </p>
 </div>
- 
+
 On 6 October 1944, General Rudolf Viest flew in and became the official commander of the Uprising. Although the rebel defences were strengthened in September, they were not able to stop the German forces. The 2nd Czechoslovak Airborne Brigade and 1st Czechoslovak Fighter Regiment were sent as help from the USSR. USA also sent material aid.
 
 
@@ -269,7 +269,7 @@ After the military defeat of the Slovak National Uprising, the civil population 
 }%}
 
 
-The Jews also desperately needed the help of their neighbours and were left with the only option for survival: hiding in various makeshift shelters. Everyone who helped them in any way risked their lives and the lives of their loved ones by doing so. Jews who were still alive in Slovakia in 1944 and got captured by the Nazis were either deported or executed immediately.  
+The Jews also desperately needed the help of their neighbours and were left with the only option for survival: hiding in various makeshift shelters. Everyone who helped them in any way risked their lives and the lives of their loved ones by doing so. Jews who were still alive in Slovakia in 1944 and got captured by the Nazis were either deported or executed immediately.
 
 <div class="highlight">
 <p>
