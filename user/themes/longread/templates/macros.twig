@@ -1,0 +1,7 @@
+{% macro translateOrdinalLanguageString(number, languageString) %}
+  {% if grav.language.getActive == 'en' %}
+    {{ languageString|t }} {{number}}
+  {% else %}
+    {{number}}. {{ languageString|t }}
+  {% endif %}
+{% endmacro %}

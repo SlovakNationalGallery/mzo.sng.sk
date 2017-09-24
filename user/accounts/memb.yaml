@@ -1,0 +1,11 @@
+email: lukas.stepanovsky@sng.sk
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Lukas Stepanovsky'
+title: 'Web of Art Editor'
+state: enabled
+hashed_password: $2y$10$pUSOQLHQ84cCjDWmnFy51ORt6aS6ZIColjaCDaMUu0pb.KeBHDuRm

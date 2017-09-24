@@ -1,0 +1,1253 @@
+@import "vendor/bourbon/bourbon";
+@import "colors";
+@import "mixins";
+
+$rs: 16px;
+$font-serif:    Linux Libertine;
+$font-sans:     "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-moyenage: "Moyenage14", "Linux Libertine";
+
+$navbar-height: 68px;
+$navbar-height-905: 80px;
+$navbar-height-750: 60px;
+
+html,body
+{
+  overflow-x: hidden; 
+  background-color: $bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.landing {
+  background-color: $dark-green;
+}
+
+body.error {
+  height: 100vh;
+  .wrapper {
+    margin-top: 15vh;
+    h1 {
+      font-size: 7em;
+    }
+  }
+}
+
+body.uk-offcanvas-page {
+  overflow-y: hidden;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  @include transition(all 0.35s);
+}
+a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-to-disable-html-links/10276157#10276157)
+    pointer-events: none;
+}
+
+@include selection {
+  background-color: $red;
+}
+
+button, .uk-button {
+  border-radius: 3px;
+  text-shadow: none;
+}
+
+.f-moyenage { 
+  font-family: $font-moyenage;
+  font-weight: normal;
+  font-style: normal;
+}
+.f-uni-grotesk-regular {
+  font-family: "Uni Grotesk Regular";
+}
+.f-uni-grotesk-bold {
+  font-family: "Uni Grotesk Bold";
+}
+.f-uppercase {
+  text-transform : uppercase;
+}
+.tracked {
+  letter-spacing: 0.1em;
+}
+.centered {
+  text-align: center;
+}
+
+.c-grey {
+  color: $grey;
+  * {
+    color: $grey;
+  }
+}
+.c-white {
+  color: white !important;
+  * {
+    color: white;
+  }
+}
+.c-black {
+  color: black !important;
+  * {
+    color: black;
+  }
+}
+.bg-red {
+  background-color: $red !important;
+}
+.bg-grey {
+  background-color: $dark-grey !important;
+}
+.bg-dark-green {
+  background-color: $dark-green !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+.margin-bottom-xs {
+  margin-bottom: 10px !important;
+}
+.margin-bottom-s {
+  margin-bottom: 20px !important;
+}
+.margin-bottom-m {
+  margin-bottom: 40px !important;
+}
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+.margin-top-xs {
+  margin-top: 10px !important;
+}
+.margin-top-s {
+  margin-top: 20px !important;
+}
+.padding-bottom-s {
+  padding-bottom: 20px !important;
+}
+.padding-top-0 {
+  padding-top: 0px !important;
+}
+.padding-top-xs {
+  padding-top: 10px !important;
+}
+.padding-top-s {
+  padding-top: 20px !important;
+}
+.padding-left-s {
+  padding-left: 20px !important;
+}
+.padding-right-s {
+  padding-right: 20px !important;
+}
+.padding-s {
+  padding: 20px !important;
+}
+
+.fs-50 {
+  font-size: 50%;
+}
+.fs-60 {
+  font-size: 60%;
+}
+.fs-70 {
+  font-size: 70%;
+}
+
+hr {
+  display:block !important;
+  border:0px !important;
+  height:20px !important;
+  width:20px !important;
+  margin: auto !important;
+  background-image:url(../images/hr.svg) !important;
+  background-repeat: no-repeat;
+}
+hr.white{
+  background-image:url(../images/hr-white.svg) !important;
+}
+
+.blank-list {
+  ul {
+    list-style-type: none;
+  }
+}
+
+/* add offset to on page link to account for fixed pos nav bar */
+.offset-link:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -1.2 * $navbar-height; 
+  height: 1.2 * $navbar-height;
+  @include respond-to(905) {
+    margin-top: -1.2 * $navbar-height-905; 
+    height: 1.2 * $navbar-height-905;
+  }
+  @include respond-to(750) {
+    margin-top: -1.2 * $navbar-height-750; 
+    height: 1.2 * $navbar-height-750;
+  }
+  visibility: hidden; 
+}
+
+.first-chapter-cta{
+  margin: 50px auto;
+  h2{
+    font-size: 45px !important;
+    line-height: 48px !important;
+    @include respond-to(460) {
+      font-size: 40px !important;
+      line-height: 43px !important;
+    }
+  }
+}
+
+.header {
+  height: 28px;
+  * {
+    z-index: 10 !important;
+  }
+}
+
+/* prevent default UIkit styling */
+.uk-navbar-brand:before {
+  content: none;
+}
+
+nav.uk-navbar {
+  position: fixed;
+  float: none;
+  width: 100%;
+  height: $navbar-height;
+  // margin-top: -20px;
+  top: 0;
+  z-index: 9;
+  @include respond-to(905) {
+    height: $navbar-height-905;
+  }
+  @include respond-to(750) {
+    height: $navbar-height-750;
+  }
+  a {
+    z-index: 9;
+  }
+  .uk-navbar-brand {
+    line-height: 62px;
+    font-size: 30px;
+    padding: 0;
+    margin-left: 15px;
+    @include respond-to(905) {
+      line-height: 75px;
+    }
+    @include respond-to(750) {
+      margin-left: 0;
+      line-height: 55px;
+      position: inherit;
+      width: 100%;
+      text-align: center;
+    }
+    img.navbar-icon {
+      height: 80%;
+      padding: 5px 0;
+      @include respond-to(1175) {
+        height: 100%;
+      }
+      @include respond-to(905) {
+        height: 120%;
+      }
+      @include respond-to(750) {
+        height: 80%;
+      }
+    }
+    span {
+      @include respond-to(1175) {
+        display: none;
+      }
+      @include respond-to(750) {
+        display: inline;
+      }
+    }
+  }
+  ul.uk-navbar-nav {
+    max-width: none;
+    width: 600px;
+    @include respond-to(905) {
+      width: 460px;
+    }
+    @include respond-to(750) {
+      display: none;
+    }
+    .chapter-nav{
+      width: 130px;
+      color: $text-color;
+      text-align: center;
+      font-family: $font-regular;
+      margin: auto 10px;
+      border-top: solid 2px black;
+      -webkit-transition: border-top-color 0.35s;
+      transition: border-top-color 0.35s;
+      a {
+        text-decoration: none;
+      }
+      &:not(.active):not(.disabled):hover {
+        border-top-color: $red;
+        a {
+          color: $red;
+          -webkit-transition: color 0.35s;
+          transition: color 0.35s;
+        }
+      }
+      @include respond-to(905) {
+        width: 95px;
+        line-height: 18px;
+        margin: auto 8px;
+      }
+    }
+    .chapter-nav.disabled {
+      color: $dark-grey;
+      border-top-color: $dark-grey;
+      a {
+        pointer-events: none;
+        cursor: default;
+      }
+    }
+    .chapter-nav.active {
+      font-family: $font-bold;
+      border-top-color: $red;
+      a {
+        pointer-events: none;
+        cursor: default;
+      }
+    }
+  }
+  .nav-about {
+    &:hover {
+      color: $dark-grey;
+    }
+    @include respond-to(750) {
+      display: none;
+    }
+  }
+  .timeline-toggle {
+    position: relative;
+    float: left;
+    background-image: url(../images/timeline-clock-black.svg);
+    &:hover {
+      background-image: url(../images/timeline-clock-darkgrey.svg);
+    }
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 65px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 35%;
+    @include respond-to(905) {
+      width: $navbar-height-905;
+    }
+    @include respond-to(750) {
+      width: $navbar-height-750;
+    }
+  }
+  .timeline-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/timeline-clock-white.svg);
+  }
+  .nav-toggle {
+    position: relative;
+    display: none;
+    right: 0px;
+    margin-left: 1rem;
+
+    background-image: url(../images/hamburger-black.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: $navbar-height;
+    background-size: 40%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+    &:hover {
+      background-image: url(../images/hamburger-dark-grey.svg);
+    }
+    @include respond-to(750) {
+      display: block;
+    }
+  }
+  .nav-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/hamburger-white.svg)
+  }
+}
+
+.uk-offcanvas {
+  background: none;
+}
+
+#side-timeline {
+  .uk-offcanvas-bar {
+    top: $navbar-height;
+    @include respond-to(905) {
+      top: $navbar-height-905;
+    }
+    @include respond-to(750) {
+      top: $navbar-height-750;
+    }
+    li {
+      h2 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+div#side-nav-bar {
+  color: white;
+  a {
+    text-decoration: none;
+  }
+  .uk-offcanvas-bar {
+    top: $navbar-height;
+    @include respond-to(905) {
+      top: $navbar-height-905;
+    }
+    @include respond-to(750) {
+      top: $navbar-height-750;
+    }
+    ul.uk-nav {
+      .chapter-nav {
+        padding: 20px;
+        border-bottom: solid 1px $dark-grey;
+        div.nav-state-bar {
+          width: 50px;
+          height: 5px;
+          margin-top: -20px;
+          margin-bottom: 20px;
+          background-color: $dark-grey;
+        }
+        span.chapter-title {
+          font-family: $font-bold;
+        }
+        a:hover {
+          color: $red !important;
+        }
+      }
+      li:first-of-type {
+        div.nav-state-bar {
+          height: 6px;
+        }
+      }
+      .chapter-nav.disabled {
+        color: $dark-grey;
+        a {
+          pointer-events: none;
+          cursor: default;
+        }
+      }
+      .chapter-nav.active {
+        div.nav-state-bar {
+          background-color: $red;
+        }
+        a {
+          pointer-events: none;
+          cursor: default;
+        }
+      }
+    }
+    .button-about {
+      margin-top: 20px;
+      font-family: $font-bold;
+    }
+  }
+}
+
+.logo-sng {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: $rs * 3;
+  height: $rs * 3;
+  overflow: hidden;
+  z-index: 99 !important;
+  .logo {
+    background-image: url(../images/logo-sng.svg);
+    display: block;
+    position: absolute;
+    top: $rs / 2;
+    left: $rs / 2;
+    width: $rs * 2;
+    height: $rs * 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.logo-sng-black {
+  .logo {
+    background-image: url(../images/logo-sng-black.svg);
+  }
+}
+.logo-sxs-black {
+  .logo {
+    background-image: url(../images/headline-logo-black.svg);
+  }
+}
+.logo-sxs-white {
+  .logo {
+    background-image: url(../images/headline-logo-white.svg);
+  }
+}
+
+.nav-about {
+  position: relative;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1rem;
+  @include respond-to(920) {
+    margin-left: 1rem;
+  }
+  margin-right: 1rem;
+  z-index: 99 !important;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+  &.c-white:hover {
+    color: $light-grey;
+  }
+}
+
+.landing {
+  background-color: $dark-green;
+  * {
+    z-index: 9;
+  }
+  .landing-image {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    .landing-image-image {
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-indent: -9999px;
+      padding-top: 33%;
+      z-index: 1;
+    }
+    .landing-image-fade {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 250px;
+      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
+    }
+  }
+  .landing-content {
+      position: relative;
+      margin: 60px auto 35px;
+      font-family: $font-sans;
+      @include box-sizing(border-box);
+
+      h1 {
+        font-size: 105px;
+        @include respond-to(825) {
+          font-size: 60px;
+        }
+        @include respond-to(460) {
+          font-size: 45px;
+        }
+        img.headline-logo {
+          height: 65px;
+          vertical-align: baseline;
+          @include respond-to(825) {
+            height: 35px;
+          }
+          @include respond-to(460) {
+            height: 25px;
+          }
+        }
+      }
+      h2 {
+        font-size: 23px;
+        letter-spacing: 0.45px;
+        @include respond-to(805) {
+          font-size: 20px;
+          margin-top: 0px;
+        }
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 28px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+        @include respond-to(805) {
+          font-size: 20px;
+          line-height: 25px;
+          margin-top: 0px;
+        }
+      }
+      h4 {
+        font-size: 23px;
+        line-height: 26px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+        @include respond-to(805) {
+          font-size: 18px;
+          line-height: 23px;
+        }
+      }
+      h5 {
+        font-size: 19px;
+        line-height: 23px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+        @include respond-to(805) {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+      form#email-capture {
+        width: 550px;
+        margin: 25px auto;
+        @include respond-to(805) {
+          width: 500px;
+        }
+        @include respond-to(630) {
+          width: 100%;
+        }
+      }
+    }
+}
+
+form#email-capture {
+  padding-top: 15px;
+  fieldset {
+    padding: 0px 15px;
+    legend {
+      font-size: 20px;
+    }
+    legend:after {
+      border-bottom: none;
+    }
+    input#MERGE0 {
+      width: 50%;
+      border: none;
+      margin-right: 1%;
+      max-width: 300px;
+      @include placeholder {
+        color: black;
+      }
+      @include respond-to(630) {
+        width: 100%;
+        max-width: none;
+        margin-right: 0px;
+        height: 50px;
+      }
+    }
+    button {
+      border-radius: 3px;
+      font-weight: 900;
+      font-size: 20px;
+      box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.7);
+      @include respond-to(630) {
+        width: 100%;
+        margin-top: 15px !important;
+        height: 50px;
+      }
+    }
+    p {
+      font-size: 18px;
+      padding-top: 15px;
+    }
+  }
+}
+
+.button-xlarge{
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.button-large{
+  font-size: 16px;
+  padding: 8px 16px;
+}
+.button-red {
+  background-color: $red;
+  color: white;
+  &:hover {
+    background-color: $dark-red;
+    color: white;
+  }
+}
+.button-white {
+  background-color: white;
+  color: #444 !important;
+  &:hover {
+    background-color: #EEE;
+    color: black !important;
+  }
+}
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.button-ghost {
+  background: none;
+  border: white solid 1px;
+  border-radius: 3px;
+  color: white !important;
+  text-decoration: none !important;
+  text-shadow: none;
+}
+.button-ghost:hover {
+  background: white;  
+  color: #444 !important;
+}
+.button-ghost.button-ghost-black {
+  border-color: black;
+  color: black !important;
+}
+.button-ghost.button-ghost-black:hover, 
+  .button-ghost.button-ghost-black:focus {
+    background-color: black !important;
+    color: white !important;
+    * {
+      color: white;
+    }
+}
+
+// hide print button on mobile devices
+@media all and (max-width: 960px) {
+  a.button-print {
+    display: none;
+  }
+}
+
+.chapter-preview {
+  margin-left: 0px;
+  margin-right: 25px;
+  margin-bottom: 80px;
+
+  .chapter-thumb {
+    color: white;
+    max-width: 500px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    .bt-white-red{
+      border-top: white solid 2px;
+    }
+    &:hover {
+      .bt-white-red {
+        border-top-color:$red;
+      }
+    }
+    h5 {
+      display: inline-block; // needed for pointer-events: none
+      width: 100%;
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+    p {
+      margin-top: 0px;
+    }
+    figure {
+      max-width: 500px;
+      figcaption {
+        h2 {
+          font-size: 25px;
+          line-height: 25px;
+          @include respond-to(959) {
+            font-size: 36px;
+            line-height: 36px;
+          }
+          @include respond-to(400) {
+            font-size: 29px;
+            line-height: 29px;
+          }
+        }
+      }
+    }
+  }
+  .chapter-thumb.disabled {
+    * {
+      color: $dark-grey; 
+      figcaption {
+        h2, h2 * {
+          color: white;
+        }
+      }
+    }
+    h5 {
+      border-color: $dark-grey !important;
+    }
+  }
+}
+.content {
+  max-width: 700px;
+  @include respond-to(600) {
+    padding: 0 0;
+  }
+  article {
+    border: none;
+    padding-bottom: 15px;
+  }
+}
+
+.post.chapter, .post.subobject, .post.page {
+  .article-image {
+    bottom: 10vh;
+    .post-meta {
+      bottom: 200px;
+    }
+    .post-image-image.chapter-1 {
+      background-position-x: 67%;
+    }
+    .post-image-image.chapter-2 {
+      background-position-y: 15%;
+      background-position-x: 48%;
+    }
+    .post-image-image.chapter-3 {
+      background-position-y: -10%;
+      background-position-x: 55%;
+    }
+    .article-image-gradient {
+      height: 100%;
+      background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.8)
+        );
+    }
+  }
+
+  .post-content {
+    position: relative;
+    width: inherit;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: "Uni Grotesk Regular";
+    background-color: white;
+    color: $text-color;
+    z-index: 3;
+
+    @include respond-to(600) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .chapter-title-wrapper {
+      position: absolute;
+      width: 100%;
+      height: 60vh;
+      top: -60vh;
+      .chapter-title {
+        position: absolute;
+        bottom: 5vh;
+        margin-left: -20px;
+        margin-right: 20px;
+        color: white;
+        text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+        @include respond-to(600) {
+          margin-left: 0;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        .chapter-number {
+          font-size: 16px;
+        }
+        h1 {
+          color: white;
+          font-size: 80px;
+          margin-bottom: -30px;
+          @include respond-to(810) {
+            font-size: 65px;
+            margin-bottom: -25px;
+          }
+          @include respond-to(620) {
+            font-size: 45px;
+            margin-bottom: -20px;
+          }
+          @include respond-to(460) {
+            font-size: 40px;
+            margin-bottom: -15px;
+          }
+        }
+        .post-reading {
+          position: relative;
+          right: 0px;
+          font-size: 16px;
+          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+        }
+        .sharing {
+          margin-left: -29px;
+        }
+      }
+    }
+
+    .drop-cap { 
+      float: left;
+      color: black;
+      font-size: 125px;
+      line-height: 70px;
+      padding-top: 43px;
+      padding-right: 15px;
+      padding-left: 3px;
+      font-family: Moyenage14;
+    }
+
+    figure.audio, figure.video, p > a > figure.image {
+      background-color: $light-grey;
+      padding: 10px;
+    }
+    p > a > figure.image .uk-overlay-panel {
+      margin: 10px;
+      background-color: rgba( $dark-green, .6 );
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+    }
+    p > a > figure.image .uk-overlay-panel.icon-zoom{
+      background-image: url(../images/icon-zoom-white.svg);
+    }
+    p > a > figure.image .uk-overlay-panel.icon-external{
+      background-image: url(../images/icon-link-external-white.svg);
+      background-size: 65%;
+    }
+    figcaption {
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 14px;
+    }
+    p {
+      color: $text-color;
+      font-size: 18px;
+      @include hyphens(none);
+      @include respond-to(600) {
+        line-height: 25px;
+      }
+    }
+
+    h1 {
+      font-size: 45px
+    }
+    h1, h2 {
+      letter-spacing: normal;
+    }
+    h2 {
+      margin-bottom: 15px;
+      padding-top: 0;
+    }
+    h3, h4, h5, h6 {
+      margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
+      font-family: $font-bold;
+    }
+    .title-date {
+      font-family: "Uni Grotesk Regular";
+      font-size: 18px;
+      font-weight: 100;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+      margin-left: -20px;
+      margin-right: -20px;
+      @include respond-to(600) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    .fluid-width-video-wrapper {
+      margin-left: 0 !important;
+    }
+    div.highlight p {
+      font-family: $font-bold;
+      font-size: 22px;
+      line-height: 32px;
+    }
+    li {
+      font-size: 18px;
+    }
+    hr {
+      margin-top: 10px !important;
+      margin-bottom: 50px !important;
+    }
+    .slick-slider {
+      margin-bottom: 70px;
+    }
+    div.audioplayer {
+      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+    }
+  }
+}
+
+.post.subobject {
+  color: $text-color;
+  .breadcrumbs {
+    padding: 0 40px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    @include respond-to(600) {
+      margin-top: 0;
+      padding: 0 20px;
+    }
+    a {
+      text-decoration: underline;
+    }
+    .breadcrumb-symbol {
+      padding: 5px;
+    }
+  }
+  .chapter-title {
+    margin: 50px 40px;
+    margin-bottom: 0;
+    @include respond-to(600) {
+      margin: 50px 20px;
+    }
+    h1 {
+      color: $text-color;
+      font-size: 60px;
+      line-height: 60px;
+      @include respond-to(620) {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      @include respond-to(460) {
+        font-size: 35px;
+        line-height: 35px;
+      }
+    }
+    .title-date {
+      font-family: "Uni Grotesk Regular";
+      font-size: 18px;
+      font-weight: 100;
+      margin: 0;
+    }
+    .sharing {
+      margin-left: -10px;
+    }
+  }
+  .post-reading {
+    top: -52px;
+  }
+}
+
+$return-height: 250px;
+$button-height: 60px;
+.return{
+  height: $return-height;
+  .return-gradient {
+    height: 100%;
+    background: 
+      linear-gradient(
+        rgba(249, 249, 247, 1),
+        rgba(249, 249, 247, 0.5)
+      );
+  }
+  .button-return {
+    margin-top: ($return-height - $button-height)/2;
+  }
+}
+.return.chapter-1 {
+  background: 
+    url(../../../pages/chapters/1/tiso.jpg);
+  background-size: cover;
+  background-position-y: 52%;
+}
+.return.chapter-2 {
+  background: 
+    url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%;
+}
+.return.chapter-3 {
+  background: 
+    url(../../../pages/chapters/3/Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg);
+  background-size: cover;
+  background-position-y: 10%;
+}
+.return.chapter-4 {
+  background: 
+    url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+}
+
+.post.page {
+  @include respond-to(600) {
+    padding-bottom: 0;
+  }
+  .page-title {
+    padding: 15px;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 95px;
+      @include respond-to(750) {
+        font-size: 70px;
+      }
+      @include respond-to(460) {
+        font-size: 45px;  
+      }
+    }
+    img.headline-logo {
+      height: 60px;
+      @include respond-to(750) {
+        height: 45px;
+      }
+      @include respond-to(460) {
+        height: 30px;  
+      }
+    }
+  }
+  .post-content {
+    padding: 50px;
+    @include respond-to(600) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    h2 {
+      margin-bottom: 35px;
+    }
+    ul li {
+      margin-left: 20px;
+    }
+    .blank-list ul li {
+      @include respond-to(600) {
+        margin-left: 0;
+      }
+    }
+
+  }
+}
+
+.sharing button, .sharing a {
+  font-size: 14px;
+  margin: 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px;
+}
+
+.subobject-overview {
+  margin-bottom: 20px;
+  .subobject-wrapper {
+    a {
+      text-decoration: none;
+    }
+    figure{
+      padding: 0 !important;
+      margin-bottom: 0;
+      background: none !important;
+      figcaption {
+        display: none;
+      }
+      img {
+        padding: 20px;
+      }
+    }
+    img.icon {
+      float: left;
+      width: 15%;
+      margin-top: -2%;
+    }
+    span.subobject-caption {
+      float: right;
+      width: 80%;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      transition: all 0.35s;
+    }
+    &:hover span.subobject-caption {
+      color: $red;
+    }
+    @include respond-to(600) {
+      border: 1px solid black;
+      width: 93%;
+      margin-left: 25px;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      figure{
+        display: inline;
+        img {
+          padding: 0 0;
+          width: 25%;
+        }
+      }
+      .subobject-content {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      img.icon {
+        float: none;
+        width: 6%;
+        min-width: 20px;
+        margin: 1%;
+      }
+      span.subobject-caption {
+        float: none;
+        width: 60%;
+      }
+    }
+  }
+}
+
+#footer {
+  a:not(.uk-button) {
+    color: white;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+  .footer-icon {
+    width: 25px;
+    margin: auto 12px;
+  }
+  a svg #footericonsng,
+  a svg #footericonfb { 
+    fill: white;
+  }
+  a svg:hover #footericonsng,
+  a svg:hover #footericonfb { 
+    fill: $light-grey !important;
+  }
+  a svg.c-black #footericonsng,
+  a svg.c-black #footericonfb { 
+    fill: black;
+  }
+}
+
+figure.image {
+  text-align: center;
+}

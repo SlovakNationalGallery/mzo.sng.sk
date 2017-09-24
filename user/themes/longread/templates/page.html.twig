@@ -1,0 +1,42 @@
+{% embed 'partials/base.html.twig' %}
+
+{% block body %}
+<body itemscope itemtype="http://schema.org/Article">
+{% endblock %}
+
+{% block content %}
+    <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
+      <article class="post page">
+        <div class="chapter-title page-title f-uni-grotesk-bold c-black centered">
+          {% if page.header.superTitle %}
+            <h3 class="f-uppercase f-uni-grotesk-bold">{{page.header.superTitle}}</h3>
+          {% endif %}
+          <h1><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo-black.svg" alt="×" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+          {% if page.header.subTitle %}
+            <h3 class="f-uppercase f-uni-grotesk-bold">{{page.header.subTitle}}</h3>
+          {% endif %}
+        </div>
+        <section class="post-content">
+          {{ content }}
+        </section>
+      </article>
+    </main>
+{% endblock %}
+
+{% block footer %}
+  {% include 'partials/emailcapture.html.twig' with {
+    'emailCTA': page.header.emailCTA, 
+    'emailPlaceholder': page.header.emailPlaceholder, 
+    'emailButton': page.header.emailButton, 
+    'emailNotice': page.header.emailNotice} 
+  %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': true,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'bg-dark-green'}
+  %}
+{% endblock %}
+
+{% endembed %}

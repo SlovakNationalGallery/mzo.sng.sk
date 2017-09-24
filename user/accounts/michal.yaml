@@ -1,0 +1,11 @@
+email: michal.cudrnak@sng.sk
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Michal Cudrnak'
+title: 'vedúci oddelenia digitálnych zbierok a služieb'
+state: enabled
+hashed_password: $2y$10$kNcxmHG96QcjEcJXfsucgu8NQOkAKxDLI5kORMy/ILJM4PljhRfjm

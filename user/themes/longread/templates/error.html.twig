@@ -1,0 +1,20 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block header %}
+  <a href="{{base_url_relative}}/" class="nav-home logo-sng logo-sxs-white" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
+  <a href="{{base_url_relative}}/about" class="nav-about c-white f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
+{% endblock %}
+
+{% block body %}
+<body class="error bg-dark-green">
+{% endblock %}
+
+{% block content %}
+    <div class="page-content">
+        <div class="wrapper c-white centered f-uni-grotesk-regular padding-left-s padding-right-s">
+            <h1 class="f-moyenage">{{ page.header.http_response_code }}</h1>
+            <p>{{"ERROR.MESSAGE"|t}}</p>
+            {% include 'partials/first-chapter-cta.html.twig' %}
+        </div>
+    </div>
+{% endblock %}

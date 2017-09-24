@@ -1,0 +1,104 @@
+{% import "macros.twig" as macros %}
+<nav class="uk-navbar ">
+    <a href="#side-timeline" title="{{"NAVIGATION.TIMELINE"|t}}" class="timeline-toggle offcanvas-toggle" data-uk-offcanvas></a>
+    <div class="uk-navbar-brand">
+        <a href="{{ base_url }}" title="{{"NAVIGATION.HOME"|t}}">
+            <span class="f-uni-grotesk-bold c-black">sen</span>
+            <img class="navbar-icon" src="{{ theme_url }}/images/headline-logo-black.svg" alt="×">
+            <span class="f-moyenage c-black">skutočnosť</span>
+        </a>
+    </div>
+    <ul class="uk-navbar-nav uk-navbar-center">
+        {% for p in page.parent.children %}
+        <li>
+            <div class="chapter-nav {% if p.header.chapterNumber == page.header.chapterNumber %}active{% endif %} {% if p.header.disabled == true %}disabled{% endif %}">
+                <a href="{{p.url}}">
+                    <span class="chapter-number">{{p.header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{p.title}}</span>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="#side-nav-bar" title="{{"NAVIGATION.MENU"|t}}" class="uk-navbar-flip nav-toggle offcanvas-toggle" data-uk-offcanvas></a>
+    {% include 'partials/langswitcher.html.twig' %}
+    <a href="{{base_url_relative}}/about" class="uk-navbar-flip nav-about f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
+</nav>
+<div id="side-timeline" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar f-uni-grotesk-regular bg-dark-green c-white">
+        <ul class="cbp_tm-timeline uk-nav uk-nav-offcanvas" data-uk-nav></ul>
+        {% if not page.isLast() %}
+            {% if not page.adjacentSibling(-1).header.disabled %}
+                <div class="centered">
+                    <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="{{ page.adjacentSibling(-1).url }}">
+                        {{"NAVIGATION.CONTINUE_TO"|t}} {{ macros.translateOrdinalLanguageString(page.adjacentSibling(-1).header.chapterNumber, "VOCABULARY.CHAPTER")}}
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+<div id="side-nav-bar" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip f-uni-grotesk-regular bg-dark-green">
+        <div class="langswitcher-wrapper">
+            {% include 'partials/langswitcher.html.twig' %}
+        </div>
+        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/1').url}}">
+                        <span class="chapter-number">
+                            {{ macros.translateOrdinalLanguageString(1, "VOCABULARY.CHAPTER")}}
+                        </span><br>
+                        <span class="chapter-title">
+                            {{page.find('/chapters/1').title}}
+                        </span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 2 %}active{% endif %} {% if page.find('/chapters/2').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/2').url}}">
+                        <span class="chapter-number">
+                            {{ macros.translateOrdinalLanguageString(2, "VOCABULARY.CHAPTER")}}
+                        </span><br>
+                        <span class="chapter-title">
+                            {{page.find('/chapters/2').title}}
+                        </span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 3 %}active{% endif %} {% if page.find('/chapters/3').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/3').url}}">
+                        <span class="chapter-number">
+                            {{ macros.translateOrdinalLanguageString(3, "VOCABULARY.CHAPTER")}}
+                        </span><br>
+                        <span class="chapter-title">
+                            {{page.find('/chapters/3').title}}
+                        </span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 4 %}active{% endif %} {% if page.find('/chapters/4').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/4').url}}">
+                        <span class="chapter-number">
+                            {{ macros.translateOrdinalLanguageString(4, "VOCABULARY.CHAPTER")}}
+                        </span><br>
+                        <span class="chapter-title">
+                            {{page.find('/chapters/4').title}}
+                        </span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="centered">
+            <a class="button-about uk-button button-ghost" href="{{base_url_relative}}/about">{{"NAVIGATION.ABOUT"|t}}</a>
+        </div>
+    </div>
+</div>

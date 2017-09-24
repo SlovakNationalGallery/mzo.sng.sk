@@ -1,0 +1,11 @@
+email: philovankemenade@gmail.com
+fullname: Phivk
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$rLHGYHk/AgLVTuDtfjnt9ujgmfl8MOdvu91rbJozvvAlA5X1ZRxJ6

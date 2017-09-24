@@ -1,0 +1,80 @@
+sk:
+  VOCABULARY:
+    CHAPTER: kapitola
+    READING_TIME: Čas čítania
+  LANDING:
+    FIRST_CHAPTER_CTA:
+      CHAPTER_NUMBER: 1. kapitola
+      BUTTON_TEXT: Prejsť na kapitolu
+    CHAPTER_THUMB:
+      BUTTON_TEXT: Prejsť na kapitolu
+  CHAPTER:
+    CHAPTER_THUMB:
+      HEADLINE_TEXT: Pokračovať na ďalšiu kapitolu
+      BUTTON_TEXT: Pokračovať na %d. kapitolu
+  SHARING:
+    SHARE_PRINT: Vytlačiť kapitolu
+    SHARE_EMAIL_TEXT: Poslať mailom
+    SHARE_EMAIL_HREF: "mailto:?subject=Neprehliadnite: sen × skutočnosť - udalosti slovenského štátu v 4 kapitolách&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%%0A%%0A%s%%0A%s"
+    SHARE_FACEBOOK_TEXT: Zdieľať
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Ur%%C4%%8Dite%%20neprehliadnite%%20novinku%%20%%40sng_gallery%%0A%s%%0A%s
+  FOOTER:
+    EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
+  EMAIL_CAPTURE:
+    DEFAULT_EMAIL_CTA: Chcem vedieť, keď pribudne nový obsah.
+    DEFAULT_EMAIL_PLACEHOLDER: e-mailová adresa
+    DEFAULT_EMAIL_BUTTON: informujte ma
+  NAVIGATION:
+    ABOUT: O Projekte
+    HOME: Domov
+    TIMELINE: Timeline
+    MENU: Menu
+    CONTINUE_TO: Pokračovať na
+  ERROR:
+    MESSAGE: Nenašli ste, čo ste hľadali? Skúste úvodnú stránku.
+  META:
+    DESCRIPTION: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1939-1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín. Webstránka rozširuje výstavu &quot;sen × skutočnosť. Umenie &amp; propaganda 1939 – 1945&quot; o historické súvislosti a ilustruje ich obrazovým materiálom, zvukovými a audiovizuálnymi záznamami."
+    SITE_NAME: sen × skutočnosť - Udalosti slovenského štátu v 4 kapitolách
+    LOCALE: sk_SK
+    LOCALE_ALTERNATE: en_GB
+en:
+  VOCABULARY:
+    CHAPTER: chapter
+    READING_TIME: Reading time
+  LANDING:
+    FIRST_CHAPTER_CTA:
+      CHAPTER_NUMBER: first chapter
+      BUTTON_TEXT: Continue to chapter
+    CHAPTER_THUMB:
+      BUTTON_TEXT: Continue to chapter
+  CHAPTER:
+    CHAPTER_THUMB:
+      HEADLINE_TEXT: Continue to the next chapter
+      BUTTON_TEXT: Continue to chapter %d
+  SHARING:
+    SHARE_PRINT: Print this chapter
+    SHARE_EMAIL_TEXT: Send by Email
+    SHARE_EMAIL_HREF: "mailto:?subject=Do not miss: sen x skutočnosť - events of the Slovak State in 4 chapters&body=I've found a project on the Slovak National Gallery website that might interest you:%%0A%%0A%s%%0A%s"
+    SHARE_FACEBOOK_TEXT: Share
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Check%%20out%%20this%%20project%%20by%%20%%40sng_gallery%%3A%%20%%0A%s%%0A%s
+  FOOTER:
+    EXHIBITION_INFO: I want to know more about the exhibition at SNG
+  EMAIL_CAPTURE:
+    DEFAULT_EMAIL_CTA: I'd like to be informed about updates
+    DEFAULT_EMAIL_PLACEHOLDER: email address
+    DEFAULT_EMAIL_BUTTON: keep me informed
+  NAVIGATION:
+    ABOUT: About
+    HOME: Home
+    TIMELINE: Timeline
+    MENU: Menu
+    CONTINUE_TO: Continue to
+  ERROR:
+    MESSAGE: Can't find what you're looking for? Maybe you'd like to start at the first chapter...
+  META:
+    DESCRIPTION: "One nation, one party, one leader, but also more than 70,000 victims - the period of 1939 to 1945 is among the most complex in Slovak history. This website accompanies the exhibition 'Dream × Reality: Art and Propaganda 1939 - 1945' by adding historical context illustrated with multimedia content."
+    SITE_NAME: sen × skutočnosť - Events of the slovak state in four chapters
+    LOCALE: en_GB
+    LOCALE_ALTERNATE: sk_SK

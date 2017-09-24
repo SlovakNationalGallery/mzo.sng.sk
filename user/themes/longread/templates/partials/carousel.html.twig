@@ -1,0 +1,9 @@
+<div class="carousel">
+    {% for image in images %}
+        {% if image.href %}
+            <a href="{{ image.href }}"><img class="slide" src="{{ image.src }}" alt="{{image.title}}" /></a>
+        {% else %}
+            <img class="slide" src="{{ image.src }}" alt="{{image.title}}" />
+        {% endif %}
+    {% endfor %}
+</div>

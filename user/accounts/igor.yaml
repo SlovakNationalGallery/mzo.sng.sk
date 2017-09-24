@@ -1,0 +1,11 @@
+email: igor.rjabinin@sng.sk
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Igor Rjabinin'
+title: Programator
+state: enabled
+hashed_password: $2y$10$ieVfzESK5anJuX6rEpAsHOoHjZ4yNkmWeJQy7CVDNcvzKGM3VVNO.

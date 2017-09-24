@@ -1,0 +1,4 @@
+enabled: true
+route: /sitemap
+ignores:
+  - /chapters/4-Vytriezvenie-zo-sna

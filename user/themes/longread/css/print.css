@@ -1,0 +1,97 @@
+@media print {
+    @page {
+        margin: 1cm;
+    }
+    h2, h3, h2+h3, strong, strong + figure {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+    .chapter-content h2:nth-child(n+2) {
+        page-break-before: always;
+    }
+    .chapter-content > p:last-child {
+        margin: 0;
+    }
+    figure, .highlight, .carousel {
+        page-break-inside: avoid;
+    }
+    .carousel {
+        margin-bottom: 0 !important;
+    }
+    .post-content, 
+    .bottom-teaser.cf{
+        padding-top:0!important;
+    }
+    .bottom-teaser.cf{
+        margin:0
+    }
+    img {
+        max-width: 300px !important;
+        max-height: 300px !important;
+    }
+    .post-content {
+        margin-top: 150px !important;
+    }
+    .chapter-title-wrapper {
+        margin-left: 20px;
+    }
+    .chapter-title br {
+        display: none;
+    }
+    .chapter-content {
+        padding-top: 1px;
+    }
+    h1 {
+        font-size: 43px !important;
+        line-height: 60px !important;
+        padding-bottom: 30px;
+    }
+    .chapter-title:after {
+        content: "www.senxskutocnost.sng.sk";
+        margin-left: -15px;
+    }
+    .subobject-title {
+        margin-bottom: -100px !important;
+    }
+    .subobject-title:after {
+        margin-left: 0;
+    }
+    .subobject-title > h1 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    p a[href^="http://www.webumenia.sk/kolekcia/"]:after {
+        content: " (" attr(href) ")";
+        font-size: 60%;
+    }
+    nav,
+    .nav-about,
+    #reading-progress,
+    figure.audio,
+    figure.video,
+    .subobject-overview,
+    .chapter-preview,
+    #email-capture,
+    footer,
+    hr,
+    .sharing,
+    .slick-dots,
+    img.control-c,
+    .anchorjs-link,
+    .post-reading, 
+    .bottom-teaser.cf .isRight, 
+    .cf.post-meta-text, 
+    .post-meta center, 
+    .post-image-image,
+    .bottom-closer,
+    .share, 
+    .breadcrumbs,
+    .return,
+    .home-template .post-meta .post-tags-set,
+    .pagination,
+    .author-image,
+    .subscribe icon-feed{
+        display:none !important;
+    }
+}
+

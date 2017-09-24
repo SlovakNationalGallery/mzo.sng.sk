@@ -1,0 +1,46 @@
+.langswitcher {
+  padding-left: 0;
+  margin: 0;
+  margin-left: 0 !important; }
+  .langswitcher li {
+    display: block;
+    margin: 0;
+    line-height: initial; }
+    .langswitcher li a {
+      transition: color 0.35s; }
+    .langswitcher li a.active {
+      text-decoration: none;
+      pointer-events: none; }
+    .langswitcher li a:not(.active):hover {
+      color: #E00000; }
+
+.header .langswitcher {
+  float: right;
+  margin-right: 1rem; }
+
+.header.landing .langswitcher {
+  color: white; }
+
+.uk-navbar .langswitcher {
+  float: right;
+  margin-right: 1em; }
+  @media only screen and (max-width: 750px) {
+    .uk-navbar .langswitcher {
+      display: none; } }
+
+#side-nav-bar .langswitcher-wrapper {
+  height: 65px;
+  text-align: center;
+  border-bottom: solid 1px #6D6D6D; }
+  #side-nav-bar .langswitcher-wrapper .langswitcher {
+    padding: 20px; }
+    #side-nav-bar .langswitcher-wrapper .langswitcher li {
+      display: inline-block; }
+      #side-nav-bar .langswitcher-wrapper .langswitcher li a {
+        padding: 20px; }
+      #side-nav-bar .langswitcher-wrapper .langswitcher li span.large {
+        display: inline; }
+      #side-nav-bar .langswitcher-wrapper .langswitcher li span.not-large {
+        display: none; }
+
+/*# sourceMappingURL=langswitcher.css.map */

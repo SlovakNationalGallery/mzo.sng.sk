@@ -1,0 +1,7 @@
+enabled: true                     # enable or disable the plugin
+active: true                      # active by default, if false then you must activate per-page
+selectors: '.chapter-content h2'  # css elements to activate on.  Uses jQuery style selectors
+placement: right                  # either "left" or "right"
+visible: always                   # Active on "touch" devices, "hover" or "always" visible
+icon: " "                         # default link or a specific character like: #, ¶, ❡, and §.
+class: "sethash"                  # adds the provided class to the anchor html

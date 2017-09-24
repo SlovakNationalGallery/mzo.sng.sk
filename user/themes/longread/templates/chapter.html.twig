@@ -1,0 +1,97 @@
+{% embed 'partials/base.html.twig' %}
+{% import "macros.twig" as macros %}
+
+{% block body %}
+<body itemscope itemtype="http://schema.org/Article">
+{% endblock %}
+
+{% block header %}
+    {% include 'partials/navbar.html.twig' %}
+{% endblock %}
+
+{% block content %}
+    <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
+      <article class="post chapter">
+        <div class="article-image">
+          <div class="post-image-image chapter-{{page.header.chapterNumber}}" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})">
+            <div class="article-image-gradient"></div>
+          </div>
+        </div>
+        <section class="post-content">
+          <div class="chapter-title-wrapper">
+            <div class="chapter-title f-uni-grotesk-bold">
+              <div class="chapter-number">
+                {% if langswitcher.current == 'sk' %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER") }}
+                {% else %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER")|title }}
+                {% endif %}
+              </div>
+              <h1 class="margin-top-0 padding-top-0">
+                {% if page.header.titleStyled %}
+                  {{ page.header.titleStyled }}
+                {% else %}
+                  {{ page.header.title }}
+                {% endif %}
+              </h1>
+              {% include 'partials/reading-time.html.twig' %}
+              {% include 'partials/sharing.html.twig' with {
+                sharingStylingClasses: "button-white"
+              }%}
+            </div>
+          </div>
+          {% include 'partials/reading-progress.html.twig' %}
+          <div class="chapter-content">
+            {{ content }}
+          </div>
+        </section>
+
+      </article>
+      <div class="chapter-preview uk-grid hover-grid centered">
+        <div class="uk-width-1-1">
+          {% if not page.isLast() %}
+            {% if not page.adjacentSibling(-1).header.disabled %}
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': page.adjacentSibling(-1),
+                'textStylingClasses': 'c-black',
+                'showHeadline': true,
+                'headlineText': "CHAPTER.CHAPTER_THUMB.HEADLINE_TEXT"|t,
+                'showAnnounceDate': false,
+                'buttonStylingClasses': 'button-ghost-black button-large',
+                'buttonText': "CHAPTER.CHAPTER_THUMB.BUTTON_TEXT"|t(page.adjacentSibling(-1).header.chapterNumber)
+              }
+              %}
+            {% else %}
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': page.adjacentSibling(-1),
+                'textStylingClasses': 'c-black',
+                'showHeadline': true,
+                'headlineText': 'ďalšia kapitola bude čoskoro zverejnená',
+                'showAnnounceDate': false
+              }
+              %}
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+    </main>
+{% endblock %}
+
+
+{% block footer %}
+  {% include 'partials/emailcapture.html.twig' with {
+    'emailCTA': page.header.emailCTA, 
+    'emailPlaceholder': page.header.emailPlaceholder, 
+    'emailButton': page.header.emailButton, 
+    'emailNotice': page.header.emailNotice} 
+  %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': true,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'bg-dark-green'}
+  %}
+{% endblock %}
+
+{% endembed %}

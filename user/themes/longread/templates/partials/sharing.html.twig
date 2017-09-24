@@ -1,0 +1,22 @@
+<div class="sharing f-uni-grotesk-regular">
+	{% if not excludePrint %}
+	<a class="uk-button button-print {{ sharingStylingClasses}}" href="javascript:window.print()">
+		<i class="fa fa-print" aria-hidden="true"></i> {{ "SHARING.SHARE_PRINT"|t }}
+	</a>
+	{% endif %}
+	{% if not excludeMail %}
+	<a class="uk-button {{ sharingStylingClasses}}" href="{{ "SHARING.SHARE_EMAIL_HREF"|t(page.title, page.url(true)) }}" target="_blank">
+		<i class="fa fa-envelope" aria-hidden="true"></i> {{ "SHARING.SHARE_EMAIL_TEXT"|t }}
+	</a>
+	{% endif %}
+	{% if not excludeFacebook %}
+	<a class="uk-button {{ sharingStylingClasses}}" type="button" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url(true) }}" target="_blank">
+		<i class="fa fa-facebook-square" aria-hidden="true" title="facebook"></i> {{ "SHARING.SHARE_FACEBOOK_TEXT"|t }}
+	</a>
+	{% endif %}
+	{% if not excludeTwitter %}
+	<a class="uk-button {{ sharingStylingClasses}}" type="button" href="{{ "SHARING.SHARE_TWITTER_HREF"|t(page.title, page.url(true)) }}" target="_blank">
+		<i class="fa fa-twitter-square" aria-hidden="true"></i> {{ "SHARING.SHARE_TWITTER_TEXT"|t }}
+	</a>
+	{% endif %}
+</div>

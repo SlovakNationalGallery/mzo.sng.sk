@@ -1,0 +1,30 @@
+<footer id="footer" class="centered padding-bottom-s padding-top-s {{stylingClasses}}">
+    {% if sharingButtons %}
+        <div class="margin-top-xs">
+        {% include 'partials/sharing.html.twig' with {
+            sharingStylingClasses: 'button-ghost'
+        }%}
+        </div>
+    {% endif %}
+    
+    {% if exhibitionLink %}
+        <p class="margin-top-s">
+            <a href="http://www.sng.sk/sk/vystavy/728_sen-utf215-skutocnost-umenie-propaganda-1939-1945" target="_blank">
+                {{"FOOTER.EXHIBITION_INFO"|t}}
+            </a>
+        </p>
+    {% endif %}
+    
+    {% if orgIcons %}
+        <p>
+            <a href="http://www.sng.sk/" target="_blank"><img class="svg footer-icon {{ stylingClasses }}" src="{{ theme_url }}/images/fb-sngweb-link.svg" alt=""></a>
+            <a href="https://www.facebook.com/events/602808616565493"><img class="svg footer-icon {{ stylingClasses }}" src="{{ theme_url }}/images/fb-footer-link.svg" alt=""></a>
+        </p>
+    {% endif %}
+    
+    {% if copyright %}
+        <p>
+            <a href="http://lab.sng.sk/">2016 &copy; lab.SNG</a>
+        </p>
+    {% endif %}
+</footer>

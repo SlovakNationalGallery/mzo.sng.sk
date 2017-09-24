@@ -1,0 +1,11 @@
+email: petko.gasparik@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Peter Gasparik'
+title: 'script writer'
+state: enabled
+hashed_password: $2y$10$NfSqlLHQmqoYmG4Q9Q4.kO8q555Cxt7friLppBTTWGspURnkzrW3a

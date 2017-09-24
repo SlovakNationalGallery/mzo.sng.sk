@@ -1,0 +1,16 @@
+<div class="subobject-overview">
+    <h4>{{ title }}</h4>
+    <div class="uk-grid not-extended">
+        {% for subobject in subobjects %}
+            <div class="uk-width-1-1 uk-width-small-1-3 subobject-wrapper not-extended">
+                <a href="{{subobject.href}}">
+                    <img src="{{ subobject.thumbnail.url }}" class="uk-width-1-8 subobject-content" alt="subobject">
+                </a>
+                <a href="{{subobject.href}}">
+                    <img src="{{ theme_url }}/images/icon-link-internal-darkgreen.svg" class="icon subobject-content" alt="">
+                    <span class="subobject-content subobject-caption">{{ subobject.name }}</span>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>

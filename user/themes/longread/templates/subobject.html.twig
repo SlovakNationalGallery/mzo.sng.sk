@@ -1,0 +1,69 @@
+{% embed 'partials/base.html.twig' %}
+{% import "macros.twig" as macros %}
+
+{% block body %}
+<body itemscope itemtype="http://schema.org/Article">
+{% endblock %}
+
+{% block content %}
+    <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
+      <article class="post subobject">
+        <div class="breadcrumbs f-uni-grotesk-regular">
+          <a href="{{page.parent.parent.url}}">sen × skutočnosť</a>
+          <span class="breadcrumb-symbol">></span>
+          <a href="{{page.parent.url}}">
+            {{ macros.translateOrdinalLanguageString(page.parent.header.chapterNumber, "VOCABULARY.CHAPTER") }}
+          </a>
+          <span class="breadcrumb-symbol">></span>
+          <span>{{page.title}}</span>
+        </div>
+        <div class="chapter-title subobject-title f-uni-grotesk-bold">
+          <h1 class="f-uni-grotesk-bold">
+            {% if page.header.titleStyled %}
+              {{ page.header.titleStyled }}
+            {% else %}
+              {{ page.header.title }}
+            {% endif %}
+          </h1>
+          {% if page.header.titleDate %}
+            <h3 class="title-date">{{ page.header.titleDate}}</h3>
+          {% endif %}
+          {% include 'partials/sharing.html.twig' with {
+            sharingStylingClasses: "button-white"
+          }%}
+        </div>
+        <section class="post-content">
+          {% include 'partials/reading-time.html.twig' %}
+          {{ content }}
+        </section>
+      </article>
+    </main>
+{% endblock %}
+
+{% block footer %}
+  <div class="return chapter-{% for p in page.collection %}{{ p.header.chapterNumber }}{% endfor %} centered">
+    <div class="return-gradient">
+      {% include 'partials/back-button.html.twig' with {
+        'buttonText': page.header.returnButtonText,
+        'defaultLocation': page.parent().url,
+        'buttonStylingClasses': 'uk-button-large button-xlarge button-white button-shadow c-black f-uni-grotesk-regular'
+        }
+      %}
+    </div>
+  </div>
+  {% include 'partials/emailcapture.html.twig' with {
+    'emailCTA': page.header.emailCTA, 
+    'emailPlaceholder': page.header.emailPlaceholder, 
+    'emailButton': page.header.emailButton, 
+    'emailNotice': page.header.emailNotice} 
+  %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': true,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'bg-dark-green'}
+  %}
+{% endblock %}
+
+{% endembed %}

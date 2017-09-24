@@ -1,0 +1,40 @@
+{% import "macros.twig" as macros %}
+<div class="chapter-thumb {% if chapterPage.header.disabled%}disabled{% endif %}">
+  {% if showHeadline %}
+    <h2 class="f-uni-grotesk-bold {{textStylingClasses}}">{{headlineText}}</h2>
+  {% endif %}
+  <figure class="effect-honey {% if chapterPage.header.disabled%}disabled{% endif %}">
+
+  {% if not chapterPage.header.disabled%}
+    <img 
+      src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].url }}" 
+      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"
+    />
+  {% else %}
+    <img 
+      src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" 
+      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"/>
+  {% endif %}
+    <figcaption>
+      <h2 class="c-white">
+        <span class="f-uni-grotesk-regular fs-70 c-white">
+          {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}
+        </span>
+        <br>
+        {{chapterPage.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+      </h2>
+      {% if not chapterPage.header.disabled %}
+        <a href="{{chapterPage.url}}">View more</a>
+      {% endif %}
+    </figcaption>     
+  </figure>
+  <div class="chapter-thumb-text {{textStylingClasses}}">
+    <p class="f-uni-grotesk-regular">{{chapterPage.header.synopsis}}</p>
+    {% if not chapterPage.header.disabled %}
+      <a href="{{chapterPage.url}}" class="uk-button button-ghost margin-bottom-xs {{buttonStylingClasses}}">{{buttonText}}</a>
+    {% endif %}
+    {% if showAnnounceDate %}
+      <p class="f-uni-grotesk-regular c-grey">{{chapterPage.header.announce_date}}</p>
+    {% endif %}
+  </div>
+</div>

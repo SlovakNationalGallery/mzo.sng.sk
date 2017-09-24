@@ -1,0 +1,11 @@
+email: samuel@ondrek.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Samuel Ondrek'
+title: Programator
+state: enabled
+hashed_password: $2y$10$.fBX2WOyoKkiWkQEDMh1J.wAYjYntC7LJk/FwTNqIrRrOjPb5ACcu

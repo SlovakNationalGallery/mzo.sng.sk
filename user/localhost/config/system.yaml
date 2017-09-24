@@ -1,0 +1,14 @@
+
+assets:
+  css_pipeline: false
+  css_minify: true
+  css_rewrite: true
+  js_pipeline: false
+  js_minify: true
+  enable_asset_timestamp: true             # Enable asset timestamps
+
+debugger:
+  enabled: true
+  twig: true
+  shutdown:
+    close_connection: true
