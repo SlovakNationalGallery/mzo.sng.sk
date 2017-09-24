@@ -974,6 +974,15 @@ form#email-capture {
     div.audioplayer {
       margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
     }
+    .goside {
+      background: #33302d;
+      p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: white;
+        padding: 14px 20px;
+      }
+    }
   }
 }
 

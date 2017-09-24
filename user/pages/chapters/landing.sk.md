@@ -5,9 +5,6 @@ slug: landing
 h2: 'Majster z Okoličného <br/>a gotické umenie Spiša okolo roku 1500'
 h4: 'Webstránka rozširuje výstavu "MAJSTER Z OKOLIČNÉHO A GOTICKÉ UMENIE SPIŠA OKOLO ROKU 1500" o historické súvislosti a ilustruje ich obrazovým materiálom, zvukovými a audiovizuálnymi záznamami.'
 pEducational: '<a class=''underline'' href=''/materialy''>V sekcii materiály</a> môžete nájsť pracovné listy pre študentov aj pedagógov, ktoré sa venujú vizuálnej kultúre a ideológii obdobia slovenského štátu.'
-panorama_text: 'Inštaláciu výstavy si môžete pozrieť pomocou <a href="/panorama" target="_blank" class="underline underline-hover">360° panorám</a>. Kliknutím na dielo v panoráme zobrazíte jeho profil na <a href="https://www.webumenia.sk/" target="_blank" class="underline underline-hover">Webe umenia</a> aj s funkciou zoom.'
-panorama_buttontext: 'Pozrite si výstavu v 360°'
-panorama_url: /panorama
 image: sxs-bg.jpg
 content:
     items: '@self.children'

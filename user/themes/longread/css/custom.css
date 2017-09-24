@@ -771,6 +771,13 @@ form#email-capture {
     margin-bottom: 70px; }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
+  .post.chapter .post-content .goside, .post.subobject .post-content .goside, .post.page .post-content .goside {
+    background: #33302d; }
+    .post.chapter .post-content .goside p, .post.subobject .post-content .goside p, .post.page .post-content .goside p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: white;
+      padding: 14px 20px; }
 
 .post.subobject {
   color: #000; }
