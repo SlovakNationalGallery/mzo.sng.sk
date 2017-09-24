@@ -21,3 +21,5 @@ Thumbs.db
 # IDE
 .idea/*
 .idea
+node_modules/
+panorama/
