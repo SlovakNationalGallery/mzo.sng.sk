@@ -3,8 +3,8 @@ Disallow: /backup/
 Disallow: /bin/
 Disallow: /cache/
 Disallow: /grav/
-Disallow: /logs/
 Disallow: /system/
+Disallow: /logs/
 Disallow: /vendor/
 Disallow: /user/
 Allow: /user/pages/
