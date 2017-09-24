@@ -12,7 +12,7 @@ routes:
         - /chapters/1
 chapterNumber: 1
 description: '1. kapitola: Na polceste k slovenskému štátu'
-image: tiso.jpg
+image: master-cover.jpg
 ---
 
 ## Mníchovská dohoda

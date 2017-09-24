@@ -12,7 +12,7 @@ routes:
         - /chapters/1
 chapterNumber: 1
 description: 'Chapter 1: Halfway to the Slovak State'
-image: tiso.jpg
+image: master-cover.jpg
 ---
 
 ## Munich Agreement
