@@ -39,17 +39,6 @@ button, .uk-button {
   border-radius: 3px;
   text-shadow: none; }
 
-.f-moyenage {
-  font-family: "Moyenage14", "Linux Libertine";
-  font-weight: normal;
-  font-style: normal; }
-
-.f-uni-grotesk-regular {
-  font-family: "Uni Grotesk Regular"; }
-
-.f-uni-grotesk-bold {
-  font-family: "Uni Grotesk Bold"; }
-
 .f-uppercase {
   text-transform: uppercase; }
 
@@ -251,7 +240,6 @@ nav.uk-navbar {
       width: 130px;
       color: #000;
       text-align: center;
-      font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
       margin: auto 10px;
       border-top: solid 2px black;
       -webkit-transition: border-top-color 0.35s;
@@ -276,7 +264,6 @@ nav.uk-navbar {
         pointer-events: none;
         cursor: default; }
     nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active {
-      font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
       border-top-color: #E00000; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active a {
         pointer-events: none;
@@ -365,8 +352,6 @@ div#side-nav-bar {
         margin-top: -20px;
         margin-bottom: 20px;
         background-color: #6D6D6D; }
-      div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav span.chapter-title {
-        font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
       div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav a:hover {
         color: #E00000 !important; }
     div#side-nav-bar .uk-offcanvas-bar ul.uk-nav li:first-of-type div.nav-state-bar {
@@ -382,8 +367,7 @@ div#side-nav-bar {
       pointer-events: none;
       cursor: default; }
     div#side-nav-bar .uk-offcanvas-bar .button-about {
-      margin-top: 20px;
-      font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+      margin-top: 20px; }
 
 .logo-sng {
   position: absolute;
@@ -463,7 +447,6 @@ div#side-nav-bar {
   .landing .landing-content {
     position: relative;
     margin: 60px auto 35px;
-    font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -619,6 +602,7 @@ form#email-capture {
 @media all and (max-width: 960px) {
   a.button-print {
     display: none; } }
+
 .chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
@@ -685,7 +669,8 @@ form#email-capture {
     background-position-x: 55%; }
   .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); }
+
 .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
   position: relative;
   width: inherit;
@@ -693,7 +678,6 @@ form#email-capture {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
-  font-family: "Uni Grotesk Regular";
   background-color: white;
   color: #000;
   z-index: 3; }
@@ -751,8 +735,7 @@ form#email-capture {
     line-height: 70px;
     padding-top: 43px;
     padding-right: 15px;
-    padding-left: 3px;
-    font-family: Moyenage14; }
+    padding-left: 3px; }
   .post.chapter .post-content figure.audio, .post.chapter .post-content figure.video, .post.chapter .post-content p > a > figure.image, .post.subobject .post-content figure.audio, .post.subobject .post-content figure.video, .post.subobject .post-content p > a > figure.image, .post.page .post-content figure.audio, .post.page .post-content figure.video, .post.page .post-content p > a > figure.image {
     background-color: #EFEFEF;
     padding: 10px; }
@@ -791,10 +774,8 @@ form#email-capture {
   .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
     margin-bottom: 20px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
-    color: #000;
-    font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+    color: #000; }
   .post.chapter .post-content .title-date, .post.subobject .post-content .title-date, .post.page .post-content .title-date {
-    font-family: "Uni Grotesk Regular";
     font-size: 18px;
     font-weight: 100; }
   .post.chapter .post-content h2:first-child, .post.subobject .post-content h2:first-child, .post.page .post-content h2:first-child {
@@ -809,7 +790,6 @@ form#email-capture {
   .post.chapter .post-content .fluid-width-video-wrapper, .post.subobject .post-content .fluid-width-video-wrapper, .post.page .post-content .fluid-width-video-wrapper {
     margin-left: 0 !important; }
   .post.chapter .post-content div.highlight p, .post.subobject .post-content div.highlight p, .post.page .post-content div.highlight p {
-    font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 32px; }
   .post.chapter .post-content li, .post.subobject .post-content li, .post.page .post-content li {
@@ -855,7 +835,6 @@ form#email-capture {
           font-size: 35px;
           line-height: 35px; } }
     .post.subobject .chapter-title .title-date {
-      font-family: "Uni Grotesk Regular";
       font-size: 18px;
       font-weight: 100;
       margin: 0; }
@@ -895,6 +874,7 @@ form#email-capture {
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }
+
 .post.page .page-title {
   padding: 15px;
   margin-bottom: 20px; }
@@ -914,6 +894,7 @@ form#email-capture {
     @media only screen and (max-width: 460px) {
       .post.page .page-title img.headline-logo {
         height: 30px; } }
+
 .post.page .post-content {
   padding: 50px; }
   @media only screen and (max-width: 600px) {
@@ -991,20 +972,22 @@ form#email-capture {
   color: white; }
   #footer a:not(.uk-button):hover {
     color: #EFEFEF; }
+
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
+
 #footer a svg #footericonsng,
 #footer a svg #footericonfb {
   fill: white; }
+
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
   fill: #EFEFEF !important; }
+
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }
 
 figure.image {
   text-align: center; }
-
-/*# sourceMappingURL=custom.css.map */

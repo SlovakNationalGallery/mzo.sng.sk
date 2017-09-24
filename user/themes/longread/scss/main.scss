@@ -5,6 +5,7 @@
 }
 
 $rs: 16px;
+$font: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -17,8 +18,12 @@ $rs: 16px;
   margin-bottom: $rs;
 }
 
+html body {
+  font-family: $font !important;
+  font-feature-settings: unset;
+}
+
 body {
-  font-family: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
@@ -237,7 +242,6 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   font-style: normal;
-  font-family: $font-bold;
   z-index: 999;
 }
 
@@ -290,7 +294,6 @@ body {
       left: 30%;
       right: 30%;
       z-index: 9;
-      font-family: $font-bold;
       @include box-sizing(border-box);
       @include respond-to(800) {
         left: $rs;
@@ -330,7 +333,6 @@ body {
       text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
       font-size: 14px;
       overflow: hidden;
-      font-family: $font-bold;
       white-space: nowrap;
       text-overflow: ellipsis;
       a {
@@ -354,7 +356,6 @@ body {
   }
   .noarticleimage {
     .post-meta {
-      font-family: $font-bold;
       padding-top: 60px;
     }
     .post-title {
@@ -388,14 +389,12 @@ body {
       font-style: normal;
       font-size: 14px;
       overflow: hidden;
-      font-family: $font-bold;
       white-space: nowrap;
       text-overflow: ellipsis;
     }
   }
   .post-content {
     width: 100%;
-    font-family: $font-bold;
     color: #333333;
     h3, h4, h5, h6 {
       letter-spacing: -0.02em;
@@ -407,6 +406,7 @@ body {
       margin-bottom: 4px;
     }
     h2, h1 {
+      font-family: $font;
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;

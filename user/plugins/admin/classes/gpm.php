@@ -220,26 +220,34 @@ class Gpm
             $extracted  = Installer::unZip($zip, $tmp_source);
 
             if (!$extracted) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
                 return Admin::translate('PLUGIN_ADMIN.PACKAGE_EXTRACTION_FAILED');
             }
 
             $type = GravGPM::getPackageType($extracted);
 
             if (!$type) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
                 return Admin::translate('PLUGIN_ADMIN.NOT_VALID_GRAV_PACKAGE');
             }
 
             if ($type == 'grav') {
                 Installer::isValidDestination(GRAV_ROOT . '/system');
                 if (Installer::IS_LINK === Installer::lastErrorCode()) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
                 }
                 Installer::install($zip, GRAV_ROOT,
-                    ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true], $extracted);
+                    ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true, 'ignores' => ['tmp','user','vendor']], $extracted);
             } else {
                 $name = GravGPM::getPackageName($extracted);
 
                 if (!$name) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.NAME_COULD_NOT_BE_DETERMINED');
                 }
 
@@ -248,6 +256,8 @@ class Gpm
 
                 Installer::isValidDestination(GRAV_ROOT . DS . $install_path);
                 if (Installer::lastErrorCode() == Installer::IS_LINK) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
                 }
 

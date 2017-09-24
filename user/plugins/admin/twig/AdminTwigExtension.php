@@ -41,7 +41,6 @@ class AdminTwigExtension extends \Twig_Extension
             new \Twig_SimpleFilter('toYaml', [$this, 'toYamlFilter']),
             new \Twig_SimpleFilter('fromYaml', [$this, 'fromYamlFilter']),
             new \Twig_SimpleFilter('adminNicetime', [$this, 'adminNicetimeFilter']),
-
         ];
     }
 
@@ -49,7 +48,13 @@ class AdminTwigExtension extends \Twig_Extension
     {
         return [
             new \Twig_SimpleFunction('getPageUrl', [$this, 'getPageUrl'], ['needs_context' => true]),
+            new \Twig_SimpleFunction('clone', [$this, 'cloneFunc']),
         ];
+    }
+
+    public function cloneFunc($obj)
+    {
+        return clone $obj;
     }
 
     public function getPageUrl($context, $page)
@@ -175,4 +180,5 @@ class AdminTwigExtension extends \Twig_Extension
 
         return "$difference $periods[$j] {$tense}";
     }
+
 }
