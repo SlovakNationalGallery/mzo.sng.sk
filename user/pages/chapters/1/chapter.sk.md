@@ -3,8 +3,7 @@ title: 'Majster'
 published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
-synopsis: 'V roku 1938 je Slovenská krajina súčasťou Československej republiky, no v národe silnejú tendencie osamostatniť sa. Svoju úlohu v nich majú zohrať snahy Hlinkovej slovenskej ľudovej strany o autonómiu v rámci Československa a Hitlerove mocenské plány, ktorým by rozdelenie republiky hralo do karát.'
-announce_date: 'Zverejnené 7. novembra'
+synopsis: 'Pojem „Majster z Okoličného“ skôr než konkrétneho umelca označuje dielenskú jednotku, ktorá zahŕňala viacero stolárov, sochárov, maliarov či pozlacovačov. Dielňa využívala obdobie prosperity spišských miest a rýchlo reagovala na vzrastajúci dopyt po veľkých a spektakulárnych oltároch, pričom experimentovala s motívmi a technológiami.'
 routes:
     default: /chapters/1-majster
     canonical: /chapters/1-majster

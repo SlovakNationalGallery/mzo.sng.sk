@@ -3,8 +3,7 @@ title: 'Oltár'
 published: true
 date: '05-12-2016 13:00'
 slug: chapter-2
-synopsis: 'V začiatkoch jeho existencie musí samostatný slovenský štát sformovať svoje vládne štruktúry, vysporiadať sa s vplyvom nedávnych udalostí na svoje hospodárstvo a zaujať miesto v Európe, ktorá smeruje k vojenskému konfliktu'
-announce_date: 'Zverejnené 6. decembra'
+synopsis: 'Neskorogotický oltár Panny Márie – kráľovnej anjelov, ktorý dal anonymnému maliarovi meno, bol rozobratý ešte v 18. storočí, jeho jednotlivé časti sa zachovali v niekoľkých zbierkach na Slovensku, v Poľsku a v Maďarsku. Ukončenie reštaurovania oltárnej tabule Ukrižovanie sa stalo priamym podnetom na usporiadanie výstavy.'
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca

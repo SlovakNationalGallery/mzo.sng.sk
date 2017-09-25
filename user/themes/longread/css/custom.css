@@ -145,6 +145,13 @@ hr {
 hr.white {
   background-image: url(../images/hr-white.svg) !important; }
 
+.em {
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 25px;
+  margin: 50px 0;
+  transform: rotate(22.5deg); }
+
 .blank-list ul {
   list-style-type: none; }
 
@@ -379,6 +386,7 @@ div#side-nav-bar {
   top: 10px;
   width: 48px;
   height: 48px;
+  margin: 0;
   overflow: hidden;
   z-index: 99 !important; }
   .logo-sng .logo {
@@ -391,15 +399,11 @@ div#side-nav-bar {
     height: 32px;
     background-size: cover;
     background-repeat: no-repeat; }
+  .logo-sng .em {
+    margin: 14px; }
 
 .logo-sng-black .logo {
   background-image: url(../images/logo-sng-black.svg); }
-
-.logo-sxs-black .logo {
-  background-image: url(../images/headline-logo-black.svg); }
-
-.logo-sxs-white .logo {
-  background-image: url(../images/headline-logo-white.svg); }
 
 .nav-about {
   position: relative;
@@ -422,20 +426,54 @@ div#side-nav-bar {
   background-color: #827455; }
   .landing * {
     z-index: 9; }
+  .landing .landing-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden; }
+    .landing .landing-image .landing-image-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-indent: -9999px;
+      padding-top: 33%;
+      z-index: 1;
+      opacity: 0.4; }
+    .landing .landing-image .landing-image-fade {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 250px;
+      background-color: rgba(63, 60, 37, 0);
+      background-image: -webkit-linear-gradient(top, rgba(63, 60, 37, 0), #827455);
+      background-image: linear-gradient(to bottom,rgba(63, 60, 37, 0), #827455); }
   .landing .landing-content {
     position: relative;
     margin: 60px auto 35px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    .landing .landing-content h1 {
-      font-size: 510px;
-      line-height: 1; }
+    .landing .landing-content .title {
+      font-size: 410px;
+      line-height: 366px; }
       @media only screen and (max-width: 825px) {
-        .landing .landing-content h1 {
+        .landing .landing-content .title {
           font-size: 60px; } }
       @media only screen and (max-width: 460px) {
-        .landing .landing-content h1 {
+        .landing .landing-content .title {
+          font-size: 45px; } }
+    .landing .landing-content .header {
+      font-size: 57px;
+      line-height: 1; }
+      @media only screen and (max-width: 825px) {
+        .landing .landing-content .header {
+          font-size: 60px; } }
+      @media only screen and (max-width: 460px) {
+        .landing .landing-content .header {
           font-size: 45px; } }
     .landing .landing-content h2 {
       font-size: 23px;

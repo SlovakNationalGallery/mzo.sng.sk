@@ -2,7 +2,9 @@
 
   {% block header %}
     <div class="header landing">
-      <a href="{{base_url_relative}}" class="nav-home logo-sng logo-sxs-white" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
+      <a href="{{base_url_relative}}" class="nav-home logo-sng" title="{{"NAVIGATION.HOME"|t}}">
+        <div class="em">M</div>
+      </a>
       {% include 'partials/langswitcher.html.twig' %}
       <a href="{{base_url_relative}}/about" class="nav-about c-white">{{"NAVIGATION.ABOUT"|t}}</a>
     </div>
@@ -14,8 +16,14 @@
 
   {% block content %}
     <main class="landing {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
+      <div class="landing-image">
+        <div class="landing-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})"></div>
+        <div class="landing-image-fade"></div>
+      </div>
+
       <div class="landing-content">
-        <h1 class="centered c-white logo">{{ page.header.title }}</h1>
+        <h1 class="centered c-white title">{{ page.header.title }}</h1>
+        <h1 class="centered c-white header">{{ page.header.h1 }}</h1>
         <h2 class="centered c-white f-uppercase">{{ page.header.h2 }}</h2>
 
         <div class="centered uk-container-center uk-width-9-10 uk-width-large-6-10">
@@ -26,9 +34,16 @@
 
           {% include 'partials/first-chapter-cta.html.twig' %}
 
-          <hr class="white">
-          <h4 class="centered c-white first-chapter-cta">{{ page.header.h4}}</h4>
-          <br /><br /><br />
+          <div class="em">M</div>
+          <h4 class="centered c-white first-chapter-cta">{{ page.header.h4 }}<br /></h4>
+
+          <h3 class="centered c-white">
+              {{ page.header.when }}<br />
+              {{ page.header.where }}<br />
+              {{ page.header.who }}
+          </h3>
+
+          <div class="em">M</div>
         </div>
 
         <div class="chapter-preview uk-grid hover-grid centered c-white">
@@ -43,14 +58,6 @@
             </div>
           {% endfor %}
         </div>
-
-          {% if page.header.pEducational %}
-          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
-            <hr class="white">
-            <h5 class="centered c-white">{{ page.header.pEducational}}</h5>
-          </div>
-          {% endif %}
-
       </div>
     </main>
   {% endblock %}

@@ -3,9 +3,8 @@ title: 'Ikonografia'
 published: true
 date: '18-11-2016 00:00'
 slug: chapter-4
-synopsis: 'Druhá svetová vojna má na slovenskú spoločnosť čoraz väčší dopad, aj preto v nej rastú opozičné nálady. Rozširuje sa partizánske hnutie a znepokojenie ľudáckych predstaviteľov narastá. Koniec vojny môže pre Slovensko znamenať aj koniec jeho samostatnosti.'
+synopsis: 'Kláštorný kostol v Okoličnom je najväčšou sakrálnou stavbou na Liptove a unikátom v gotickom staviteľstve na Slovensku. Kapitola sa venuje architektúre kostola so zameraním na klenby, kamenárske práce a otázku donátorstva.'
 disabled: false
-announce_date: 'Zverejnené 6. februára'
 routes:
     default: /chapters/4-Vytriezvenie-zo-sna
     canonical: /chapters/4-Vytriezvenie-zo-sna

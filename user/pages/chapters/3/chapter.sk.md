@@ -3,8 +3,7 @@ title: 'Kostol'
 published: true
 date: '18-11-2016 00:00'
 slug: chapter-3
-synopsis: 'Prenasledovanie židovskej menšiny slovenskou vládou začalo už v období autonómie, no až po vzniku samostatného štátu sa dostávajú antisemitské opatrenia do zákonov a nariadení. Proces zbavovania židovského obyvateľstva jeho práv dospeje v najbližších rokoch až k masovej likvidácii v koncentračných táboroch.'
-announce_date: 'Zverejnené 10. januára'
+synopsis: 'Mariánska tematika je základom ikonografie väčšiny z doteraz známych oltárnych realizácií Majstra z Okoličného. V jeho dielach však nájdeme aj ďalšie postavy svätcov, svätíc a inovatívne spracovaný námet fiktívnej genealógie Ježišovej rodiny.'
 routes:
     default: /chapters/3-70000-obeti
     canonical: /chapters/3-70000-obeti
