@@ -220,24 +220,18 @@ nav.uk-navbar {
         position: inherit;
         width: 100%;
         text-align: center; } }
-    nav.uk-navbar .uk-navbar-brand img.navbar-icon {
-      height: 80%;
-      padding: 5px 0; }
-      @media only screen and (max-width: 1175px) {
-        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
-          height: 100%; } }
-      @media only screen and (max-width: 905px) {
-        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
-          height: 120%; } }
-      @media only screen and (max-width: 750px) {
-        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
-          height: 80%; } }
     @media only screen and (max-width: 1175px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: none; } }
     @media only screen and (max-width: 750px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: inline; } }
+    nav.uk-navbar .uk-navbar-brand .header-logo {
+      color: black;
+      font-size: 49px;
+      position: relative;
+      top: 8px;
+      font-weight: 900; }
   nav.uk-navbar ul.uk-navbar-nav {
     max-width: none;
     width: 600px; }

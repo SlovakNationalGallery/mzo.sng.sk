@@ -256,19 +256,6 @@ nav.uk-navbar {
       width: 100%;
       text-align: center;
     }
-    img.navbar-icon {
-      height: 80%;
-      padding: 5px 0;
-      @include respond-to(1175) {
-        height: 100%;
-      }
-      @include respond-to(905) {
-        height: 120%;
-      }
-      @include respond-to(750) {
-        height: 80%;
-      }
-    }
     span {
       @include respond-to(1175) {
         display: none;
@@ -276,6 +263,13 @@ nav.uk-navbar {
       @include respond-to(750) {
         display: inline;
       }
+    }
+    .header-logo {
+      color: black;
+      font-size: 49px;
+      position: relative;
+      top: 8px;
+      font-weight: 900;
     }
   }
   ul.uk-navbar-nav {
