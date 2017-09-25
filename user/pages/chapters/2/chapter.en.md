@@ -1,545 +1,541 @@
 ---
-title: 'One Nation, One Party, One Leader'
+title: 'Oltár'
 published: true
 date: '05-12-2016 13:00'
 slug: chapter-2
-synopsis: 'In the early days of its existence, the Slovak State had to set up its government, deal with the impact of recent events on the economy and claim its place in Europe, which was heading towards war.'
-announce_date: 'Published on 6 December'
+synopsis: 'Neskorogotický oltár Panny Márie – kráľovnej anjelov, ktorý dal anonymnému maliarovi meno, bol rozobratý ešte v 18. storočí, jeho jednotlivé časti sa zachovali v niekoľkých zbierkach na Slovensku, v Poľsku a v Maďarsku. Ukončenie reštaurovania oltárnej tabule Ukrižovanie sa stalo priamym podnetom na usporiadanie výstavy.'
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     aliases:
         - /chapters/2
 chapterNumber: 2
-image: teslik-oslavy.jpg
+description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
+image: 128-detail-cover.jpg
 ---
 
-<span class="drop-cap">T</span>he conditions under which the Slovak State was established, were a cause for concern for informed citizens. The populist propaganda, therefore, tried to justify the collaboration with Hitler and our compliance with his plans through widely publicised campaigns. They presented the founding of the independent republic as the culmination of "thousands of years of fighting for a Slovak statehood."
-
-## The Treaty of Protection
+<span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1-na-polceste-k-slovenskemu-statu#vznik-slovenskho-ttu">"Slovenský štát"</a>, nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“.
+## Ochranná zmluva
 ### 18. 3. 1939 {.title-date}
 
-The reality of Slovak "independence" was already clear in the Treaty of Protection (Schutzvertrag) that was signed by the representatives of the "Slovak State" with the Third Reich on 18 and 23 March 1939 in Vienna and Berlin. Nazi Germany pledged to protect the integrity of the Slovak territory in exchange for its subordination in the matters of foreign policy, building an army "in accordance with German forces" and aligning the economic policies with Germany, including agriculture, industry and infrastructure. Although the public was informed about the Treaty, the accompanying protocols remained secret. The Germans took direct control over the munition factories in Považie, creating the so-called “Schutzzone” or “protection zone”..
+Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia "Slovenského štátu" podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
 
-[![Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia, 1939, Private Property](SVK_TMP.144.jpeg "Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
-[Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83)'s disdain towards the Slavic nations was no secret. He considered them inferior, but favoured a more restrained approach towards Slovakia.
+[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](SVK_TMP.144.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
+[Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83) sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup.
 
 <div class="highlight">
 <p>
-Slovakia was supposed to be an example for the Southeastern European region and prove that a nation can live peacefully under Hitler's "protection".
+Slovensko sa má stať príkladom pre krajiny juhovýchodnej Európy a má ukázať, že pod Hitlerovou „ochranou“ môže národ pokojne žiť.
 </p>
 </div>
 
-[![Štefan Bednár - Using Our Might To Build Our Home - Independent Slovak State!, 1939, Slovak National Museum in Martin ](SVK_TMP.185.jpeg "Štefan Bednár - Using our might to build our home - independent Slovak State!")](http://www.webumenia.sk/dielo/SVK:TMP.185?collection=83)
+[![Štefan Bednár - Vlastnými silami budujeme svoj domov – samostatný Slovenský štát!, 1939, Slovenské národné múzeum - Múzeum v Martine](SVK_TMP.185.jpeg "Štefan Bednár - Vlastnými silami budujeme svoj domov – samostatný Slovenský štát")](http://www.webumenia.sk/dielo/SVK:TMP.185?collection=83)
 
 ---
 
-## Adopting the Constitution of the Slovak Republic
+## Prijatie Ústavy Slovenskej republiky
 ### 21. 7. 1939 {.title-date}
 
-After the December elections, Hlinka's Slovak People's Party - Party of Slovak National Unity not only cemented its position as the ruling party by filling positions at the state and public administrations but also directly asserted their influence on economic and social life in the country. For example, they stopped local elections and instead instructed the municipalities to be run by appointed "government commissioners". The position of one party leadership was laid down in the constitution, ratified by the Diet on 21 June 1939. According to the preamble of the constitution, all power and authority comes from God, but the text continues by affirming the HSPP's authoritatian politics, which openly rejected the democratic principles that people were used to from the interwar period.
+Po decembrových voľbách 1938 <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1-na-polceste-k-slovenskemu-statu#hlinkova-slovensk-udov-strana">"Hlinkova slovenská ľudová strana - Strana slovenskej národnej jednoty (HSĽS-SSNJ)"</a> nielen stabilizuje svoje vládne pozície, ale agresívnym obsadzovaním postov v štátnej a vo verejnej správe priamo presadzuje svoj vplyv na hospodársky a spoločenský život v krajine. Likviduje napríklad voľby do obecných samospráv, obce majú riadiť menovaní „vládni komisári“. Toto vedúce postavenie jedinej politickej strany potvrdzuje aj ústava, ktorú snem prijíma 21. júla 1939. Podľa jej preambuly (predhovoru) vychádza všetka moc a právo od Boha, no jej text potvrdzuje autoritársku politickú prax HSĽS, ktorá otvorene odmieta demokratické zásady, na aké boli občania zvyknutí z medzivojnového obdobia.
 <div class="highlight">
 <p>
-Slovakia became a one-party state where the HSPP claimed to be the only party that "represents the interests of the state-building nation" and the Slovak people could participate in the running of the state only "through them".
+Z HSĽS sa stáva „štátostrana“ – prisvojuje si nárok ako jediná „zastupovať záujmy štátotvorného národa“ a naopak Slováci sa môžu zúčastňovať na politickej moci len „jej prostredníctvom“.
 </p>
 </div>
-[![Unknown Author - Ceremonial opening of a series of technical lectures by workers in Považská Bystrica, 1940, Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.206.jpeg "Unknown Author - Ceremonial opening of a series of technical lectures by workers in Považská Bystrica")](http://www.webumenia.sk/dielo/SVK:TMP.206?collection=83)
+[![Neznámy autor - Slávnostné otvorenie cyklu technických prednášok robotníkov v Považskej Bystrici, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.206.jpeg "Neznámy autor - Slávnostné otvorenie cyklu technických prednášok robotníkov v Považskej Bystrici")](http://www.webumenia.sk/dielo/SVK:TMP.206?collection=83)
 
-Only two other parties remained legal; both ethnic parties formally representing German and Hungarian minorities. The populist ideology put interests of the party, presented as the interests of "national unity", over individual interests. In this national unity, there was no space for those marked as 'the enemies of the state'. From Spring 1939, these individuals were sent to an internment camp in Ilava.
+Z ostatných strán legálne fungujú len dve režimové etnické strany, formálne zastupujúce nemeckú a maďarskú menšinu. Ľudácka ideológia tvrdo podriaďuje záujmy jednotlivca svojim potrebám, ktoré prezentuje ako potreby „národného celku“. A v takom celku niet miesta pre tých, ktorých vláda označí za jeho nepriateľov. Tí už od jari 1939 končia v koncentračnom tábore v Ilave.
 
 {% include 'partials/subobjects.html.twig' with {
-	'title': 'Learn more about the terminology',
-	'subobjects': [
-    	{
-        	'name':'Internment Camp for the Enemies of the Slovak State',
-        	'thumbnail': page.media['Zaistovaci_tabor.jpg'],
-        	'href': '2/ilava'
-    	},
-    	{
-        	'name':'Slovak State vs. Slovak Republic',
-        	'thumbnail': page.media['orol_thumb.jpg'],
-        	'href': '2/slovensky-stat-vs-slovenska-republika'
-    	}
-	]
+    'title': 'Zistite viac o pojmoch',
+    'subobjects': [
+        {
+            'name':'Zaisťovací tábor pre nepriateľov slovenského štátu',
+            'thumbnail': page.media['Zaistovaci_tabor.jpg'],
+            'href': '2/ilava'
+        },
+        {
+            'name':'Slovenský štát vs. Slovenská republika',
+            'thumbnail': page.media['orol_thumb.jpg'],
+            'href': '2/slovensky-stat-vs-slovenska-republika'
+        }
+    ]
 }%}
 
 
 ---
 
 
-## The start of the Second World War
+## Začiatok druhej svetovej vojny
 ### 1. 9. 1939 {.title-date}
 
-Back in April 1939, Hitler issued an order to develop a plan of military action against Poland, whose territory he wanted to annex to the German Reich. Slovakia was supposed to be one of the entry points into Poland for the German forces. In August, the government representatives promised Hitler that in case of a military conflict, the German forces would have authority over Slovak road, rail and river systems. The end of August also saw the beginning of the Slovak army mobilisation.
+Hitler vydáva ešte v apríli 1939 príkaz vypracovať plán vojenského ťaženia proti Poľsku, ktorého územia chcel pripojiť k Nemeckej ríši. Územie Slovenska má byť jedným z nástupných priestorov nemeckej armády. V auguste mu vládni predstavitelia sľubujú, že v prípade vojnového konfliktu dostane nemecké vojenské veliteľstvo právomoci nad slovenskými cestnými, železničnými a riečnymi komunikáciami. Na konci augusta sa začína aj mobilizácia slovenskej armády.
 
-[![Unknown Author - New Slovakia Magazine Cover, 1940 – 1941, Private Property](SVK_TMP.146.jpeg "Unknown Author - New Slovakia Magazine Cover")](http://www.webumenia.sk/dielo/SVK:TMP.146?collection=83)
+[![Neznámy autor - Obálka časopisu Nové Slovensko, 1940 – 1941, Súkromný majetok](SVK_TMP.146.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.146?collection=83)
 
-#### On 1 September 1939, the German forces entered the territory of Poland and the Second World War officially began. Slovakia, which was internationally perceived as a German satellite state, officially confirmed this position by their participation in the September Campaign. This meant an immediate severance of diplomatic relations with the Western powers.
+#### Dňa 1. septembra 1939 nemecké vojská vstupujú na územie Poľska a oficiálne začína druhá svetová vojna. Pre Slovensko, ktoré je zahraničím vnímané ako satelit Tretej ríše, a účasťou svojej armády na nacistickom vpáde do Poľska túto pozíciu otvorene potvrdilo, znamená tento akt okamžité prerušenie diplomatických stykov so západnými veľmocami.
 
-The Slovak public was told that the reason for participating in the campaign, was the return of the territory of 770 km2 with 32 towns and villages, which was occupied by Poland after the Munich Agreement. France and Great Britain, as well as the Polish allies, declared war on Germany. Because of the changing political situation, the Allies returned to their official pre-Munich obligations towards Czechoslovakia. Slovakia was counted among the Nazi-occupied territories.
+Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v médiách predkladané najmä prinavrátenie území o rozlohe 770 km2 s 32 obcami a osadami, ktoré zabralo Poľsko po Mníchovskej dohode. Francúzsko a Veľká Británia ako poľskí spojenci vyhlasujú Nemecku vojnu. Zmenou politickej situácie sa vracajú k svojim predmníchovským spojeneckým záväzkom voči Československu. Slovensko rátajú k ďalším, nacistami postupne okupovaným krajinám.
 
-[![Unknown Author - New Slovakia Magazine Cover, 1940 – 1941, Private Property](SVK_TMP.145.jpeg "Unknown Author - New Slovakia Magazine Cover")](http://www.webumenia.sk/dielo/SVK:TMP.145?collection=83)
+[![Neznámy autor - Obálka časopisu Nové Slovensko, 1940 – 1941, Súkromný majetok](SVK_TMP.145.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.145?collection=83)
 
 ---
 
-## Jozef Tiso Elected for President
+## Jozef Tiso zvolený za prezidenta
 ### 26. 10. 1939 {.title-date}
 
-The Constitution from July 1939 granted extensive powers to the president, who was not yet appointed when the constitution was adopted. The president would be elected for seven years, would not be responsible to the government or parliament and could be prosecuted only by the State Council and only on charges of treason. He would be the commander in chief, the commander of the Hlinka Guard and he would appoint ministers, professors and judges. He would have the right to attend legislative and State Council sessions, declare a state of emergency and, with an agreement of the Diet, declare war or peace.
+Ústava z júla 1939 vymedzuje rozsiahle funkcie prezidentovi, ktorého Slovenská republika zatiaľ nemá. Volený má byť na sedem rokov, nezodpovedá sa vláde ani parlamentu, stíhať ho môže len Štátna rada, aj to len za vlastizradu. Je najvyšším veliteľom armády aj Hlinkovej gardy, menuje ministrov, vysokoškolských profesorov a sudcov. Má právo sa zúčastňovať zasadnutí vlády aj Štátnej rady, vyhlasuje stav brannej pohotovosti a so súhlasom snemu môže vypovedať vojnu či uzatvoriť mier.
 
 <figure class="audio" markdown="1">
-![Audiocollage of Jozef Tiso's Speeches](SXSwebtiso_mixdown.mp3)
-<figcaption>Audiocollage of Jozef Tiso's Speeches</figcaption>
+![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)
+<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
 </figure>
 
-On 26 October 1939, Jozef Tiso was elected President of the Slovak Republic. Vojtech Tuka took over his former position as Prime Minister.
+Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1/tiso">"Jozef Tiso"</a>. Jeho doterajší post predsedu vlády preberá <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1/tuka">"Vojtech Tuka"</a>.
 
 
-**Images of Jozef Tiso with the title of First President of the Slovak Republic**
+**Podobizne Jozefa Tisa s titulom prvý prezident Slovenskej republiky**
 {% include 'partials/carousel.html.twig' with {
-	'images': [
-    	{
-        	'title':'Štefan Bednár',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/24/SVK_TMP.119/SVK_TMP.119.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.119?collection=83'
-    	},
-   	 {
-        	'title':'Vincek Hochštetský',
-   		 'src': 'http://www.webumenia.sk/images/diela/TMP/17/SVK_TMP.149/SVK_TMP.149.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.149?collection=83'
-    	},
-    	{
-        	'title':'Vincek Hochštetský',
-   		 'src': 'http://www.webumenia.sk/images/diela/TMP/16/SVK_TMP.148/SVK_TMP.148.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.148?collection=83'
-    	},
-    	{
-        	'title':'Vincek Hochštetský',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.120/SVK_TMP.120.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.120?collection=83'
-    	}
-	]
+    'images': [
+        {
+            'title':'Štefan Bednár',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/24/SVK_TMP.119/SVK_TMP.119.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.119?collection=83'
+        },
+		{
+            'title':'Vincek Hochštetský',
+			'src': 'http://www.webumenia.sk/images/diela/TMP/17/SVK_TMP.149/SVK_TMP.149.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.149?collection=83'
+        },
+        {
+            'title':'Vincek Hochštetský',
+			'src': 'http://www.webumenia.sk/images/diela/TMP/16/SVK_TMP.148/SVK_TMP.148.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.148?collection=83'
+        },
+        {
+            'title':'Vincek Hochštetský',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.120/SVK_TMP.120.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.120?collection=83'
+        }
+    ]
 }%}
 
 {% include 'partials/subobjects.html.twig' with {
-	'title': 'Learn more about the terminology',
-	'subobjects': [
-    	{
-        	'name':'State Council ',
-        	'thumbnail': page.media['statna_rada.jpg'],
-        	'href': '2/statna-rada'
-    	},
-    	{
-        	'name':'Hlinka Guard',
-        	'thumbnail': page.media['garda_thumb.jpg'],
-        	'href': '2/hlinkova-garda'
-    	},
-    	{
-        	'name':'Hlinka Youth',
-        	'thumbnail': page.media['Hlinkova_mladez.jpg'],
-        	'href': '2/hlinkova-mladez'
-    	}
-	]
+    'title': 'Zistite viac o pojmoch',
+    'subobjects': [
+        {
+            'name':'Štátna rada',
+            'thumbnail': page.media['statna_rada.jpg'],
+            'href': '2/statna-rada'
+        },
+        {
+            'name':'Hlinkova garda',
+            'thumbnail': page.media['garda_thumb.jpg'],
+            'href': '2/hlinkova-garda'
+        },
+        {
+            'name':'Hlinkova mládež',
+            'thumbnail': page.media['Hlinkova_mladez.jpg'],
+            'href': '2/hlinkova-mladez'
+        }
+    ]
 }%}
 
 ---
 
-## The Salzburg Negotiations
+## Salzburské rokovania
 ### 27. - 28. 7. 1940 {.title-date}
 
-The independent Slovak State was created as a by-product of promoting German interests in Central Europe and by signing the Treaty of Protection, Slovakia undeniably became a satellite of the Third Reich. The hopes of Slovak Minister of Foreign Affairs (and Minister of Interior) Ferdinand Ďurčanský for independent foreign policies turned out to be utterly naïve. Nazi Germany saw his occasional attempts at promoting his own ideas as a treachery of the interests of the Reich.
+Samostatný slovenský štát vznikol ako vedľajší produkt presadzovania nemeckých záujmov v strednej Európe a podpísaním ochrannej zmluvy sa definitívne stal satelitom Tretej ríše. Predstavy slovenského ministra zahraničných vecí (a ministra vnútra) Ferdinanda Ďurčanského o akejsi nezávislej zahraničnej politike Slovenska sa ukázali byť absolútne naivné. Nacistické Nemecko vnímalo jeho občasné pokusy o presadzovanie vlastných nápadov ako zradu ríšskych záujmov.
 
-[![Unknown Author - Hitler Receiving President Jozef Tiso in Berlin, 1939, Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.164.jpeg "Unknown Author - Hitler Receiving President Jozef Tiso in Berlin")](http://www.webumenia.sk/dielo/SVK:TMP.164?collection=83)
+[![Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Berlíne., 1939, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.164.jpeg "Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Berlíne")](http://www.webumenia.sk/dielo/SVK:TMP.164?collection=83)
 
-At the end of July 1940, after several warnings, Hitler summoned President Tiso to Salzburg, to show the Slovak people the limits of their independence. In Salzburg, the Germans insisted on removing Ferdinand Ďurčanský from all posts and dictated further changes in the Slovak government. The post of the Minister of Foreign Affairs was passed to Vojtech Tuka, a staunch supporter of National Socialism in Slovakia. Tuka was supposed to guarantee that there would be no more deviation from foreign policies of Germany. Alexander Mach, another populist radical, became the Minister of Interior.
+Na konci júla 1940 si Hitler po viacerých varovaniach necháva zavolať prezidenta Tisa do Salzburgu, aby definitívne ukázal Slovákom, kde sú mantinely ich samostatnosti. V Salzburgu Nemci presadia odstránenie Ferdinanda Ďurčanského zo všetkých postov a nadiktujú zmeny v slovenskej vláde. Kreslo ministra zahraničia obsadzuje predseda vlády Vojtech Tuka, horlivý zástanca nacionálneho socializmu na Slovensku. Tuka mal byť zárukou, že nedôjde k žiadnym odchýlkam od zahranično-politickej línie Nemecka. Post ministra vnútra pripadol Alexandrovi Machovi, ďalšiemu ľudáckemu radikálovi.
 
-[![From the historical meeting at Salzburg, a collage from the New World magazine, 17.08.1940, University Library in Bratislava](Tiso_Hitler_Salzburg.jpg "From the historical meeting at Salzburg, a collage from the New World magazine")](http://digitalna.kniznica.info/zoom/28339/view?page=3&p=separate&view=0,0,2808,4041)
+[![Z historickej schôdzky v Salzburgu, koláž z časopisu Nový Svet, 17.08.1940, Univerzitná knižnica v Bratislave](Tiso_Hitler_Salzburg.jpg "Z historickej schôdzky v Salzburgu, koláž z časopisu Nový Svet")](http://digitalna.kniznica.info/zoom/28339/view?page=3&p=separate&view=0,0,2808,4041)
 
 <div class="highlight">
 <p>
-It was the Nazi vision for Slovakia to adopt the ideas and methods of National Socialism.
+Slovensko má podľa predstáv nacistov priamo preberať myšlienky a metódy ich vlastného nacionálneho socializmu.
 </p>
 </div>
 
-The key positions in the ministries and in the government were increasingly occupied by German advisors after the meeting in Salzburg. Their task was to control the operations of these institutions and monitor the loyalty towards Germany and their compliance with the obligations of the Treaty of Protection.
+Na kľúčové slovenské ministerstvá a úrady, ako aj do mocenských štruktúr režimu navyše po Salzburgu prichádzajú ďalší nemeckí poradcovia. Ich úlohou je kontrolovať chod týchto inštitúcií a zložiek, dbať na lojalitu voči Nemecku a dodržiavanie záväzkov ochrannej zmluvy.
 
-[![Unknown Author - The Day of German Troops organised by German minority party (Deutsche Partei) - Franz Karmasin giving a speech, 1940,  Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.204.jpeg "Unknown Author - The Day of German Troops organised by German minority party (Deutsche Partei) - Franz Karmasin giving a speech")](http://www.webumenia.sk/dielo/SVK:TMP.204?collection=83)
+[![Neznámy autor - Deň nemeckých frontových vojakov zorganizovaný stranou nemeckej menšiny na Slovensku (Deutsche Partei) - Franz Karmasin pri prejave, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.204.jpeg "Neznámy autor - Deň nemeckých frontových vojakov zorganizovaný stranou nemeckej menšiny na Slovensku (Deutsche Partei) - Franz Karmasin pri prejave")](http://www.webumenia.sk/dielo/SVK:TMP.204?collection=83)
 
 ---
 
-## Lomnica Manifesto
+## Lomnický manifest
 ### 31. 8. 1940 {.title-date}
 
-Even the art scene felt the consequences of the political changes in Slovakia. In October 1939, the progressive School of Arts and Crafts was closed and supposedly replaced by the Department of Drawing and Painting at the Slovak University of Technology in Bratislava, which was not academically oriented but rather concentrated on educating art teachers. All interwar art societies were replaced by the united Society of Slovak Artists.
+Ani výtvarné umenie neobchádzajú následky politických zmien, ktoré na Slovensku prebehli. V októbri 1939 zaniká progresívna Škola umeleckých remesiel a akousi jej náhradou má byť Oddelenie kreslenia a maľovania na Slovenskej vysokej škole technickej v Bratislave, ktoré však nie je školou akademického zamerania a vzdeláva najmä učiteľov výtvarnej výchovy. Všetky medzivojnové výtvarné spolky nahrádza pod tlakom zjednotený Spolok slovenských výtvarných umelcov.
 
-[![Štefan Bednár - Artists for the Nation, 1941, The Ministry of Interior of the Slovak Republic - State Archive in Banská Bystrica](SVK_TMP.167.jpeg "Štefan Bednár - Artists for the Nation, 1941, The Ministry of Interior of the Slovak Republic - State Archive in Banská Bystrica")](http://www.webumenia.sk/dielo/SVK:TMP.167?collection=83)
+[![Štefan Bednár - Umelci pre národ, 1941, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.167.jpeg "Štefan Bednár - Umelci pre národ, 1941, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici")](http://www.webumenia.sk/dielo/SVK:TMP.167?collection=83)
 
-After the Salzburg Negotiations, a strong national socialist ideology was promoted in the Slovak arts, and this became the topic of the conference at Tatranská Lomnica. Slovak National Socialism was supposed to be actively promoted in the public life, the opinion of participants, as well as in culture and education.
+Po salzburských rokovaniach sa aj v slovenskom umení začína presadzovať národno-socialistická ideológia a práve o nej sa hovorí na konferencii kultúrnych pracovníkov v Tatranskej Lomnici. Slovenský národný socializmus sa má podľa stanoviska zúčastnených aktívne presadzovať do verejného života, vrátane oblasti kultúry a školstva.
 
-The program of building the National Socialist culture was characterised by the return to the so-called Slovak "peculiarity"; folk motifs, strengthening a national character of Slovak art and the illusion of fulfilled age old efforts for independence.
+Program budovania národno-socialistickej kultúry sa vyznačuje najmä návratom k tzv. svojrázu, pretláčaniu ľudových, folklórnych motívov, s cieľom posilniť národný charakter slovenského umenia a ilúziu naplnených tisícročných snáh Slovákov o samostatnosť.
 
-**Martin Benka - Cycle of the Guardians of Slovakia (1940 - 1942)**
+**Martin Benka - Séria strážcovia a ochrankyne Slovenska (1940 - 1942)**
 {% include 'partials/carousel.html.twig' with {
    'images': [
-   	{
-       	'title':'Guardian of the Tatras',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/9/SVK_TMP.178/SVK_TMP.178.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.178?collection=83'
-   	},
-   	{
-       	'title':'Guardian of Peaks',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/4/SVK_TMP.173/SVK_TMP.173.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.173?collection=83'
-   	},
-   	{
-       	'title':'Guardian of Považie',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/8/SVK_TMP.177/SVK_TMP.177.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.177?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Creative Work',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/2/SVK_TMP.171/SVK_TMP.171.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.171?collection=83'
-   	},
-    	{
-       	'title':'Guardian in the West',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/6/SVK_TMP.175/SVK_TMP.175.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.175?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Art',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/3/SVK_TMP.172/SVK_TMP.172.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.172?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Čachtice',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/7/SVK_TMP.176/SVK_TMP.176.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.176?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Spirit',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/79/SVK_TMP.169/SVK_TMP.169.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.169?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Detva',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/5/SVK_TMP.174/SVK_TMP.174.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.174?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Purity',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/78/SVK_TMP.168/SVK_TMP.168.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.168?collection=83'
-   	},
-    	{
-       	'title':'Guardian in the East',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/10/SVK_TMP.179/SVK_TMP.179.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.179?collection=83'
-   	},
-    	{
-       	'title':'Guardian of Liturgy',
-       	'src': 'http://www.webumenia.sk/images/diela/TMP/1/SVK_TMP.170/SVK_TMP.170.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.170?collection=83'
-   	}
+       {
+           'title':'Strážca Tatier',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/9/SVK_TMP.178/SVK_TMP.178.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.178?collection=83'
+       },
+       {
+           'title':'Ochrankyňa vrchov',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/4/SVK_TMP.173/SVK_TMP.173.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.173?collection=83'
+       },
+       {
+           'title':'Strážca Považia',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/8/SVK_TMP.177/SVK_TMP.177.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.177?collection=83'
+       },
+        {
+           'title':'Ochrankyňa tvorivej práce',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/2/SVK_TMP.171/SVK_TMP.171.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.171?collection=83'
+       },
+        {
+           'title':'Strážca na západe',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/6/SVK_TMP.175/SVK_TMP.175.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.175?collection=83'
+       },
+        {
+           'title':'Ochrankyňa umenia',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/3/SVK_TMP.172/SVK_TMP.172.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.172?collection=83'
+       },
+        {
+           'title':'Strážca okolia čachtického',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/7/SVK_TMP.176/SVK_TMP.176.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.176?collection=83'
+       },
+        {
+           'title':'Ochrankyňa ducha',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/79/SVK_TMP.169/SVK_TMP.169.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.169?collection=83'
+       },
+        {
+           'title':'Strážca Detvy',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/5/SVK_TMP.174/SVK_TMP.174.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.174?collection=83'
+       },
+        {
+           'title':'Ochrankyňa čistoty',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/78/SVK_TMP.168/SVK_TMP.168.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.168?collection=83'
+       },
+        {
+           'title':'Strážca východu',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/10/SVK_TMP.179/SVK_TMP.179.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.179?collection=83'
+       },
+        {
+           'title':'Ochrankyňa liturgie',
+           'src': 'http://www.webumenia.sk/images/diela/TMP/1/SVK_TMP.170/SVK_TMP.170.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.170?collection=83'
+       }
    ]
 }%}
 
-The pseudo-Romantic, idealist interpretation of the national myth was based on the idea of a return to our ancestors and the selective creation of heroic martyrs from the past (Pribina, Svätopluk, Old Slavic and Constantine-Methodist traditions). It emphasised the antiquity of the nation, born of "ancient spirit of the people" and their unchanging lifestyle.
+Pseudoromantický, idealistický výklad národného mýtu vedie k idylickému návratu k predkom a k výberovému vytváraniu martýria hrdinov minulosti (Pribina, Svätopluk, staroslovanská a cyrilo-metodská tradícia). Zdôrazňuje sa starobylosť národa, zrodeného z „prastarého ducha ľudu“ a nemennosť spôsobu života, pretrvávajúceho stáročia.
 
-**Artworks depicting the icons of national unity and Slovak "peculiarity"**
+**Diela zobrazujúce ikony národnej pospolitosti a slovenský "svojráz"**
 {% include 'partials/carousel.html.twig' with {
-	'images': [
-    	{
-   	 	'title':'Ján Ladvenica - King Svätopluk',
-        	'src': 'http://www.webumenia.sk/images/diela/GMB/89/SVK_GMB.A_3475/SVK_GMB.A_3475.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83'
-    	},
-    	{
-   	 	'title':'Ján Ladvenica - King Svätopluk with Sons',
-        	'src': 'http://www.webumenia.sk/images/diela/GMB/91/SVK_GMB.A_3477/SVK_GMB.A_3477.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3477?collection=83'
-    	},
-    	{
-        	'title':'Ján Ladvenica - From Ždiar',
-        	'src': 'http://www.webumenia.sk/images/diela/SNG/11/SVK_SNG.O_1978/SVK_SNG.O_1978.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1978?collection=83'
-    	},
-   	 {
-        	'title':'Ján Ladvenica - Liberated Territory',
-        	'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_1977/SVK_SNG.O_1977.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1977?collection=83'
-         },
-   	 {
-        	'title':'Štefan Bednár - Jánošík’s Death',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.166/SVK_TMP.166.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.166?collection=83'
-    	},
-   	 {
-        	'title':'Janko Alexy - Mojmír’s Death II.',
-        	'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.K_3477/SVK_SNG.K_3477.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_3477?collection=83'
-       }
-	]
+    'images': [
+        {
+		    'title':'Ján Ladvenica - Kráľ Svätopluk',
+            'src': 'http://www.webumenia.sk/images/diela/GMB/89/SVK_GMB.A_3475/SVK_GMB.A_3475.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83'
+        },
+        {
+		    'title':'Ján Ladvenica - Kráľ Svätopluk so synmi',
+            'src': 'http://www.webumenia.sk/images/diela/GMB/91/SVK_GMB.A_3477/SVK_GMB.A_3477.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3477?collection=83'
+        },
+        {
+            'title':'Ján Ladvenica - Zo Ždiaru',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/11/SVK_SNG.O_1978/SVK_SNG.O_1978.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1978?collection=83'
+        },
+		{
+            'title':'Ján Ladvenica - Oslobodené územie',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_1977/SVK_SNG.O_1977.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1977?collection=83'
+        },
+		{
+            'title':'Štefan Bednár - Jánošíkova smrť',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.166/SVK_TMP.166.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.166?collection=83'
+        },
+		{
+            'title':'Janko Alexy - Mojmírova smrť II.',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.K_3477/SVK_SNG.K_3477.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_3477?collection=83'
+        }
+    ]
 }%}
 
+Aj vďaka tomu, že oficiálne predstavy o tom, aké má byť umenie v „nových“ pomeroch, boli neurčité a rozporné, sieť [„deravej totality“](https://sk.wikipedia.org/wiki/Vladim%C3%ADr_Clementis) dokázala miestami prepustiť nové umelecké iniciatívy. Mladá generácia umelcov väčšmi artikulovala antiklerikálne, antifašistické a protivojnové postoje. Platformou pre nové vedecké, literárne a umelecké názory sa stalo vydávanie nadrealistických zborníkov: Áno a Nie (1938), Sen a skutočnosť (1940), Vo dne a v noci (1941) a Pozdrav (1942). V ich okruhu sa stretali a vzájomne konfrontovali výtvarné názory viacerých príslušníkov Generácie 1909 ([C. Majerník](http://www.webumenia.sk/autor/6151), [J. Mudroch](http://www.webumenia.sk/autor/6948), [P. Matejka](http://www.webumenia.sk/autor/6393), [J. Kostka](http://www.webumenia.sk/autor/5187), [E. Nevan](http://www.webumenia.sk/autor/7258), [J. Želibský](http://www.webumenia.sk/autor/12214), [B. Hoffstädter](http://www.webumenia.sk/autor/3953) a i.), ale i mladších, neskôr nazvaných tiež Generácia druhej svetovej vojny ([V. Hložník](http://www.webumenia.sk/autor/3886), [L. Guderna](http://www.webumenia.sk/autor/3380), [V. Chmel](http://www.webumenia.sk/autor/4278), [E. Semian](http://www.webumenia.sk/autor/8998), [O. Dubay](http://www.webumenia.sk/autor/2167), [E. Zmeták](http://www.webumenia.sk/autor/12162)).
 
-Because the official ideas about the arts under the new regime were unclear and contradictory, original artistic initiatives sometimes slipped through the net [„leaky totalitarianism“](https://sk.wikipedia.org/wiki/Vladim%C3%ADr_Clementis). The younger generation of artists managed to articulate anti-clerical, antifascist and anti-war ideas. The publication of several surrealist anthologies became the platform for new scientific, literary and artistic opinions: Yes and No (1938), Dream and Realist (1940), Day and Night (1941) and Greeting (1942). It was a meeting point for the artistic opinions of several members of the Generation 1909: ([C. Majerník](http://www.webumenia.sk/autor/6151), [J. Mudroch](http://www.webumenia.sk/autor/6948), [P. Matejka](http://www.webumenia.sk/autor/6393), [J. Kostka](http://www.webumenia.sk/autor/5187), [E. Nevan](http://www.webumenia.sk/autor/7258), [J. Želibský](http://www.webumenia.sk/autor/12214), [B. Hoffstädter](http://www.webumenia.sk/autor/3953) a i.), but also of younger artists, later called the Generation of the Second World War ([V. Hložník](http://www.webumenia.sk/autor/3886), [L. Guderna](http://www.webumenia.sk/autor/3380), [V. Chmel](http://www.webumenia.sk/autor/4278), [E. Semian](http://www.webumenia.sk/autor/8998), [O. Dubay](http://www.webumenia.sk/autor/2167), [E. Zmeták](http://www.webumenia.sk/autor/12162)).
+Diela týchto autorov sa často vyznačovali básnickou invenciou a imagináciou, poetickosťou, fragmentárnosťou (náčrtkovitosťou), inotajnými náznakmi „nevysloveného obsahu" a námetmi, ktoré umožnili, aby „sa výtvarné dielo cítilo ako znak skutočnosti“, „prevrátený symbol doby“. Non-konformný postoj k oficiálnym umeleckým požiadavkam zaujali aj autori, zachovávajúci kontinuitu moderny ako [M. A. Bazovský](http://www.webumenia.sk/autor/582), alebo [A. P. Weisz-Kubínčan](http://www.webumenia.sk/autor/11709), ktorého židovský pôvod bol dôvodom neustáleho prenasledovania s tragickým koncom.
 
-The works of these artists were often characterised by poetic inventiveness and imagination, fragmented nature, allegorical suggestions of "unspoken content" and motifs, which allowed "the artwork to feel as a mark of reality", "an inverted symbol of the era". Non-conformist attitude towards the official requests was shown also by artists that kept the continuity of Modernism as [M. A. Bazovský](http://www.webumenia.sk/autor/582), or [A. P. Weisz-Kubínčan](http://www.webumenia.sk/autor/11709), whose Jewish heritage lead to his continual persecution with a tragic ending.
-
-**Examples of Unofficial Art Works**
+**Príklady diel autorov neoficiálneho umenia**
 
 {% include 'partials/carousel.html.twig' with {
    'images': [
-   	{
-       	'title':'Ján Mudroch - Anthology Cover Design',
-        	'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.O_4364/SVK_SNG.O_4364.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4364'
-   	},
-   	{
-       	'title':'Ján Mudroch - Surprise',
-        	'src': 'http://www.webumenia.sk/images/diela/SNG/26/SVK_SNG.O_1667/SVK_SNG.O_1667.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1667'
-   	},
-   	{
-       	'title':'Peter Matejka - In Front of a Mirror',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_1749/SVK_SNG.O_1749.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1749'
-   	},
-    	{
-       	'title':'Cyprián Majerník - Refugees',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/24/SVK_SNG.O_2479/SVK_SNG.O_2479.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2479'
-   	},
-    	{
-       	'title':'Cyprián Majerník - The Good Samaritan',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_2478/SVK_SNG.O_2478.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2478'
-   	},
-    	{
-       	'title':'Ervín Semian - Red and Black Horse',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/44/SVK_SNG.O_6592/SVK_SNG.O_6592.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6592'
-   	},
-    	{
-       	'title':'František Kudláč - Tragedian',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/96/SVK_SNG.O_1144/SVK_SNG.O_1144.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1144'
-   	},
-    	{
-       	'title':'Dezider Milly - Wandering',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/4/SVK_SNG.O_6655/SVK_SNG.O_6655.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6655'
-   	},
-    	{
-       	'title':'Jozef Šturdík - Still Life II.',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.O_4409/SVK_SNG.O_4409.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4409'
-   	},
-    	{
-       	'title':'Ladislav Čemický - War',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_1717/SVK_SNG.O_1717.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1717'
-   	},
-    	{
-       	'title':'Ester Šimerová-Martinčeková - The Three Graces',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_220/SVK_SNG.O_220.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_220'
-   	},
-   	{
-       	'title':'Vincent Hložník - Dead',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_5371/SVK_SNG.O_5371.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_5371'
-   	},
-   	{
-       	'title':'Ján Želibský - After Air Raid',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/37/SVK_SNG.O_6067/SVK_SNG.O_6067.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6067'
-   	},
-   	{
-       	'title':'Arnold Peter Weisz-Kubínčan - Peasant',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/13/SVK_SNG.O_2948/SVK_SNG.O_2948.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2948'
-   	},
-   	{
-       	'title':'Jozef Kostka - Poetry I.',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.P_64/SVK_SNG.P_64.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_64'
-   	},
-   	{
-       	'title':'Jozef Kostka - Grief',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/84/SVK_SNG.P_227/SVK_SNG.P_227.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_227'
-   	},
-   	{
-       	'title':'Rudolf Pribiš - Today',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/27/SVK_SNG.P_198/SVK_SNG.P_198.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_198'
-   	},
-   	{
-       	'title':'Bedrich Hoffstädter - In a Tram',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/23/SVK_SNG.K_1475/SVK_SNG.K_1475.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_1475'
-   	},
-   	{
-       	'title':'Miloš Alexander Bazovský - Peace',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/76/SVK_SNG.O_6699/SVK_SNG.O_6699.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6699'
-   	},
-    	{
-       	'title':'Eugen Nevan - Medusa',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.O_3549/SVK_SNG.O_3549.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_3549'
-   	},
-   	{
-       	'title':'Eugen Nevan - Übermensch',
-       	'src': 'http://www.webumenia.sk/images/diela/SNG/50/SVK_SNG.K_6833/SVK_SNG.K_6833.jpeg',
-       	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_6833'
-   	}
+       {
+           'title':'Ján Mudroch - Návrh na obálku zborníka',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.O_4364/SVK_SNG.O_4364.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4364'
+       },
+       {
+           'title':'Ján Mudroch - Prekvapenie',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/26/SVK_SNG.O_1667/SVK_SNG.O_1667.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1667'
+       },
+       {
+           'title':'Peter Matejka - Pred zrkadlom',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_1749/SVK_SNG.O_1749.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1749'
+       },
+        {
+           'title':'Cyprián Majerník - Utečenci',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/24/SVK_SNG.O_2479/SVK_SNG.O_2479.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2479'
+       },
+        {
+           'title':'Cyprián Majerník - Milosrdný samaritán',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_2478/SVK_SNG.O_2478.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2478'
+       },
+        {
+           'title':'Ervín Semian - Červený a čierny koník',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/44/SVK_SNG.O_6592/SVK_SNG.O_6592.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6592'
+       },
+        {
+           'title':'František Kudláč - Tragéd',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/96/SVK_SNG.O_1144/SVK_SNG.O_1144.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1144'
+       },
+        {
+           'title':'Dezider Milly - Blúdiaca',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/4/SVK_SNG.O_6655/SVK_SNG.O_6655.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6655'
+       },
+        {
+           'title':'Jozef Šturdík - Zátišie II.',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.O_4409/SVK_SNG.O_4409.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4409'
+       },
+        {
+           'title':'Ladislav Čemický - Vojna',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_1717/SVK_SNG.O_1717.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1717'
+       },
+        {
+           'title':'Ester Šimerová-Martinčeková - Tri grácie',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_220/SVK_SNG.O_220.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_220'
+       },
+	   {
+           'title':'Vincent Hložník - Mŕtvy',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_5371/SVK_SNG.O_5371.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_5371'
+       },
+       {
+           'title':'Ján Želibský - Po nálete',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/37/SVK_SNG.O_6067/SVK_SNG.O_6067.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6067'
+       },
+       {
+           'title':'Arnold Peter Weisz-Kubínčan - Sedliačka',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/13/SVK_SNG.O_2948/SVK_SNG.O_2948.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2948'
+       },
+	   {
+           'title':'Jozef Kostka - Poézia I.',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.P_64/SVK_SNG.P_64.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_64'
+       },
+	   {
+           'title':'Jozef Kostka - Žiaľ',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/84/SVK_SNG.P_227/SVK_SNG.P_227.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_227'
+       },
+	   {
+           'title':'Rudolf Pribiš - Dnešok',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/27/SVK_SNG.P_198/SVK_SNG.P_198.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_198'
+       },
+	   {
+           'title':'Bedrich Hoffstädter - V električke',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/23/SVK_SNG.K_1475/SVK_SNG.K_1475.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_1475'
+       },
+       {
+           'title':'Miloš Alexander Bazovský - Mier',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/76/SVK_SNG.O_6699/SVK_SNG.O_6699.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6699'
+       },
+        {
+           'title':'Eugen Nevan - Medúza',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.O_3549/SVK_SNG.O_3549.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_3549'
+       },
+       {
+           'title':'Eugen Nevan - Übermensch',
+           'src': 'http://www.webumenia.sk/images/diela/SNG/50/SVK_SNG.K_6833/SVK_SNG.K_6833.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_6833'
+       }
    ]
 }%}
 
 ---
 
-## Life in the „New Slovakia“
+## Život na „Novom Slovensku“
 
 
-The propaganda at the time was used to spread an image of Slovakia as a peaceful and prosperous country. In contrast to the Protectorate or even Poland, Slovakia was, at least at the beginning, less directly impacted by the Third Reich and the war. Until the Salzburg Negotiations, the government managed to paint a picture of "independence", which allowed them to retain their popularity. The government was adopting social rhetoric and financed various projects. They also introduced some social benefits, such as allowances for children without means.
+Dobová propaganda využíva ovládnuté médiá na šírenie obrazu Slovenska ako mierovej, budujúcej a prosperujúcej krajiny. V porovnaní s Protektorátom či dokonca s Poľskom je na Slovensku spočiatku podstatne menej cítiť priamy vplyv Tretej ríše. Až do salzburských rokovaní sa darí navonok udržiavať obraz „samostatnosti“, čo u časti populácie pomáha vláde získať a udržať si popularitu. Vláda si osvojuje sociálnu rétoriku a aj investuje do viacerých sociálnych projektov. Zavádza aj niektoré sociálne benefity, ako prídavky na nezaopatrené deti.
 
-[![Andrej Kováčik - Healthy Child in the Family..., 1940, The Ministry of Interior of the Slovak Republic - State Archive in Banská Bystrica](SVK_TMP.187.jpeg "Andrej Kováčik - Healthy Child in the Family")](http://www.webumenia.sk/dielo/SVK:TMP.187?collection=83)
+[![Andrej Kováčik - Zdravé dieťa v rodine..., 1940, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.187.jpeg "Andrej Kováčik - Zdravé dieťa v rodine")](http://www.webumenia.sk/dielo/SVK:TMP.187?collection=83)
 
-War production, mobilisation, and relocation of workers to Germany brought down unemployment. Large parts of the population benefited - or at least hoped to benefit, from Aryanization, ranging from seizing Jewish businesses to taking equipment from their households.
-
+Vojnová výroba, mobilizácia mužov do armády a tiež ich umiestňovanie na práce v Nemecku pomáhajú znižovať nezamestnanosť. Relatívne veľké skupiny obyvateľstva ťažia, alebo aspoň majú nádej, že budú ťažiť, z rozdávania arizovaného majetku, od podnikovej úrovne až po vybavenie zo židovských domácností.
 {% include 'partials/subobjects.html.twig' with {
-	'subobjects': [
-    	{
-        	'name':'Aryanization',
-        	'thumbnail': page.media['Arizacia.jpg'],
-        	'href': '2/arizacia'
-    	}
-	]
+    'subobjects': [
+        {
+            'name':'Arizácia',
+            'thumbnail': page.media['Arizacia.jpg'],
+            'href': '2/arizacia'
+        }
+    ]
 }%}
 
-With the escalation of the military conflict, the economy started showing negative effects of the crisis. From 1940 and especially since the declaration of war with the Soviet Union in June 1941, supplies rapidly diminished. The summer of 1941 saw a major flour supply crisis. The lack of fats started to become a serious problem and the black market prices were several times higher than the state-controlled market. To avoid the unpopular ticket system of rationing, the government started so-called issue books.
+S prehlbovaním vojnového konfliktu sa v ekonomike prejavujú negatívne krízové javy. Už od roku 1940 a najmä od vypuknutia vojny so Sovietskym zväzom v júni 1941 sa rýchlo zhoršuje zásobovanie. V lete 1941 nastáva vážna kríza v zásobovaní múkou. Dlhodobo sa prejavuje aj nedostatok tukov. Šíri sa čierny trh s niekoľkonásobne vyššími cenami než na štátom kontrolovanom trhu. Aby sa vláda vyhla nepopulárnemu lístkovému systému zásobovania obyvateľstva, zaviedla tzv. odberné knižky.
 
 {% include 'partials/carousel.html.twig' with {
-	'images': [
-    	{
-   	 	'title':'Poster by an Unknown Author',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/33/SVK_TMP.181/SVK_TMP.181.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83'
-    	},
-    	{
-   	 	'title':'Poster by Edmund Massányi',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/41/SVK_TMP.189/SVK_TMP.189.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.189?collection=83'
-    	},
-   	 {
-        	'title':'Poster by an Unknown Author',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/34/SVK_TMP.182/SVK_TMP.182.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.182?collection=83'
-    	},
-    	{
-        	'title':'Jozef Cincík - Slovakia at the Turning Point',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.186/SVK_TMP.186.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.186?collection=83'
-    	}
-	]
+    'images': [
+        {
+		    'title':'Plagát od neznámeho autora',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/33/SVK_TMP.181/SVK_TMP.181.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83'
+        },
+        {
+		    'title':'Plagát pravdepodobne od Edmunda Massányi',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/41/SVK_TMP.189/SVK_TMP.189.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.189?collection=83'
+        },
+		{
+            'title':'Plagát od neznámeho autora',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/34/SVK_TMP.182/SVK_TMP.182.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.182?collection=83'
+        },
+        {
+            'title':'Jozef Cincík - Slovensko na prelome',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.186/SVK_TMP.186.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.186?collection=83'
+        }
+    ]
 }%}
 
-In the annexation of the southern regions to Hungary, Slovakia lost an agriculturally important territory with several centres of the mining, leather and printing industry. The transportation and communication infrastructures were disturbed, as well as the electricity network. In order to improve the situation, in February 1939, the government announced a loan for the economic recovery of Slovakia.
+Pripojením juhu krajiny k Maďarsku stratilo Slovensko poľnohospodársky dôležitú oblasť s viacerými centrami baníckeho, kožiarskeho či polygrafického priemyslu. Narušená je dopravná a telekomunikačná štruktúra, ale aj systém elektrických vedení. V snahe zlepšiť situáciu vyhlasuje vláda vo februári 1939 pôžičku hospodárskej obnovy Slovenska.
 
-For Germany, Slovakia was an important source of raw materials, agricultural products and strategic defence industry. Germans also continually used the Slovak transportation networks and infrastructure. They had vested interest in further Slovak development. The Slovak government invested into various interwar projects and presented them as their own. They continued building new roads, railways, electrical and telephone networks - all of which was used in weekly newsreels to substantiate the righteousness of the new path. The dark side of the economic upswing was covered up through propaganda campaigns such as "Smiling Slovakia" or "Joy of Work".
+Keďže pre Nemecko je krajina významným zdrojom nerastných surovín, poľnohospodárskych výrobkov a strategickej zbrojárskej výroby, a neustáva ani využívanie jeho komunikačnej siete, v istých sférach prejavuje vlastný záujem o ich rozvoj. Vláda si osvojuje aj viacero medzivojnových projektov, ktoré prezentuje ako svoje vlastné. Pokračuje budovanie nových železničných spojení, pribúdajú cesty s pevným povrchom, elektrické a telefónne siete - to všetko dôsledne využité vo filmových týždenníkoch ako dôkaz správnosti novej nastúpenej cesty. Odvrátenú stranu rozmachu hospodárskeho rastu čiastočne prekrývajú propagandistické kampane ako „Usmievavé Slovensko“ či „Radosť z práce“.
 
-[![Unknown Author - New Slovakia Magazine Cover, 1944, Private Property](SVK_TMP.183.jpeg "Unknown Author - New Slovakia Magazine Cover")](http://www.webumenia.sk/dielo/SVK:TMP.183?collection=83)
+[![Neznámy autor - Obálka časopisu Nové Slovensko, 1944, súkromný majetok](SVK_TMP.183.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.183?collection=83)
 
 <div class="highlight">
 <p>
-Key positions in Slovak corporations were occupied by German banks and associations and a considerable part of the industry was directly tied to German war needs. Hitler's defeat would render Slovak economy unsustainable.
+Kľúčové pozície v slovenských podnikoch ovládajú nemecké banky a združenia a značná časť priemyslu je natoľko naviazaná na vojnové potreby Nemecka, že je v prípade neúspechu Hitlera vo vojne naďalej neudržateľná.
 </p>
 </div>
 
-[![Unknown Author - Výstava Hradské Adolfa Hitlera, 1940, Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.184.jpeg "Unknown Author - Výstava Hradské Adolfa Hitlera")](http://www.webumenia.sk/dielo/SVK:TMP.184?collection=83)
+[![Neznámy autor - Výstava Hradské Adolfa Hitlera, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.184.jpeg "Neznámy autor - Výstava Hradské Adolfa Hitlera")](http://www.webumenia.sk/dielo/SVK:TMP.184?collection=83)
 
-**Attilio and Ernesto La Paluda - Design for University Campus in Bratislava (1940-1941):**
+**Attilio a Ernesto La Paluda - Súťažný návrh na Univerzitné mesto v Bratislave (1940-1941):**
 {% include 'partials/carousel.html.twig' with {
-	'images': [
-    	{
-   	 	'title':'Design Proposal for University Campus in Bratislava',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.210/SVK_TMP.210.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.210?collection=83'
-    	},
-    	{
-   	 	'title':'Perspective View of the Proposal',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/48/SVK_TMP.76/SVK_TMP.76.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.76?collection=83'
-    	},
-    	{
-        	'title':'Overall Proposal',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/47/SVK_TMP.75/SVK_TMP.75.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.75'
-    	},
-   	 {
-        	'title':'Model of the Proposal',
-        	'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.74/SVK_TMP.74.jpeg',
-        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.74'
-    	}
-	]
+    'images': [
+        {
+		    'title':'Súťažný návrh na Univerzitné mesto v Bratislave',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.210/SVK_TMP.210.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.210?collection=83'
+        },
+        {
+		    'title':'Perspektívny pohľad návrhu',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/48/SVK_TMP.76/SVK_TMP.76.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.76?collection=83'
+        },
+        {
+            'title':'Celková situácia návrhu',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/47/SVK_TMP.75/SVK_TMP.75.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.75'
+        },
+		{
+            'title':'Model návrhu',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.74/SVK_TMP.74.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.74'
+        }
+    ]
 }%}
 
 ---
 
-## The Beginning of the German-Soviet War
+## Začiatok nemecko-sovietskej vojny
 ### 22. 6. 1941 {.title-date}
 
-Germany depended on the forces of their allies when they attacked the Union of Soviet Socialist Republics (USSR). In late April 1941, they signed an agreement about transit and residence of German troops on Slovak territory and in the early June, the Slovak army introduced special exercises.
+Pri svojich plánoch vojensky napadnúť Zväz sovietskych socialistických republík (ZSSR) počíta Nemecko aj s účasťou vojsk svojich spojencov. Na konci apríla 1941 je podpísaná dohoda o prechode a pobyte nemeckých vojsk na slovenskom území a začiatkom júna zavádza aj slovenská armáda mimoriadne cvičenia.
 
-On 22 June 1941, German, Romanian and Finnish forces attacked the Soviet territories. The inclusion of Slovakia as a Slavic state was supposed to strengthen the impression that it was a "fight against Bolshevism", not a war on the civilian population. The real reason for the invasion was German plans to acquire "living space" ("lebensraum") and germanise the Eastern Europe.
+Dňa 22. júna 1941 zaútočia na sovietske územie nemecké, rumunské a fínske vojská. Zapojenie Slovenska ako slovanského štátu do bojov má posilniť dojem, že ide o „boj proti boľševizmu“, nie o vojnu voči civilnému obyvateľstvu. Skutočným dôvodom invázie sú však nemecké mocenské zámery - získanie „životného priestoru" (tzv. „lebensraum") a germanizácia východnej európy.
 
-[![Unknown Author - New Slovakia Magazine Covers, 1941, Private Property](SVK_TMP.147.jpeg "Unknown Author - New Slovakia Magazine Covers")](http://www.webumenia.sk/dielo/SVK:TMP.147?collection=83)
+[![Neznámy autor - Obálky časopisu Nové Slovensko, 1941, Súkromný majetok](SVK_TMP.147.jpeg "Neznámy autor - Obálky časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.147?collection=83)
 
 <div class="highlight">
 <p>
-The leading Slovak politicians agreed with Hitler's demands that the Slovak forces participate in the military operations.
+Politické špičky slovenského štátu súhlasia s Hitlerovou požiadavkou, aby sa Slováci zúčastnili vojenských operácií.
 </p>
 </div>
 
-With their willingness to fight by the side of the Third Reich, Slovakia was competing with Hungary for German's favour in hopes for revision of the Vienna Arbitration. Tuka announced the end of diplomatic relations with the USSR followed by a declaration of war. However, the Slovak Diet never discussed said declaration of war.
+Svojou ochotou bojovať po boku Tretej ríše súperia aj o nemeckú priazeň s Maďarskom v nádeji na možnú budúcu revíziu Viedenskej arbitráže. Tuka oznamuje prerušenie diplomatických stykov so ZSSR a vypovedanie vojny. O vstupe Slovenska do vojny však nerokoval snem.
 
-[![Jozef Teslík - „Haemistkas“ Offer Tea to Soldiers. The Departure of Soldiers to the Eastern Front, 1941, Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.202.jpeg "Jozef Teslík - „Haemistkas“ Offer Tea to Soldiers. The Departure of Soldiers to the Eastern Front")](http://www.webumenia.sk/dielo/SVK:TMP.202?collection=83)
+[![Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.202.jpeg "Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front,")](http://www.webumenia.sk/dielo/SVK:TMP.202?collection=83)
 
-**Excerpts from the New World Magazine (August 1941) about the Slovaks on the Eastern Front**
+**Ukážky z časopisu Nový svet (august 1941) o slovákoch na východnom fronte**
 
 {% include 'partials/carousel.html.twig' with {
-	'images': [
-    	{
-        	'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/novysvet-vojaci_dievcata-teslik.jpg',
-        	'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=1&p=separate&view=0,0,2789,3909'
-    	},
-   	 {
-        	'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Vojak_na_fronte.jpg',
-        	'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=3&p=separate&view=0,0,2794,3894'
-    	},
-    	{
-        	'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Boj_na_zivot.jpg',
-        	'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=4&p=separate&view=0,0,2789,3874'
-    	},
-    	{
-        	'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/na_krvacajucom_vychode.jpg',
-        	'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=5&p=separate&view=0,0,2819,3879'
-    	},
-   	 {
-        	'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/hrdinske_boje_letcov.jpg',
-        	'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=6&p=separate&view=0,0,2749,3884'
-    	}
-	]
+    'images': [
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/novysvet-vojaci_dievcata-teslik.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=1&p=separate&view=0,0,2789,3909'
+        },
+		{
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Vojak_na_fronte.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=3&p=separate&view=0,0,2794,3894'
+        },
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Boj_na_zivot.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=4&p=separate&view=0,0,2789,3874'
+        },
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/na_krvacajucom_vychode.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=5&p=separate&view=0,0,2819,3879'
+        },
+		{
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/hrdinske_boje_letcov.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=6&p=separate&view=0,0,2749,3884'
+        }
+    ]
 }%}
 
-Transportation by the German and Slovak armies overloaded the road and rail networks to the extent that civil traffic, especially trains, were often greatly impacted. The Slovak army formed 'Rapid Deployment Forces' (later 'Rapid Brigade') and crossed the Dukla Pass on 24 June to join the German army.
+Nemecká a slovenská armáda svojimi presunmi natoľko zahlcujú komunikácie, že civilná doprava, najmä vlaková, je často výrazne obmedzená. Slovenské vojská, sformované do tzv. Rýchlej skupiny (neskôr Rýchlej brigády), prekračujú 24. júna Dukliansky priesmyk a za hranicami sa pridávajú k nemeckej armáde.
 
-From this moment, the Second World War would increasingly bring losses to Slovakia...
+Druhá svetová vojna začne od tejto chvíle Slovensku prinášať čoraz výraznejšie straty...
 
-[![Jozef Cincík - Slovak Soldier on Guard by the Sea of Azov, 1941, Slovak National Archive, Bratislava - Slovak Press Office](SVK_TMP.201.jpeg "Jozef Cincík - Slovak Soldier on Guard by the Sea of Azov")](http://www.webumenia.sk/dielo/SVK:TMP.201?collection=83)
+[![Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.201.jpeg "Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori")](http://www.webumenia.sk/dielo/SVK:TMP.201?collection=83)
 
-**All artworks in this chapter can also be found in the collection at the Web of Art: [One Nation, One Party, One Leader](http://www.webumenia.sk/kolekcia/83 "Collection One Nation, One Party, One Leader")**
-
+**Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Jeden národ, jedna strana, jeden vodca](http://www.webumenia.sk/kolekcia/83 "Kolekcia Jeden národ, jedna strana, jeden vodca")**

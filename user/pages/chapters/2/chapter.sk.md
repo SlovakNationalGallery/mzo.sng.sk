@@ -11,7 +11,7 @@ routes:
         - /chapters/2
 chapterNumber: 2
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
-image: teslik-oslavy.jpg
+image: 128-detail-cover.jpg
 ---
 
 <span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1-na-polceste-k-slovenskemu-statu#vznik-slovenskho-ttu">"Slovenský štát"</a>, nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“.

@@ -12,7 +12,7 @@ routes:
         - /chapters/4
 chapterNumber: 4
 description: '4. kapitola: Vytriezvenie zo sna'
-image: Telgart_vypalenie-cover.jpg
+image: 0979-cover.jpg
 ---
 
 ## Obrat vo vojne a kríza ľudáckeho režimu

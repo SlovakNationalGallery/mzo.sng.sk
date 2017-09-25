@@ -11,7 +11,7 @@ routes:
         - /chapters/3
 chapterNumber: 3
 description: '3. kapitola: 70 000 obetí'
-image: Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg
+image: cover-1.jpg
 ---
 
 ## Národnostné menšiny slovenského štátu
