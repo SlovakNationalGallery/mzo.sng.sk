@@ -104,6 +104,3 @@ Aj pri predpokladanej strate veľkého množstva oltárov, nehovoriac o svetský
 Či už na Spiši alebo v okolí Košíc, v Bardejove alebo v Prešove, prostredie bohatých východoslovenských miest ponúkalo dostatok príležitostí ešte minimálne jedno desaťročie. Hospodárska konjunktúra spišských miest a ich topografická aj geopolitická otvorenosť umožnili nárast počtu objednávok spektakulárnych oltárov a zamestnávanie čoraz väčšieho množstva umelcov. Umelecké dielne postupne zvyšovali svoju efektivitu a využívali drahšie technológie, zároveň sa však nebáli experimentovať s výberom a spracovaním námetov. Boli taktiež navzájom prepojené migráciou jednotlívých umelcov, prinášaním a spracovávaním nových podnetov zvonku, predovšetkým z oblasti nizozemského a nemeckého maliarstva a grafiky. Výtvory spišských sochárskych a maliarskych dielní čoskoro začali plniť kostoly tiež v Above, Šariši alebo na Liptove.
 </p>
 </div>
-
----
-**Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Na polceste k slovenskému štátu](http://www.webumenia.sk/kolekcia/82 "Na polceste k slovenskému štátu").**
