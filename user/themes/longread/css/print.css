@@ -18,7 +18,7 @@
     .carousel {
         margin-bottom: 0 !important;
     }
-    .post-content, 
+    .post-content,
     .bottom-teaser.cf{
         padding-top:0!important;
     }
@@ -47,7 +47,7 @@
         padding-bottom: 30px;
     }
     .chapter-title:after {
-        content: "www.senxskutocnost.sng.sk";
+        content: "www.mzo.sng.sk";
         margin-left: -15px;
     }
     .subobject-title {
@@ -78,13 +78,13 @@
     .slick-dots,
     img.control-c,
     .anchorjs-link,
-    .post-reading, 
-    .bottom-teaser.cf .isRight, 
-    .cf.post-meta-text, 
-    .post-meta center, 
+    .post-reading,
+    .bottom-teaser.cf .isRight,
+    .cf.post-meta-text,
+    .post-meta center,
     .post-image-image,
     .bottom-closer,
-    .share, 
+    .share,
     .breadcrumbs,
     .return,
     .home-template .post-meta .post-tags-set,

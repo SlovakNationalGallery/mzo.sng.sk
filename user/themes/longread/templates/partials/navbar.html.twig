@@ -11,7 +11,6 @@
         <li>
             <div class="chapter-nav {% if p.header.chapterNumber == page.header.chapterNumber %}active{% endif %} {% if p.header.disabled == true %}disabled{% endif %}">
                 <a href="{{p.url}}">
-                    <span class="chapter-number">{{p.header.chapterNumber}}.</span><br>
                     <span class="chapter-title">{{p.title}}</span>
                 </a>
             </div>
@@ -46,9 +45,6 @@
                 <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
                     <div class="nav-state-bar"></div>
                     <a href="{{page.find('/chapters/1').url}}">
-                        <span class="chapter-number">
-                            {{ macros.translateOrdinalLanguageString(1, "VOCABULARY.CHAPTER")}}
-                        </span><br>
                         <span class="chapter-title">
                             {{page.find('/chapters/1').title}}
                         </span>
@@ -59,9 +55,6 @@
                 <div class="chapter-nav {% if page.header.chapterNumber == 2 %}active{% endif %} {% if page.find('/chapters/2').header.disabled == true %}disabled{% endif %}">
                     <div class="nav-state-bar"></div>
                     <a href="{{page.find('/chapters/2').url}}">
-                        <span class="chapter-number">
-                            {{ macros.translateOrdinalLanguageString(2, "VOCABULARY.CHAPTER")}}
-                        </span><br>
                         <span class="chapter-title">
                             {{page.find('/chapters/2').title}}
                         </span>
@@ -72,9 +65,6 @@
                 <div class="chapter-nav {% if page.header.chapterNumber == 3 %}active{% endif %} {% if page.find('/chapters/3').header.disabled == true %}disabled{% endif %}">
                     <div class="nav-state-bar"></div>
                     <a href="{{page.find('/chapters/3').url}}">
-                        <span class="chapter-number">
-                            {{ macros.translateOrdinalLanguageString(3, "VOCABULARY.CHAPTER")}}
-                        </span><br>
                         <span class="chapter-title">
                             {{page.find('/chapters/3').title}}
                         </span>
@@ -85,9 +75,6 @@
                 <div class="chapter-nav {% if page.header.chapterNumber == 4 %}active{% endif %} {% if page.find('/chapters/4').header.disabled == true %}disabled{% endif %}">
                     <div class="nav-state-bar"></div>
                     <a href="{{page.find('/chapters/4').url}}">
-                        <span class="chapter-number">
-                            {{ macros.translateOrdinalLanguageString(4, "VOCABULARY.CHAPTER")}}
-                        </span><br>
                         <span class="chapter-title">
                             {{page.find('/chapters/4').title}}
                         </span>

@@ -52,8 +52,8 @@
 /*---------------*/
 figure.effect-honey {
   background-color: #1e0000;
-  background-image: -webkit-linear-gradient(top, #1e0000, #C70000);
-  background-image: linear-gradient(to bottom,#1e0000, #C70000); }
+  background-image: -webkit-linear-gradient(top, #1e0000, #827456);
+  background-image: linear-gradient(to bottom,#1e0000, #827456); }
 
 figure.effect-honey img {
   opacity: 1;
@@ -69,7 +69,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 5px;
-  background: #E00000;
+  background: #000000;
   content: '';
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px); }

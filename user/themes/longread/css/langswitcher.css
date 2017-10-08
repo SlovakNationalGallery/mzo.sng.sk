@@ -1,4 +1,5 @@
 .langswitcher {
+  display: none;
   padding-left: 0;
   margin: 0;
   margin-left: 0 !important; }
@@ -12,7 +13,7 @@
       text-decoration: none;
       pointer-events: none; }
     .langswitcher li a:not(.active):hover {
-      color: #E00000; }
+      color: #000000; }
 
 .header .langswitcher {
   float: right;

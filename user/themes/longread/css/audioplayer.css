@@ -65,7 +65,7 @@
 .audioplayer-playing .audioplayer-playpause a:after {
   width: 40%;
   height: 100%;
-  background-color: #E00000;
+  background-color: #000000;
   content: '';
   position: absolute;
   top: 0; }
@@ -128,7 +128,7 @@
   z-index: 1; }
 
 .audioplayer-bar-played {
-  background: #E00000;
+  background: #000000;
   z-index: 2; }
 
 .audioplayer-volume {
@@ -236,7 +236,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #E00000; }
+  background: #000000; }
 
 .audioplayer-novolume .audioplayer-volume {
   display: none; }

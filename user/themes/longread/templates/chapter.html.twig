@@ -18,30 +18,23 @@
           </div>
         </div>
         <section class="post-content">
-          <div class="chapter-title-wrapper">
-            <div class="chapter-title">
-              <div class="chapter-number">
-                {% if langswitcher.current == 'sk' %}
-                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER") }}
-                {% else %}
-                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER")|title }}
-                {% endif %}
-              </div>
-              <h1 class="margin-top-0 padding-top-0">
-                {% if page.header.title %}
-                  {{ page.header.title }}
-                {% else %}
-                  {{ page.header.title }}
-                {% endif %}
-              </h1>
-              {% include 'partials/reading-time.html.twig' %}
-              {% include 'partials/sharing.html.twig' with {
-                sharingStylingClasses: "button-white"
-              }%}
-            </div>
-          </div>
           {% include 'partials/reading-progress.html.twig' %}
           <div class="chapter-content">
+            <div class="chapter-title-wrapper">
+              <div class="chapter-title">
+                <h1 class="margin-top-0 padding-top-0">
+                    {% if page.header.title %}
+                        {{ page.header.title }}
+                    {% else %}
+                        {{ page.header.title }}
+                    {% endif %}
+                </h1>
+                  {% include 'partials/reading-time.html.twig' %}
+                  {% include 'partials/sharing.html.twig' with {
+                  sharingStylingClasses: "button-white"
+                  }%}
+              </div>
+            </div>
             {{ content }}
           </div>
         </section>

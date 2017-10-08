@@ -33,8 +33,8 @@
         .css('opacity', 1-Math.max(top/700, 0));
     });
     $window.trigger('scroll');
-    
-    var chapterPercentageFromTop = 60;
+
+    var chapterPercentageFromTop = 80;
     $('.chapter .post-content').css('margin-top', chapterPercentageFromTop + 'vh');
 
     // enable uk-offcanvas elements to be triggered
@@ -73,19 +73,19 @@
 
         patterns: {
           webumenia: {
-            
+
             index: 'webumenia.sk',
-            
-            id: function(url) {        
+
+            id: function(url) {
                 var m = url.match(/^.+webumenia.sk\/dielo\/([^?]+)[.]*/);
                 if (m !== null) {
                     return m[1];
                 }
                 return null;
             },
-            
+
             src: 'http://www.webumenia.sk/dielo/%id%/zoom?noreturn=1'
-            
+
           }
         }
       },
@@ -94,7 +94,7 @@
         enabled: true,
 
         duration: 300,
-        easing: 'ease-in-out', 
+        easing: 'ease-in-out',
 
         opener: function(openerElement) {
           return openerElement.is('img') ? openerElement : openerElement.find('img');

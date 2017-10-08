@@ -52,7 +52,7 @@ a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-
 }
 
 @include selection {
-  background-color: $red;
+  background-color: $black;
 }
 
 button, .uk-button {
@@ -89,7 +89,7 @@ button, .uk-button {
   }
 }
 .bg-red {
-  background-color: $red !important;
+  background-color: $black !important;
 }
 .bg-grey {
   background-color: $dark-grey !important;
@@ -224,6 +224,30 @@ hr.white{
   content: none;
 }
 
+.gomiddle {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.goleft {
+  float: left;
+  width: 45%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.goright {
+  float: right;
+  width: 45%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.clear {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
 nav.uk-navbar {
   position: fixed;
   float: none;
@@ -293,9 +317,9 @@ nav.uk-navbar {
         text-decoration: none;
       }
       &:not(.active):not(.disabled):hover {
-        border-top-color: $red;
+        border-top-color: $black;
         a {
-          color: $red;
+          color: $black;
           -webkit-transition: color 0.35s;
           transition: color 0.35s;
         }
@@ -315,7 +339,7 @@ nav.uk-navbar {
       }
     }
     .chapter-nav.active {
-      border-top-color: $red;
+      border-top-color: $black;
       a {
         pointer-events: none;
         cursor: default;
@@ -333,6 +357,7 @@ nav.uk-navbar {
   .timeline-toggle {
     position: relative;
     float: left;
+    display: none;
     background-image: url(../images/timeline-clock-black.svg);
     &:hover {
       background-image: url(../images/timeline-clock-darkgrey.svg);
@@ -429,7 +454,7 @@ div#side-nav-bar {
           background-color: $dark-grey;
         }
         a:hover {
-          color: $red !important;
+          color: $black !important;
         }
       }
       li:first-of-type {
@@ -446,7 +471,7 @@ div#side-nav-bar {
       }
       .chapter-nav.active {
         div.nav-state-bar {
-          background-color: $red;
+          background-color: $black;
         }
         a {
           pointer-events: none;
@@ -668,16 +693,17 @@ form#email-capture {
   padding: 8px 16px;
 }
 .button-red {
-  background-color: $red;
+  background-color: $black;
   color: white;
   &:hover {
-    background-color: $dark-red;
+    background-color: $dark-brown;
     color: white;
   }
 }
 .button-white {
   background-color: white;
   color: #444 !important;
+  border: 1px solid black;
   &:hover {
     background-color: #EEE;
     color: black !important;
@@ -734,7 +760,7 @@ form#email-capture {
     }
     &:hover {
       .bt-white-red {
-        border-top-color:$red;
+        border-top-color: $black;
       }
     }
     h5 {
@@ -781,7 +807,7 @@ form#email-capture {
   }
 }
 .content {
-  max-width: 700px;
+  max-width: 1000px;
   @include respond-to(600) {
     padding: 0 0;
   }
@@ -793,7 +819,7 @@ form#email-capture {
 
 .post.chapter, .post.subobject, .post.page {
   .article-image {
-    bottom: 10vh;
+    bottom: 2vh;
     .post-meta {
       bottom: 200px;
     }
@@ -835,17 +861,8 @@ form#email-capture {
     }
 
     .chapter-title-wrapper {
-      position: absolute;
-      width: 100%;
-      height: 60vh;
-      top: -60vh;
       .chapter-title {
-        position: absolute;
-        bottom: 5vh;
-        margin-left: -20px;
-        margin-right: 20px;
-        color: white;
-        text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+        color: black;
         @include respond-to(600) {
           margin-left: 0;
         }
@@ -853,11 +870,8 @@ form#email-capture {
           color: white;
           text-decoration: none;
         }
-        .chapter-number {
-          font-size: 16px;
-        }
         h1 {
-          color: white;
+          color: black;
           font-size: 80px;
           margin-bottom: -30px;
           @include respond-to(810) {
@@ -877,7 +891,6 @@ form#email-capture {
           position: relative;
           right: 0px;
           font-size: 16px;
-          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
         }
         .sharing {
           margin-left: -29px;
@@ -929,14 +942,17 @@ form#email-capture {
     }
 
     h1 {
-      font-size: 45px
+      font-size: 45px;
+      text-align: center;
     }
     h1, h2 {
       letter-spacing: normal;
+      text-align: center;
     }
     h2 {
       margin-bottom: 15px;
       padding-top: 0;
+      text-align: center;
     }
     h3, h4, h5, h6 {
       margin-bottom: 20px;
@@ -950,8 +966,9 @@ form#email-capture {
     }
     h2:first-child {
       margin-top: 0;
+      text-align: center;
     }
-    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.post-reading {
       margin-left: -20px;
       margin-right: -20px;
       @include respond-to(600) {
@@ -982,10 +999,10 @@ form#email-capture {
     .goside {
       background: #33302d;
       p {
-        font-size: 15px;
-        line-height: 1.5;
+        font-size: 17px;
+        line-height: 1.6;
         color: white;
-        padding: 14px 20px;
+        padding: 40px;
       }
     }
   }
@@ -1015,7 +1032,7 @@ form#email-capture {
       margin: 50px 20px;
     }
     h1 {
-      color: $text-color;
+      color: black;
       font-size: 60px;
       line-height: 60px;
       @include respond-to(620) {
@@ -1169,7 +1186,7 @@ $button-height: 60px;
       transition: all 0.35s;
     }
     &:hover span.subobject-caption {
-      color: $red;
+      color: $black;
     }
     @include respond-to(600) {
       border: 1px solid black;

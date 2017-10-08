@@ -71,7 +71,7 @@ $font-bold: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", 
 {
   width: 40%;
   height: 100%;
-  background-color: $red;
+  background-color: $black;
   content: '';
   position: absolute;
   top: 0;
@@ -137,7 +137,7 @@ $font-bold: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", 
 }
 .audioplayer-bar-played
 {
-  background: $red;
+  background: $black;
   z-index: 2;
 }
 .audioplayer-volume
@@ -243,7 +243,7 @@ $font-bold: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", 
   position: absolute;
   bottom: 0;
   left: 0;
-  background: $red;
+  background: $black;
 }
 .audioplayer-novolume .audioplayer-volume
 {

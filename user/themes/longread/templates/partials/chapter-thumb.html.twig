@@ -17,10 +17,6 @@
   {% endif %}
     <figcaption>
       <h2 class="c-white">
-        <span class="fs-70 c-white">
-          {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}
-        </span>
-        <br>
         {{chapterPage.header.title|regex_replace(['/<br>/'], [' '])}}
       </h2>
       {% if not chapterPage.header.disabled %}

@@ -1,21 +1,21 @@
 sk:
   VOCABULARY:
-    CHAPTER: kapitola
+    CHAPTER: Časť
     READING_TIME: Čas čítania
   LANDING:
     FIRST_CHAPTER_CTA:
-      CHAPTER_NUMBER: 1. kapitola
-      BUTTON_TEXT: Prejsť na kapitolu
+      CHAPTER_NUMBER: 1. časť
+      BUTTON_TEXT: Čítať
     CHAPTER_THUMB:
-      BUTTON_TEXT: Prejsť na kapitolu
+      BUTTON_TEXT: Čítať
   CHAPTER:
     CHAPTER_THUMB:
-      HEADLINE_TEXT: Pokračovať na ďalšiu kapitolu
-      BUTTON_TEXT: Pokračovať na %d. kapitolu
+      HEADLINE_TEXT: Pokračovať na ďalšiu časť
+      BUTTON_TEXT: Pokračovať na %d. časť
   SHARING:
-    SHARE_PRINT: Vytlačiť kapitolu
+    SHARE_PRINT: Vytlačiť časť
     SHARE_EMAIL_TEXT: Poslať mailom
-    SHARE_EMAIL_HREF: "mailto:?subject=Neprehliadnite: sen × skutočnosť - udalosti slovenského štátu v 4 kapitolách&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%%0A%%0A%s%%0A%s"
+    SHARE_EMAIL_HREF: "mailto:?subject=Majster z Okoličného a gotické umienie Spiša okolo roku 1500&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%%0A%%0A%s%%0A%s"
     SHARE_FACEBOOK_TEXT: Zdieľať
     SHARE_TWITTER_TEXT: Tweet
     SHARE_TWITTER_HREF: https://twitter.com/home?status=Ur%%C4%%8Dite%%20neprehliadnite%%20novinku%%20%%40sng_gallery%%0A%s%%0A%s
@@ -34,8 +34,8 @@ sk:
   ERROR:
     MESSAGE: Nenašli ste, čo ste hľadali? Skúste úvodnú stránku.
   META:
-    DESCRIPTION: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1939-1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín. Webstránka rozširuje výstavu &quot;sen × skutočnosť. Umenie &amp; propaganda 1939 – 1945&quot; o historické súvislosti a ilustruje ich obrazovým materiálom, zvukovými a audiovizuálnymi záznamami."
-    SITE_NAME: sen × skutočnosť - Udalosti slovenského štátu v 4 kapitolách
+    DESCRIPTION: "Majster z Okoličného a gotické umienie Spiša okolo roku 1500"
+    SITE_NAME: Majster z Okoličného
     LOCALE: sk_SK
     LOCALE_ALTERNATE: en_GB
 en:
