@@ -7,7 +7,8 @@
   width: 14px;
   height: 24px;
   transition: all 0.35s;
-  text-decoration: none; }
+  text-decoration: none;
+  display: none; }
 
 *:hover > .anchorjs-link {
   opacity: 1 !important; }

@@ -40,7 +40,6 @@ a[disabled] {
   background-color: #000000; }
 
 button, .uk-button {
-  border-radius: 3px;
   text-shadow: none; }
 
 .f-uppercase {
@@ -199,16 +198,25 @@ hr.white {
   width: 42%;
   margin-right: 4%;
   margin-left: 4%; }
+  @media only screen and (max-width: 1000px) {
+    .goleft {
+      float: none;
+      width: 100%; } }
 
 .goright {
   float: right;
   width: 42%;
   margin-right: 4%;
   margin-left: 4%; }
+  @media only screen and (max-width: 1000px) {
+    .goright {
+      float: none;
+      width: 100%; } }
 
 .clear {
   overflow: hidden;
-  margin-top: 100px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 nav.uk-navbar {
   position: fixed;
@@ -486,7 +494,7 @@ div#side-nav-bar {
         font-size: 45px; } }
   .landing .landing-content .header {
     font-size: 57px;
-    line-height: 0.9; }
+    line-height: 0.6; }
     @media only screen and (max-width: 825px) {
       .landing .landing-content .header {
         font-size: 60px; } }
@@ -544,10 +552,15 @@ div#side-nav-bar {
     float: left;
     width: 600px;
     margin-right: 100px;
-    margin: 0; }
+    margin: 0;
+    font-size: 21px;
+    margin-top: 10px;
+    line-height: 28px; }
   .landing .next-to-each-other .when-where-who {
     float: right;
-    margin: 0; }
+    margin: 0;
+    font-size: 28px;
+    line-height: 50px; }
 
 form#email-capture {
   padding-top: 15px; }
@@ -577,7 +590,6 @@ form#email-capture {
           margin-right: 0px;
           height: 50px; } }
     form#email-capture fieldset button {
-      border-radius: 3px;
       font-weight: 900;
       font-size: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
@@ -619,7 +631,6 @@ form#email-capture {
 .button-ghost {
   background: none;
   border: white solid 1px;
-  border-radius: 3px;
   color: white !important;
   text-decoration: none !important;
   text-shadow: none; }
@@ -725,7 +736,9 @@ form#email-capture {
   padding-bottom: 20px;
   background-color: white;
   color: #000;
-  z-index: 3; }
+  z-index: 3;
+  font-size: 18px;
+  line-height: 28px; }
   @media only screen and (max-width: 600px) {
     .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
       padding-left: 20px;
@@ -827,7 +840,8 @@ form#email-capture {
     text-align: center; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.chapter .post-content div.post-reading, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.subobject .post-content div.post-reading, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight, .post.page .post-content div.post-reading {
     margin-left: -20px;
-    margin-right: -20px; }
+    margin-right: -20px;
+    margin-top: 50px; }
     @media only screen and (max-width: 600px) {
       .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.chapter .post-content div.post-reading, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.subobject .post-content div.post-reading, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight, .post.page .post-content div.post-reading {
         margin-left: 0;

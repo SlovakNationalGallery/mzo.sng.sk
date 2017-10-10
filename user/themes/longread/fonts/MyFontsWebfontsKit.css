@@ -1,34 +1,36 @@
 /**
  * @license
  * MyFonts Webfont Build ID 3439225, 2017-08-18T08:50:07-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: Maiola-Bold by TypeTogether
  * URL: https://www.myfonts.com/fonts/type-together/maiola/bold/
- * 
+ *
  * Webfont: Maiola-BoldItalic by TypeTogether
  * URL: https://www.myfonts.com/fonts/type-together/maiola/bold-italic/
- * 
- * 
+ *
+ *
  * License: https://www.myfonts.com/viewlicense?type=web&buildid=3439225
  * Licensed pageviews: 250,000
  * Webfonts copyright: Copyright (c) 2010 by TypeTogether. All rights reserved.
- * 
+ *
  * © 2017 MyFonts Inc
 */
 
 
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/347a79");
+@import url("//hello.myfonts.net/count/34d24d");
 
-  
+
 @font-face {font-family: 'Maiola-Bold';src: url('webfonts/347A79_0_0.eot');src: url('webfonts/347A79_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/347A79_0_0.woff2') format('woff2'),url('webfonts/347A79_0_0.woff') format('woff'),url('webfonts/347A79_0_0.ttf') format('truetype');}
- 
-  
+
+
 @font-face {font-family: 'Maiola-BoldItalic';src: url('webfonts/347A79_1_0.eot');src: url('webfonts/347A79_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/347A79_1_0.woff2') format('woff2'),url('webfonts/347A79_1_0.woff') format('woff'),url('webfonts/347A79_1_0.ttf') format('truetype');}
- 
+
+@font-face {font-family: 'Maiola';src: url('webfonts/34D24D_0_0.eot');src: url('webfonts/34D24D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34D24D_0_0.woff2') format('woff2'),url('webfonts/34D24D_0_0.woff') format('woff'),url('webfonts/34D24D_0_0.ttf') format('truetype');}

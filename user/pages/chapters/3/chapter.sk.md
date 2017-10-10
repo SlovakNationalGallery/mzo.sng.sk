@@ -24,7 +24,7 @@ image: 0979-cover.jpg
 
 <div class="clear">
     <div class="goright"><p>
-        <img src="./4/mariahrob.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/mariahrob.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
     <div class="goleft"><p>
@@ -48,7 +48,7 @@ image: 0979-cover.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./4/marie.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/marie.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 
@@ -70,7 +70,7 @@ image: 0979-cover.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./4/ljublana.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/ljublana.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 
@@ -90,7 +90,7 @@ image: 0979-cover.jpg
     <div class="goleft"><p>
         Kristus sa na oltároch dielne majstra z Okoličného objavuje buď ako dieťa v rámci mariánskych scén, alebo ako protagonista pašiového cyklu. Na predelách je znázornený ako typ Vir Dolorum (muž bolesti, tiež zvaný imago pietatis) - polpostava v hrobe s rozpaženými rukami, niekedy s anjelmi držiacimi Veronikino rúcho a s nástrojmi umučenia (Arma Christi) v pozadí. Tento typ predstavoval vizuálne prepojenie Kristovho mŕtveho, no zároveň stále živého Tela s oltárnou menzou a tiež pohľadovou prístupnosťou modliacemu sa divákovi. Telo Krista (podobne ako aj postava Sv. Sebastiána) vyžadovalo okrem iného väčší dôraz na anatomické detaily - rany, stekajúca krv, modelácia nahého tela.
         <br><br>
-        <img src="./4/jesus.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/jesus.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
    <div class="goright"><p>
@@ -104,7 +104,7 @@ image: 0979-cover.jpg
      Okrem malieb môžeme Krista vidieť aj na krucifixe bočného oltára ukrižovania v Okoličnom, vytvorenom pravdepodobne dnes neznámou malopoľskou dielňou na konci 15. storočia. Predstavuje neskorogotickú verziu naturalisticky poňatých krucifixov s dynamickými detailami a expresívnym zvýraznením šliach a rán po ukrižovaní. Krucifix je dodatočne zasadený do neskoršej baldachýnovej architektúry z 18. storočia s anjelmi „odhaľujúcimi“ drapériu a barokovými postavami bolestnej Panny Márie a sv. Jána Evanjelistu. Dodatočná štylizácia dodáva dielu teatrálny charakter, zdôrazňujúci Kristovo utrpenie. Podobný krucifix (možno z rovnakej dielne) sa nachádza v Kostole sv. kríža v Kežmarku.
 </div>
 
-<img src="./4/krucifix.jpg" alt="Popis nejaky fotky" />
+<img src="./3/krucifix.jpg" alt="Popis nejaky fotky" />
 
 ### Svätice a Svätci
 
@@ -118,17 +118,17 @@ image: 0979-cover.jpg
 
 <div class="clear">
     <div class="goleft"><p>
-        <img src="./4/SNG--F_1497--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/SNG--F_1497--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
    <div class="goright"><p>
-       <img src="./4/SNG--F_1789--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
+       <img src="./3/SNG--F_1789--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
    </p></div>
 </div>
 
 <div class="clear">
     <div class="goleft"><p>
-        <img src="./4/alzbeta.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/alzbeta.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
    <div class="goright"><p>
@@ -142,7 +142,7 @@ image: 0979-cover.jpg
     </p></div>
 
    <div class="goright"><p>
-        <img src="./4/svatci.jpg" alt="Popis nejaky fotky" />
+        <img src="./3/svatci.jpg" alt="Popis nejaky fotky" />
    </p></div>
 </div>
 

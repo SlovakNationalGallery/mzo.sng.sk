@@ -24,7 +24,7 @@ image: cover-1.jpg
 
 <div class="clear">
     <div class="goright"><p>
-        <img src="./3/Pomfyova_01.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/Pomfyova_01.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
     <div class="goleft"><p>
@@ -34,15 +34,15 @@ image: cover-1.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./3/Pomfyova_03a_orez.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/Pomfyova_03a_orez.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
     <div class="gomiddle"><p>
-        <img src="./3/Pomfyova_08.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/Pomfyova_08.jpg" alt="Popis nejaky fotky" />
     </p></div>
 
     <div class="gomiddle"><p>
-        <img src="./3/_NIK2822.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/_NIK2822.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 
@@ -58,7 +58,7 @@ image: cover-1.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./3/Pomfyova_09.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/Pomfyova_09.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 
@@ -67,7 +67,7 @@ image: cover-1.jpg
 </p></div>
 
 <div class="gomiddle"><p>
-    <img src="./3/DSC_8787.jpg" alt="Popis nejaky fotky" />
+    <img src="./4/DSC_8787.jpg" alt="Popis nejaky fotky" />
 </p></div>
 
 ### Pôvod
@@ -86,8 +86,8 @@ image: cover-1.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./3/_NIK8270-2.jpg" alt="Popis nejaky fotky" />
-        <img src="./3/Revai_Fasc2_Nr1_2.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/_NIK8270-2.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/Revai_Fasc2_Nr1_2.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 
@@ -99,7 +99,7 @@ image: cover-1.jpg
     </p></div>
 
     <div class="goright"><p>
-        <img src="./3/2438-6.jpg" alt="Popis nejaky fotky" />
+        <img src="./4/2438-6.jpg" alt="Popis nejaky fotky" />
     </p></div>
 </div>
 

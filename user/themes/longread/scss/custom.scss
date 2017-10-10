@@ -56,7 +56,6 @@ a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-
 }
 
 button, .uk-button {
-  border-radius: 3px;
   text-shadow: none;
 }
 
@@ -234,6 +233,10 @@ hr.white{
   width: 42%;
   margin-right: 4%;
   margin-left: 4%;
+  @include respond-to(1000) {
+    float: none;
+    width: 100%;
+  }
 }
 
 .goright {
@@ -241,11 +244,16 @@ hr.white{
   width: 42%;
   margin-right: 4%;
   margin-left: 4%;
+  @include respond-to(1000) {
+    float: none;
+    width: 100%;
+  }
 }
 
 .clear {
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 nav.uk-navbar {
@@ -585,7 +593,7 @@ div#side-nav-bar {
 
       .header {
         font-size: 57px;
-        line-height: 0.9;
+        line-height: 0.6;
         @include respond-to(825) {
           font-size: 60px;
         }
@@ -651,10 +659,15 @@ div#side-nav-bar {
       width: 600px;
       margin-right: 100px;
       margin: 0;
+      font-size: 21px;
+      margin-top: 10px;
+      line-height: 28px;
     }
     .when-where-who {
       float: right;
       margin: 0;
+      font-size: 28px;
+      line-height: 50px;
     }
   }
 }
@@ -685,7 +698,6 @@ form#email-capture {
       }
     }
     button {
-      border-radius: 3px;
       font-weight: 900;
       font-size: 20px;
       box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.7);
@@ -733,7 +745,6 @@ form#email-capture {
 .button-ghost {
   background: none;
   border: white solid 1px;
-  border-radius: 3px;
   color: white !important;
   text-decoration: none !important;
   text-shadow: none;
@@ -877,6 +888,8 @@ form#email-capture {
     background-color: white;
     color: $text-color;
     z-index: 3;
+    font-size: 18px;
+    line-height: 28px;
 
     @include respond-to(600) {
       padding-left: 20px;
@@ -1003,6 +1016,7 @@ form#email-capture {
     h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.post-reading {
       margin-left: -20px;
       margin-right: -20px;
+      margin-top: 50px;
       @include respond-to(600) {
         margin-left: 0;
         margin-right: 0;
