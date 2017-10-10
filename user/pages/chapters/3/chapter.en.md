@@ -1,301 +1,152 @@
 ---
-title: 'Kostol'
+title: 'Ikonografia'
 published: true
 date: '18-11-2016 00:00'
 slug: chapter-3
-synopsis: 'Mariánska tematika je základom ikonografie väčšiny z doteraz známych oltárnych realizácií Majstra z Okoličného. V jeho dielach však nájdeme aj ďalšie postavy svätcov, svätíc a inovatívne spracovaný námet fiktívnej genealógie Ježišovej rodiny.'
+synopsis: 'Kláštorný kostol v Okoličnom je najväčšou sakrálnou stavbou na Liptove a unikátom v gotickom staviteľstve na Slovensku. Kapitola sa venuje architektúre kostola so zameraním na klenby, kamenárske práce a otázku donátorstva.'
+disabled: false
 routes:
-    default: /chapters/3-70000-obeti
-    canonical: /chapters/3-70000-obeti
+    default: /chapters/4-Ikonografia
+    canonical: /chapters/4-Ikonografia
     aliases:
         - /chapters/3
 chapterNumber: 3
-description: '3. kapitola: 70 000 obetí'
-image: cover-1.jpg
+description: '3. časť: Ikonografia'
+image: 0979-cover.jpg
 ---
 
-## Národnostné menšiny slovenského štátu
+## Panna Mária
 
-<span class="drop-cap">Ú</span>zemie Slovenska bolo od nepamäti  obývané ľuďmi rôznych národností. Po nástupe HSĽS k moci na Slovensku na jeseň 1938 sa čoskoro ukazuje, že jej predstavy o postavení a právach menšín sa od dovtedajšieho stavu výrazne odlišujú.
 
-Nemeckej menšine ľudáci z pochopiteľných mocenských dôvodov garantujú privilegované postavenie, a to vrátane tých osôb, ktoré svoj nemecký pôvod „objavili“ až po Mníchove. Nemci žijúci na Slovensku majú povolenú vlastnú politickú stranu (Deutsche Partei) s polovojenskými zložkami, sú tiež zastúpení v sneme, v Štátnej rade, a zriaďujú si tiež vlastný Štátny sekretariát pre záležitosti nemeckej národnej skupiny. Funkciu štátneho sekretára neprekvapivo získava šéf Deutsche Partei Ing. Franz Karmasin.
+<div class="gomiddle"><p>
+    <span class="drop-cap">M</span>ariánska ikonografia bola významnou zložkou diela Majstra z Okoličného. Oba liptovské kostoly, z ktorých bezprostredne pochádzajú obrazy jeho dielne - Kostol františkánov-observantov v Okoličnom a Kostol Očisťovania Panny Márie v Smrečanoch - majú pôvodne mariánske patronáty. Hoci mariánska tematika bola patrocíniom kostola predurčená len v týchto dvoch prípadoch, pri ikonografickom zhodnotení diel z ateliéru Majstra z Okoličného tvorí až nápadnú väčšinu z jeho (doteraz známych) oltárnych realizácií.
+</p></div>
 
-[![Štátny tajomník inž. Frant. Karmasin, pri svojom prejave z balkóna Slov. nár. divadla 19. apríla, predvečer vodcových narodenín - Fotografia z týždenníka NOVÝ SVET, 27.4.1940, Univerzitná knižnica v Bratislave](Karmasin.jpg "Štátny tajomník Franz Karmasin, pri svojom prejave z balkóna Slovenského nárárodného divadla 19. apríla, predvečer vodcových narodenín - Fotografia z týždenníka NOVÝ SVET, 27.4.1940")](http://digitalna.kniznica.info/zoom/28318/view?page=2&p=separate&view=0,0,2797,4073)
+<div class="clear">
+    <div class="goright"><p>
+        <img src="./4/mariahrob.jpg" alt="Popis nejaky fotky" />
+    </p></div>
 
-Maďarská menšina musí tiež svoju politickú činnosť centralizovať do jednej politickej strany. Napriek nechuti slovenských nacionalistov ostávajú zachované aj niektoré maďarské školy, kultúrne, mládežnícke či telovýchovné spolky. Tretia ríša totiž nemá záujem na vyhrocovaní slovensko-maďarských vzťahov. Zmienky o územných nárokoch Slovenska na obsadené južné územia sa môžu v slovenskej tlači objaviť len v náznakoch.
-
-Napriek tomu, že je česká menšina v štáte treťou najpočetnejšou, nemá ani symbolickú politickú reprezentáciu, nezdružuje sa v spolkoch, v tlači sa na ňu bežne útočí a pociťuje neustálu hrozbu násilného vysťahovania.
-
-Vo vzťahu k Rusínom a Ukrajincom žijúcim na Slovensku sa ľudáci správajú veľmi rezervovane. Snahy rusínskych predstaviteľov o ustanovenie vlastnej politickej strany zadusia v zárodku, inak však voči Rusínom a Ukrajincom dlhodobo nevedia zaujať jasný postoj. Situáciu sťažuje aj fakt, že na ich politickej reprezentácii nejestvuje výraznejšia zhoda, a pretrváva vzájomné obviňovanie zo slovakizácie alebo naopak maďarčenia, prípadne zo snahy mocensky ovplyvniť postavenie gréckokatolíckej a pravoslávnej cirkvi. Jediným výsledkom turbulencií je kooptovanie dvoch poslancov z okresov s výrazným zastúpením rusínskeho obyvateľstva do snemu.
-
-V špecifickej situácii sa ocitajú Rómovia. V minulosti sa rómska populácia na Slovensku živila tradičnými remeslami, obchodom s koňmi, vlastnými schopnosťami (napr. hudbou) a bol pre ňu typický kočovný spôsob života. S populačným rastom a rozvíjajúcou sa priemyselnou výrobou však ubúdalo príležitostí na živobytie a kováčstvom, brúsičstvom, korytárstvom alebo dedinskou hudbou sa dalo uživiť čoraz ťažšie.
-
-{% include 'partials/subobjects.html.twig' with {
-     'title': 'Zistite viac',
-    'subobjects': [
-        {
-            'name': 'Rómovia',
-            'thumbnail': page.media['2.jpg'],
-            'href': '3/romovia'
-        }
-    ]
-}%}
-
-Cieľom najsilnejších perzekúcií sa stáva židovská menšina. Ľudácky režim ju začína prenasledovať už v období autonómie Slovenska a krátko po vzniku samostatného slovenského štátu sú už Židia terčom série tvrdých vládnych nariadení.
-
----
-
-## História Židov na Slovensku
-
-[![Ladislav Roller - Na židovni v Bratislave, 1940, Slovenský národný archív, Bratislava – fond STK](Na_Zidovni--Roller--BA-SNA--fond-STK--chlapec1.jpg "Ladislav Roller - Na židovni v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.215)
-
-Historické pramene dokazujú prítomnosť Židov na Slovensku aj v stredoveku, základy komunity však pokladajú až Židia z Moravy, Rakúska a Haliče (súčasť dnešného Poľska), ktorí sa do našich končín sťahujú v 17. a 18. storočí. Na konci 18. storočia získavajú vďaka reformám Jozefa II. prístup k svetskému vzdelaniu, niektorým remeslám a k slobodným povolaniam. Právo usadiť sa v mestách (s výnimkou banských miest) a právo vlastniť pôdu im je priznané až v roku 1840.
-
-V 40. rokoch 19. storočia sa začal presun židovského obyvateľstva z vidieka do mestečiek a miest, kde sa Židia uplatnili ako živnostníci. V roku 1860 získali úplnú voľnosť pohybu a rôzne hospodárske práva. Otvorili sa aj dovtedy zakázané oblasti ako Spiš, banské mestá. V roku 1867 prichádza občianska emancipácia Židov.
-
-[![Ladislav Roller - Na židovni v Bratislave, 1940, Slovenský národný archív, Bratislava – fond STK](Na_Zidovni--Roller--BA-SNA--fond-STK--schodisko.jpg "Ladislav Roller - Na židovni v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.216?collection=86)
-
-Židovská komunita je rôznorodá, tvoria ju ľudia rôznych náboženských prúdov, s rozličným vzdelaním aj politickými názormi, hovoriaci rôznymi jazykmi (nemčina, maďarčina, slovenčina a jidiš). Ako jednotlivci aj ako skupina čelia tiež rôznym typom antisemitizmu – náboženskému kvôli obviňovaniu z „vraždy Ježiša Krista“, národnostnému i hospodárskemu, vychádzajúcemu z faktu, že Židia predstavujú vážnu konkurenciu pre nežidovských podnikateľov.
-
-[![Ladislav Roller - Na židovni v Bratislave, 1940, Slovenský národný archív, Bratislava – fond STK](Na_Zidovni--Roller--BA-SNA--fond-STK--clovek_na_ulici.jpg "Ladislav Roller - Na židovni v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.214)
-
-V polovici 30. rokov, po nástupe nacistov k moci v Nemecku, dochádza aj v Československu k vzrastu antisemitizmu. Jeho nositeľmi sa stávajú najmä predstavitelia niekoľkých pravicovo orientovaných strán.
-
----
-
-## Židovský kódex
-### 9. 9. 1941 {.title-date}
-
-Už v apríli 1939 je do právneho poriadku slovenského štátu zavedený pojem „Žid“ a nasleduje obmedzovanie Židov v hospodárskom a sociálnom živote. Do firiem, ktoré vlastnia, sú menovaní vládni dôverníci a dočasní správcovia, tisíckam príslušníkov minority štát odoberá živnostenské oprávnenia a obmedzuje aj počty Židov, ktorí môžu vykonávať povolanie advokáta, lekára, lekárnika či novinára. Na jar 1940 prijíma Snem Slovenskej republiky nové zákony o vyvlastnení a prevode židovského poľnohospodárskeho a firemného majetku do vlastníctva nežidov, začína teda arizácia.
-
-[![pravdepodobne Andrej Kováčik - Hnev národa na ziskožravca!, 1941, Slovenský národný archív](Hnev_naroda_na_ziskozravca-male-final.jpg "pravdepodobne Andrej Kováčik - Hnev národa na ziskožravca!")](http://www.webumenia.sk/dielo/SVK:TMP.217?collection=86)
-
-Zásadný prielom v tzv. „riešení židovskej otázky“ nastáva po salzburských rokovaniach koncom júla 1940, po ktorých sa republika ešte užšie púta k Nemecku a radikálne krídlo HSĽS posilňuje svoje pozície vo vláde. V septembri vláda zriaďuje Ústredný hospodársky úrad, ktorý má rýchlo vykonať arizáciu všetkých druhov majetku, okrem poľnohospodárskeho. Ten sa rozdeľuje pod dohľadom Štátneho pozemkového úradu.
-
-<div class="highlight">
-<p>
-V priebehu jedného roka je Ústredným hospodárskym úradom zlikvidovaných 10 000 firiem židovských majiteľov a ďalších 2 200 je arizovaných Slovákmi, Nemcami a Rusínmi.
-</p>
+    <div class="goleft"><p>
+        Oltár Korunovania Panny Márie v Spišskej Kapitule (najstaršie retabulum dielne, z ktorej náš maliar pôvodne pochádzal) prezentuje štyri scény so života Bohorodičky: Zvestovanie, Navštívenie, Narodenie a Klaňanie troch kráľov. Práve na týchto štyroch obrazoch je rozoznateľný tiež najväčší podiel maliara, ktorého neskôr sledujeme ako samostatného vedúceho maliara dielne z Okoličného. Postava Márie je tu zachytená takmer minimalisticky: zakaždým v červených šatách (niekedy so zlatou sponou na hrudi) a v tmavom plášti. Namiesto výrazného zlatého nimbu lemujú jej hlavu iba jemné lúče svätožiary. Jej tvár je akoby zasnívaná a v porovnaní s mužskými tvárami má svetlejší inkarnát a idealizované črty. Scény s Máriou sú tu však ešte spracované pomerne konvenčným spôsobom.
+        <br><br>
+        Obrazy sviatočnej strany Oltára Panny Márie, sv. Erazma a sv. Mikuláša v Bardejove (najstaršieho diela, kde Majster z Okoličného tvoril už samostatne) predstavujú netradičné výjavy spojené výlučne so smrťou Panny Márie - Zvestovanie Máriinej smrti, Odovzdanie palmovej ratolesti sv. Jánovi, Nesenie Máriinho tela k hrobu (vrátane incidentu s veľkňazom Jechoniášom) a Pochovanie Márie. Tieto scény tvoria v známom fonde (nielen) tabuľového maliarstva na Slovensku unikát. Nemajú žiadny lokálny precedens a z hľadiska obsahu sa dajú porovnávať nanajvýš s maliarstvom talianskeho trecenta, ktoré zase čerpalo inšpiráciu z bohatšie rozvetvenej témy v byzantskom umení. Pre žiaden z bardejovských výjavov sa nepodarilo nájsť predlohu, či už v nemeckom (sliezskom, sedmohradskom) alebo českom (moravskom, malopoľskom) maliarstve. Maliar teda pri ich koncepcii s veľkou pravdepodobnosťou spolupracoval s teologickým poradcom, ktorý pravdepodobne vychádzal z textu jedného z apokryfných spisov venovaných Smrti Panny Márie. Bolo ním zrejme Slovo Jána Teológa (Jána Solúnskeho) o zosnutí svätej Bohorodičky – v literárnej tradícii zjednodušene označované ako súčasť skupiny „Ratolesť stromu života“ – práve kvôli motívu palmovej ratolesti, prítomnému i v bardejovskom cykle. Nech už bol „konceptorom“ programu oltára učený teológ alebo ho umelec zostavil sám na základe pokynov objednávateľa, bardejovskej fary alebo mestskej rady, už v tomto ranom štádiu sa ukazuje ako smelý experimentátor a – s veľkou pravdepodobnosťou – zbožný ctiteľ Panny Márie.
+    </p></div>
 </div>
 
-Bankové kontá, predmety z drahých kovov a cennosti Židov sú zablokované, aj ich domy a byty spravujú štátom menovaní „dočasní správcovia“. Keďže sú zákazmi vytesnení z množstva pracovných pozícií, väčšina židovských obyvateľov Slovenska stráca schopnosť uživiť sa.
+<div class="gomiddle"><p>
+    Na oltári v Okoličnom sa Mária objavuje na sviatočnej strane vo Zvestovaní a Predstavení v chráme, na pôstnej strane oplakáva Krista v scénach Ukrižovanie a Oplakávanie, nachádzala sa tiež na predele ako Bolestná Panna Mária. Jednotlivé znázornenia postavy Márie sa navzájom až nápadne podobajú výrazom a odevom, čo môže byť spôsobené snahou o zefektívnenie dielenskej práce. Okoličiansky oltár obsahoval taktiež centrálnu sochu Panny Márie od Majstra Pavla z Levoče, ktorá sa nezachovala.
+</p></div>
 
-[![pravdepodobne Andrej Kováčik - Rozsievač kúkoľa, 1941, Slovenské národné múzeum - Historické múzeum, Bratislava](Rozsievac_kukola-%28autor_pravdepodobne_Andrej_Kovacik%29--1941-Plagat-SNM%E2%80%93HM,%20Bratislava.jpg "pravdepodobne Andrej Kováčik - Rozsievač kúkoľa")](http://www.webumenia.sk/dielo/SVK:TMP.218?collection=86)
+<div class="clear">
+    <div class="goleft"><p>
+        Na Oltári sv. Anny Samotretej v Smrečanoch sa Mária objavuje spolu so svojou matkou Sv. Annou a množstvom ďalších príbuzných v skupinovej scéne, ktorá slúži čiastočne ako vizuálny rokodmeň s mennými páskami (viď. Sv. Anna nižšie). Objavuje sa tiež ako Bolestná Panna Mária na predele. Predstavuje tu tiež pomerne minimalisticky stvárnený typ, použitý aj na predošlých oltároch.
+        <br><br>
+        K väčšej diferenciácii a starostlivejšej výstavbe inkarnátu prichádza až neskôr, pri práci na košickom Oltári Navštívenia. Postava Márie na predele je už emocionálne oveľa vierohodnejšou polpostavou s jemnejšou modeláciou a subtílnejšími detailmi. Najväčšia maliarska pozornosť je jej venovaná aj na sviatočnej strane oltára so Zvestovaním, Narodením, Klaňaním troch kráľov a Útekom do Egypta. Opakuje sa typ dievčenskej tváre (ktorá je dôslednejšie prepracovaná ako ostatné mužské tváre) a kostým v tmavej červenej a modrej.
+        <br><br>
+        Nie je vylúčené, že obľuba mariánskych tém v našom ateliéri súvisela aj s vplyvom františkánskych traktátov a kázní – možno aj aktuálneho diela Pelbarta z Temešváru († 1504), učiteľa na budínskom rádovom studium generale. „Stellarium“ (Hviezdna koruna svätej Panny) a „Pomerium“ (Ovocná záhrada) vyšli tlačou už počas jeho života (medzi 1496 – 1504) a minimálne v sieti františkánskych kláštorov boli vzápätí aj distribuované.
+    </p></div>
 
-Okrem majetkových práv sú Židom výrazne obmedzené aj  základné ľudské práva – majú zakázané bývať v niektorých častiach miest, navštevovať verejné parky, kiná a kúpaliská, či nakupovať na trhoch v určitých hodinách.
-
-[![Andrej Kováčik - Tak to bolo – tak to je!, 1942, Slovenské národné múzeum - Múzeum v Bratislave](SNG--Politicky-plagat_004--1_1--2016_06_02_--LP_A42male.jpg "Andrej Kováčik - Tak to bolo – tak to je")](http://www.webumenia.sk/dielo/SVK:TMP.265?collection=86)
-
-V septembri 1941 prijíma vláda Nariadenie o právnom postavení Židov, tzv. Židovský kódex. V ňom zhŕňa všetky dovtedy platné protižidovské právne predpisy a po novom definuje pojem „Žid“.
-
-<div class="highlight">
-<p>
-Slovenskí politici sa hrdia tým, že kódex je prísnejší než rasové zákony v Nemecku.
-</p>
+    <div class="goright"><p>
+        <img src="./4/marie.jpg" alt="Popis nejaky fotky" />
+    </p></div>
 </div>
 
-Od septembra 1941 tiež musia všetci Židia nosiť na odeve povinné značenie v podobe žltej Dávidovej hviezdy.
+## Svätá Anna a jej príbuzenstvo
 
-[![Neznámy autor - Židovská hviezda, označenie HZ (Hospodársky Žid), 40. roky 20. storočia., Slovenské múzeum dizajnu - SMD, Bratislava](HZ1male.jpg "Neznámy autor - Židovská hviezda, označenie HZ (Hospodársky Žid)")](http://www.webumenia.sk/dielo/SVK:TMP.268?collection=86)
+<div class="gomiddle"><p>
+    Téma Svätého príbuzenstva – (fiktívna) genealógia Ježišovej rodiny po materskej línii, patrila okolo roku 1500 k novým, a zaraz k mimoriadne populárnym námetom spišského maliarstva. Na rozdiel od ikonografie „Stromu Jesseho“, sleduje Kristovu rodinu po materskej línii, čiže cez postavu Panny Márie a jej matky – sv. Anny. Je umelo vytvorenou genealógiou v záujme vysvetlenia zmienok o „bratoch“ Ježiša na viacerých miestach Biblie, ktoré by pri doslovnom preklade mohli byť v rozpore s doktrínou o Nepoškvrnenom počatí. Kvôli absencii biblickej referencie vzbudzovala idea Kristovho príbuzenstva od počiatku kontroverzné debaty aj v samotnej cirkvi. Napriek tomu sa na prelome 15. a 16. storočia v strednej Európe rozšírila v rozličných médiách a nečakane bohatých formách, čoho dokladom je tiež celý rad oltárov zo Spiša. V tejto oblasti priniesol Majster z Okoličného niekoľko inovácií.
+</p></div>
 
-Kódex umožňuje prezidentovi udeliť výnimku spod protižidovských opatrení. Tiso ich do konca svojho pôsobenia udelí asi 1100, pričom tieto výnimky sa udeľujú za značne vysoký poplatok. V júli 1942 sa zákonom zakazujú adopcie Židov nežidmi, aby sa zabránilo zachraňovaniu detí pred deportáciou ich osvojením v kresťanských rodinách.
+<div class="clear">
+    <div class="goleft"><p>
+        Majster z Okoličného sa tejto téme venuje priamo na Oltári sv. Anny Samotretej v Smrečanoch, kde sú okrem postáv Márie a Anny zobrazené aj Máriine nevlastné sestry (Máriu Kleofášovu a Máriu Salomé) s manželmi a deťmi, manželia, sestry a sesternice sv. Anny, taktiež s deťmi. Sledovanie rodinných predchodcov Panny Márie, ako aj rozvetvenej Ježišovej rodiny vrátane bratrancov, sesterníc, tiet, strýkov atď., bolo čoraz komplikovanejšie a aj v jednoduchších (zredukovaných) verziách sa nezaobišlo bez všadeprítomných nápisových pások s menami znázornených osôb. Pôvodne bolo zaiste odkázané aj na vysvetľovanie rodinných vzťahov kňazom priamo pri oltári.
+        <br><br>
+        V bezprostrednom okruhu Majstra z Okoličného však boli rozšírené aj iné mediálne formy zobrazenia Kristovho príbuzenstva. Tá najfrekventovanejšia zachytávala všetkých (alebo aspoň nevyhnutnú väčšinu) rodinných príslušníkov v rámci jednej kompozície, tiež s viac či menej úspešnou snahou o predstavenie správnych vzájomných vzťahov vekovým odstupňovaním jednotlivých generácií. Jedným z takýchto obrazov je tabuľa Svätého príbuzenstva od Majstra hlavného oltára z Hrabušíc.
+        <br><br>
+        Kým v Smrečanoch sú rodiny Márie Salome a Márie Kleofášovej „komprimované“ zakaždým na jednom postrannom krídle triptychu, časovo iba neveľmi vzdialený Oltár sv. Anny v Spišskej Sobote (1508?) rozvíja panorámu Ježišovho príbuzenstva veľkoryso hneď v ôsmich obrazoch pôstnej strany, vrátane rodičov sv. Anny (Stolanus a Emerencia) a jej sestry s manželom (Esmeria a Efraim), ktorých potomkom 3. generácie je napr. sv. Ján Krstiteľ alebo v 5. generácii sv. Servác biskup. Významným príkladom genealogickej kompozície je aj spišský obraz Sväté príbuzenstvo od Majstra z Hrabušíc a dielne Oltára Korunovania P. Márie v Spišskej Kapitule, ktorý sa dnes nachádza v Narodni muzej v Ljublane. Maliari tu vmestnali veľké množstvo figúr v rámci jednej scény a poprepájali ich vzájomnými interakciami.
+        <br><br>
+        Genealógia Sv. Anny poslúžila k vytvoreniu predstavy o mimoriadne „prominentnej“ rodine: okrem Panny Márie a Ježiša v nej našlo miesto hneď niekoľko apoštolov, vrátane sv. Jakuba st. aj sv. Jána Evanjelistu; ďalej sv. Alžbeta (biblická), a teda tiež jej syn – sv. Ján Krstiteľ.
+    </p></div>
 
-
-{% include 'partials/subobjects.html.twig' with {
-     'title': 'Zistite viac',
-    'subobjects': [
-        {
-            'name':'Definícia Žida',
-            'thumbnail': page.media['3.jpg'],
-            'href': '3/definicia-zida'
-        },
-        {
-            'name':'Propaganda',
-            'thumbnail': page.media['4.jpg'],
-            'href': '3/propaganda'
-        }
-    ]
-}%}
-
----
-
-## Začiatok deportácií slovenských Židov
-### 25. 3. 1942 {.title-date}
-
-V dôsledku protižidovských opatrení je väčšina Židov na konci roku 1941 neschopná žiť bez sociálnej podpory štátu. Riešením majú byť <a href="http://www.minv.sk/?ZPT">pracovné tábory</a>, v ktorých by vyrábali nedostatkový tovar a tak sa živili. S ich výstavbou sa začína v Novákoch a <a href="http://www.muzeum.sk/?obj=muzeum&ix=mhol_mzk_snm">Seredi</a>, neskôr je tábor zriadený aj vo Vyhniach. Už v roku 1941 sa ukazuje že výstavba táborov je nákladná a zdĺhavá.
-
-[![Neznámy autor - Pracovný tábor v Novákoch pre rasovo prenasledovaných občanov židovského obyvateľstva, 1941, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](pracovny_tabor_v_novakoch-VHA-VHU-BA.jpg "Neznámy autor - Pracovný tábor v Novákoch pre rasovo prenasledovaných občanov židovského obyvateľstva")](http://www.webumenia.sk/dielo/SVK:TMP.243?collection=86)
-
-Aj preto sa na prelome rokov 1941 a 1942 slovenskí politickí predstavitelia dohodnú s nemeckými na tom, že deportujú desaťtisíce Židov na Nemcami okupované územie dnešného Poľska. Deportácie do koncentračných a pracovných táborov začínajú 25. marca 1942 a trvať budú nasledujúcich sedem mesiacov. „Presídlených“ a „nasadených na prácu“ je v tomto čase viac ako 57 700 slovenských Židov. Utiecť zo Slovenska sa podarí asi 6000 – 7000 židovským obyvateľom, väčšina smeruje do Maďarska.
-
-<div class="highlight">
-<p>
-Za deportácie slovenská vláda nemeckej strane platí – v rámci tzv. osídľovacieho poplatku ju jeden vyvezený Žid vychádza na 500 ríšskych mariek.
-</p>
+    <div class="goright"><p>
+        <img src="./4/ljublana.jpg" alt="Popis nejaky fotky" />
+    </p></div>
 </div>
 
-[![Anton Baník - Deportácie židovského obyvateľstva v Nitre, 1942, 	Slovenský národný archív, Bratislava – fond STK](Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg "Anton Baník - Deportácie židovského obyvateľstva v Nitre")](http://www.webumenia.sk/dielo/SVK:TMP.237?collection=86)
-
-Informácie o masovom vraždení Židov Nemcami sa pritom vďaka <a target="_blank" href="http://www.webumenia.sk/dielo/SVK:TMP.319">"vojakom z východného frontu"</a> na slovenské územie dostávajú už od leta 1941. Nacisti vraždia sovietskych Židov bez rozdielu veku či pohlavia. Protižidovským aktivitám slovenskej vlády ale nezabránia tieto informácie ani upozornenia z Vatikánu, že deportácie môžu viesť k smrti deportovaných.
-
-**Inscenované fotografie židovského obyvateľstva v pracovných táboroch**
-{% include 'partials/carousel.html.twig' with {
-    'images': [
-        {
-            'title':'Zaradenka Dalma',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/73/SVK_TMP.244/SVK_TMP.244.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.244?collection=86'
-        },
-		{
-            'title':'V ich novom domove na východe',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.238/SVK_TMP.238.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.238?collection=86'
-        },
-        {
-             'title':'Skupina chlapcov – cvičencov',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/70/SVK_TMP.241/SVK_TMP.241.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.241?collection=86'
-        },
-        {
-            'title':'Práca zaradeniek v krajčírskej dielni',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/71/SVK_TMP.242/SVK_TMP.242.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.242?collection=86'
-        }
-    ]
-}%}
-
-Neskôr, v lete 1942, sa na Slovensko dostanú informácie priamo o vraždení deportovaných Židov v getách, koncentračných a vo vyhladzovacích táboroch, kde sa už nachádzajú aj vyvezení slovenskí Židia. Transporty však pokračujú a pozastavené sú až v októbri toho istého roku. Napriek tomu, že minister vnútra Alexander Mach vo februári 1943 vyhlasuje, že budú deportácie ešte v tom roku pokračovať, pre zmenu spoločenskej atmosféry k tomu nakoniec nedôjde. Citeľná negatívna odozva už prichádza z cirkevných kruhov aj od radových občanov, ktorí už boli svedkami korupčnej arizácie aj drastických deportácií svojich susedov. Svoju úlohu zohráva aj zmena situácie na frontoch. Po stalingradskej porážke sa niektorí ľudáci začínajú obávať budúcnosti.
-
-{% include 'partials/subobjects.html.twig' with {
-     'title': 'Zistite viac',
-    'subobjects': [
-        {
-            'name':'Holokaust',
-            'thumbnail': page.media['SVK_SNG.O_977.jpg'],
-            'href': '3/holokaust'
-        },
-        {
-            'name':'Príhovor Jozefa Tisa z augusta 1942',
-            'thumbnail': page.media['1.jpg'],
-            'href': '3/tiso-prihovor'
-        },
-        {
-            'name':'Správa o Osvienčime a Brzezinke',
-            'thumbnail': page.media['SVK_SNG.K_2311thumbFINAL.jpg'],
-            'href': '3/sprava-osviencim'
-        }
-    ]
-}%}
-
----
-
-## Záverečná kapitola holokaustu na Slovensku
-
-Po tom, čo 29. augusta 1944 začne obsadzovanie krajiny nemeckými jednotkami a je vyhlásené Slovenské národné povstanie, Nemci požadujú bezpodmienečné odstránenie všetkých Židov zo Slovenska.  V novej vlne deportácií, ktorá trvá od septembra 1944 do marca 1945, je z jeho územia vyvezených ďalších asi 13 500 osôb. Po obsadení Slovenska Nemcami strácajú význam všetky výnimky udelené Židom a jedinou možnosťou záchrany je pomoc nežidovského obyvateľstva, ktoré tým riskuje vlastný život.
-
-**Kresby z albumu Arbeit macht frei**
-{% include 'partials/carousel.html.twig' with {
-    'images': [
-        {
-            'title':'Obálka albumu Arbeit macht frei',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/78/SVK_TMP.249/SVK_TMP.249.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.249?collection=86'
-        },
-		{
-            'title':'Prvý zásah',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/0/SVK_TMP.250/SVK_TMP.250.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.250?collection=86'
-        },
-		{
-            'title':'Pohromade',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/1/SVK_TMP.251/SVK_TMP.251.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.251?collection=86'
-            },
-		{
-            'title':'Nyilašská pomoc',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/2/SVK_TMP.252/SVK_TMP.252.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.252?collection=86'
-            },
-		{
-            'title':'Vo vagóne',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/3/SVK_TMP.253/SVK_TMP.253.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.253?collection=86'
-            },
-		{
-            'title':'Vystúpiť!',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/4/SVK_TMP.254/SVK_TMP.254.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.254?collection=86'
-            },
-		{
-            'title':'Oslobodzujúci plyn',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/5/SVK_TMP.255/SVK_TMP.255.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.255?collection=86'
-            },
-		{
-            'title':'V baráku',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/6/SVK_TMP.256/SVK_TMP.256.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.256?collection=86'
-            },
-		{
-            'title':'Appel!',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/7/SVK_TMP.257/SVK_TMP.257.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.257?collection=86'
-             },
-		{
-            'title':'Do roboty!',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/8/SVK_TMP.258/SVK_TMP.258.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.258?collection=86'
-             },
-		{
-            'title':'Malá likvidácia',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/9/SVK_TMP.259/SVK_TMP.259.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.259?collection=86'
-             },
-		{
-            'title':'Na drôte',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/31/SVK_TMP.260/SVK_TMP.260.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.260?collection=86'
-              },
-		{
-            'title':'Varšava',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/32/SVK_TMP.261/SVK_TMP.261.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.261?collection=86'
-              },
-		{
-            'title':'Úcta k partizánom',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/33/SVK_TMP.262/SVK_TMP.262.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.262?collection=86'
-              },
-		{
-            'title':'Opäť pohromade',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/34/SVK_TMP.263/SVK_TMP.263.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.263?collection=86'
-              },
-		{
-            'title':'Evakuácia',
-			'src': 'http://www.webumenia.sk/images/diela/TMP/35/SVK_TMP.264/SVK_TMP.264.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.264?collection=86'
-        }
-    ]
-}%}
-
-Bývalý židovský pracovný tábor v Seredi začína plniť úlohu koncentračného tábora a zakrátko po jeho reaktivovaní v ňom preberá velenie Alois Brunner, dôstojník SS, ktorý už roky v rôznych krajinách „rieši problémy“ spojené so židovskými transportmi. Prezývajú ho aj „Lovec Židov“. Pod jeho velením je zo Serede vypravených 11 transportov. Smerujú do vyhladzovacieho tábora v Osvienčime-Birkenau, neskôr do geta Terezín a táborov Sachsenhausen a Ravensbrück. Niekoľko transportov vypravia aj z ďalších slovenských miest.
-
-[![Štefan Bednár - Na výsluch, 1945, Slovenská národná galéria, SNG](SVK_SNG.K_2181.jpeg "Štefan Bednár - Na výsluch")](http://www.webumenia.sk/dielo/SVK:SNG.K_2181?collection=86)
-
-[![Štefan Bednár - Dozorca, 1945, Slovenská národná galéria, SNG](SVK_SNG.K_2180.jpeg "Štefan Bednár - Dozorca")](http://www.webumenia.sk/dielo/SVK:SNG.K_2180?collection=86)
-
-
-V období okupácie je približne 1000 Židov zavraždených nemeckými komandami a príslušníkmi Pohotovostných oddielov Hlinkovej gardy aj na slovenskom území. Po vojenskej porážke Slovenského národného povstania stupňujú nacistické bezpečnostné zložky so svojimi slovenskými kolaborantmi brutalitu a zaisťovanie Židov je jednou z priorít viacerých jednotiek. Spolu s nimi sú však na mnohých miestach zatýkaní a deportovaní alebo vraždení aj nežidovskí účastníci Povstania, Rómovia či osoby podozrivé z podpory odboja.
-
-<div class="highlight">
-<p>
-Vypálených je v tomto období asi 102 obcí, najväčšiu časť popravených osôb tvoria práve Židia.
-</p>
+<div class="gomiddle">
+     Najvplyvnejšia zbierka životov svätých v neskorom stredoveku, Legenda aurea Jakuba z Voragine, prináša v kapitole o Narodení Panny Márie čitateľa k myšlienke širšieho Ježišovho príbuzenstva. Menuje nielen Máriinu matku – sv. Annu – ale tiež rôznych členov rodiny vo viacerých generáciách a opisuje ich pomerne komplikované príbuzenské vzťahy. Tiež v kanonických knihách Nového zákona je tu a tam reč o Ježišových bratoch, takže už v ranom stredoveku zaznamenávame pokusy vnímať vzťahy širšie poňatej Ježišovej rodiny v určitom systéme.
+     <br><br>
+     Za náhlym nárastom popularity ikonografie sv. Anny na sklonku 15. storočia stála snaha cirkvi o presadenie a následnú propagáciu učenia o nepoškvrnenom počatí Panny Márie. Kult Ježišovej starej matky oslovil na sklonku stredoveku široké vrstvy spoločnosti. K popularizácii tohto učenia (za dogmu uznaného až v roku 1854) prispel aj vzájomný spor medzi najvplyvnejšími rádmi: františkánmi, ktorí kult sv. Anny podporovali a dominikánmi, ktorí ho odmietali.
+     <br><br>
+     Odporcovia kultu sv. Anny na sklonku stredoveku odmietali predovšetkým myšlienku tzv. trinubia, ktorú neskôr Tridentský koncil (1545 – 1563) skutočne príkro odsúdil. Podľa tejto koncepcie sa Anna po smrti prvého manžela a Máriinho otca Joachima ešte dvakrát vydala – za Kleofáša a po ňom za Salomasa. S každým zo svojich manželov priviedla na svet dcéru Máriu (po Panne Márii teda ešte Máriu Kleofášovu a Máriu Salome). Táto, už sama osebe dosť kontroverzná legendárna situácia vytvorila podmienky pre azda najbohatšiu genealogickú fantáziu celého kresťanského stredoveku.
+     <br><br>
+     V Sasku, severných Čechách, Sliezsku i na Spiši kult sv. Anny vrcholil okolo alebo bezprostredne po roku 1500. Dokonca je pravdepodobné, že tu existovali dielne, ktoré sa (aspoň dočasne) špecializovali na oltárne retabulá s týmto patronátom. Oltáre sv. Anny v Spišskej Sobote, Ľubici pri Kežmarku a v Levoči sú svojou prvotriednou umeleckou kvalitou dokladom toho, že kult sv. Anny sa v prostredí neskorogotického Spiša rozširoval predovšetkým (hoci nie výlučne) vo finančne dobre situovaných vrstvách meštianstva.
 </div>
 
-Najznámejšími miestami ich masových popráv sú obce Kremnička a Nemecká, židovský cintorín vo Zvolene či pole „Krtičná“ pri Brezne. Počet slovenských Židov, ktorí sa stali obeťami holokaustu, tak narastá približne na 70 000.
+### Kristus
 
-[![Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch, 1945, 	Štátne múzeum Auschwitz – Birkenau v Osvienčime v Poľsku](Neznamy-Auschwitz--Osviencim--Statne_muzeum_Auschwitz-Polsko.jpg "Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch")](http://www.webumenia.sk/dielo/SVK:TMP.239?collection=86)
+<div class="clear">
+    <div class="goleft"><p>
+        Kristus sa na oltároch dielne majstra z Okoličného objavuje buď ako dieťa v rámci mariánskych scén, alebo ako protagonista pašiového cyklu. Na predelách je znázornený ako typ Vir Dolorum (muž bolesti, tiež zvaný imago pietatis) - polpostava v hrobe s rozpaženými rukami, niekedy s anjelmi držiacimi Veronikino rúcho a s nástrojmi umučenia (Arma Christi) v pozadí. Tento typ predstavoval vizuálne prepojenie Kristovho mŕtveho, no zároveň stále živého Tela s oltárnou menzou a tiež pohľadovou prístupnosťou modliacemu sa divákovi. Telo Krista (podobne ako aj postava Sv. Sebastiána) vyžadovalo okrem iného väčší dôraz na anatomické detaily - rany, stekajúca krv, modelácia nahého tela.
+        <br><br>
+        <img src="./4/jesus.jpg" alt="Popis nejaky fotky" />
+    </p></div>
 
-**Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [70 000 obetí](http://www.webumenia.sk/kolekcia/86 "70 000 obetí")**
+   <div class="goright"><p>
+       Na väčšine pašiových scén Krista sprevádzajú vedľajšie postavy, komponované aditívne (drábi adaptovaní z grafických predlôh), zdôrazňujúce jeho pozíciu v obraze alebo zvýrazňujúce rany po ukrižovaní (Mária Magdaléna). Postavu Krista sprevádza melancholický tón - je akoby vytrhnutá z vnútornej súvislosti s udalosťami okolo nej, hoci očný kontakt s divákom hľadá len v jednej scéne (Bičovanie). Úlohu očného kontaktu väčšmi prenecháva sv. Jánovi alebo priamo Bohorodičke. Napriek tomu akoby v štylizácii postavy Ježiša šlo o dialóg s (modliacim sa) divákom. Nasledovanie Krista, doslova „podobanie sa Kristovi“ – tzv. christiformitas – predstavovalo kľúčový aspekt františkánskej spirituality od samého začiatku rehole. Rany po ukrižovaní mohli v tomto prípade predstavovať aj vizuálnu referenciu k stigmám sv. Františka, zakladateľa rehole.
+       <br><br>
+       Stvárnenie postavy Krista je kombináciou vplyvov rôznych grafických predlôh (Majster E.S., Martin Schongauer, Israhel van Mechenem, Hans Schäufelein), ktoré čiastočne podliehali dobovým ikonografickým konvenciám. Scény pašií vychádzajú z obsahovo nemenného evanjeliového príbehu, no ich stvárňovanie, a najmä funkcia sa v priebehu stredoveku ako i neskôr menili, prinajmenšom vyvíjali. Ich vzájomné porovnávanie, ktoré, mimochodom, celkom prirodzene praktizovali aj samotní tvorcovia, prináša mnohovravné možnosti skúmania spôsobu ich spracovania, opakovaní a obmien, vplyvu iných vzorov či zdôrazňovanie rôznych aspektov (dejových, dramatizačných, psychologických...), alebo napokon premeny rozprávačských techník i samotného autorského štýlu.
+   </p></div>
+</div>
+
+<div class="gomiddle">
+     Okrem malieb môžeme Krista vidieť aj na krucifixe bočného oltára ukrižovania v Okoličnom, vytvorenom pravdepodobne dnes neznámou malopoľskou dielňou na konci 15. storočia. Predstavuje neskorogotickú verziu naturalisticky poňatých krucifixov s dynamickými detailami a expresívnym zvýraznením šliach a rán po ukrižovaní. Krucifix je dodatočne zasadený do neskoršej baldachýnovej architektúry z 18. storočia s anjelmi „odhaľujúcimi“ drapériu a barokovými postavami bolestnej Panny Márie a sv. Jána Evanjelistu. Dodatočná štylizácia dodáva dielu teatrálny charakter, zdôrazňujúci Kristovo utrpenie. Podobný krucifix (možno z rovnakej dielne) sa nachádza v Kostole sv. kríža v Kežmarku.
+</div>
+
+<img src="./4/krucifix.jpg" alt="Popis nejaky fotky" />
+
+### Svätice a Svätci
+
+<div class="gomiddle">
+    Svätice a svätci predstavujú na oltárnych kompozíciách niekedy vedľajšie postavy (neraz však umiestnené solitérne a zaberajúce celý panel), zriedkavejšie majú aj vlastný cyklus scén (Alžbeta Durínska). Okrem svojich atribútov často neprezentujú nijakú konkrétnu fázu ich života alebo martýria, ale sú zobrazené sami osebe – per se. Väčší dôraz je kladený na kvalitu spracovania - drapérie, vlasy, jednoznačné gestá a predovšetkým malebné tváre. Obrazy prezentujúce ideálne ženské či mužské duchovné vzory spoločnosti plnili, okrem ich primárnej funkcie v dobovej zbožnosti, aj úlohu fixovania a zároveň šírenia obrazových modelov v tvorbe ďalších umelcov.
+</div>
+
+<div class="gomiddle">
+    Sv. Katarína a sv. Barbora boli uctievané panny a ranokresťanské martýrky, o ktorých živote a skutkoch rozprávali v 15. storočí už bohato rozvinuté legendy – v prvom rade Legenda aurea Jacoba de Voragine. Sv. Katarína bola v stredovekej Európe vôbec najpopulárnejšou svätou – meno Katarína bolo po Márii najrozšírenejšie – sv. Barbora len tesne za ňou. Symbolizovali nielen fyzickú krásu, ale aj príkladne cnosti, duchovnú silu a múdrosť. Sv. Katarína svojou múdrosťou síce ohúrila aj rímskeho cisára Maxentia (Maximina) a mnohých učencov a filozofov (ktorých sa jej podarilo obrátiť na kresťanstvo), ale napokon ju po odmietnutí sobáša nechal mučiť na kolese a napokon sťať. Sv. Barboru nechal pre neposlušnosť zavrieť do veže vlastný otec Dioskur, ktorý ju napokon aj popravil. V slovenskom prostredí sa stala najmä patrónkou baníkov v oblasti Handlovej, Kremnice, Banskej Štiavnice a Slovenského Rudohoria. Postavy Kataríny a Barbory z Okoličianskeho oltára nemajú v rukách ich dnes najznámejšie atribúty (koleso a vežu), ale kalich a knihu. Treťou známou sochou oltára je sv. Margita, martýrka z Antiochie a patrónka pastierov a farmárov. Z jej sochy sa však nezachovala polychrómia ani konkrétny atribút. Autorom všetkých troch sôch bol Majster Pavol z Levoče.
+</div>
+
+<div class="clear">
+    <div class="goleft"><p>
+        <img src="./4/SNG--F_1497--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
+    </p></div>
+
+   <div class="goright"><p>
+       <img src="./4/SNG--F_1789--1_1--2017_07_27--L1_print.jpg" alt="Popis nejaky fotky" />
+   </p></div>
+</div>
+
+<div class="clear">
+    <div class="goleft"><p>
+        <img src="./4/alzbeta.jpg" alt="Popis nejaky fotky" />
+    </p></div>
+
+   <div class="goright"><p>
+        Sv. Alžbeta Uhorská (resp. Durínska) –  populárna lokálna svätica a patrónka chorých, žobrákov, vdov či sirôt  - je hlavnou postavou pôstnej strany triptychu zo Smrečian. Triptych zobrazuje zázrak s krucifixom (jeho zjavenie vyvrátilo falošné obvinenie svätice z cudzoložstva), vyhnanie svätice s deťmi z hradu Wartburg (s miniatúrnou scénou v pozadí, kde Alžbetu sotí do blata žobráčka), starostlivosť o chorých v špitáli (muž, ktorému Alžbeta češe vlasy má zjavné rany po malomocenstve) a smrť svätice, ktorá je analógiou Zosnutia Panny Márie. Svätá Alžbeta je zobrazená so skromným a pokorným výrazom (aj zoči voči nespravodlivosti), jej privilégiom v rámci obrazového priestoru je zlatá svätožiara. Alžbete Uhorskej je zasvätená aj najväčšia sakrálna stavba na Slovensku - Dóm sv. Alžbety v Košiciach.
+   </p></div>
+</div>
+
+<div class="clear">
+    <div class="goleft"><p>
+        Druhý Smrečiansky oltár ukazuje viaceré mužské postavy svätcov. Jeho umiestnenie ako pendant Oltára sv. Anny naznačuje jeho určenie pre "mužskú" časť publika. Sviatočná strana sa sústreďuje na postavy sv. Martina (Martin z Tours - svätec zo 4. storočia, v mladosti vojak z nevôle, potom mních a neskôr biskup) a sv. Mikuláša (bohatý biskup z gréckeho mesta Patara, ktorý v meste Myra pomáhal kresťanom, prenasledovaním počas vlády cisára Diokleciána). Obaja svätci sú znázornení v nariasených plášťoch so zlato-bielymi mitrami na hlave a biskupskými berlami v rukách – holobradý Martin podáva časť látky (v Legende aurea pôvodne časť svojho plášťa) žobrákovi zachytenému v menšej mierke na ľavej dolnej časti tabule; Mikuláša, tentokrát s bradou, rozoznať na základe iného atribútu – troch hrúd zlata, ktoré drží v ľavej ruke. Zlátenie dominuje aj sponám, ktorými majú na prsiach zopnuté plášte. Na pohyblivých krídlach dvojicu sprevádzajú dvaja západní cirkevní otcovia: vpravo sv. Hieronym (učenec, spisovateľ a autor rozšíreného latinského prekladu biblie s názvom Vulgata) - v pravej ruke kniha, v ľavej palica s krížom, na hlave kardinálsky klobúk - a vľavo sv. Gregor (pápež počas 6. storočia, liturgický reformátor a zakladateľ kláštorov) - pontifikálna berla s dvojitým krížom v pravej ruke, v ľavej kniha a na hlave pápežská tiara.
+    </p></div>
+
+   <div class="goright"><p>
+        <img src="./4/svatci.jpg" alt="Popis nejaky fotky" />
+   </p></div>
+</div>
+
+<div class="gomiddle">
+    Triptych pri zatvorenej skrini znázorňuje ďalších cirkevných otcov - sv. Ambróza (milánsky biskup zo 4. storočia, obranca cirkvi pred bludármi a patrón obchodníkov či študentov), sv. Augustína (biskup a filozof z Numídie, autor spisu Boží štát a patrón teológov a tlačiarov), sv. Krištofa s Ježiškom na pleci (podľa legendy preniesol budúceho spasiteľa cez rieku a na jeho pokyn zapichol do zeme na brehu svoju palicu, z ktorej na ďalší deň vyrástla palma - tento zázrak obrátil množstvo ľudí na kresťanskú vieru, ale tamojší vládca, zrejme cisár Décius, ho dal za trest sťať) a sv. Sebastiana (mučedník, ktorý bol počas vlády cisára Diokleciána kapitánom pretoriánskych gárd, ale keď vysvitlo, že je kresťan, pokúsili sa ho vojaci zabiť šípmi, čo sa im nepodarilo). Sv. Sebastian bol častou inšpiráciou v oblasti maliarstva, grafiky aj sochy. Atribúty jeho prvého mučenia (z ktorého sa však zotavil) – šípy – boli aj známym symbolom moru a Sebastianovo vyliečenie sa zo zásahov šípov vzbudzovalo nádej veriacich, že jeho príhovor ich môže ochrániť pred či priamo vyliečiť aj z tejto obávanej choroby. Práve preto patril k najpopulárnejším svätým vrcholného stredoveku.
+</div>
+

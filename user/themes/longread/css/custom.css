@@ -1,7 +1,7 @@
 html, body {
   font-family: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
   overflow-x: hidden;
-  background-color: #f9f9f7;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif"; }
 
 body.landing {
-  background-color: #827455; }
+  background-color: black; }
 
 body.error {
   height: 100vh; }
@@ -159,8 +159,8 @@ hr.white {
 .offset-link:before {
   display: block;
   content: " ";
-  margin-top: -81.6px;
-  height: 81.6px;
+  margin-top: -56.4px;
+  height: 56.4px;
   visibility: hidden; }
   @media only screen and (max-width: 905px) {
     .offset-link:before {
@@ -196,15 +196,15 @@ hr.white {
 
 .goleft {
   float: left;
-  width: 45%;
-  margin-right: 2.5%;
-  margin-left: 2.5%; }
+  width: 42%;
+  margin-right: 4%;
+  margin-left: 4%; }
 
 .goright {
   float: right;
-  width: 45%;
-  margin-right: 2.5%;
-  margin-left: 2.5%; }
+  width: 42%;
+  margin-right: 4%;
+  margin-left: 4%; }
 
 .clear {
   overflow: hidden;
@@ -214,7 +214,7 @@ nav.uk-navbar {
   position: fixed;
   float: none;
   width: 100%;
-  height: 68px;
+  height: 47px;
   top: 0;
   z-index: 9; }
   @media only screen and (max-width: 905px) {
@@ -226,7 +226,7 @@ nav.uk-navbar {
   nav.uk-navbar a {
     z-index: 9; }
   nav.uk-navbar .uk-navbar-brand {
-    line-height: 62px;
+    line-height: 40px;
     font-size: 30px;
     padding: 0;
     margin-left: 15px; }
@@ -268,7 +268,10 @@ nav.uk-navbar {
       margin: auto 10px;
       border-top: solid 2px black;
       -webkit-transition: border-top-color 0.35s;
-      transition: border-top-color 0.35s; }
+      transition: border-top-color 0.35s;
+      font-size: 19px;
+      margin-top: 4px;
+      padding-top: 13px; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav a {
         text-decoration: none; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover {
@@ -330,7 +333,7 @@ nav.uk-navbar {
     background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
     height: 100%;
-    width: 68px;
+    width: 47px;
     background-size: 40%;
     background-position-x: 50%;
     background-position-y: 50%; }
@@ -347,7 +350,7 @@ nav.uk-navbar {
   background: none; }
 
 #side-timeline .uk-offcanvas-bar {
-  top: 68px; }
+  top: 47px; }
   @media only screen and (max-width: 905px) {
     #side-timeline .uk-offcanvas-bar {
       top: 80px; } }
@@ -362,7 +365,7 @@ div#side-nav-bar {
   div#side-nav-bar a {
     text-decoration: none; }
   div#side-nav-bar .uk-offcanvas-bar {
-    top: 68px; }
+    top: 47px; }
     @media only screen and (max-width: 905px) {
       div#side-nav-bar .uk-offcanvas-bar {
         top: 80px; } }
@@ -437,100 +440,114 @@ div#side-nav-bar {
   .nav-about.c-white:hover {
     color: #EFEFEF; }
 
-.landing {
-  background-color: #827455; }
-  .landing * {
-    z-index: 9; }
-  .landing .landing-image {
+.landing * {
+  z-index: 9; }
+
+.landing .landing-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+  .landing .landing-image .landing-image-image {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden; }
-    .landing .landing-image .landing-image-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      text-indent: -9999px;
-      padding-top: 33%;
-      z-index: 1;
-      opacity: 0.4; }
-    .landing .landing-image .landing-image-fade {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-      height: 250px;
-      background-color: rgba(63, 60, 37, 0);
-      background-image: -webkit-linear-gradient(top, rgba(63, 60, 37, 0), #827455);
-      background-image: linear-gradient(to bottom,rgba(63, 60, 37, 0), #827455); }
-  .landing .landing-content {
-    position: relative;
-    margin: 60px auto 35px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    .landing .landing-content .title {
-      font-size: 410px;
-      line-height: 366px; }
-      @media only screen and (max-width: 825px) {
-        .landing .landing-content .title {
-          font-size: 60px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content .title {
-          font-size: 45px; } }
-    .landing .landing-content .header {
-      font-size: 57px;
-      line-height: 1; }
-      @media only screen and (max-width: 825px) {
-        .landing .landing-content .header {
-          font-size: 60px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content .header {
-          font-size: 45px; } }
-    .landing .landing-content h2 {
-      font-size: 23px;
-      letter-spacing: 0.45px; }
-      @media only screen and (max-width: 805px) {
-        .landing .landing-content h2 {
-          font-size: 20px;
-          margin-top: 0px; } }
-    .landing .landing-content h3 {
-      font-size: 25px;
-      line-height: 28px;
-      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
-      @media only screen and (max-width: 805px) {
-        .landing .landing-content h3 {
-          font-size: 20px;
-          line-height: 25px;
-          margin-top: 0px; } }
-    .landing .landing-content h4 {
-      font-size: 23px;
-      line-height: 26px;
-      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
-      @media only screen and (max-width: 805px) {
-        .landing .landing-content h4 {
-          font-size: 18px;
-          line-height: 23px; } }
-    .landing .landing-content h5 {
-      font-size: 19px;
-      line-height: 23px;
-      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
-      @media only screen and (max-width: 805px) {
-        .landing .landing-content h5 {
-          font-size: 16px;
-          line-height: 20px; } }
-    .landing .landing-content form#email-capture {
-      width: 550px;
-      margin: 25px auto; }
-      @media only screen and (max-width: 805px) {
-        .landing .landing-content form#email-capture {
-          width: 500px; } }
-      @media only screen and (max-width: 630px) {
-        .landing .landing-content form#email-capture {
-          width: 100%; } }
+    text-indent: -9999px;
+    padding-top: 33%;
+    z-index: 1;
+    opacity: 0.9; }
+  .landing .landing-image .landing-image-fade {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 250px;
+    background-color: rgba(63, 60, 37, 0);
+    background-image: -webkit-linear-gradient(top, rgba(63, 60, 37, 0), black);
+    background-image: linear-gradient(to bottom,rgba(63, 60, 37, 0), black); }
+
+.landing .landing-content {
+  position: relative;
+  margin: 60px auto 35px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .landing .landing-content .title {
+    font-size: 410px;
+    line-height: 366px; }
+    @media only screen and (max-width: 825px) {
+      .landing .landing-content .title {
+        font-size: 60px; } }
+    @media only screen and (max-width: 460px) {
+      .landing .landing-content .title {
+        font-size: 45px; } }
+  .landing .landing-content .header {
+    font-size: 57px;
+    line-height: 0.9; }
+    @media only screen and (max-width: 825px) {
+      .landing .landing-content .header {
+        font-size: 60px; } }
+    @media only screen and (max-width: 460px) {
+      .landing .landing-content .header {
+        font-size: 45px; } }
+  .landing .landing-content h2 {
+    font-size: 23px;
+    letter-spacing: 0.45px; }
+    @media only screen and (max-width: 805px) {
+      .landing .landing-content h2 {
+        font-size: 20px;
+        margin-top: 0px; } }
+  .landing .landing-content h3 {
+    font-size: 25px;
+    line-height: 28px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+    @media only screen and (max-width: 805px) {
+      .landing .landing-content h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 0px; } }
+  .landing .landing-content h4 {
+    font-size: 23px;
+    line-height: 26px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+    @media only screen and (max-width: 805px) {
+      .landing .landing-content h4 {
+        font-size: 18px;
+        line-height: 23px; } }
+  .landing .landing-content h5 {
+    font-size: 19px;
+    line-height: 23px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+    @media only screen and (max-width: 805px) {
+      .landing .landing-content h5 {
+        font-size: 16px;
+        line-height: 20px; } }
+  .landing .landing-content form#email-capture {
+    width: 550px;
+    margin: 25px auto; }
+    @media only screen and (max-width: 805px) {
+      .landing .landing-content form#email-capture {
+        width: 500px; } }
+    @media only screen and (max-width: 630px) {
+      .landing .landing-content form#email-capture {
+        width: 100%; } }
+
+.landing .next-to-each-other {
+  overflow: hidden;
+  max-width: 1200px;
+  margin-top: 200px;
+  margin-bottom: 200px; }
+  .landing .next-to-each-other .first-chapter-cta {
+    float: left;
+    width: 600px;
+    margin-right: 100px;
+    margin: 0; }
+  .landing .next-to-each-other .when-where-who {
+    float: right;
+    margin: 0; }
 
 form#email-capture {
   padding-top: 15px; }
@@ -630,7 +647,8 @@ form#email-capture {
 .chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  margin-top: 140px; }
   .chapter-preview .chapter-thumb {
     color: white;
     max-width: 500px;
@@ -649,12 +667,15 @@ form#email-capture {
       margin-bottom: 5px;
       margin-top: 15px; }
     .chapter-preview .chapter-thumb p {
-      margin-top: 0px; }
+      margin-top: 0; }
     .chapter-preview .chapter-thumb figure {
       max-width: 500px; }
+      .chapter-preview .chapter-thumb figure:hover {
+        opacity: 0.8; }
       .chapter-preview .chapter-thumb figure figcaption h2 {
-        font-size: 25px;
-        line-height: 25px; }
+        font-size: 50px;
+        line-height: 31px;
+        margin-top: 383px; }
         @media only screen and (max-width: 959px) {
           .chapter-preview .chapter-thumb figure figcaption h2 {
             font-size: 36px;
@@ -671,7 +692,7 @@ form#email-capture {
     border-color: #6D6D6D !important; }
 
 .content {
-  max-width: 1000px; }
+  max-width: 1200px; }
   @media only screen and (max-width: 600px) {
     .content {
       padding: 0 0; } }

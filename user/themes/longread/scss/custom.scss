@@ -5,7 +5,7 @@
 $rs: 16px;
 $font: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
-$navbar-height: 68px;
+$navbar-height: 47px;
 $navbar-height-905: 80px;
 $navbar-height-750: 60px;
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body.landing {
-  background-color: $dark-green;
+  background-color: black;
 }
 
 body.error {
@@ -231,16 +231,16 @@ hr.white{
 
 .goleft {
   float: left;
-  width: 45%;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
+  width: 42%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .goright {
   float: right;
-  width: 45%;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
+  width: 42%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .clear {
@@ -266,7 +266,7 @@ nav.uk-navbar {
     z-index: 9;
   }
   .uk-navbar-brand {
-    line-height: 62px;
+    line-height: 40px;
     font-size: 30px;
     padding: 0;
     margin-left: 15px;
@@ -313,6 +313,9 @@ nav.uk-navbar {
       border-top: solid 2px black;
       -webkit-transition: border-top-color 0.35s;
       transition: border-top-color 0.35s;
+      font-size: 19px;
+      margin-top: 4px;
+      padding-top: 13px;
       a {
         text-decoration: none;
       }
@@ -535,7 +538,6 @@ div#side-nav-bar {
 }
 
 .landing {
-  background-color: $dark-green;
   * {
     z-index: 9;
   }
@@ -555,14 +557,14 @@ div#side-nav-bar {
       text-indent: -9999px;
       padding-top: 33%;
       z-index: 1;
-      opacity: 0.4;
+      opacity: 0.9;
     }
     .landing-image-fade {
       position: absolute;
       width: 100%;
       bottom: 0;
       height: 250px;
-      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
+      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), black);
     }
   }
   .landing-content {
@@ -583,7 +585,7 @@ div#side-nav-bar {
 
       .header {
         font-size: 57px;
-        line-height: 1;
+        line-height: 0.9;
         @include respond-to(825) {
           font-size: 60px;
         }
@@ -639,6 +641,22 @@ div#side-nav-bar {
         }
       }
     }
+  .next-to-each-other {
+    overflow: hidden;
+    max-width: 1200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    .first-chapter-cta {
+      float: left;
+      width: 600px;
+      margin-right: 100px;
+      margin: 0;
+    }
+    .when-where-who {
+      float: right;
+      margin: 0;
+    }
+  }
 }
 
 form#email-capture {
@@ -748,6 +766,7 @@ form#email-capture {
   margin-left: 0px;
   margin-right: 25px;
   margin-bottom: 80px;
+  margin-top: 140px;
 
   .chapter-thumb {
     color: white;
@@ -772,14 +791,18 @@ form#email-capture {
       margin-top: 15px;
     }
     p {
-      margin-top: 0px;
+      margin-top: 0;
     }
     figure {
       max-width: 500px;
+      &:hover {
+        opacity: 0.8;
+      }
       figcaption {
         h2 {
-          font-size: 25px;
-          line-height: 25px;
+          font-size: 50px;
+          line-height: 31px;
+          margin-top: 383px;
           @include respond-to(959) {
             font-size: 36px;
             line-height: 36px;
@@ -807,7 +830,7 @@ form#email-capture {
   }
 }
 .content {
-  max-width: 1000px;
+  max-width: 1200px;
   @include respond-to(600) {
     padding: 0 0;
   }

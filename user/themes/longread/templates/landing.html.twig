@@ -31,19 +31,6 @@
             excludePrint: true,
             sharingStylingClasses: 'button-ghost'
           }%}
-
-          {% include 'partials/first-chapter-cta.html.twig' %}
-
-          <div class="em">M</div>
-          <h4 class="centered c-white first-chapter-cta">{{ page.header.h4 }}<br /></h4>
-
-          <h3 class="centered c-white">
-              {{ page.header.when }}<br />
-              {{ page.header.where }}<br />
-              {{ page.header.who }}
-          </h3>
-
-          <div class="em">M</div>
         </div>
 
         <div class="chapter-preview uk-grid hover-grid centered c-white">
@@ -57,6 +44,17 @@
               %}
             </div>
           {% endfor %}
+        </div>
+
+        <div class="landing-content next-to-each-other">
+          <h4 class="centered c-white first-chapter-cta">
+              {{ page.header.h4 }}<br />
+          </h4>
+          <h3 class="centered c-white when-where-who">
+              {{ page.header.when }}<br />
+              {{ page.header.where }}<br />
+              {{ page.header.who }}
+          </h3>
         </div>
       </div>
     </main>

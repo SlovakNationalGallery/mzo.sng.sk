@@ -62,3 +62,4 @@ Check the [Grav repo](https://github.com/getgrav/grav) or [excellent documentati
 The theme 'longread' makes extensive use of [Sass](http://sass-lang.com/). Sass files in `/user/themes/longread/scss/` should be compiled to `/user/themes/longread/css/`, e.g. by using:
 
     scss --watch user/themes/longread/scss:user/themes/longread/css
+    node-sass --watch ./user/themes/longread/scss/ -o ./user/themes/longread/css/
