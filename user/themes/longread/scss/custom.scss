@@ -894,9 +894,12 @@ form#email-capture {
           text-decoration: none;
         }
         h1 {
-          color: black;
-          font-size: 80px;
-          margin-bottom: -30px;
+          color: white;
+          font-size: 104px;
+          margin-bottom: -105px;
+          position: relative;
+          top: -200px;
+          line-height: 1;
           @include respond-to(810) {
             font-size: 65px;
             margin-bottom: -25px;
@@ -914,9 +917,15 @@ form#email-capture {
           position: relative;
           right: 0px;
           font-size: 16px;
+          color: black;
+          text-align: center;
+          display: block;
         }
         .sharing {
           margin-left: -29px;
+          margin: 0 auto;
+          width: 481px;
+          margin-bottom: 100px;
         }
       }
     }
@@ -924,11 +933,11 @@ form#email-capture {
     .drop-cap {
       float: left;
       color: black;
-      font-size: 125px;
-      line-height: 70px;
-      padding-top: 43px;
+      font-size: 138px;
+      line-height: 86px;
+      padding-top: 24px;
       padding-right: 15px;
-      padding-left: 3px;
+      padding-left: 0px;
     }
 
     figure.audio, figure.video, p > a > figure.image {
