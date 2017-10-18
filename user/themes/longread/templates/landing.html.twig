@@ -30,6 +30,17 @@
           }%}
         </div>
 
+        <div class="landing-content next-to-each-other">
+          <h4 class="centered c-white first-chapter-cta">
+              {{ page.header.h4 }}<br />
+          </h4>
+          <h3 class="centered c-white when-where-who">
+              {{ page.header.when }}<br />
+              {{ page.header.where }}<br />
+              {{ page.header.who }}
+          </h3>
+        </div>
+
         <div class="chapter-preview uk-grid hover-grid centered c-white">
           {% for p in page.collection %}
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4">
@@ -43,16 +54,6 @@
           {% endfor %}
         </div>
 
-        <div class="landing-content next-to-each-other">
-          <h4 class="centered c-white first-chapter-cta">
-              {{ page.header.h4 }}<br />
-          </h4>
-          <h3 class="centered c-white when-where-who">
-              {{ page.header.when }}<br />
-              {{ page.header.where }}<br />
-              {{ page.header.who }}
-          </h3>
-        </div>
       </div>
     </main>
   {% endblock %}

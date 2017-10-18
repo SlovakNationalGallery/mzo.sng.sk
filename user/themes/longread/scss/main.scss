@@ -5,7 +5,7 @@
 }
 
 $rs: 16px;
-$font: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+$font: "Maiola", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {

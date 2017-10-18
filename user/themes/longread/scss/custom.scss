@@ -3,7 +3,7 @@
 @import "mixins";
 
 $rs: 16px;
-$font: "Maiola-Bold", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+$font: "Maiola", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
 $navbar-height: 47px;
 $navbar-height-905: 80px;
@@ -157,18 +157,6 @@ button, .uk-button {
   font-size: 70%;
 }
 
-hr {
-  display:block !important;
-  border:0px !important;
-  height:20px !important;
-  width:20px !important;
-  margin: auto !important;
-  background-image:url(../images/hr.svg) !important;
-  background-repeat: no-repeat;
-}
-hr.white{
-  background-image:url(../images/hr-white.svg) !important;
-}
 .em {
   font-weight: 900;
   color: rgba(255, 255, 255, 0.67);
@@ -328,9 +316,9 @@ nav.uk-navbar {
         text-decoration: none;
       }
       &:not(.active):not(.disabled):hover {
-        border-top-color: $black;
+        border-top-color: #827455;
         a {
-          color: $black;
+          color: #827455;
           -webkit-transition: color 0.35s;
           transition: color 0.35s;
         }
@@ -350,7 +338,8 @@ nav.uk-navbar {
       }
     }
     .chapter-nav.active {
-      border-top-color: $black;
+      border-top-color: #afafaf;
+      color: #afafaf;
       a {
         pointer-events: none;
         cursor: default;
@@ -538,7 +527,7 @@ div#side-nav-bar {
   margin-right: 1rem;
   z-index: 99 !important;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
   &.c-white:hover {
     color: $light-grey;
@@ -853,7 +842,7 @@ form#email-capture {
 
 .post.chapter, .post.subobject, .post.page {
   .article-image {
-    bottom: 2vh;
+    bottom: 5vh;
     .post-meta {
       bottom: 200px;
     }
@@ -1016,7 +1005,6 @@ form#email-capture {
     h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.post-reading {
       margin-left: -20px;
       margin-right: -20px;
-      margin-top: 50px;
       @include respond-to(600) {
         margin-left: 0;
         margin-right: 0;

@@ -52,13 +52,13 @@ Zrejme nešlo o dlhodobo pôsobiaci ateliér, jednotlivých maliarov tohto kolek
 </p>
 </div>
 
-[![Oltár Korunovania v Spišskej Kapitule](spisska-kapitula.jpg "Oltár Korunovania v Spišskej Kapitule")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
+[Oltár Korunovania v Spišskej Kapitule](spisska-kapitula.jpg "Oltár Korunovania v Spišskej Kapitule")
 
 Štýl Majstra z Okoličného rozoznávame čoskoro aj na iných oltároch a obrazoch, a to v relatívne veľkom geografickom rozpätí. Oltár Panny Márie, sv. Mikuláša a sv. Erazma vo farskom kostole sv. Egídia v Bardejove, na ktorom ešte spolupracoval s Majstrom z Hrabušíc, patrí medzi prvé práce s charakteristickými znakmi, neskôr rozvinutými aj v Okoličnom - redukcia plochy pozláteným brokátovaním, maliarsky prepracované postavy a tváre s koncentrovanejšími pohľadmi a starostlivo modelovanými svetlými inkarnátmi. Spolu s ďalšími maliarmi sa Majster z Okoličného podieľal aj na oltárnych triptychoch pre zemepanský kostol v Smrečanoch (1510 – Oltár Svätého príbuzenstva a Oltár sv. Mikuláša a sv. Martina), kde možno rozoznať podobnú prácu s inkarnátmi.
 
-[![Traja mládenci](traja-mladenci.jpg "Traja mládenci")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[Traja mládenci](traja-mladenci.jpg "Traja mládenci")
 
-[![....](obraz-1.jpg "...")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[....](obraz-1.jpg "...")
 
 <div class="highlight">
 <p>
@@ -66,11 +66,11 @@ Oltárne retabulum v Okoličnom (vytvorené v rozmedzí rokov cca 1500 – 1510)
 </p>
 </div>
 
-[![...](349-detail-mensi.jpg "...")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[...](349-detail-mensi.jpg "...")
 
 Po roku 1510 na nejaký čas stopa po maliarovi zmizla. Možno spolupracoval na menších objednávkach, možno sa len nezachovali práve tie oltáre, ktoré jeho dielňa vytvorila. Spoľahlivo sa objavil znova až v roku 1516, keď datoval jeden z najkrajších oltárov Dómu sv. Alžbety – Oltár Navštívenia Panny Márie, ktorý prekvapí svojou pestrosťou a farebnými kontrastmi. Dielňa Majstra z Okoličného sa tu javí už ako pomerne mobilný ateliér, pracujúci tak pre cirkevných ako aj svetských objednávateľov. Majster využíval výhody relatívne bohatého trhu [4] s objednávkami bez ohľadu na to, či pochádzali od magnátskeho rodu (Zápoľskí), kláštornej komunity (františkáni-observanti) alebo od mestských elít (Michal Günthert v Košiciach). V prostredí Košíc sa Majster na sklonku svojej kariéry usídlil na dlhšie a zjavne ešte stihol vyškoliť niekoľko kvalitných nasledovníkov (Monogramista L.A.).
 
-[![...](navstivenie-predela.jpg "...")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[...](navstivenie-predela.jpg "...")
 
 <div class="highlight">
 <p>
