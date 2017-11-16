@@ -428,7 +428,8 @@ div#side-nav-bar {
   z-index: 99 !important;
   text-decoration: none;
   font-size: 20px;
-  line-height: 32px; }
+  line-height: 32px;
+  font-weight: bold; }
   @media only screen and (max-width: 920px) {
     .nav-about {
       margin-left: 1rem; } }
@@ -669,6 +670,8 @@ form#email-capture {
         width: 100%;
         font-size: 40px;
         line-height: 55px; }
+    .chapter-preview .chapter-thumb a.uk-button {
+      font-size: 17px; }
   .chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D; }
     .chapter-preview .chapter-thumb.disabled * figcaption h2, .chapter-preview .chapter-thumb.disabled * figcaption h2 * {

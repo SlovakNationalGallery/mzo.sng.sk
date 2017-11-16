@@ -528,6 +528,7 @@ div#side-nav-bar {
   text-decoration: none;
   font-size: 20px;
   line-height: 32px;
+  font-weight: bold;
   &.c-white:hover {
     color: $light-grey;
   }
@@ -823,6 +824,9 @@ form#email-capture {
           line-height: 55px;
         }
       }
+    }
+    a.uk-button {
+      font-size: 17px;
     }
   }
   .chapter-thumb.disabled {
