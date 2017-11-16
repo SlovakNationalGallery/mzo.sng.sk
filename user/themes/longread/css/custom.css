@@ -529,24 +529,18 @@ div#side-nav-bar {
     @media only screen and (max-width: 630px) {
       .landing .landing-content form#email-capture {
         width: 100%; } }
-.landing .next-to-each-other {
-  overflow: hidden;
-  max-width: 1200px;
-  margin-top: 200px;
-  margin-bottom: 200px; }
-  .landing .next-to-each-other .first-chapter-cta {
-    float: left;
-    width: 600px;
-    margin-right: 100px;
+  .landing .landing-content .landing-intro {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 22px; }
+  .landing .landing-content .landing-when-where-who {
     margin: 0;
-    font-size: 21px;
-    margin-top: 10px;
-    line-height: 28px; }
-  .landing .next-to-each-other .when-where-who {
-    float: right;
-    margin: 0;
-    font-size: 28px;
-    line-height: 50px; }
+    font-size: 26px;
+    line-height: 36px; }
+    @media only screen and (max-width: 970px) {
+      .landing .landing-content .landing-when-where-who {
+        font-size: 20px;
+        line-height: 50px; } }
 
 form#email-capture {
   padding-top: 15px; }
