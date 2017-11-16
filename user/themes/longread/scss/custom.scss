@@ -200,7 +200,6 @@ button, .uk-button {
 }
 
 .header {
-  height: 28px;
   * {
     z-index: 10 !important;
   }
@@ -567,27 +566,29 @@ div#side-nav-bar {
   .landing-content {
       position: relative;
       margin: 60px auto 35px;
+      padding-left: 10px;
+      padding-right: 10px;
       @include box-sizing(border-box);
 
       .title {
         font-size: 410px;
         line-height: 366px;
-        @include respond-to(825) {
-          font-size: 60px;
-        }
-        @include respond-to(460) {
-          font-size: 45px;
+        @include respond-to(420) {
+          font-size: 320px;
+          line-height: 286px;
         }
       }
 
       .header {
-        font-size: 57px;
-        line-height: 0.6;
-        @include respond-to(825) {
-          font-size: 60px;
-        }
-        @include respond-to(460) {
+        font-size: 60px;
+        line-height: 60px;
+        @include respond-to(550) {
           font-size: 45px;
+          line-height: 45px;
+        }
+        @include respond-to(400) {
+          font-size: 35px;
+          line-height: 35px;
         }
       }
 

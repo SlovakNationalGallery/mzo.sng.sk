@@ -168,10 +168,8 @@ button, .uk-button {
         font-size: 40px !important;
         line-height: 43px !important; } }
 
-.header {
-  height: 28px; }
-  .header * {
-    z-index: 10 !important; }
+.header * {
+  z-index: 10 !important; }
 
 /* prevent default UIkit styling */
 .uk-navbar-brand:before {
@@ -439,7 +437,6 @@ div#side-nav-bar {
 
 .landing * {
   z-index: 9; }
-
 .landing .landing-image {
   position: absolute;
   top: 0;
@@ -465,31 +462,32 @@ div#side-nav-bar {
     background-color: rgba(63, 60, 37, 0);
     background-image: -webkit-linear-gradient(top, rgba(63, 60, 37, 0), black);
     background-image: linear-gradient(to bottom,rgba(63, 60, 37, 0), black); }
-
 .landing .landing-content {
   position: relative;
   margin: 60px auto 35px;
+  padding-left: 10px;
+  padding-right: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .landing .landing-content .title {
     font-size: 410px;
     line-height: 366px; }
-    @media only screen and (max-width: 825px) {
+    @media only screen and (max-width: 420px) {
       .landing .landing-content .title {
-        font-size: 60px; } }
-    @media only screen and (max-width: 460px) {
-      .landing .landing-content .title {
-        font-size: 45px; } }
+        font-size: 320px;
+        line-height: 286px; } }
   .landing .landing-content .header {
-    font-size: 57px;
-    line-height: 0.6; }
-    @media only screen and (max-width: 825px) {
+    font-size: 60px;
+    line-height: 60px; }
+    @media only screen and (max-width: 550px) {
       .landing .landing-content .header {
-        font-size: 60px; } }
-    @media only screen and (max-width: 460px) {
+        font-size: 45px;
+        line-height: 45px; } }
+    @media only screen and (max-width: 400px) {
       .landing .landing-content .header {
-        font-size: 45px; } }
+        font-size: 35px;
+        line-height: 35px; } }
   .landing .landing-content h2 {
     font-size: 23px;
     letter-spacing: 0.45px; }
@@ -531,7 +529,6 @@ div#side-nav-bar {
     @media only screen and (max-width: 630px) {
       .landing .landing-content form#email-capture {
         width: 100%; } }
-
 .landing .next-to-each-other {
   overflow: hidden;
   max-width: 1200px;
@@ -643,7 +640,6 @@ form#email-capture {
 @media all and (max-width: 960px) {
   a.button-print {
     display: none; } }
-
 .chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
@@ -714,8 +710,7 @@ form#email-capture {
     background-position-x: 55%; }
   .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
     height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); }
-
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
 .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
   position: relative;
   width: inherit;
@@ -928,7 +923,6 @@ form#email-capture {
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }
-
 .post.page .page-title {
   padding: 15px;
   margin-bottom: 20px; }
@@ -948,7 +942,6 @@ form#email-capture {
     @media only screen and (max-width: 460px) {
       .post.page .page-title img.headline-logo {
         height: 30px; } }
-
 .post.page .post-content {
   padding: 50px; }
   @media only screen and (max-width: 600px) {
@@ -1026,22 +1019,20 @@ form#email-capture {
   color: white; }
   #footer a:not(.uk-button):hover {
     color: #EFEFEF; }
-
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
-
 #footer a svg #footericonsng,
 #footer a svg #footericonfb {
   fill: white; }
-
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
   fill: #EFEFEF !important; }
-
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }
 
 figure.image {
   text-align: center; }
+
+/*# sourceMappingURL=custom.css.map */
