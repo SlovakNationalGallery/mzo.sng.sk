@@ -815,17 +815,11 @@ form#email-capture {
       }
       figcaption {
         h2 {
-          font-size: 50px;
-          line-height: 31px;
-          margin-top: 383px;
-          @include respond-to(959) {
-            font-size: 36px;
-            line-height: 36px;
-          }
-          @include respond-to(400) {
-            font-size: 29px;
-            line-height: 29px;
-          }
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+          font-size: 40px;
+          line-height: 55px;
         }
       }
     }

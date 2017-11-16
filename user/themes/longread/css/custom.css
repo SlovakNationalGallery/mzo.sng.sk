@@ -663,17 +663,11 @@ form#email-capture {
       .chapter-preview .chapter-thumb figure:hover {
         opacity: 0.8; }
       .chapter-preview .chapter-thumb figure figcaption h2 {
-        font-size: 50px;
-        line-height: 31px;
-        margin-top: 383px; }
-        @media only screen and (max-width: 959px) {
-          .chapter-preview .chapter-thumb figure figcaption h2 {
-            font-size: 36px;
-            line-height: 36px; } }
-        @media only screen and (max-width: 400px) {
-          .chapter-preview .chapter-thumb figure figcaption h2 {
-            font-size: 29px;
-            line-height: 29px; } }
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        font-size: 40px;
+        line-height: 55px; }
   .chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D; }
     .chapter-preview .chapter-thumb.disabled * figcaption h2, .chapter-preview .chapter-thumb.disabled * figcaption h2 * {
