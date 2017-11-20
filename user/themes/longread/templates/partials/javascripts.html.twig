@@ -60,7 +60,7 @@
       nextArrow:"<img class='a-right control-c next slick-next' src='/user/themes/longread/images/slick/right.svg'>"
     });
 
-    $('a[href^="http://www.webumenia"]').has('figure.image').magnificPopup({
+    $('a[href^="https://www.webumenia"]').has('figure.image').magnificPopup({
       type: 'iframe',
       mainClass: 'mfp-with-zoom',
 
@@ -84,7 +84,7 @@
                 return null;
             },
 
-            src: 'http://www.webumenia.sk/dielo/%id%/zoom?noreturn=1'
+            src: 'https://www.webumenia.sk/dielo/%id%/zoom?noreturn=1'
 
           }
         }
@@ -110,12 +110,12 @@
     });
 
     // add zoom icon to zoomable webumenia images
-    $('a[href^="http://www.webumenia"] figure.image img')
+    $('a[href^="https://www.webumenia"] figure.image img')
       .wrap('<div class="uk-overlay uk-overlay-hover"></div>')
       .parent().append('<span class="icon-zoom uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
 
     // add external link icon to external images
-    $('p > a:not([href^="http://www.webumenia"]) figure.image img')
+    $('p > a:not([href^="https://www.webumenia"]) figure.image img')
       .wrap('<div class="uk-overlay uk-overlay-hover"></div>')
       .parent().append('<span class="icon-external uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
 
