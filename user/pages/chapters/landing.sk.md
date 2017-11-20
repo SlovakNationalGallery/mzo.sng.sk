@@ -11,5 +11,7 @@ where: 'Esterházyho palác, 2. poschodie, Bratislava'
 who: 'Kurátor: Dušan Buran'
 content:
     items: '@self.children'
+emailMailchimpUser: 0836676badd21fd175052c757
+emailMailchimpId: d814373427
 ---
 
