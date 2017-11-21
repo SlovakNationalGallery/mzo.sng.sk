@@ -758,8 +758,9 @@ form#email-capture {
     .post.chapter .post-content .chapter-title-wrapper .chapter-title .sharing, .post.subobject .post-content .chapter-title-wrapper .chapter-title .sharing, .post.page .post-content .chapter-title-wrapper .chapter-title .sharing {
       margin-left: -29px;
       margin: 0 auto;
-      width: 481px;
-      margin-bottom: 100px; }
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center; }
   .post.chapter .post-content .drop-cap, .post.subobject .post-content .drop-cap, .post.page .post-content .drop-cap {
     float: left;
     color: black;
