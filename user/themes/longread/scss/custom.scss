@@ -211,36 +211,58 @@ button, .uk-button {
 }
 
 .gomiddle {
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
 .goleft {
   float: left;
-  width: 42%;
-  margin-right: 4%;
-  margin-left: 4%;
-  @include respond-to(1000) {
-    float: none;
-    width: 100%;
-  }
 }
 
 .goright {
   float: right;
-  width: 42%;
-  margin-right: 4%;
-  margin-left: 4%;
+}
+
+.goleft, .goright {
+  width: 50%;
+
   @include respond-to(1000) {
     float: none;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.gomiddle, .goleft, .goright, .goside {
+  p {
+    margin-bottom: 0 !important;
+    padding: 40px;
+    @include respond-to(1000) {
+      padding: 20px;
+    }
+    @include respond-to(600) {
+      padding: 10px 10px;
+    }
+  }
+}
+
+// colour and font styling of side note
+.goside {
+  background: #33302d;
+  p {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    color: white !important;
   }
 }
 
 .clear {
   overflow: hidden;
-  margin-top: 50px;
   margin-bottom: 50px;
+  @include respond-to(1000) {
+    margin-bottom: 20px;
+  }
 }
 
 nav.uk-navbar {
@@ -896,6 +918,12 @@ form#email-capture {
     z-index: 3;
     font-size: 18px;
     line-height: 28px;
+    
+    text-align: center;
+    p {
+      text-align: left;
+    }
+
 
     @include respond-to(600) {
       padding-left: 20px;
@@ -1039,7 +1067,7 @@ form#email-capture {
       font-size: 18px;
     }
     hr {
-      margin-top: 10px !important;
+      margin-top: 50px !important;
       margin-bottom: 50px !important;
     }
     .slick-slider {
@@ -1048,14 +1076,8 @@ form#email-capture {
     div.audioplayer {
       margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
     }
-    .goside {
-      background: #33302d;
-      p {
-        font-size: 17px;
-        line-height: 1.6;
-        color: white;
-        padding: 40px;
-      }
+    img {
+      margin-bottom: 30px;
     }
   }
 }
