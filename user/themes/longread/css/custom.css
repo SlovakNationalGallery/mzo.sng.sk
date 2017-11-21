@@ -176,33 +176,47 @@ button, .uk-button {
   content: none; }
 
 .gomiddle {
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto; }
 
 .goleft {
-  float: left;
-  width: 42%;
-  margin-right: 4%;
-  margin-left: 4%; }
-  @media only screen and (max-width: 1000px) {
-    .goleft {
-      float: none;
-      width: 100%; } }
+  float: left; }
 
 .goright {
-  float: right;
-  width: 42%;
-  margin-right: 4%;
-  margin-left: 4%; }
+  float: right; }
+
+.goleft, .goright {
+  width: 50%; }
   @media only screen and (max-width: 1000px) {
-    .goright {
+    .goleft, .goright {
       float: none;
-      width: 100%; } }
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; } }
+
+.gomiddle p, .goleft p, .goright p, .goside p {
+  margin-bottom: 0 !important;
+  padding: 40px; }
+  @media only screen and (max-width: 1000px) {
+    .gomiddle p, .goleft p, .goright p, .goside p {
+      padding: 20px; } }
+  @media only screen and (max-width: 600px) {
+    .gomiddle p, .goleft p, .goright p, .goside p {
+      padding: 10px 10px; } }
+
+.goside {
+  background: #33302d; }
+  .goside p {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    color: white !important; }
 
 .clear {
   overflow: hidden;
-  margin-top: 50px;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 1000px) {
+    .clear {
+      margin-bottom: 20px; } }
 
 nav.uk-navbar {
   position: fixed;
@@ -716,7 +730,10 @@ form#email-capture {
   color: #000;
   z-index: 3;
   font-size: 18px;
-  line-height: 28px; }
+  line-height: 28px;
+  text-align: center; }
+  .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
+    text-align: left; }
   @media only screen and (max-width: 600px) {
     .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
       padding-left: 20px;
@@ -758,8 +775,9 @@ form#email-capture {
     .post.chapter .post-content .chapter-title-wrapper .chapter-title .sharing, .post.subobject .post-content .chapter-title-wrapper .chapter-title .sharing, .post.page .post-content .chapter-title-wrapper .chapter-title .sharing {
       margin-left: -29px;
       margin: 0 auto;
-      width: 481px;
-      margin-bottom: 100px; }
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center; }
   .post.chapter .post-content .drop-cap, .post.subobject .post-content .drop-cap, .post.page .post-content .drop-cap {
     float: left;
     color: black;
@@ -831,19 +849,14 @@ form#email-capture {
   .post.chapter .post-content li, .post.subobject .post-content li, .post.page .post-content li {
     font-size: 18px; }
   .post.chapter .post-content hr, .post.subobject .post-content hr, .post.page .post-content hr {
-    margin-top: 10px !important;
+    margin-top: 50px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .slick-slider, .post.subobject .post-content .slick-slider, .post.page .post-content .slick-slider {
     margin-bottom: 70px; }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
-  .post.chapter .post-content .goside, .post.subobject .post-content .goside, .post.page .post-content .goside {
-    background: #33302d; }
-    .post.chapter .post-content .goside p, .post.subobject .post-content .goside p, .post.page .post-content .goside p {
-      font-size: 17px;
-      line-height: 1.6;
-      color: white;
-      padding: 40px; }
+  .post.chapter .post-content img, .post.subobject .post-content img, .post.page .post-content img {
+    margin-bottom: 30px; }
 
 .post.subobject {
   color: #000; }
