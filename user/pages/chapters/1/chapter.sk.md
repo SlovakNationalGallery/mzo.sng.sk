@@ -57,7 +57,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
     
      <div class="goleft">
-    <h3>Spišská kapitula</h><br><br>
+    <h3>Spišská kapitula</h3>
     <p>Základné atribúty štýlu Majstra z Okoličného sa prvý krát objavujú na Oltári Korunovania v Spišskej Kapitule. Toto najdôležitejšie 	cirkevné centrum na Spiši prešlo počas druhej polovice 15. storočia rozsiahlou prestavbou a získalo novú a omnoho honosnejšiu výzdobu - sochy, mobiliár v dreve i textile a najmä nové oltáre s výzdobou, do ktorej už rázne prenikali progresívne prvky nizozemského maliarstva. Pri tejto príležitosti sa mohla sformovať dielňa – možno ad hoc zorganizovaná skupina maliarov (medzi nimi aj Majster z Okoličného) – ktorú svojou oltárnou objednávkou poveril palatín Štefan Zápoľský.</p>
 	</div>
 
@@ -75,7 +75,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
     
     <div class="goright">
-	<h3>Bardejov</h><br><br>
+	<h3>Bardejov</h3>
 	<p>Štýl Majstra z Okoličného rozoznávame čoskoro aj na iných oltároch a obrazoch, a to v relatívne veľkom geografickom rozpätí. Oltár Panny Márie, sv. Mikuláša a sv. Erazma vo farskom kostole sv. Egídia v Bardejove, na ktorom ešte spolupracoval s Majstrom z Hrabušíc, patrí medzi prvé práce s charakteristickými znakmi, neskôr rozvinutými aj v Okoličnom - pozlátené brokátovanie, maliarsky prepracované postavy a tváre s koncentrovanými pohľadmi a starostlivo modelovanými svetlými inkarnátmi.<br><br>
     Oltár stojí v severnej lodi kostola. Pôstna strana (s väčším príspením Majstra z Hrabušíc) zobrazuje scény zo životov sv. Mikuláša, sv. Erazma a sv. Vavrinca - ich zázraky a martýriá. Odohrávajú sa na pozadí modrej oblohy so zlatými hviezdami a sú oproti sviatočnej strane ponurejšie a (napriek náročnému vertikálnemu formátu) oveľa naratívnejšie. Postavy majú jednoduché, avšak modelačne prepracované tváre so živými očami, miestami i s istou mierou individualizácie.</p>
     </div>
@@ -101,7 +101,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
 
 	<div class="goleft">
-	<h3>Smrečany</h><br><br>
+	<h3>Smrečany</h3>
     <p>Spolu s ďalšími maliarmi sa Majster z Okoličného podieľal na oltárnych triptychoch pre zemepanský kostol Očisťovania Panny Márie v Smrečanoch – Oltár sv. Anny Samotretej (matky Panny Márie) a Oltár sv. Mikuláša a sv. Martina. Oba oltáre majú datovanie 1510 a dnes sú umiestnené pri východnej stene hlavnej lode chrámu. Jednoznačný „dámsky“ tón ikonografie oltára sv. Anny v kontraste s „pánskym“ pendantom – Oltárom sv. Martina a sv. Mikuláša naznačuje rozdelenie priestoru kostola na výhradne ženskú a mužskú časť – s oltármi „svojich“ patrónov pred očami.</p>
 	</div>
     
@@ -143,7 +143,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
     
     <div class="goright">
-    <h3>Okoličné</h><br><br>
+    <h3>Okoličné</h3>
     <p>Oltárne retabulum v Okoličnom (vytvorené v rozmedzí rokov cca 1500 – 1510) pre nášho maliara zrejme predstavovalo prvú naozaj samostatnú objednávku, kvôli ktorej sa ale musel obklopiť viacerými spolupracovníkmi z iných remeselných oblastí. Koordinátorom jednotlivých prác a fáz výzdoby v Okoličnom bol zrejme Majster Pavol z Levoče, ktorý v tom čase dokončoval minimálne dva ďalšie veľké oltáre v Levoči a Banskej Bystrici a disponoval veľkým množstvom pomocníkov.</p>
     </div>
     
@@ -169,7 +169,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
 
 	<div class="goleft">
-	<h3>Košice</h><br><br>
+	<h3>Košice</h3>
     <p>Po roku 1510 na nejaký čas stopa po maliarovi zmizla. Možno spolupracoval na menších objednávkach, možno sa len nezachovali práve tie oltáre, ktoré jeho dielňa vytvorila. Spoľahlivo sa objavil znova až v roku 1516, keď datoval jeden z najkrajších oltárov Dómu sv. Alžbety – Oltár Navštívenia Panny Márie, ktorý prekvapí svojou pestrosťou a farebnými kontrastmi. Išlo pravdepodobne o donáciu košického kupca Michala Güntherta a dielňa Majstra z Okoličného sa tu javí už ako pomerne mobilný ateliér, pracujúci tak pre cirkevných ako aj svetských objednávateľov.</p>
     </div>
 
