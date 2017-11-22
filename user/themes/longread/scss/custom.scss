@@ -1181,11 +1181,14 @@ $button-height: 60px;
     margin-bottom: 20px;
     h1 {
       font-size: 95px;
+      line-height: 95px;
       @include respond-to(750) {
         font-size: 70px;
+        line-height: 70px;
       }
       @include respond-to(460) {
         font-size: 45px;
+        line-height: 45px;
       }
     }
     img.headline-logo {
