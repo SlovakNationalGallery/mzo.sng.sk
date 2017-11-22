@@ -220,7 +220,8 @@ button, .uk-button {
   .goside p {
     font-size: 17px !important;
     line-height: 1.6 !important;
-    color: white !important; }
+    color: white !important;
+    padding: 10px; }
 
 .clear {
   overflow: hidden;
