@@ -218,25 +218,22 @@ button, .uk-button {
 }
 
 .goleft, .goright {
-  width: 50%;
+  width: 44%;
+  margin-left: 3%;
+  margin-right: 3%;
 
   @include respond-to(1000) {
     float: none;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
 .gomiddle, .goleft, .goright, .goside {
   p {
     margin-bottom: 0 !important;
-    padding: 40px;
-    @include respond-to(1000) {
-      padding: 20px;
-    }
+    padding-top: 20px;
     @include respond-to(600) {
-      padding: 10px 10px;
+      padding: 10px;
     }
   }
   figure {
@@ -1017,12 +1014,12 @@ form#email-capture {
       text-align: center;
     }
     h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.post-reading {
-      margin-left: -20px;
-      margin-right: -20px;
-      @include respond-to(600) {
-        margin-left: 0;
-        margin-right: 0;
-      }
+      // // margin-left: -20px;
+      // // margin-right: -20px;
+      // @include respond-to(600) {
+      //   margin-left: 0;
+      //   margin-right: 0;
+      // }
     }
     .fluid-width-video-wrapper {
       margin-left: 0 !important;
