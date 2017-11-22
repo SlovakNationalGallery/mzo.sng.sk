@@ -213,6 +213,7 @@ button, .uk-button {
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-bottom: 0 !important;
+  margin-top: 10px !important;
   padding-bottom: 0 !important; }
 
 .goside {
@@ -785,6 +786,8 @@ form#email-capture {
   .post.chapter .post-content figure.audio, .post.chapter .post-content figure.video, .post.chapter .post-content p > a > figure.image, .post.subobject .post-content figure.audio, .post.subobject .post-content figure.video, .post.subobject .post-content p > a > figure.image, .post.page .post-content figure.audio, .post.page .post-content figure.video, .post.page .post-content p > a > figure.image {
     background-color: #EFEFEF;
     padding: 10px; }
+  .post.chapter .post-content figure, .post.subobject .post-content figure, .post.page .post-content figure {
+    margin-top: 10px; }
   .post.chapter .post-content p > a > figure.image .uk-overlay-panel, .post.subobject .post-content p > a > figure.image .uk-overlay-panel, .post.page .post-content p > a > figure.image .uk-overlay-panel {
     margin: 10px;
     background-color: rgba(130, 116, 85, 0.6);
@@ -841,7 +844,10 @@ form#email-capture {
     margin-top: 50px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .slick-slider, .post.subobject .post-content .slick-slider, .post.page .post-content .slick-slider {
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px; }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
 
