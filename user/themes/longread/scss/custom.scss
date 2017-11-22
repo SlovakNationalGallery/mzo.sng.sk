@@ -266,11 +266,11 @@ nav.uk-navbar {
   // margin-top: -20px;
   top: 0;
   z-index: 9;
-  @include respond-to(905) {
-    height: $navbar-height-905;
-  }
+  // @include respond-to(905) {
+  //   height: $navbar-height-905;
+  // }
   @include respond-to(750) {
-    height: $navbar-height-750;
+    // height: $navbar-height-750;
   }
   a {
     z-index: 9;
@@ -280,27 +280,27 @@ nav.uk-navbar {
     font-size: 30px;
     padding: 0;
     margin-left: 15px;
-    @include respond-to(905) {
-      line-height: 75px;
-    }
+    // @include respond-to(905) {
+    //   line-height: 75px;
+    // }
     @include respond-to(750) {
       margin-left: 0;
-      line-height: 55px;
+      // line-height: 55px;
       position: inherit;
       width: 100%;
       text-align: center;
     }
     span {
-      @include respond-to(1175) {
-        display: none;
-      }
+      // @include respond-to(1175) {
+      //   display: none;
+      // }
       @include respond-to(750) {
         display: inline;
       }
     }
     .header-logo {
       color: black;
-      font-size: 49px;
+      font-size: 40px;
       position: relative;
       top: 8px;
       font-weight: 900;
@@ -523,9 +523,9 @@ div#side-nav-bar {
         background-image: url(../images/logo-sng-black.svg);
       }
       &.logo-mzo::before {
-        font-size: 49px;
+        font-size: 40px;
         font-weight: 900;
-        line-height: 49px;
+        line-height: 40px;
         content: "M";
       }
     }

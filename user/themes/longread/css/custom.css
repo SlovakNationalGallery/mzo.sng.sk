@@ -218,12 +218,6 @@ nav.uk-navbar {
   height: 47px;
   top: 0;
   z-index: 9; }
-  @media only screen and (max-width: 905px) {
-    nav.uk-navbar {
-      height: 80px; } }
-  @media only screen and (max-width: 750px) {
-    nav.uk-navbar {
-      height: 60px; } }
   nav.uk-navbar a {
     z-index: 9; }
   nav.uk-navbar .uk-navbar-brand {
@@ -231,25 +225,18 @@ nav.uk-navbar {
     font-size: 30px;
     padding: 0;
     margin-left: 15px; }
-    @media only screen and (max-width: 905px) {
-      nav.uk-navbar .uk-navbar-brand {
-        line-height: 75px; } }
     @media only screen and (max-width: 750px) {
       nav.uk-navbar .uk-navbar-brand {
         margin-left: 0;
-        line-height: 55px;
         position: inherit;
         width: 100%;
         text-align: center; } }
-    @media only screen and (max-width: 1175px) {
-      nav.uk-navbar .uk-navbar-brand span {
-        display: none; } }
     @media only screen and (max-width: 750px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: inline; } }
     nav.uk-navbar .uk-navbar-brand .header-logo {
       color: black;
-      font-size: 49px;
+      font-size: 40px;
       position: relative;
       top: 8px;
       font-weight: 900; }
@@ -422,9 +409,9 @@ div#side-nav-bar {
       .header .logo-top-left .logo.logo-sng-black {
         background-image: url(../images/logo-sng-black.svg); }
       .header .logo-top-left .logo.logo-mzo::before {
-        font-size: 49px;
+        font-size: 40px;
         font-weight: 900;
-        line-height: 49px;
+        line-height: 40px;
         content: "M"; }
 
 .nav-about {
