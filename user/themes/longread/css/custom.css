@@ -1,3 +1,19 @@
+.post-image-image.chapter-1 {
+  background-position-y: 50%;
+  background-position-x: 50%; }
+
+.post-image-image.chapter-2 {
+  background-position-y: 50%;
+  background-position-x: 47%; }
+
+.post-image-image.chapter-3 {
+  background-position-y: 50%;
+  background-position-x: 31%; }
+
+.post-image-image.chapter-4 {
+  background-position-y: 50%;
+  background-position-x: 50%; }
+
 html, body {
   font-family: "Maiola", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
   overflow-x: hidden;
@@ -687,14 +703,6 @@ form#email-capture {
   bottom: 5vh; }
   .post.chapter .article-image .post-meta, .post.subobject .article-image .post-meta, .post.page .article-image .post-meta {
     bottom: 200px; }
-  .post.chapter .article-image .post-image-image.chapter-1, .post.subobject .article-image .post-image-image.chapter-1, .post.page .article-image .post-image-image.chapter-1 {
-    background-position-x: 67%; }
-  .post.chapter .article-image .post-image-image.chapter-2, .post.subobject .article-image .post-image-image.chapter-2, .post.page .article-image .post-image-image.chapter-2 {
-    background-position-y: 15%;
-    background-position-x: 48%; }
-  .post.chapter .article-image .post-image-image.chapter-3, .post.subobject .article-image .post-image-image.chapter-3, .post.page .article-image .post-image-image.chapter-3 {
-    background-position-y: -10%;
-    background-position-x: 55%; }
   .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
