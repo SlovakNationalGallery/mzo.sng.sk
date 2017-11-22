@@ -7,8 +7,8 @@ $rs: 16px;
 $font: "Maiola", "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
 
 $navbar-height: 47px;
-$navbar-height-905: 80px;
-$navbar-height-750: 60px;
+$navbar-height-905: $navbar-height;
+$navbar-height-750: $navbar-height;
 
 html, body {
   font-family: $font;
@@ -273,11 +273,11 @@ nav.uk-navbar {
   // margin-top: -20px;
   top: 0;
   z-index: 9;
-  // @include respond-to(905) {
-  //   height: $navbar-height-905;
-  // }
+  @include respond-to(905) {
+    height: $navbar-height-905;
+  }
   @include respond-to(750) {
-    // height: $navbar-height-750;
+    height: $navbar-height-750;
   }
   a {
     z-index: 9;
