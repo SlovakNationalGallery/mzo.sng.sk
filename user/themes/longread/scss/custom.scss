@@ -157,13 +157,6 @@ button, .uk-button {
   font-size: 70%;
 }
 
-.em {
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.67);
-  font-size: 25px;
-  margin: 50px 0;
-  transform: rotate(22.5deg);
-}
 .blank-list {
   ul {
     list-style-type: none;
@@ -506,33 +499,36 @@ div#side-nav-bar {
   }
 }
 
-.logo-sng {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 48px;
-  height: 48px;
-  margin: 0;
-  overflow: hidden;
-  z-index: 99 !important;
-  .logo {
-    background-image: url(../images/logo-sng.svg);
-    display: block;
+.header {
+  height: 40px;
+  .logo-top-left {
     position: absolute;
-    top: $rs / 2;
-    left: $rs / 2;
-    width: $rs * 2;
-    height: $rs * 2;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .em {
-    margin: 14px;
-  }
-}
-.logo-sng-black {
-  .logo {
-    background-image: url(../images/logo-sng-black.svg);
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    margin-left: 25px;
+    overflow: hidden;
+    z-index: 99 !important;
+    .logo {
+      display: block;
+      position: absolute;
+      width: $rs * 2;
+      height: $rs * 2;
+      background-size: cover;
+      background-repeat: no-repeat;
+      &.logo-sng {
+        background-image: url(../images/logo-sng.svg);
+      }
+      &.logo-sng-black {
+        background-image: url(../images/logo-sng-black.svg);
+      }
+      &.logo-mzo::before {
+        font-size: 49px;
+        font-weight: 900;
+        line-height: 49px;
+        content: "M";
+      }
+    }
   }
 }
 
@@ -541,11 +537,8 @@ div#side-nav-bar {
   float: right;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 1rem;
-  @include respond-to(920) {
-    margin-left: 1rem;
-  }
-  margin-right: 1rem;
+  margin-left: 25px;
+  margin-right: 25px;
   z-index: 99 !important;
   text-decoration: none;
   font-size: 20px;

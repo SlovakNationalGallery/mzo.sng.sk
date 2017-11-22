@@ -132,13 +132,6 @@ button, .uk-button {
 .fs-70 {
   font-size: 70%; }
 
-.em {
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.67);
-  font-size: 25px;
-  margin: 50px 0;
-  transform: rotate(22.5deg); }
-
 .blank-list ul {
   list-style-type: none; }
 
@@ -407,46 +400,45 @@ div#side-nav-bar {
     div#side-nav-bar .uk-offcanvas-bar .button-about {
       margin-top: 20px; }
 
-.logo-sng {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 48px;
-  height: 48px;
-  margin: 0;
-  overflow: hidden;
-  z-index: 99 !important; }
-  .logo-sng .logo {
-    background-image: url(../images/logo-sng.svg);
-    display: block;
+.header {
+  height: 40px; }
+  .header .logo-top-left {
     position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .logo-sng .em {
-    margin: 14px; }
-
-.logo-sng-black .logo {
-  background-image: url(../images/logo-sng-black.svg); }
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    margin-left: 25px;
+    overflow: hidden;
+    z-index: 99 !important; }
+    .header .logo-top-left .logo {
+      display: block;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .header .logo-top-left .logo.logo-sng {
+        background-image: url(../images/logo-sng.svg); }
+      .header .logo-top-left .logo.logo-sng-black {
+        background-image: url(../images/logo-sng-black.svg); }
+      .header .logo-top-left .logo.logo-mzo::before {
+        font-size: 49px;
+        font-weight: 900;
+        line-height: 49px;
+        content: "M"; }
 
 .nav-about {
   position: relative;
   float: right;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 25px;
+  margin-right: 25px;
   z-index: 99 !important;
   text-decoration: none;
   font-size: 20px;
   line-height: 32px;
   font-weight: bold; }
-  @media only screen and (max-width: 920px) {
-    .nav-about {
-      margin-left: 1rem; } }
   .nav-about.c-white:hover {
     color: #EFEFEF; }
 
@@ -934,13 +926,16 @@ form#email-capture {
   padding: 15px;
   margin-bottom: 20px; }
   .post.page .page-title h1 {
-    font-size: 95px; }
+    font-size: 95px;
+    line-height: 95px; }
     @media only screen and (max-width: 750px) {
       .post.page .page-title h1 {
-        font-size: 70px; } }
+        font-size: 70px;
+        line-height: 70px; } }
     @media only screen and (max-width: 460px) {
       .post.page .page-title h1 {
-        font-size: 45px; } }
+        font-size: 45px;
+        line-height: 45px; } }
   .post.page .page-title img.headline-logo {
     height: 60px; }
     @media only screen and (max-width: 750px) {

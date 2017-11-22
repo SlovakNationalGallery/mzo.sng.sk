@@ -87,7 +87,9 @@
 
   {% block header %}
     <div class="header">
-      <a href="{{ base_url }}" class="nav-home logo-sng" title="{{"NAVIGATION.HOME"|t}}"><div class="em"></div></a>
+      <a href="{{ base_url }}" class="nav-home logo-top-left" title="{{"NAVIGATION.HOME"|t}}">
+        <span class="logo logo-mzo"></span>        
+      </a>
       {% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
         {% include 'partials/langswitcher.html.twig' %}
       {% endif %}
