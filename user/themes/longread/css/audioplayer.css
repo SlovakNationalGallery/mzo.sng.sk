@@ -1,7 +1,7 @@
 .audioplayer {
   height: 2.5em;
   /* 40 */
-  color: #827455;
+  color: #3F3C25;
   position: relative;
   z-index: 1;
   background: #EFEFEF;
@@ -42,7 +42,7 @@
   border: 0.5em solid transparent;
   /* 8 */
   border-right: none;
-  border-left-color: #827455;
+  border-left-color: #3F3C25;
   content: '';
   position: absolute;
   top: 50%;
@@ -155,7 +155,7 @@
   /* 5 */
   height: 0.375em;
   /* 6 */
-  background-color: #827455;
+  background-color: #3F3C25;
   display: block;
   position: relative;
   z-index: 1;
@@ -173,7 +173,7 @@
   border: 0.5em solid transparent;
   /* 8 */
   border-left: none;
-  border-right-color: #827455;
+  border-right-color: #3F3C25;
   z-index: 2;
   top: 50%;
   right: -0.25em;
@@ -249,3 +249,5 @@
   -ms-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
   -o-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
   transition: color .25s ease, background-color .25s ease, opacity .5s ease; }
+
+/*# sourceMappingURL=audioplayer.css.map */

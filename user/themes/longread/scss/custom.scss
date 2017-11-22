@@ -95,7 +95,7 @@ button, .uk-button {
   background-color: $dark-grey !important;
 }
 .bg-dark-green {
-  background-color: $dark-green !important;
+  background-color: $gold !important;
 }
 
 .underline {
@@ -247,7 +247,7 @@ button, .uk-button {
 
 // colour and font styling of side note
 .goside {
-  background: #33302d;
+  background: $warm-dark-grey;
   p {
     font-size: 17px !important;
     line-height: 1.6 !important;
@@ -336,9 +336,9 @@ nav.uk-navbar {
         text-decoration: none;
       }
       &:not(.active):not(.disabled):hover {
-        border-top-color: #827455;
+        border-top-color: $gold;
         a {
-          color: #827455;
+          color: $gold;
           -webkit-transition: color 0.35s;
           transition: color 0.35s;
         }
@@ -358,8 +358,8 @@ nav.uk-navbar {
       }
     }
     .chapter-nav.active {
-      border-top-color: #afafaf;
-      color: #afafaf;
+      border-top-color: $gold;
+      color: $black;
       a {
         pointer-events: none;
         cursor: default;
@@ -398,7 +398,7 @@ nav.uk-navbar {
     }
   }
   .timeline-toggle.active {
-    background-color: $dark-green;
+    background-color: $gold;
     background-image: url(../images/timeline-clock-white.svg);
   }
   .nav-toggle {
@@ -423,7 +423,7 @@ nav.uk-navbar {
     }
   }
   .nav-toggle.active {
-    background-color: $dark-green;
+    background-color: $gold;
     background-image: url(../images/hamburger-white.svg)
   }
 }
@@ -464,14 +464,15 @@ div#side-nav-bar {
     }
     ul.uk-nav {
       .chapter-nav {
+        font-size: 18px;
         padding: 20px;
-        border-bottom: solid 1px $dark-grey;
+        border-bottom: solid 1px #FFF;
         div.nav-state-bar {
           width: 50px;
           height: 5px;
           margin-top: -20px;
           margin-bottom: 20px;
-          background-color: $dark-grey;
+          background-color: #FFF;
         }
         a:hover {
           color: $black !important;
@@ -966,7 +967,7 @@ form#email-capture {
 
     p > a > figure.image .uk-overlay-panel {
       margin: 10px;
-      background-color: rgba( $dark-green, .6 );
+      background-color: rgba( $gold, .6 );
       background-size: 75%;
       background-repeat: no-repeat;
       background-position: center center;

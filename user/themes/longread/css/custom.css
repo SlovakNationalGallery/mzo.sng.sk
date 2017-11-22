@@ -89,7 +89,7 @@ button, .uk-button {
   background-color: #6D6D6D !important; }
 
 .bg-dark-green {
-  background-color: #827455 !important; }
+  background-color: #827456 !important; }
 
 .underline {
   text-decoration: underline; }
@@ -289,9 +289,9 @@ nav.uk-navbar {
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav a {
         text-decoration: none; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover {
-        border-top-color: #827455; }
+        border-top-color: #827456; }
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover a {
-          color: #827455;
+          color: #827456;
           -webkit-transition: color 0.35s;
           transition: color 0.35s; }
       @media only screen and (max-width: 905px) {
@@ -306,8 +306,8 @@ nav.uk-navbar {
         pointer-events: none;
         cursor: default; }
     nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active {
-      border-top-color: #afafaf;
-      color: #afafaf; }
+      border-top-color: #827456;
+      color: #000000; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active a {
         pointer-events: none;
         cursor: default; }
@@ -338,7 +338,7 @@ nav.uk-navbar {
       nav.uk-navbar .timeline-toggle {
         width: 47px; } }
   nav.uk-navbar .timeline-toggle.active {
-    background-color: #827455;
+    background-color: #827456;
     background-image: url(../images/timeline-clock-white.svg); }
   nav.uk-navbar .nav-toggle {
     position: relative;
@@ -358,7 +358,7 @@ nav.uk-navbar {
       nav.uk-navbar .nav-toggle {
         display: block; } }
   nav.uk-navbar .nav-toggle.active {
-    background-color: #827455;
+    background-color: #827456;
     background-image: url(../images/hamburger-white.svg); }
 
 .uk-offcanvas {
@@ -388,14 +388,15 @@ div#side-nav-bar {
       div#side-nav-bar .uk-offcanvas-bar {
         top: 47px; } }
     div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav {
+      font-size: 18px;
       padding: 20px;
-      border-bottom: solid 1px #6D6D6D; }
+      border-bottom: solid 1px #FFF; }
       div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav div.nav-state-bar {
         width: 50px;
         height: 5px;
         margin-top: -20px;
         margin-bottom: 20px;
-        background-color: #6D6D6D; }
+        background-color: #FFF; }
       div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav a:hover {
         color: #000000 !important; }
     div#side-nav-bar .uk-offcanvas-bar ul.uk-nav li:first-of-type div.nav-state-bar {
@@ -790,7 +791,7 @@ form#email-capture {
     margin-top: 10px; }
   .post.chapter .post-content p > a > figure.image .uk-overlay-panel, .post.subobject .post-content p > a > figure.image .uk-overlay-panel, .post.page .post-content p > a > figure.image .uk-overlay-panel {
     margin: 10px;
-    background-color: rgba(130, 116, 85, 0.6);
+    background-color: rgba(130, 116, 86, 0.6);
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center center; }
