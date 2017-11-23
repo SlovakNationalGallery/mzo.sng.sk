@@ -32,7 +32,7 @@
 #side-nav-bar .langswitcher-wrapper {
   height: 65px;
   text-align: center;
-  border-bottom: solid 1px #6D6D6D; }
+  border-bottom: solid 1px #FFF; }
   #side-nav-bar .langswitcher-wrapper .langswitcher {
     padding: 20px; }
     #side-nav-bar .langswitcher-wrapper .langswitcher li {
@@ -43,3 +43,5 @@
         display: inline; }
       #side-nav-bar .langswitcher-wrapper .langswitcher li span.not-large {
         display: none; }
+
+/*# sourceMappingURL=langswitcher.css.map */

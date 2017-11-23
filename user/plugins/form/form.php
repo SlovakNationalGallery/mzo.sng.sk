@@ -268,7 +268,7 @@ class FormPlugin extends Plugin
         if ($this->config->get('plugins.form.built_in_css')) {
             $this->grav['assets']->addCss('plugin://form/assets/form-styles.css');
         }
-
+        $twig->twig_vars['form_max_filesize'] = Form::getMaxFilesize();
         $twig->twig_vars['form_json_response'] = $this->json_response;
     }
 
@@ -372,6 +372,12 @@ class FormPlugin extends Plugin
                 unset($this->grav['page']);
                 $this->grav['page'] = $page;
                 break;
+            case 'remember':
+                foreach ($params as $remember_field) {
+                    $field_cookie = 'forms-'.$form['name'].'-'.$remember_field;
+                    setcookie($field_cookie, $form->value($remember_field),  time()+60*60*24*60);
+                }
+                break;
             case 'save':
                 $prefix = !empty($params['fileprefix']) ? $params['fileprefix'] : '';
                 $format = !empty($params['dateformat']) ? $params['dateformat'] : 'Ymd-His-u';
@@ -452,8 +458,10 @@ class FormPlugin extends Plugin
     public function onFormValidationProcessed(Event $event)
     {
         // special check for honeypot field
-        if (!empty($event['form']->value('honeypot'))) {
-            throw new ValidationException('Are you a bot?');
+        foreach ($event['form']->fields() as $field) {
+            if ($field['type'] == 'honeypot' && !empty($event['form']->value($field['name']))) {
+                throw new ValidationException('Are you a bot?');
+            }
         }
     }
 
@@ -498,6 +506,18 @@ class FormPlugin extends Plugin
     public function getFormFieldTypes()
     {
         return [
+            'column'   => [
+                'input@' => false
+            ],
+            'columns'  => [
+                'input@' => false
+            ],
+            'fieldset' => [
+                'input@' => false
+            ],
+            'conditional' => [
+                'input@' => false
+            ],
             'display' => [
                 'input@' => false
             ],

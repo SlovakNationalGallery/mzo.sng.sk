@@ -4,8 +4,8 @@
 {% set defaultEmailNotice      = "" %}
 
 <form id="email-capture" class="uk-form bg-red uk-text-center" action="https://sng.us3.list-manage.com/subscribe/post" method="POST">
-    <input type="hidden" name="u" value="0836676badd21fd175052c757">
-    <input type="hidden" name="id" value="d5c8f482a1">
+    <input type="hidden" name="u" value={{emailMailchimpUser}}>
+    <input type="hidden" name="id" value={{emailMailchimpId}}>
     <fieldset data-uk-margin>
         <legend class="c-white">{{emailCTA|default(defaultEmailCTA)}}</legend>
         <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="{{emailPlaceholder|default(defaultEmailPlaceholder)}}" class="uk-form-large c-black">

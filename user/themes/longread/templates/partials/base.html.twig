@@ -24,7 +24,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{page.url}}" />
-  <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg" />
+  <meta property="og:image" content="{{ theme_url }}/images/social-image.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:description" content="{{"META.DESCRIPTION"|t}}"/> 
   <meta property="og:site_name" content="{{"META.SITE_NAME"|t}}"/> 
@@ -34,7 +34,7 @@
   <meta name="twitter:creator" content="@sng_gallery">
   <meta name="twitter:title" content="{{"META.SITE_NAME"|t}}">
   <meta name="twitter:description" content="{{"META.DESCRIPTION"|t}}">
-  <meta name="twitter:image" content="{{ theme_url }}/images/fb_link_post_image.jpg">
+  <meta name="twitter:image" content="{{ theme_url }}/images/social-image.jpg">
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ theme_url }}/images/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ theme_url }}/images/favicons/apple-touch-icon-114x114.png" />
@@ -60,7 +60,7 @@
   <link rel="canonical" href="{{ page.url() }}">
   <link rel="stylesheet" href="https://fonts.typotheque.com/WF-028643-009596.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="{{ theme_url }}/fonts/MyFontsWebfontsKit.css">
-  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -87,7 +87,9 @@
 
   {% block header %}
     <div class="header">
-      <a href="{{ base_url }}" class="nav-home logo-sng" title="{{"NAVIGATION.HOME"|t}}"><div class="em"></div></a>
+      <a href="{{ base_url }}" class="nav-home logo-top-left" title="{{"NAVIGATION.HOME"|t}}">
+        <span class="logo logo-mzo"></span>        
+      </a>
       {% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
         {% include 'partials/langswitcher.html.twig' %}
       {% endif %}
