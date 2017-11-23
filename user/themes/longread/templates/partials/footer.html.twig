@@ -2,6 +2,7 @@
     {% if sharingButtons %}
         <div class="margin-top-xs">
         {% include 'partials/sharing.html.twig' with {
+            excludePrint: excludePrint,
             sharingStylingClasses: 'button-ghost'
         }%}
         </div>
