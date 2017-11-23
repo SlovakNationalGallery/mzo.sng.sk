@@ -24,7 +24,7 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
     </div>
 
 	<div class="goright"><p>
-	Webstránka využíva digitálne reprodukcie vystavených diel, ktoré sa nachádzajú na Webe umenia. Jednotlivé diela si návštevník môže prezerať vo vysokom rozlíšení a&nbsp;vďaka podrobnému kurátorskemu výkladu sa môže dozvedieť viac o&nbsp;ich výtvarnom štýle a&nbsp;ikonografii. Webstránka taktiež obsahuje vložené video, audio a&nbsp;ďalší interaktívny obsah.
+	Webstránka využíva digitálne reprodukcie vystavených diel, ktoré sa nachádzajú na <a href="https://www.webumenia.sk/kolekcia/140">Webe umenia</a>. Jednotlivé diela si návštevník môže prezerať vo vysokom rozlíšení a&nbsp;vďaka podrobnému kurátorskemu výkladu sa môže dozvedieť viac o&nbsp;ich výtvarnom štýle a&nbsp;ikonografii. Webstránka taktiež obsahuje vložené video, audio a&nbsp;ďalší interaktívny obsah.
     <br><br>
     Texty použité na webstránke čiastočne vychádzajú z <a href="https://www.sng.sk/sk/eshop?ID_entity=123&name_url=majster-z-okolicneho-a-goticke-umenie-spisa-okolo-roku-1500&type=e-shop_view">katalógu k výstave</a>, ktorý obsahuje ďalšie informácie, citácie a podrobnú bibliografiu.</p>
 	</div> 
