@@ -17,8 +17,7 @@ image: oltar-cover-web.jpg
 <div class="clear">
 
 <div class="gomiddle">
-    <span class="drop-cap">N</span>
-    <div class="highlight"><p>eskorogotický hlavný oltár františkánskeho kláštorného kostola v&nbsp;Okoličnom (pôv. patrocínium: Panny Márie&nbsp;–&nbsp;kráľovnej anjelov) bol vytvorený v&nbsp;rozmedzí rokov 1500&nbsp;–&nbsp;1510. Rozobratý bol v&nbsp;18.&nbsp;storočí a&nbsp;dnes existuje v&nbsp;podobe fragmentov. Pri príležitosti výstavy Majster z Okoličného sa všetky zachované obrazy aj sochy podarilo zhromaždiť na jednom mieste – vôbec po prvýkrát od zániku oltára&nbsp;–&nbsp;a&nbsp;čiastočne tak zrekonštruovať kompozíciu scén a&nbsp;ich ikonografiu.
+    <div class="highlight"><p><span class="drop-cap">N</span>eskorogotický hlavný oltár františkánskeho kláštorného kostola v&nbsp;Okoličnom (pôv. patrocínium: Panny Márie&nbsp;–&nbsp;kráľovnej anjelov) bol vytvorený v&nbsp;rozmedzí rokov 1500&nbsp;–&nbsp;1510. Rozobratý bol v&nbsp;18.&nbsp;storočí a&nbsp;dnes existuje v&nbsp;podobe fragmentov. Pri príležitosti výstavy Majster z Okoličného sa všetky zachované obrazy aj sochy podarilo zhromaždiť na jednom mieste – vôbec po prvýkrát od zániku oltára&nbsp;–&nbsp;a&nbsp;čiastočne tak zrekonštruovať kompozíciu scén a&nbsp;ich ikonografiu.
 </p></div>
 </div>
     
