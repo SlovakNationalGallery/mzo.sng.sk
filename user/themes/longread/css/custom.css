@@ -220,10 +220,11 @@ button, .uk-button {
 
 .goside {
   background: #33302d; }
+  .goside * {
+    color: white !important; }
   .goside p {
     font-size: 17px !important;
     line-height: 1.6 !important;
-    color: white !important;
     padding: 10px; }
 
 .clear {

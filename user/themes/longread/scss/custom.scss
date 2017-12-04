@@ -250,10 +250,13 @@ button, .uk-button {
 // colour and font styling of side note
 .goside {
   background: $warm-dark-grey;
+  * {
+    color: white !important;
+  } 
   p {
     font-size: 17px !important;
     line-height: 1.6 !important;
-    color: white !important;
+    
     padding: 10px;
   }
 }
