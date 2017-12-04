@@ -201,7 +201,9 @@ button, .uk-button {
   @media only screen and (max-width: 1000px) {
     .goleft, .goright {
       float: none;
-      width: 100%; } }
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; } }
 
 .gomiddle p, .goleft p, .goright p, .goside p {
   margin-bottom: 0 !important;
@@ -844,10 +846,10 @@ form#email-capture {
     margin-top: 50px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .slick-slider, .post.subobject .post-content .slick-slider, .post.page .post-content .slick-slider {
-    margin-bottom: 70px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 30px; }
+    margin: 30px auto 60px auto; }
+    @media only screen and (max-width: 1000px) {
+      .post.chapter .post-content .slick-slider, .post.subobject .post-content .slick-slider, .post.page .post-content .slick-slider {
+        width: 88%; } }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
 
