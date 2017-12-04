@@ -123,7 +123,9 @@ image: oltar-cover-web.jpg
 <div class="clear goside">
 
     <div class="goleft">
-	<img src="./2/restaurovanie-resize.jpg" alt="Obraz Ukrižovanie, infračervená reflektografia" /><br>
+        <div class="rb-outer-2231x3010">
+        	<iframe class="rb-inner" src="/mzo-image-comparison/" frameborder="0"></iframe>
+        </div>
 	</div>
     
     <div class="goright"><p>

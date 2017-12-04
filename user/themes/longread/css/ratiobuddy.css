@@ -1,0 +1,17 @@
+.rb-outer-2231x3010 {
+  position: relative; }
+  .rb-outer-2231x3010:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 134.9170775437%; }
+  .rb-outer-2231x3010 > .rb-inner {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    bottom: 4%;
+    left: 4%;
+    width: 92%;
+    height: 92%; }
+
+/*# sourceMappingURL=ratiobuddy.css.map */
