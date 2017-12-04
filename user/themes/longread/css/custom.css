@@ -205,13 +205,13 @@ button, .uk-button {
       margin-left: 0;
       margin-right: 0; } }
 
-.gomiddle p, .goleft p, .goright p, .goside p {
+.gomiddle p, .goleft p, .goright p {
   margin-bottom: 0 !important;
   padding-top: 20px; }
   @media only screen and (max-width: 600px) {
-    .gomiddle p, .goleft p, .goright p, .goside p {
+    .gomiddle p, .goleft p, .goright p {
       padding: 10px; } }
-.gomiddle figure, .goleft figure, .goright figure, .goside figure {
+.gomiddle figure, .goleft figure, .goright figure {
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-bottom: 0 !important;
@@ -223,9 +223,16 @@ button, .uk-button {
   .goside * {
     color: white !important; }
   .goside p {
+    margin-bottom: 0 !important;
+    padding: 10px;
     font-size: 17px !important;
-    line-height: 1.6 !important;
-    padding: 10px; }
+    line-height: 1.6 !important; }
+  .goside figure {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+    padding-bottom: 0 !important; }
 
 .clear {
   overflow: hidden;

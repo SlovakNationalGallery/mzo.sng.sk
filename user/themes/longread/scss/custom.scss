@@ -230,7 +230,7 @@ button, .uk-button {
   }
 }
 
-.gomiddle, .goleft, .goright, .goside {
+.gomiddle, .goleft, .goright {
   p {
     margin-bottom: 0 !important;
     padding-top: 20px;
@@ -254,10 +254,17 @@ button, .uk-button {
     color: white !important;
   } 
   p {
+    margin-bottom: 0 !important;
+    padding: 10px;
     font-size: 17px !important;
     line-height: 1.6 !important;
-    
-    padding: 10px;
+  }
+  figure {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+    padding-bottom: 0 !important;
   }
 }
 
