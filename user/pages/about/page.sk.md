@@ -19,8 +19,8 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 	</p></div>
 
 	<div class="goleft">
-    <br><br>
-    <a href="https://www.sng.sk/sk/vystavy/1064_majster-z-okolicneho-a-goticke-umenie-spisa-okolo-roku-1500#gallery_503-36"><img src="./about/mzo-lab.jpg"></a>
+    <br>
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/aUTe5Qi7cxk?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
 
 	<div class="goright"><p>
@@ -44,40 +44,42 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 <b>Grafická úprava a architektonické riešenie výstavy:</b> Marcel Benčík<br><br>
 <b>Zodpovedná redaktorka a edičné zabezpečenie projektu:</b> Irena Kucharová<br><br>
 <b>Fotografie a digitálne reprodukcie:</b> SNG, Oddelenie digitálnych technológií<br><br> 
-    Martin Deko, Branislav Horňák, Fotoarchív SNG Bratislava<br><br>
-<b>Pre-press:</b> Vratko Tóth<br><br><br>
+    Martin Deko, Branislav Horňák, Fotoarchív SNG Bratislava<br><br><br>
+
 
 <b>Autori textov:</b> Dušan Buran, Martin Čičo, Alexandra Kusá, Radoslav Ragač, Bibiana Pomfyová, Lukáš Štepanovský<br><br>
 <b>Web dizajn:</b> Philo van Kemenade, Samuel Ondrek<br><br>
 <b>Vývoj:</b> Philo van Kemenade, Igor Rjabinin<br><br>
 <b>Editor:</b> Lukáš Štepanovský<br><br>
 <b>Produkcia:</b> Michal Čudrnák, Lukáš Štepanovský, Gabriel Balkó<br><br>
-<b>Zvuk:</b> Jonáš Gruska<br><br>
-<b>Video a virtuálna prehliadka výstavy:</b> Branislav Horňák<br><br>
+<b>Pre-press:</b> Vratko Tóth<br><br>
+<b>Video a virtuálna prehliadka výstavy:</b> Peter Gáll, Branislav Horňák<br><br>
 <b>3D model architektúry Kláštorného kostola sv. Petra z Alkantry
-v Okoličnom:</b> G-ATELIÉR (Július Rybák a Stanislav Krajňák)<br><br><br></p>
+v Okoličnom:</b> <a href="http://g-atelier.sk/">G-ATELIÉR</a> (Július Rybák a Stanislav Krajňák)<br><br>
+<b>Interaktívna inštalácia Učen z Okoličného:</b> <a href="http://unfold.is">Unfold Collective</a><br><br>
+<b>Zvuk:</b> Jonáš Gruska<br><br><br></p>
 
 
-<h3>Zúčastnené inštitúcie:</h3>
+<h2>Zúčastnené inštitúcie</h2>
 <p>
-Rímskokatolícka cirkev, Kostol sv. Kríža Kežmarok<br><br>
+<a href="http://fara-kezmarok.sk/sk/menu.html">Rímskokatolícka cirkev, Kostol sv. Kríža Kežmarok</a><br><br>
 
-Oravská galéria v Dolnom Kubíne, správca zbierkových predmetov v zriaďovateľskej pôsobnosti Žilinského samosprávneho kraja<br><br>
- 
-Východoslovenské múzeum v Košiciach<br><br>
+<a href="http://www.oravskagaleria.sk/">Oravská galéria v Dolnom Kubíne</a>, správca zbierkových predmetov v zriaďovateľskej pôsobnosti Žilinského samosprávneho kraja<br><br>
 
-Rímskokatolícka cirkev, farnosť Okoličné – Kostol Očisťovania Panny Márie Smrečany<br><br>  
+<a href="http://www.vsmuzeum.sk/">Východoslovenské múzeum v Košiciach</a><br><br>
 
-Bratislava, Rehoľa menších bratov Františkánov – Kostol sv. Petra z Alkantary Liptovský Mikuláš – Okoličné<br><br>
- 
-Bratislava, Univerzitná knižnica / The University Library in Bratislava<br><br> 
+<a href="http://www.farnostokolicne.sk/">Rímskokatolícka cirkev, farnosť Okoličné</a> – Kostol Očisťovania Panny Márie Smrečany<br><br>  
 
-Narodni muzej Slovenije, Ljubljana / Slovinské národné múzeum, Ljubljana / National musuem of Slovenia, Ljublana<br><br>  
+<a href="http://www.frantiskani.sk/">Rehoľa menších bratov Františkánov</a> – Kostol sv. Petra z Alkantary Liptovský Mikuláš – Okoličné<br><br>
 
-Muzeum Narodowe we Wrocławiu / Vroclav – Národné múzeum / The National Museum in Wrocław<br><br> 
+<a href="https://www.ulib.sk/sk/">Univerzitná knižnica, Bratislava</a><br><br> 
 
-Szépművészeti Múzeum – Magyar Nemzeti Galéria / Museum of Fine Arts – Hungarian National Gallery<br><br>
+<a href="http://www.narmuz-lj.si/index.php?lang=en">Slovinské národné múzeum, Ljubljana</a><br><br>  
 
-Slovenský národný archív
+<a href="http://www.en.mnwr.art.pl/">Národné múzeum, Vroclav</a><br><br> 
+
+<a href="http://mng.hu/en">Múzeum umenia - Maďarská národná galéria, Budapešť</a><br><br>
+
+<a href="https://www.minv.sk/?slovensky-narodny-archiv-1">Slovenský národný archív</a>
 </p>
 </div>
