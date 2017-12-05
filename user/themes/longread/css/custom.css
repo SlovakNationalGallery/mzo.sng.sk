@@ -794,7 +794,7 @@ form#email-capture {
     padding-right: 0.05em;
     padding-left: 0; }
   .post.chapter .post-content figure.audio, .post.chapter .post-content figure.video, .post.chapter .post-content p > a > figure.image, .post.subobject .post-content figure.audio, .post.subobject .post-content figure.video, .post.subobject .post-content p > a > figure.image, .post.page .post-content figure.audio, .post.page .post-content figure.video, .post.page .post-content p > a > figure.image {
-    background-color: #EFEFEF;
+    /* background-color: red; */
     padding: 10px; }
   .post.chapter .post-content figure, .post.subobject .post-content figure, .post.page .post-content figure {
     margin-top: 10px; }
