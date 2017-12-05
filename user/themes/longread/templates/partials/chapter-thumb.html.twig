@@ -8,12 +8,12 @@
   {% if not chapterPage.header.disabled%}
     <img
       src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].url }}"
-      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"
+      alt="{{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"
     />
   {% else %}
     <img
       src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}"
-      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"/>
+      alt="{{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"/>
   {% endif %}
     <figcaption>
       <h2 class="c-white">
