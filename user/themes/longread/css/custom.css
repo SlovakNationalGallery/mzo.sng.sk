@@ -836,7 +836,8 @@ form#email-capture {
   .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
     margin-bottom: 20px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
-    color: #000; }
+    color: #000;
+    text-decoration: none; }
   .post.chapter .post-content .title-date, .post.subobject .post-content .title-date, .post.page .post-content .title-date {
     font-size: 18px;
     font-weight: 100; }
