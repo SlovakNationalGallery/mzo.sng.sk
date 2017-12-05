@@ -254,11 +254,12 @@ image: oltar-cover-web.jpg
     
     <div class="goright">
     <a href="https://www.wga.hu/frames-e.html?/html/w/weyden/rogier/13variou/index.html"><img src="./2/rogier.jpg" alt="Rogier van der Weyden – Triptych v Abegg-Stiftung, Riggisberg približne 1445"/></a>
-    <br>
-    <a href="https://www.wga.hu/html_m/m/memling/3mature1/17rein.html"><img src="./2/Memling-Adriaan-Reins.jpg" alt="Hans Memling – Triptych Adriaana Reimsa, Bruggy, 1480"/></a>
 	</div>
+</div>
+
+<div class="clear">
     
-    <div class="goleft"><p>
+    <div class="gomiddle"><p>
     Spracovanie krajinných pozadí naznačuje tiež inšpiráciu v&nbsp;ilustrovaných grafických cestopisoch ako Peregrinatio in terram sanctam od Bernharda Breitenbacha (po&nbsp;1486, s&nbsp;ilustráciami Erharda Reuwicha) alebo Kronika sveta Hartmana Schedela (1493), ktoré obsahovali jedny z&nbsp;najstarších zobrazení nemeckých i&nbsp;niektorých európskych miest. Tieto knihy boli neraz dostupné vo farských a&nbsp;kapitulských knižniciach a&nbsp;ich detailné a&nbsp;opticky rôznorodé ilustrácie mohli maliarom z nášho okruhu poslúžiť ako vďačná predloha, zatiaľ však využitá skôr „kulisovo“ či dekoračne. O&nbsp;čosi neskôr tvoriaci maliari (Majster svätoantonskej legendy, Hans&nbsp;T. a&nbsp;rožňavský Monogramista&nbsp;LA) už krajinu vnímali inak – ako ľuďmi a zvermi obývané prostredie. Preto aj figurálne výjavy doň integrovali organickejšie, čím vlastne otvorili cestu ku krajinomaľbe novoveku.
 	</p>
     </div>

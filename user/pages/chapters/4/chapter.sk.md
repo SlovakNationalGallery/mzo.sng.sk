@@ -17,8 +17,7 @@ image: kostol-cover-web.jpg
 <div class="clear">
 
 	<div class="goright">
-	<span class="drop-cap">K</span>
-	<div class="highlight"><p>láštor františkánov-observantov v&nbsp;Okoličnom bol vybudovaný na brehu rieky Váh v&nbsp;posledných dvoch desaťročiach 15.&nbsp;storočia. Počas stredoveku bol najväčšou sakrálnou stavbou Liptovskej župy. Kláštorný kostol, len málo dotknutý neskoršími stavebnými úpravami, patrí k&nbsp;najkvalitnejším ukážkam neskorogotickej architektúry na Slovensku.  
+	<div class="highlight"><p><span class="drop-cap">K</span>láštor františkánov-observantov v&nbsp;Okoličnom bol vybudovaný na brehu rieky Váh v&nbsp;posledných dvoch desaťročiach 15.&nbsp;storočia. Počas stredoveku bol najväčšou sakrálnou stavbou Liptovskej župy. Kláštorný kostol, len málo dotknutý neskoršími stavebnými úpravami, patrí k&nbsp;najkvalitnejším ukážkam neskorogotickej architektúry na Slovensku.  
     <br><br>
     O tom, kto kláštorný komplex v&nbsp;roku 1476 založil a&nbsp;financoval jeho výstavbu sa vedú polemiky, stavba však mala zrejme plniť najmä reprezentačnú funkciu pre liptovskú šľachtu. Jedna z&nbsp;hypotéz za zakladateľa považuje panovníka Mateja Korvína. Počas jeho vlády nastal na Liptove, Spiši a v&nbsp;širšom okolí rozmach okázalých stavebných kampaní a&nbsp;veľkých umeleckých objednávok. Obdobie ekonomickej a&nbsp;kultúrnej prosperity a&nbsp;vplyv renesančných ideí podnietili rôznorodé donátorské aktivity. K&nbsp;okončeniu stavby mohli spoločne prispieť viaceré šľachtické rody&nbsp;–&nbsp;Okoličianski, Smrečianski či Zápoľskí.    
     </p></div>
