@@ -1,5 +1,5 @@
 ---
-title: M
+title: Majster z Okoličného a gotické umenie Spiša okolo roku 1500
 date: '19-10-2016 00:00'
 slug: landing
 h1: 'Majster z Okoličného'
