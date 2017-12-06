@@ -17,8 +17,7 @@ image: ikonografia-cover-crop.jpg
 
 <div class="clear">
 	<div class="gomiddle">
-    <span class="drop-cap">O</span>
-    <div class="highlight"><p>ltáre Majstra z&nbsp;Okoličného a ďalších umelcov z&nbsp;jeho okruhu obsahujú množstvo biblických scén a&nbsp;postáv, niektoré z&nbsp;nich pomerne nezvyčajné. Okrem tradičných protagonistov (Kristus, Panna Mária, Ján Evanjelista) sa na oltároch objavujú svätice a&nbsp;svätci so symbolickou funkciou a&nbsp;vo výnimočných prípadoch ako kryptoportréty v&nbsp;tom čase žijúcich osôb. Rozšírená je aj téma svätého príbuzenstva, založená na fiktívnom rodokmeni Panny Márie z&nbsp;hagiografických legiend (životov svätých).
+    <div class="highlight"><p><span class="drop-cap">O</span>ltáre Majstra z&nbsp;Okoličného a ďalších umelcov z&nbsp;jeho okruhu obsahujú množstvo biblických scén a&nbsp;postáv, niektoré z&nbsp;nich pomerne nezvyčajné. Okrem tradičných protagonistov (Kristus, Panna Mária, Ján Evanjelista) sa na oltároch objavujú svätice a&nbsp;svätci so symbolickou funkciou a&nbsp;vo výnimočných prípadoch ako kryptoportréty v&nbsp;tom čase žijúcich osôb. Rozšírená je aj téma svätého príbuzenstva, založená na fiktívnom rodokmeni Panny Márie z&nbsp;hagiografických legiend (životov svätých).
 	</p></div>
     </div>    
 </div>

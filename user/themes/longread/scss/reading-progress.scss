@@ -3,7 +3,6 @@
 
 #reading-progress {
   position: relative;
-  top: -40px;
   left: -40px;
   @include respond-to(600) {
     left: -20px;
