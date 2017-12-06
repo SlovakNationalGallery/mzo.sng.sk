@@ -225,10 +225,12 @@ button, .uk-button {
   @include respond-to(1000) {
     float: none;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-.gomiddle, .goleft, .goright, .goside {
+.gomiddle, .goleft, .goright {
   p {
     margin-bottom: 0 !important;
     padding-top: 20px;
@@ -248,11 +250,21 @@ button, .uk-button {
 // colour and font styling of side note
 .goside {
   background: $warm-dark-grey;
+  * {
+    color: white !important;
+  } 
   p {
+    margin-bottom: 0 !important;
+    padding: 10px;
     font-size: 17px !important;
     line-height: 1.6 !important;
-    color: white !important;
-    padding: 10px;
+  }
+  figure {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+    padding-bottom: 0 !important;
   }
 }
 
@@ -874,6 +886,7 @@ form#email-capture {
   }
 
   .post-content {
+    margin-top: calc(95vh - 60px); // matching bottom: 5vh; of .article_image
     position: relative;
     width: inherit;
     padding-top: 0px;
@@ -948,15 +961,15 @@ form#email-capture {
     .drop-cap {
       float: left;
       color: black;
-      font-size: 138px;
-      line-height: 86px;
-      padding-top: 24px;
-      padding-right: 15px;
-      padding-left: 0px;
+      font-size: 6em;
+      line-height: 50%;
+      padding-top: 0.2em;
+      padding-right: 0.05em;
+      padding-left: 0;
     }
 
     figure.audio, figure.video, p > a > figure.image {
-      background-color: $light-grey;
+      /* background-color: red; */
       padding: 10px;
     }
 
@@ -1011,6 +1024,7 @@ form#email-capture {
     }
     h1, h2, h3, h4, h5, h6 {
       color: $text-color;
+      text-decoration: none;
     }
     .title-date {
       font-size: 18px;
@@ -1043,10 +1057,10 @@ form#email-capture {
       margin-bottom: 50px !important;
     }
     .slick-slider {
-      margin-bottom: 70px;
-      margin-left: 0;
-      margin-right: 0;
-      margin-top: 30px;
+      margin: 30px auto 60px auto;
+      @include respond-to(1000) {
+        width: 88%;
+      }
     }
     div.audioplayer {
       margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag

@@ -17,8 +17,7 @@ image: majster-cover-crop-2.jpg
 <div class="clear">
     
     <div class="goleft">
-    <span class="drop-cap">A</span>
-    <div class="highlight"><p>nonymný Majster z Okoličného patril k&nbsp;najlepším maliarom stredoeurópskej neskorej gotiky, jeho umelecká identita je však pre verejnosť takmer neznáma. Pomenovaný je „núdzovo“ podľa svojho najvýznamnejšieho diela - Hlavného oltára kláštorného kostola františkánov-observantov v&nbsp;Okoličnom. Jeho jednotlivé obrazy sú rozptýlené po rôznych zbierkach na Slovensku aj v&nbsp;zahraničí, niektoré chýbajú úplne. Majster z Okoličného bol súčasníkom – a&nbsp;kolegom – Majstra Pavla z Levoče, dá sa mu pripísať rad výnimočných obrazov, a&nbsp;predsa takmer upadol do zabudnutia. Kvalitou svojej tvorby však prevyšoval štandard špišského maliarstva okolo roku 1500 a&nbsp;zároveň ho tak spoluvytváral.</p>
+    <div class="highlight"><p><span class="drop-cap">A</span>nonymný Majster z Okoličného patril k&nbsp;najlepším maliarom stredoeurópskej neskorej gotiky, jeho umelecká identita je však pre verejnosť takmer neznáma. Pomenovaný je „núdzovo“ podľa svojho najvýznamnejšieho diela - Hlavného oltára kláštorného kostola františkánov-observantov v&nbsp;Okoličnom. Jeho jednotlivé obrazy sú rozptýlené po rôznych zbierkach na Slovensku aj v&nbsp;zahraničí, niektoré chýbajú úplne. Majster z Okoličného bol súčasníkom – a&nbsp;kolegom – Majstra Pavla z Levoče, dá sa mu pripísať rad výnimočných obrazov, a&nbsp;predsa takmer upadol do zabudnutia. Kvalitou svojej tvorby však prevyšoval štandard špišského maliarstva okolo roku 1500 a&nbsp;zároveň ho tak spoluvytváral.</p>
 	</div> 
     </div>
     
