@@ -869,6 +869,10 @@ form#email-capture {
   }
 }
 
+.post.chapter .post-content {
+  margin-top: calc(95vh - 60px); // matching bottom: 5vh; of .article_image
+}
+
 .post.chapter, .post.subobject, .post.page {
   .article-image {
     bottom: 5vh;
@@ -886,7 +890,6 @@ form#email-capture {
   }
 
   .post-content {
-    margin-top: calc(95vh - 60px); // matching bottom: 5vh; of .article_image
     position: relative;
     width: inherit;
     padding-top: 0px;
