@@ -719,6 +719,9 @@ form#email-capture {
     border: none;
     padding-bottom: 15px; }
 
+.post.chapter .post-content {
+  margin-top: calc(95vh - 60px); }
+
 .post.chapter .article-image, .post.subobject .article-image, .post.page .article-image {
   bottom: 5vh; }
   .post.chapter .article-image .post-meta, .post.subobject .article-image .post-meta, .post.page .article-image .post-meta {
@@ -727,7 +730,6 @@ form#email-capture {
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
 .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
-  margin-top: calc(95vh - 60px);
   position: relative;
   width: inherit;
   padding-top: 0px;
