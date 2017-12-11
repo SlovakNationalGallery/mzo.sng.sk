@@ -1,3 +1,4 @@
+{% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
 <ul class="langswitcher">
 {% set langobj = grav['language'] %}
 
@@ -17,3 +18,4 @@
 
 {% endfor %}
 </ul>
+{% endif %}
