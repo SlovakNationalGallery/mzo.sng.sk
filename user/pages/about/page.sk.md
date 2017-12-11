@@ -48,9 +48,8 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 
 
 <b>Autori textov:</b> Dušan Buran, Martin Čičo, Alexandra Kusá, Radoslav Ragač, Bibiana Pomfyová, Lukáš Štepanovský<br><br>
-<b>Web dizajn:</b> Philo van Kemenade, Samuel Ondrek<br><br>
-<b>Vývoj:</b> Philo van Kemenade, Igor Rjabinin<br><br>
 <b>Editor:</b> Lukáš Štepanovský<br><br>
+<b>Vývoj:</b> Philo van Kemenade, Igor Rjabinin, Samuel Ondrek<br><br>
 <b>Produkcia:</b> Michal Čudrnák, Lukáš Štepanovský, Gabriel Balkó<br><br>
 <b>Pre-press:</b> Vratko Tóth<br><br>
 <b>Video a virtuálna prehliadka výstavy:</b> Peter Gáll, Branislav Horňák<br><br>
