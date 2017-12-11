@@ -37,9 +37,11 @@
 </div>
 <div id="side-nav-bar" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip bg-dark-green">
+        {% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
         <div class="langswitcher-wrapper">
             {% include 'partials/langswitcher.html.twig' %}
         </div>
+        {% endif %}
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li>
                 <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
