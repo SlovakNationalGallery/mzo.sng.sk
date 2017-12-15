@@ -80,5 +80,12 @@ v Okoličnom:</b> <a href="http://g-atelier.sk/">G-ATELIÉR</a> (Július Rybák 
 <a href="http://mng.hu/en">Múzeum umenia - Maďarská národná galéria, Budapešť</a><br><br>
 
 <a href="https://www.minv.sk/?slovensky-narodny-archiv-1">Slovenský národný archív</a>
+<br><br><br></p>
+
+
+<h2>Priateľské weby / napísali o nás</h2>
+<p>
+<a href="http://www.stavitele-katedral.cz/bratislava-mistr-z-okolicneho-malirska-osobnost-stredni-evropy-kolem-roku-1500-ma-vlastni-webove-stranky-a-velmi-zdarile/">Stavitelé katedrál</a> - Informačný portál pre ľudí so záujmom o umenie v dejinách a históriu<br><br>
+<a href="http://apsida.sk/c/1350/sng-spristupnilo-vystavu-o-majstrovi-z-okolicneho-na-webe">Apsida</a> - Webstránka projektu Apsida približuje krásu stredovekých kostolíkov a cit, s akým ich stavitelia zakomponovali do krajiny<br><br>
 </p>
 </div>
