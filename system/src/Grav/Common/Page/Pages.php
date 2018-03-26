@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Common.Page
  *
- * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2015 - 2018 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -265,6 +265,8 @@ class Pages
             $this->children[$page->parent()->path()][$page->path()] = ['slug' => $page->slug()];
         }
         $this->routes[$route] = $page->path();
+
+        $this->grav->fireEvent('onPageProcessed', new Event(['page' => $page]));
     }
 
     /**
@@ -1201,25 +1203,28 @@ class Pages
                     break;
                 case 'date':
                     $list[$key] = $child->date();
-                    $sort_flags = SORT_REGULAR;
+                    $sort_flags = SORT_NUMERIC;
                     break;
                 case 'modified':
                     $list[$key] = $child->modified();
-                    $sort_flags = SORT_REGULAR;
+                    $sort_flags = SORT_NUMERIC;
                     break;
                 case 'publish_date':
                     $list[$key] = $child->publishDate();
-                    $sort_flags = SORT_REGULAR;
+                    $sort_flags = SORT_NUMERIC;
                     break;
                 case 'unpublish_date':
                     $list[$key] = $child->unpublishDate();
-                    $sort_flags = SORT_REGULAR;
+                    $sort_flags = SORT_NUMERIC;
                     break;
                 case 'slug':
                     $list[$key] = $child->slug();
                     break;
                 case 'basename':
                     $list[$key] = basename($key);
+                    break;
+                case 'folder':
+                    $list[$key] = $child->folder();
                     break;
                 case (is_string($header_query[0])):
                     $child_header = new Header((array)$child->header());
@@ -1250,7 +1255,7 @@ class Pages
             $list = $this->arrayShuffle($list);
         } else {
             // else just sort the list according to specified key
-            if (extension_loaded('intl')) {
+            if (extension_loaded('intl') && $this->grav['config']->get('system.intl_enabled')) {
                 $locale = setlocale(LC_COLLATE, 0); //`setlocale` with a 0 param returns the current locale set
                 $col = Collator::create($locale);
                 if ($col) {
@@ -1258,6 +1263,13 @@ class Pages
                         $list = preg_replace_callback('~([0-9]+)\.~', function($number) {
                             return sprintf('%032d.', $number[0]);
                         }, $list);
+
+                        $list_vals = array_values($list);
+                        if (is_numeric(array_shift($list_vals))) {
+                            $sort_flags = Collator::SORT_REGULAR;
+                        } else {
+                            $sort_flags = Collator::SORT_STRING;
+                        }
                     }
 
                     $col->asort($list, $sort_flags);
