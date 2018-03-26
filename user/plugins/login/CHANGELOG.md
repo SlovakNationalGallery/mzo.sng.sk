@@ -1,3 +1,34 @@
+# v2.6.1
+## 03/19/2018
+
+1. [](#improved)
+    * Fixed undefined index if login form didn't contain username/password
+
+# v2.6.0
+## 02/22/2018
+
+1. [](#improved)
+    * Disabled user registration by default. Enable it manually if you need it.
+    * Disabled user-login-on-registration by default. Enable it manually if you need it.
+    * Check for existing email addresses when updating User profile.
+
+# v2.5.0
+## 12/05/2017
+
+1. [](#new)
+    * Added `$grav['login']->login()` and `$grav['login']->logout()` functions with event hooks
+    * Added `$grav['login']->getRateLimiter($context)` function
+    * Added events `onUserLoginAuthenticate`, `onUserLoginAuthorize`, `onUserLoginFailure`, `onUserLogin`, `onUserLogout`
+    * Logout message is now maintained during session destruction
+1. [](#improved)
+    * Remember entered username if login fails
+    * Improved rate limiter to work without sessions and against distributed attacks
+    * Removed `partials/messages.html.twig` and rely on new core version
+    * Moved languages from unified file into dedicated language file structure
+    * Welcome / Notice / Activation emails now more flushed out and in HTML like Reset Password
+1. [](#bugfix)
+    * Do not send nonce with activation link, email app can open the link in another browser
+
 # v2.4.3
 ## 10/11/2017
 
